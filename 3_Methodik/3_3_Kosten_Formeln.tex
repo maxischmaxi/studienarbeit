@@ -1,0 +1,251 @@
+\section{Aufstellung der Formeln für Kosten}
+\label{s:Aufstellung der Formeln für Kosten}
+
+Wie bereits im Kapitel 2 beschrieben wurde die Kosten einer Fluggesellschaft werden auf direkte und indirekte Betriebskosten verteilt.
+In diesem Kapitel werden die dazugehörigen Formeln vorgestellt und teilweise angepasst. 
+
+Es gibt eine Reihe von Methoden, um DOC zu berechnen, sie sind ähnlich.
+Als Grundlage für ein Modell wurde von Association of European Airlines (AEA) 1989 gewählt, da sie hohen Anwendung in der akademischen Welt hat,
+umfassend ist und Berechnungswerte für Kurz-, als auch Langstecken hat.
+
+Reservebedarf beträgt 30 \% von Gesamtkapazität.
+
+
+
+\subsection{Betriebskosten einer Fluggesellschaft}
+
+Die Gleichung \eqref{DOC} stellt die Betriebskosten $DOC$ für Flugzeugbenutzung dar. Die bestehen aus Treibstoff-/Energiekosten $C_T$, 
+Wartungskosten $C_W$, Entgelte und Gebühren $C_{EG}$, Kosten für Personal $C_{Crew}$, kapitalverbundene Kosten $C_{KK}$.
+
+
+\begin{equation}
+     {DOC ~[\text{€}]} = C_T + C_W + C_{Crew} + C_{KK} + C_{EG} \\
+     \label{DOC}
+  \end{equation}
+
+\textbf{Treibstoff-/ Energiepreise} hängt von der Treibstoff- bzw. Energiepreis selbst \\ $P_{T/E}$ und vom Verbrauch 
+von einem Flugzeug pro Blockstunde $m_{Verbrauch_pro_Flug}$ ab (vgl. \eqref{fuel}).
+
+
+
+\begin{equation}
+   {C_T ~[\text{€}]} = (P_{T/E} \cdot n_{F,Jahr} \cdot m_{Verbrauch,B}) \\
+   \label{fuel}
+\end{equation}
+
+Die \textbf{Wartungskosten} werden nach Jenkinson 1999 Modell berechnet. Das Modell ermöglicht schnell und grob die Wartungskosten 
+für ein Flugzeug abzuschätzen \cite{bruge2018wartungskosten}.
+Da dieses Modell für konventionelle Flugzeuge ausgearbeitet wurde, werden die Wartungskosten für alternative Antriebe
+als Prozentanteil von Referenz-Flugzeug berechnet. 
+Die Formeln stammen aus \cite{bruge2018wartungskosten} und beziehen sich auf das Jahr 1994, somit muss den Inflationsfaktor $k_{Infl}$
+einkalkuliert werden. Die Berechnung liefert die Ergebnisse in USD, deswegen ein Wechselkursfaktor $k_{WK}$ dazugerechnet wird.
+Die Wartungskosten werden normalerweise auf die Wartung der Flugzeugzelle $C_{W,Zelle,B}$ und Triebwerken 
+$C_{W,Triebwerk,B}$ aufgeteilt, wie in der \eqref{maintenance} dargestellt. Die Wartungskosten der Zelle sind von dem leeren Betriebsgewicht 
+(Operating Empty Mass $m_{OE}$) abhängig. Kosten von Triebwerk ist von erzeugten Schub beim Start (Take-Off Thrust $T_{T/O}$) abhängig.
+
+\begin{equation}
+   {C_{W,B} ~[\text{€}]} = (C_{W,Zelle,B} + n_{T} \cdot C_{W,Triebwerk,B} ) t_{B} \cdot n_{F, Jahr} \cdot k_{WK} \cdot k_{Infl}\\
+   \label{maintenance}
+\end{equation}
+
+\begin{equation}
+   {C_{M,AF,b} ~[\text{€}]} = (175 \frac{USD}{h} + 0,0041 \frac{USD}{h} \cdot m_{OE} )\cdot k_{Infl}\\
+   \label{maintenance Zelle}
+\end{equation}
+
+\begin{equation}
+   {C_{M,E,L,b} ~[\text{€}]} = (0,00029 \frac{USD}{h} \cdot T_{T/O} )\cdot k_{Infl}\\
+   \label{maintenance engine}
+\end{equation}
+
+Diese Formeln sind für Triebwerke ausgelegt mit Nebenstromverhältnis 5. Da die neuen größeren Flugzeuge höhere Nebenstromverhältnis hat,
+für die Vereinfachung wird trotzdem diese Formel benutzt.
+
+%Wartungskosten wachsen mit der Größe des Flugzeugs, da mehr Personal oder mehr Zeit für die Wartung benötigt ist.
+
+Unter \textbf{Entgelten und Gebühren} sind Flughafenentgelte (Passagier-, Lande- und Startentgelte, Sicherheitsentgelt, Abfertigung am 
+Vorfeld) und Flugsicherungsgebühr gemeint.//
+Formel für Flugsicherungsgebühr $(C_{FS})$ jeweils An- und Abfluggebühr stammt aus \cite{dfs_flugsicherungsgebuehren} und in \eqref{Flugsicherung}
+dargestellt. Im Jahr 2025 liegt den Wert $P_{FS}$ bei 380,71 Euro. $MTOW$ bezeichnet Höchstabfluggewicht (Maximum Take-Off Weight) 
+von einem Flugzeug. Die Werte für Flughafenentgelte wurden aus den \cite{fraport2025entgelte} genommen.
+Außerdem müssen bei BA-Flugzeugen die Kosten für
+Batteriewechsel $P_{W,Bat}$ einkalkuliert werden, pro Flugzeug wird ein Wert von 285 EUR genommen \cite{guo2023infrastructure}.
+
+\begin{equation}
+   {C_{FS} ~[\text{€}]} = (\frac{MTOW}{50})^{0,7} \cdot P_{FS} \\
+   \label{Flugsicherung}
+\end{equation}
+
+Die Betriebskosten werden auf Blockstunden bezogen. Blockstunden bestehen aus Flug- $t_{F,h}$ und Rollzeit $t_{R}$ zum und von Parkposition
+$t_{R}$. Für Kurs- und Mittelstrecken beträgt $t_{R}$ {0,25 h} und für Langstrecken 0,42 h \cite{scholz_design_evaluation_doc}.
+
+\begin{equation}
+   t_{B} = t_{f,h,j} + t_{R} \\
+   \label{blockzeit}
+\end{equation}
+
+\textbf{Crewkost} definieren sich aus der Lohn für Piloten $L_{Pilot}$ und Besatzung $L_{crew}$. Anzahl der Besatzung $n_{crew}$ sind 
+von der Anzahl der Passagiere abhängig. Jeweils je 50 Passagier ist einen Flugbegleiter notwendig \cite{conrady2019luftverkehr}.
+
+\begin{equation}
+   {C_{crew} ~[\text{€}]} = ({L}_{Pilot} \cdot 2 + {L}_{crew} \cdot n_{crew} ) \cdot t_{B} \\
+   \label{crew cost}
+\end{equation}
+
+%Der Preis für ganzes Flugzeug außer Antrieb-System wird nach folgend berechnet
+
+%\begin{equation}
+%   {P_{i,f} ~[\text{€}]} = \frac{m_{i,f}}{m_{i,c}} \cdot p_{i,c} \cdot P_{A,C} \\
+%   \label{aicraft price hydrogen}
+%\end{equation}
+
+
+
+ 
+%Analog zum \cite{marksel2023comparative} werden die Kosten für den Wasserstoff und Batterie Antrieb getrennt ausgerechnet, 
+%wobei für Batterie-Antrieb anstatt eines Wasserstofftanks und eine Brennstoffzelle, basiert sich auf einer Batterie, Motor 
+%und Leistungselektronik
+
+%\begin{equation}
+%   {P_{E,f} ~[\text{€}]} = P_{FC} \cdot + P_{EM} \cdot + m_F \\
+%   \label{engine group price hydrogen}
+%\end{equation}
+Zu \textbf{kapitalbezogenen Kosten} gehören Abschreibungs-, Versicherungs- und Verzinsungskosten. 
+Abschreibungskosten sind von Anschaffungskosten (Kaufpreis), Abschreibungsdauer und Blockstunden pro Jahr abhängig \cite{conrady2019luftverkehr}.
+Abschreibungsdauer nach AEA ist jeweils 14 Jahre für Kurs- und Mittelstecken und 16 Jahre Langstrecken.
+
+Aufgrund nicht Zugänglichkeit zu den Preisen für alternativen Antrieben wird der Verkaufspreis von elektrischem Flugzeug nach 
+\cite{monjon2020conceptual} berechnet, 
+wo das Regressionsmodell anhand Marktanalyse erstellt wurde. In der Formel sind 10 \% höhere Anschaffungskosten mitbetrachtet, 
+aufgrund der Einführung der neuen Technologie auf den Markt.
+Die Studie ist aus dem Jahr 2020 und die Preise wurden im USD berechnet, deswegen Inflationsrate $k_{Infl}$ von 1,193 und
+der Wechselkurs $k_{WK}$ mitbetrachtet werden sollen.
+
+\begin{equation}
+   {C_{BA,ac} ~[\text{€}]} = (407408 \cdot n_{PAX} - 2967.4) \cdot k_{WK} \cdot {k_{Infl}}\\
+   \label{price BA}
+\end{equation}
+
+Noch ein wichtiger Faktor bei der kapitalverbundenen Kosten ist die Auslastung $U$ eines Flugzeuges. Es wird durch Anzahl 
+verfügbaren Stunden pro Jahr $t_{verf}$, Blockzeit $t_B$ und Turnaround Zeit $t_{TA}$. $t_{verf}$ für Kurzstrecken wurde 
+in der Höhe von 3750 h und für Mittel- und Langstrecken 4800 h \cite{scholz_design_evaluation_doc}.
+
+\begin{equation}
+   U = \frac{t_{verf}}{t_B + t_{TA}} \\
+   \label{utilisation}
+\end{equation}
+
+Verzinsungskosten $C_{Zins}$ sind durch den Prozentanteil von Anschaffungskosten bedingt, für dieser gilt ca. 5 \%. Versicherungskosten sind 
+hingegen von dem Kaufpreis eines Flugzeugs abhängig (inklusive Rabatte beim Kauf) und für diese Arbeit werden 5 \% angenommen 
+\cite{scholz_design_evaluation_doc}.
+
+%Für wasserstoffbetriebene Flugzeuge werden in der Quelle vorgestellte Formeln benutzt, um Kaufpreis einschätzen zu können.
+
+\subsection{Infrastrukturkosten}
+
+\textbf{Batterie-Antrieb}\\
+Kapitalkosten für BA-Infrastruktur sind in folgender Formel zusammengestellt:
+
+\begin{equation}
+     {CAPEX ~[\text{€}]} = C_{Bat} + C_{Strom} + C_{BSS} + C_{W,Bat} + C_{Hubwagen}\\
+     \label{BA_Infrastruktur}
+  \end{equation}
+
+\begin{equation}
+   \begin{split}
+  {C_{Bat}} = P_{Bat} \cdot n_{Bat}\\
+  {C_{Strom}} = n_{BSS} \cdot P_{Strom} \cdot N_{menge}\\
+  {C_{BSS}} = P_{BSS} \cdot n_{BSS} \\
+  %(\frac{30}{Lebensdauer})\\
+  {C_{Hubwagen}} = P_{Hubwagen} \cdot n_{Hubwagen}
+  \label{BA}
+   \end{split}
+  \end{equation}
+
+, wobei $P_{Bat}$ ist der Preis für eine Batterie und $n_{Bat}$ ist der Anzahl Batterien, die benötigt sind.
+$N_{menge}$ ist die Menge an Strom, der für das Laden einer Batterie benötigt ist.
+$P_{BSS}$ ist der Preis für Ladegerät der Batteriewechselstation und $n_{BSS}$ ist wie immer der Anzahl an Ladegeräten. 
+Außerdem werden die Kosten für
+Batteriewechsel $P_{W,Bat}$ und Preis für einen Hubwagen $P_{Hubwagen}$ mitbetrachtet.
+  
+%Energiekosten = Menge mal Preis
+
+  Stromkosten = Anzahl der BSS mal die Leistung mal Kosten pro Einheit Spitzleistung mal Anzahl der Tage/30
+
+  Anschaffungskosten BSS = Anzahl BSS mal Kosten mal Tage/Lebensdauer
+
+ % An Optimization Model for Airport Infrastructures in Support to Electric Aicraft:
+ % Um Batterienachfrage zu decken, wäre es möglich der Anzahl der Ersatz-Batterien zu erhöhen, die außerhalb der Spitzzeiten geladen werden 
+ % oder der Anzahl der Batteriewechselstationen zu erhöhen. Es wird angenommen, dass für Flughafen 800 kW - Ladestationen zur Verfügung haben, 
+ % (Studie, wo die Leistungen für
+ % 3 hybride-Flugzeuge ausgerechnet wurden - insgesamt für 12 Flugzeuge sind 21 Batterien und 4 Ladestationen benötigt, 77,5 € pro Station, Peak power 3,2 MW, Batteriewechsel jede 1.51 Jahre
+ % also eine Station für 3 Flugzeuge?). Natürlich in der Zukunft werden die Flugzeuge unterschiedliche Leistungen
+ % und auch Batterien brauchen, was am Ende die Ladedauer und Anzahl der Ladestationen ändern kann
+
+%10 \% für die Wartung der Systeme (wie bei OPTIMAL RECHARGING INFRASTRUCTURE SIZING AND OPERATIONS 
+%FOR A REGIONAL AIRPORT)
+
+
+\begin{table}[h]
+	\begin{center}
+    \caption{Werte und Annahmen für BA-Infrastruktur}
+	\label{BA_Infrastrukturtab}
+	\begin{tabular}{|l|c|c|}
+		\hline
+		 & \textbf{Werte} & \textbf{Quelle} \\ \hline
+		$P_{BSS} ~[\text{€}]$ &  11 974  & \cite{guo2020aviation} \\ \hline
+		$P_{Bat} ~[\text{€/kWh}]$ & 125000 & \cite{guo2020aviation} \\ \hline
+		$P_{W,Bat} ~[\text{€}] $ & 285  & \cite{guo2023infrastructure}\\ \hline
+      $P_{HW} ~[\text{€}] $ &  &\\ \hline
+	\end{tabular}
+    \end{center}
+\end{table}
+
+Anzahl Batterien ist von der Gesamtanzahl der Abfertigungen $N_{Abfertigung}$ und Zyklen $c_{Batterie}$ einer Batterie abhängig. 
+Für die Ladegeräte wurde die Leistung
+von 250 kW genommen. Die Verluste beim Laden werden ignoriert. Zusätzlich wird der Puffer von 20 \% dazu berechnet, um 
+Engpässe zu vermeiden. In dieser Arbeit wird eine Batterie Kapazität von 900 kWh genommen, bei einem 18 Stunden-Betrieb 
+das entspricht 3,6 Stunden Ladedauer für eine Batterie mit insgesamt 5 Ladezyklen pro Tag. 
+Anzahl der Ladegeräten $n_{BSS}$ ist von der Gesamtzahl der Batterien und Ladezyklen abhängig.
+
+\begin{equation}
+  {N_{Bat}} = {1,2} \cdot \frac{N_{Abfertigung}}{c_{Batterie}}\\
+  \label{BatAnzahl}
+  \end{equation}
+
+\textbf{Wasserstoff-Antrieb}
+
+%Lieferung
+%falls in flüssigform: LKW/Schiff/Bahn - Distanz und von der Menge abhängig.
+
+Für die Wasserstoff-Antriebe wird einen oberirdischen Tank für kryogene flüssigen Wasserstoff \ce{LH2}, eine kryogene Pumpe 
+zum Befüllen und Entleeren des Lagers ${kP}$ und ein Betankungswagen ${BW}$ gebraucht (vgl. \eqref{WA_Infrastruktur}). 
+Die Preise für die Anlage ist in der Tabelle \ref{BA_Infrastrukturtab} zusammengefasst.
+
+\begin{equation}
+   {CAPEX ~[\text{€}]} = {P_{Tank}} + P_{kP} + P_{BW} \cdot N_{menge}  \\
+   \label{WA_Infrastruktur}
+\end{equation}
+
+\begin{table}[h]
+	\begin{center}
+    \caption{Werte und Annahmen}
+	\label{BA_Infrastrukturtab}
+	\begin{tabular}{|l|c|c|c|}
+		\hline
+		 & \textbf{Werte}& \textbf{Einheit}& \textbf{Quellen} \\ \hline
+		$P_{Lagertank}$ & 34  & €/kgGH2 stored  & sek \cite{hoelzen2023h2}\\ \hline
+      Abschreibung Lagertank & 20  & Jahre  & sek \cite{hoelzen2023h2}\\ \hline
+      Größe Lagertank ~[\text{$m^3$}] & 4 732 &  & \cite{fesmire2021lh2}\\ \hline
+		$P_{kP}$ & 346 & €/kg/h & sek \cite{hoelzen2023h2} \\ \hline
+      Abschreibung ${kP}$ & 10 & Jahre & sek \cite{hoelzen2023h2} \\ \hline
+		$P_{BW}$ &  &  &\\ \hline
+	\end{tabular}
+    \end{center}
+\end{table}
+
+Wie bereits in Grundlagen-Kapitel erläutert wurde, hat den kryogenen Wasserstoff die Dichte von 70 $kg/m^3$ (Quelle), 
+also können 331.240 t davon in einem Lagertank gespeichert werden.
+
+
+

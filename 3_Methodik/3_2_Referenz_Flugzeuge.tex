@@ -1,0 +1,68 @@
+
+\section{Flugzeuge und Annahmen}
+\subsection{Relevante Flugzeugdaten}
+Um den betrieblichen Unterschied zwischen konventionellen und mit neuartigen Antrieben Flugzeugen zu zeigen, werden die Referenz-Flugzeuge
+
+L410 ist ein Zubringer-Flugzeug mit 19 Plätzen von der Firma Aircraft Industries. Die moderne Version NG verfügt über neue Avionik und wird
+wahrscheinlich in der näheren Zukunft weiter produziert.
+%wird für die Flüge im innereuropäischen Raum benutzt. 
+L410NG ist mit den 2 GE H85-200 Triebwerke mit der Wellenleistung von 850 (SHP) ausgestattet.
+
+
+ES-19 von Heart Aerospace wird als ein Vergleich für L410 genommen. Das Konzept hat rein elektrisches Antrieb mit einer Batterie.
+Das Unternehmen hat zwar die ES-19 auf eine hybride Wasserstoffversion ES-30 umgerüstet, das Konzept von ES-19 war aber groß diskutiert 
+und in den wissenschaftlichen Arbeiten oft erwähnt. Das Flugzeug hat vier Triebwerke und sollte die Reichweite von 400 km erreichen 
+mit der Geschwindigkeit von 330 km/h haben \cite{anker2023feasibility} \cite{heart_aerospace_es19}.
+Für die Batterie für ES-19 wird die Kapazität von 900 kWh angenommen \cite{donckers2024electric}. \\
+In der Tabelle \ref{Flugzeuge} sind relevante für die Arbeit charakteristische Werte und Annahmen von beiden Flugzeugen zusammengefasst.
+ES-19 ist langsamer als ein L410, d.h. das für gleiche Strecke mehr Zeit, was am Ende die Auslastung verändern kann.
+Aufgrund des Batteriegewichts ist das BA Flugzeug schwerer als konventionellen Alternative.
+
+Da es bis jetzt nur noch weniger weit ausgearbeitete Konzepte und Modelle von Wasserstoff-Flugzeuge gibt, wird der Betriebsvergleich
+auf der Basis von einem A321LR gemacht.
+A321LR ist von Airbus vorgestellte neue Version von A321neo mit einer größeren Reichweite.
+Im Vergleich zu konventionellen Flugzeugen werden die mittelstreckigen Wasserstoff-Flugzeugen 14 \% höheres MTOW haben 
+und der Kapitalkosten für das Kurzstrecken-Flugzeug sowie Wartungskosten steigt um 7 \% und 6 \% \cite{sky2020hydrogen}. 
+Diese Anteile sind zwar für Mittel- und Langstrecken Flugzeuge positiv, aber diese Abweichungen werden für die Arbeit angenommen.
+
+Es ist auch zu erwarten, dass die Flugzeit von 5 bis 15 \% höher aufgrund des Wasserstofftank-Gewichts wird \cite{sky2020hydrogen}. 
+Für die Arbeit wird es ein Wert von 10 \% genommen.
+Der Vergleich zum SAF-Betriebskosten findet auch mit A321LR statt. Es wird davon ausgegangen, dass der Unterschied 
+nur bei Treibstoffkosten entsteht.
+
+\begin{table}[h]
+	\begin{center}
+    \caption{Bewertete Flugzeuge: Werte und Annahmen}
+	\label{Flugzeuge}
+	\begin{tabular}{|l|c|c|c|c|c|c|}
+		\hline
+		 & \textbf{V} ~[\text{km/h}] & \textbf{R} ~[\text{km}] & \textbf{MTOW} ~[\text{kg}] & \textbf{EOW} ~[\text{kg}] & \textbf{PAX-Anzahl} 
+		 & \textbf{Quellen} \\ \hline
+		L410  & 417 & 2 570 & 7000 & 4120 & 19 & \cite{let_l410ng}\\ \hline
+		ES-19 &  330 & 400 & 8618 & & 19 & \cite{anker2023feasibility} \cite{heart_aerospace_es19}\\ \hline
+		A321LR & 1104 & 7400 & 97000 & & 194 & \cite{airbus_a321neo} \cite{fonseca2022doc} \\ \hline
+		WA &  &  &  & 110580 & 194 &\\ \hline
+	\end{tabular}
+    \end{center}
+\end{table}
+
+Dass die Anschaffungspreise die Betriebskosten beeinflussen können, wurde bereits in 2-2 diskutiert. 
+Die Tabelle \ref{Flugzeugpreise} stellt die Verkaufspreise für konventionelle Referenz-Flugzeuge dar.
+Da der Verkaufspreis von einem A321LR nicht zur Verfügung steht, wird der Listenpreis von einem A321neo genommen. 
+Sie kommen aus einer Flugzeug-Reihe und können vergleichbare Preise haben.
+%Die Preise für alternative Antriebe sind wegen  nicht dargestellt
+
+\begin{table}[h]
+	\begin{center}
+    \caption{Flugzeugpreise}
+	\label{Flugzeugpreise}
+	\begin{tabular}{|l|c|c|c|}
+		\hline
+		 & \textbf{L410} & \textbf{A321neo}  & \textbf{Quelle}  \\ \hline
+		 Verkaufspreis ~[\text{EUR}] & 6 455 884 & 129,5 Mio &   \cite{marksel2023comparative} \cite{aerotelegraph_airbus}\\ \hline
+	\end{tabular}
+    \end{center}
+\end{table}
+
+\subsection{Sonstige Annahmen}
+\input{3_Methodik/Annahmen.tex}

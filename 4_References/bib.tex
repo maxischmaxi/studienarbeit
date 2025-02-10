@@ -1,0 +1,26 @@
+%\documentclass[11pt]{article}
+%\usepackage{cite}
+
+%\begin{document}
+
+%\title{Bibtex}
+
+%\maketitle
+
+%jzjzjz \cite{conrady2019luftverkehr}
+
+%\bibliography{Quellen.bib}
+%\bibliographystyle{plain}
+%\end{document}
+
+\phantomsection\addcontentsline{toc}{chapter}{Literaturverzeichnis}
+% Einbinden der Bibliothek
+
+% cite everything in the bib with:
+\nocite{*}
+
+{
+	\small % reduces fontsize
+	\printbibliography
+	\normalsize % resets fontsize back to normal
+}
