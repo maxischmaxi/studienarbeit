@@ -1,19 +1,19 @@
 # Fdb version 4
-["biber studienarbeit"] 1739225737.34906 "studienarbeit.bcf" "studienarbeit.bbl" "studienarbeit" 1739225815.62672 0
+["biber studienarbeit"] 1739229354.73839 "studienarbeit.bcf" "studienarbeit.bbl" "studienarbeit" 1739229374.22572 0
   "4_References/Quellen.bib" 1739225733 20144 852de67213a033f096d22c83d9c27d33 ""
-  "studienarbeit.bcf" 1739225815 110841 0fac494020188f9b751f8dbebd6256a4 "pdflatex"
+  "studienarbeit.bcf" 1739229373 110772 1181626d4b69082b51452fa76414facd "pdflatex"
   (generated)
   "studienarbeit.bbl"
   "studienarbeit.blg"
   (rewritten before read)
-["pdflatex"] 1739225807.56587 "c:/Users/henri/Desktop/Studienarbeit/studienarbeit.tex" "studienarbeit.pdf" "studienarbeit" 1739225815.62799 0
+["pdflatex"] 1739229365.99504 "c:/Users/henri/Desktop/Studienarbeit/studienarbeit.tex" "studienarbeit.pdf" "studienarbeit" 1739229374.22694 0
   "1_Chapters/0 Thesen.tex" 1734522363 184 5975f5c05c49ad31a39bdee2be765acd ""
   "1_Chapters/5_acronyms.tex" 1737030252 911 9ed207b38ced89e0dde925c03d47b48b ""
   "1_Title.tex" 1739217115 1934 03c9e888d217cd22f916c9b8f7acc451 ""
-  "3_Methodik/3_2_Referenz_Flugzeuge.tex" 1739225733 4133 2c71ba6a9d3ef60bcdc0c0dcd9a38e5b ""
-  "3_Methodik/3_3_Kosten_Formeln.tex" 1739225795 13264 2dbac12172bd358ee452f288850af7a5 ""
-  "3_Methodik/3_4_Betriebsszenarien.tex" 1739225733 1662 b63ecba6177007382f75843e6edfb027 ""
-  "3_Methodik/Annahmen.tex" 1739197660 4503 e37940c6d2fa388b7586bd8998366826 ""
+  "3_Methodik/3_2_Referenz_Flugzeuge.tex" 1739227112 4229 b5847d619fe003d9d0095f305d2e14c7 ""
+  "3_Methodik/3_3_Kosten_Formeln.tex" 1739229342 13630 5233149a9ecf8eae4fdfb1d1fa4e15e3 ""
+  "3_Methodik/3_4_Betriebsszenarien.tex" 1739227112 1710 9d58ba511b43b816e4d0b41ef92cb94b ""
+  "3_Methodik/Annahmen.tex" 1739229149 4517 fc05e94ad291fc4ed432436474648db3 ""
   "4_References/bib.tex" 1734552435 475 c94d3befd0d8b759787b14f4b91b1850 ""
   "c:/Users/henri/Desktop/Studienarbeit/studienarbeit.tex" 1739197660 5158 e9ab4591491ef36fbfafc90cfef4a9f2 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1733687913 2971 def0b6c1f0b107b3b936def894055589 ""
@@ -292,10 +292,10 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1733836144 5441979 24d9d8a39025f77a4677560676ba95ea ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1733691995 2047510 365f18ade55dc77082ee1801e30469e9 ""
   "c:/texlive/2024/texmf.cnf" 1733691684 713 614551405fc44b98efbf516466e3c909 ""
-  "studienarbeit.aux" 1739225815 16455 0cf4600eb39694f078a320a6456e2551 "pdflatex"
-  "studienarbeit.bbl" 1739225748 96460 61c0fc540de2911877fd35b31acb90aa "biber studienarbeit"
-  "studienarbeit.out" 1739225813 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "studienarbeit.run.xml" 1739225815 2472 fbf170860968199a79a3878f2a929ef4 "pdflatex"
+  "studienarbeit.aux" 1739229373 16386 ec24aa4ae07bb407494126120db59ca8 "pdflatex"
+  "studienarbeit.bbl" 1739229357 96439 728e2d799e4a51b6c1ac7d7c12ff58e7 "biber studienarbeit"
+  "studienarbeit.out" 1739229372 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "studienarbeit.run.xml" 1739229373 2472 fbf170860968199a79a3878f2a929ef4 "pdflatex"
   "studienarbeit.tex" 1739197660 5158 e9ab4591491ef36fbfafc90cfef4a9f2 ""
   (generated)
   "studienarbeit.aux"

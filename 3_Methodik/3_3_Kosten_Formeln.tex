@@ -130,32 +130,20 @@ der Wechselkurs $k_{WK}$ ebenfalls betrachtet werden sollen.
    \label{price BA}
 \end{equation}
 
-<<<<<<< HEAD
-Noch ein wichtiger Faktor bei der kapitalverbundenen Kosten ist die Auslastung $U$ eines Flugzeuges. Es wird durch Anzahl 
-verfügbaren Stunden pro Jahr $t_{verf}$, Blockzeit $t_B$ und Turnaround Zeit $t_{TA}$. $t_{verf}$ für Kurzstrecken wurde 
-in der Höhe von 3750 h und für Mittel- und Langstrecken 4800 h \cite{scholz_design_evaluation_doc}. $t_{TA}$ wurde in Höhe von 1,5
-Stunden gewählt (Quelle).
-=======
+
 Ein weiterer wichtiger Faktor der kapitalgebundenen Kosten ist die Auslastung $U$ eines Flugzeuges. Es wird durch die Anzahl 
 der verfügbaren Stunden p.a. $t_{verf}$, Blockzeit $t_B$ und Turnaround Zeit $t_{TA}$ berechnet. 
 Die jährliche Verfügbarkeitszeit $t_{verf}$ beträgt für Kurzstreckenflugzeuge 3750 h, 
 während für Mittel- und Langstreckenflugzeuge ein Wert von 4800 h angesetzt wird \cite{scholz_design_evaluation_doc}.
->>>>>>> 5f8c26e (überprüfung 1)
 
 \begin{equation}
    U = \frac{t_{verf}}{t_B + t_{TA}} \\
    \label{utilisation}
 \end{equation}
 
-<<<<<<< HEAD
-Verzinsungskosten sind durch den Prozentanteil von Anschaffungskosten bedingt, für dieser gilt ca. 5 \%. Versicherungskosten sind 
-hingegen von dem Kaufpreis eines Flugzeugs abhängig (inklusive Rabatte beim Kauf) und für diese Arbeit werden 5 \% angenommen 
-\cite{scholz_design_evaluation_doc}.
-=======
 Verzinsungskosten $C_{Zins}$ sind durch den Prozentanteil von Anschaffungskosten bedingt, für diese gelten ca. 5 \%. 
 Versicherungskosten sind hingegen von dem Kaufpreis eines Flugzeugs abhängig (inklusive Rabatte beim Kauf), 
 in dieser Arbeit werden ebenfalls 5 \% angenommen \cite{scholz_design_evaluation_doc}.
->>>>>>> 5f8c26e (überprüfung 1)
 
 %Für wasserstoffbetriebene Flugzeuge werden in der Quelle vorgestellte Formeln benutzt, um Kaufpreis einschätzen zu können.
 Außerdem bestehen bei alternativen Antrieben betriebliche Kosten, die durch Infrastrukturbedienung bedingt sind.
@@ -180,19 +168,7 @@ Kapitalkosten für BA-Infrastruktur sind in folgender Formel zusammengestellt:
    \end{split}
   \end{equation}
 
-<<<<<<< HEAD
-, wobei $P_{Bat}$ ist der Preis für eine Batterie und $n_{Bat}$ ist der Anzahl Batterien, die benötigt sind.
-$N_{menge}$ ist die Menge an Strom, der für das Laden einer Batterie benötigt ist.
-$P_{BSS}$ ist der Preis für Ladegerät der Batteriewechselstation und $n_{BSS}$ ist wie immer der Anzahl an Ladegeräten. 
-Zusätzlich werden die Kosten für
-Batteriewechsel $P_{W,Bat}$ und Preis für einen Hubwagen $P_{Hubwagen}$ mitbetrachtet.
-  
-%Energiekosten = Menge mal Preis
 
- % Stromkosten = Anzahl der BSS mal die Leistung mal Kosten pro Einheit Spitzleistung mal Anzahl der Tage/30
-
-  %Anschaffungskosten BSS = Anzahl BSS mal Kosten mal Tage/Lebensdauer
-=======
 wobei $P_{Bat}$ der Preis für eine Batterie darstellt und $n_{Bat}$ die Anzahl der Batterien, die benötigt sind.
 $N_{menge}$ ist die Menge an Strom, der für das Laden einer Batterie nötig ist.
 $P_{BSS}$ ist der Preis des Ladegeräts der Batteriewechselstation und $n_{BSS}$ ist wie immer der Anzahl an Ladegeräten. %ich weiß nicht was du mit wie immer meinst
@@ -200,10 +176,9 @@ Außerdem werden die Kosten für Batteriewechsel $P_{W,Bat}$ und Preis pro Hubwa
   
 %Energiekosten = Menge mal Preis
 
-Stromkosten = Anzahl der BSS mal die Leistung mal Kosten pro Einheit Spitzleistung mal Anzahl der Tage/30
+% Stromkosten = Anzahl der BSS mal die Leistung mal Kosten pro Einheit Spitzleistung mal Anzahl der Tage/30
 
-Anschaffungskosten BSS = Anzahl BSS mal Kosten mal Tage/Lebensdauer
->>>>>>> 5f8c26e (überprüfung 1)
+% Anschaffungskosten BSS = Anzahl BSS mal Kosten mal Tage/Lebensdauer
 
  % An Optimization Model for Airport Infrastructures in Support to Electric Aicraft:
  % Um Batterienachfrage zu decken, wäre es möglich der Anzahl der Ersatz-Batterien zu erhöhen, die außerhalb der Spitzzeiten geladen werden 
@@ -250,16 +225,9 @@ Die Anzahl der Ladegeräte $n_{BSS}$ ist von der Gesamtzahl der Batterien und La
 %Lieferung
 %falls in flüssigform: LKW/Schiff/Bahn - Distanz und von der Menge abhängig.
 
-<<<<<<< HEAD
-Für die Wasserstoff-Antriebe wird einen oberirdischen Tank für kryogene flüssigen Wasserstoff \ce{LH2}, eine kryogene Pumpe 
-zum Befüllen und Entleeren des Lagers ${kP}$ und ein Betankungswagen ${BW}$ gebraucht (vgl. \eqref{WA_Infrastruktur}). 
-Die Preise für die Anlage ist in der Tabelle \ref{BA_Infrastrukturtab} aufgeführt. Es werden zwei Pumpensysteme benötigt.
-Eine davon ist zum Befüllen des Betankungswagens an den \ce{LH2}-Speicher und andere beim Betanken des Flugzeuges \cite{hoelzen2022h2}.
-=======
 Für Wasserstoff-Antriebe wird ein oberirdischer Tank für kryogenen flüssigen Wasserstoff \ce{LH2}, 
 eine kryogene Pumpe zum Befüllen und Entleeren des Lagers ${kP}$ und ein Tankwagen ${BW}$ gebraucht (vgl. \eqref{WA_Infrastruktur}). 
 Die Preise für die Anlage sind in der Tabelle \ref{BA_Infrastrukturtab} zusammengefasst.
->>>>>>> 5f8c26e (überprüfung 1)
 
 \begin{equation}
    {CAPEX ~[\text{EUR}]} = {P_{Tank}} + P_{kP} + P_{BW} \cdot N_{BW}  \\
@@ -283,15 +251,7 @@ Die Preise für die Anlage sind in der Tabelle \ref{BA_Infrastrukturtab} zusamme
     \end{center}
 \end{table}
 
-<<<<<<< HEAD
-Wie bereits in Grundlagen-Kapitel erläutert wurde, hat den kryogenen Wasserstoff die Dichte von 70 $kg/m^3$ (Quelle), 
-also können 331,24 t davon in einem kugelförmigen Lagertank gespeichert werden.
+Wie bereits im Grundlagen-Kapitel erläutert wurde, hat der kryogene Wasserstoff eine Dichte von 70 $kg/m^3$ (Quelle),  %quelle?
+also können 331.240 t in einem kugelförmigen Lagertank gespeichert werden.
 Es wird davon ausgegangen, dass die Vorgänge der Betankung des Wagens und folgende Betankung des Flugzeugs jeweils 
 30 Minuten dauern \cite{hoelzen2022h2}. (1 Flugzeug pro Tankwagen, also alles von - Ankunftsrate abhängig)
-
-
-
-=======
-Wie bereits im Grundlagen-Kapitel erläutert wurde, hat der kryogene Wasserstoff eine Dichte von 70 $kg/m^3$ (Quelle),  %quelle?
-also können 331.240 t in einem Lagertank gespeichert werden.
->>>>>>> 5f8c26e (überprüfung 1)
