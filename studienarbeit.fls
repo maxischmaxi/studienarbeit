@@ -634,9 +634,7 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-T1-T
 INPUT ./3_Methodik/3_3_Kosten_Formeln.tex
 INPUT ./3_Methodik/3_3_Kosten_Formeln.tex
 INPUT 3_Methodik/3_3_Kosten_Formeln.tex
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-TS1-TLF.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-T1-TLF.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-TS1-TLF.tfm
 INPUT ./3_Methodik/3_4_Betriebsszenarien.tex
 INPUT ./3_Methodik/3_4_Betriebsszenarien.tex
 INPUT 3_Methodik/3_4_Betriebsszenarien.tex
