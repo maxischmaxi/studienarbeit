@@ -30,7 +30,7 @@
 # Generated files
 *.dvi
 *.ps
-*.pdf
+# *.pdf
 
 # Editor and IDE files
 *.swp
