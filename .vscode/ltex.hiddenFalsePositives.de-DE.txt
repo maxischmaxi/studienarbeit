@@ -1,0 +1,1 @@
+{"rule":"PRAEP_DAT","sentence":"^\\QEs gibt auch weitere Beteiligten am Flughafen, wie Mitfliegende, Arbeitskräfte und ... . Diese sind von geringen Bedeutung\\E$"}

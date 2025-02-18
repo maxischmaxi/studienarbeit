@@ -19,70 +19,478 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
-    \entry{anker2023feasibility}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=fc6f8d4694195d09ced258e66270f1b6}{%
-           family={Anker},
-           familyi={A\bibinitperiod},
-           given={Markus\bibnamedelima Aasen},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=a166a75fc42b189dabfa2eac127362e9}{%
-           family={Hartmann},
-           familyi={H\bibinitperiod},
-           given={Christian},
-           giveni={C\bibinitperiod}}}%
-        {{hash=b92cd56af4813b4c81b6485cd42808d1}{%
-           family={N{ø}land},
-           familyi={N\bibinitperiod},
-           given={Jonas\bibnamedelima Kristiansen},
-           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+    \entry{bundesregierung}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=3b17c5b0f3f47d3a7e3400d3af6dbb07}{%
+           family={{Die Bundesregierung}},
+           familyi={D\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Authorea}%
-      }
-      \strng{namehash}{7113067a499be725edf585176ac1c8e8}
-      \strng{fullhash}{e8d29ea6aa32c5eaed0ce63dade9f7ab}
-      \strng{fullhashraw}{e8d29ea6aa32c5eaed0ce63dade9f7ab}
-      \strng{bibnamehash}{e8d29ea6aa32c5eaed0ce63dade9f7ab}
-      \strng{authorbibnamehash}{e8d29ea6aa32c5eaed0ce63dade9f7ab}
-      \strng{authornamehash}{7113067a499be725edf585176ac1c8e8}
-      \strng{authorfullhash}{e8d29ea6aa32c5eaed0ce63dade9f7ab}
-      \strng{authorfullhashraw}{e8d29ea6aa32c5eaed0ce63dade9f7ab}
+      \strng{namehash}{3b17c5b0f3f47d3a7e3400d3af6dbb07}
+      \strng{fullhash}{3b17c5b0f3f47d3a7e3400d3af6dbb07}
+      \strng{fullhashraw}{3b17c5b0f3f47d3a7e3400d3af6dbb07}
+      \strng{bibnamehash}{3b17c5b0f3f47d3a7e3400d3af6dbb07}
+      \strng{authorbibnamehash}{3b17c5b0f3f47d3a7e3400d3af6dbb07}
+      \strng{authornamehash}{3b17c5b0f3f47d3a7e3400d3af6dbb07}
+      \strng{authorfullhash}{3b17c5b0f3f47d3a7e3400d3af6dbb07}
+      \strng{authorfullhashraw}{3b17c5b0f3f47d3a7e3400d3af6dbb07}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Authorea Preprints}
-      \field{title}{Feasibility of Battery-Powered Propulsion Systems for All-Electric Short-Haul Commuter Aircraft}
-      \field{year}{2023}
+      \field{month}{04}
+      \field{note}{Zugriff am 20. November, 2024}
+      \field{title}{Klimaziel: Deutschland reduziert Emissionen um 37 Millionen Tonnen CO\textsubscript{2}-Äquivalente}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.bundesregierung.de/breg-de/aktuelles/treibhausgasbilanz-2023-2265440
+      \endverb
+      \verb{url}
+      \verb https://www.bundesregierung.de/breg-de/aktuelles/treibhausgasbilanz-2023-2265440
+      \endverb
     \endentry
-    \entry{heart_aerospace_es19}{online}{}{}
-      \name{author}{1}{}{%
-        {{hash=66730f430c5ef05e0a721c98c94073cd}{%
-           family={{Heart Aerospace}},
-           familyi={H\bibinitperiod}}}%
+    \entry{conrady2019luftverkehr}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=cf9f57d1850bd1736f958c05ab337bf0}{%
+           family={Conrady},
+           familyi={C\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod}}}%
+        {{hash=fa861dd41a904cd2f103187b5c60ea58}{%
+           family={Fichert},
+           familyi={F\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+        {{hash=5576643996826eabc1f8e3ce1226d075}{%
+           family={Sterzenbach},
+           familyi={S\bibinitperiod},
+           given={Rüdiger},
+           giveni={R\bibinitperiod}}}%
       }
-      \strng{namehash}{66730f430c5ef05e0a721c98c94073cd}
-      \strng{fullhash}{66730f430c5ef05e0a721c98c94073cd}
-      \strng{fullhashraw}{66730f430c5ef05e0a721c98c94073cd}
-      \strng{bibnamehash}{66730f430c5ef05e0a721c98c94073cd}
-      \strng{authorbibnamehash}{66730f430c5ef05e0a721c98c94073cd}
-      \strng{authornamehash}{66730f430c5ef05e0a721c98c94073cd}
-      \strng{authorfullhash}{66730f430c5ef05e0a721c98c94073cd}
-      \strng{authorfullhashraw}{66730f430c5ef05e0a721c98c94073cd}
+      \list{publisher}{1}{%
+        {Walter de Gruyter GmbH \& Co KG}%
+      }
+      \strng{namehash}{b851cfe2e654765327157b4d6ae151fd}
+      \strng{fullhash}{ddbcb49a8207671b58f71f48216499c1}
+      \strng{fullhashraw}{ddbcb49a8207671b58f71f48216499c1}
+      \strng{bibnamehash}{ddbcb49a8207671b58f71f48216499c1}
+      \strng{authorbibnamehash}{ddbcb49a8207671b58f71f48216499c1}
+      \strng{authornamehash}{b851cfe2e654765327157b4d6ae151fd}
+      \strng{authorfullhash}{ddbcb49a8207671b58f71f48216499c1}
+      \strng{authorfullhashraw}{ddbcb49a8207671b58f71f48216499c1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Accessed: January 20, 2025}
-      \field{title}{Heart Aerospace partners with Aernnova to design and develop the structure for the ES-19 electric airplane}
-      \field{year}{2021}
+      \field{title}{Luftverkehr: Betriebswirtschaftliches Lehr- und Handbuch}
+      \field{year}{2019}
+    \endentry
+    \entry{mensen2013handbuch}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=b70ec40ffc6348199acc5d7a32451fd2}{%
+           family={Mensen},
+           familyi={M\bibinitperiod},
+           given={Heinrich},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{b70ec40ffc6348199acc5d7a32451fd2}
+      \strng{fullhash}{b70ec40ffc6348199acc5d7a32451fd2}
+      \strng{fullhashraw}{b70ec40ffc6348199acc5d7a32451fd2}
+      \strng{bibnamehash}{b70ec40ffc6348199acc5d7a32451fd2}
+      \strng{authorbibnamehash}{b70ec40ffc6348199acc5d7a32451fd2}
+      \strng{authornamehash}{b70ec40ffc6348199acc5d7a32451fd2}
+      \strng{authorfullhash}{b70ec40ffc6348199acc5d7a32451fd2}
+      \strng{authorfullhashraw}{b70ec40ffc6348199acc5d7a32451fd2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Handbuch der Luftfahrt}
+      \field{year}{2013}
+    \endentry
+    \entry{ansell2023review}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=c11466b0b16591d451360b36e5c13724}{%
+           family={Ansell},
+           familyi={A\bibinitperiod},
+           given={Phillip\bibnamedelima J},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{c11466b0b16591d451360b36e5c13724}
+      \strng{fullhash}{c11466b0b16591d451360b36e5c13724}
+      \strng{fullhashraw}{c11466b0b16591d451360b36e5c13724}
+      \strng{bibnamehash}{c11466b0b16591d451360b36e5c13724}
+      \strng{authorbibnamehash}{c11466b0b16591d451360b36e5c13724}
+      \strng{authornamehash}{c11466b0b16591d451360b36e5c13724}
+      \strng{authorfullhash}{c11466b0b16591d451360b36e5c13724}
+      \strng{authorfullhashraw}{c11466b0b16591d451360b36e5c13724}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Progress in Aerospace Sciences}
+      \field{title}{Review of sustainable energy carriers for aviation: Benefits, challenges, and future viability}
+      \field{volume}{141}
+      \field{year}{2023}
+      \field{pages}{100919}
+      \range{pages}{1}
+    \endentry
+    \entry{iata_saf_2024}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=b87c83a47ae1c0a68113d65315f207dd}{%
+           family={{International Air Transport Association (IATA)}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{b87c83a47ae1c0a68113d65315f207dd}
+      \strng{fullhash}{b87c83a47ae1c0a68113d65315f207dd}
+      \strng{fullhashraw}{b87c83a47ae1c0a68113d65315f207dd}
+      \strng{bibnamehash}{b87c83a47ae1c0a68113d65315f207dd}
+      \strng{authorbibnamehash}{b87c83a47ae1c0a68113d65315f207dd}
+      \strng{authornamehash}{b87c83a47ae1c0a68113d65315f207dd}
+      \strng{authorfullhash}{b87c83a47ae1c0a68113d65315f207dd}
+      \strng{authorfullhashraw}{b87c83a47ae1c0a68113d65315f207dd}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Zugriff am 27. Dezember 2024}
+      \field{title}{IATA SAF Handbook}
+      \field{year}{2024}
       \verb{urlraw}
-      \verb https://heartaerospace.com/newsroom/heart-aerospace-partners-with-aernnova-to-design-and-develop-the-structure-for-the-es-19-electric-airplane/
+      \verb https://www.iata.org
       \endverb
       \verb{url}
-      \verb https://heartaerospace.com/newsroom/heart-aerospace-partners-with-aernnova-to-design-and-develop-the-structure-for-the-es-19-electric-airplane/
+      \verb https://www.iata.org
       \endverb
+    \endentry
+    \entry{icao_saf_conversion_2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=e294a4f9170f91276bf0b2639b9857aa}{%
+           family={{International Civil Aviation Organization (ICAO)}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{e294a4f9170f91276bf0b2639b9857aa}
+      \strng{fullhash}{e294a4f9170f91276bf0b2639b9857aa}
+      \strng{fullhashraw}{e294a4f9170f91276bf0b2639b9857aa}
+      \strng{bibnamehash}{e294a4f9170f91276bf0b2639b9857aa}
+      \strng{authorbibnamehash}{e294a4f9170f91276bf0b2639b9857aa}
+      \strng{authornamehash}{e294a4f9170f91276bf0b2639b9857aa}
+      \strng{authorfullhash}{e294a4f9170f91276bf0b2639b9857aa}
+      \strng{authorfullhashraw}{e294a4f9170f91276bf0b2639b9857aa}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Zugriff am 28. Dezember 2024}
+      \field{title}{Sustainable Aviation Fuel (SAF) Conversion Processes}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.icao.int/environmental-protection/GFAAF/Pages/Conversion-processes.aspx
+      \endverb
+      \verb{url}
+      \verb https://www.icao.int/environmental-protection/GFAAF/Pages/Conversion-processes.aspx
+      \endverb
+    \endentry
+    \entry{jarin2024emissions}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=5b1b03f217265ed5901bab9ebc2e072a}{%
+           family={Jarin},
+           familyi={J\bibinitperiod},
+           given={Jean-Baptiste},
+           giveni={J\bibinithyphendelim B\bibinitperiod}}}%
+        {{hash=798e2551269cc8bbd0741bc3d14ba979}{%
+           family={Champion-Réaud},
+           familyi={C\bibinithyphendelim R\bibinitperiod},
+           given={Jean-Louis},
+           giveni={J\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=55cc618c2cf955e0886f108bbb70f4e3}{%
+           family={Sallinen},
+           familyi={S\bibinitperiod},
+           given={Reetu},
+           giveni={R\bibinitperiod}}}%
+        {{hash=53e2a986c1b3cbf6bcaa97d0156ef3ca}{%
+           family={Steenwinkel},
+           familyi={S\bibinitperiod},
+           given={Edgar},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {American Society of Mechanical Engineers}%
+      }
+      \strng{namehash}{e16b6cf3d6f1a45a8dc998c90ad48add}
+      \strng{fullhash}{5d486cee390afb4fabd9a2de77c1aa68}
+      \strng{fullhashraw}{5d486cee390afb4fabd9a2de77c1aa68}
+      \strng{bibnamehash}{e16b6cf3d6f1a45a8dc998c90ad48add}
+      \strng{authorbibnamehash}{e16b6cf3d6f1a45a8dc998c90ad48add}
+      \strng{authornamehash}{e16b6cf3d6f1a45a8dc998c90ad48add}
+      \strng{authorfullhash}{5d486cee390afb4fabd9a2de77c1aa68}
+      \strng{authorfullhashraw}{5d486cee390afb4fabd9a2de77c1aa68}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Turbo Expo: Power for Land, Sea, and Air}
+      \field{title}{Emissions Comparison of 100\% SAF With Bio-Aromatics and Conventional (Fossil) Jet Fuel}
+      \field{volume}{87936}
+      \field{year}{2024}
+      \field{pages}{V002T03A012}
+      \range{pages}{-1}
+    \endentry
+    \entry{virginatlantic_saf_2023}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=a68a6506b0dfb8513d5f3ee719e71231}{%
+           family={{Virgin Atlantic}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{a68a6506b0dfb8513d5f3ee719e71231}
+      \strng{fullhash}{a68a6506b0dfb8513d5f3ee719e71231}
+      \strng{fullhashraw}{a68a6506b0dfb8513d5f3ee719e71231}
+      \strng{bibnamehash}{a68a6506b0dfb8513d5f3ee719e71231}
+      \strng{authorbibnamehash}{a68a6506b0dfb8513d5f3ee719e71231}
+      \strng{authornamehash}{a68a6506b0dfb8513d5f3ee719e71231}
+      \strng{authorfullhash}{a68a6506b0dfb8513d5f3ee719e71231}
+      \strng{authorfullhashraw}{a68a6506b0dfb8513d5f3ee719e71231}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Zugriff am 27. Dezember 2024}
+      \field{title}{Virgin Atlantic operates world's first 100\% SAF transatlantic flight}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://corporate.virginatlantic.com/gb/en/media/press-releases/worlds-first-sustainable-aviation-fuel-flight.html
+      \endverb
+      \verb{url}
+      \verb https://corporate.virginatlantic.com/gb/en/media/press-releases/worlds-first-sustainable-aviation-fuel-flight.html
+      \endverb
+    \endentry
+    \entry{bauen2020sustainable}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=0e8eb3e48c6dedfa3dfce4ef518215af}{%
+           family={Bauen},
+           familyi={B\bibinitperiod},
+           given={Ausilio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=605b3eda2882808cae20a13a9caa9f48}{%
+           family={Bitossi},
+           familyi={B\bibinitperiod},
+           given={Niccolò},
+           giveni={N\bibinitperiod}}}%
+        {{hash=1603818eaaaf1470c195222f487b1f2d}{%
+           family={German},
+           familyi={G\bibinitperiod},
+           given={Lizzie},
+           giveni={L\bibinitperiod}}}%
+        {{hash=630e16c36e2fe973112209ec5e93360b}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Anisha},
+           giveni={A\bibinitperiod}}}%
+        {{hash=58ff49c95cc05f3ba0d9e61086c4d39a}{%
+           family={Leow},
+           familyi={L\bibinitperiod},
+           given={Khangzhen},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Johnson Matthey}%
+      }
+      \strng{namehash}{466c2a19fdab516143e7830283e06bc6}
+      \strng{fullhash}{08c8ada7ba54f71bdc627afca099a2b4}
+      \strng{fullhashraw}{08c8ada7ba54f71bdc627afca099a2b4}
+      \strng{bibnamehash}{466c2a19fdab516143e7830283e06bc6}
+      \strng{authorbibnamehash}{466c2a19fdab516143e7830283e06bc6}
+      \strng{authornamehash}{466c2a19fdab516143e7830283e06bc6}
+      \strng{authorfullhash}{08c8ada7ba54f71bdc627afca099a2b4}
+      \strng{authorfullhashraw}{08c8ada7ba54f71bdc627afca099a2b4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Johnson Matthey Technology Review}
+      \field{number}{3}
+      \field{title}{Sustainable Aviation Fuels: Status, challenges and prospects of drop-in liquid fuels, hydrogen and electrification in aviation}
+      \field{volume}{64}
+      \field{year}{2020}
+      \field{pages}{263\bibrangedash 278}
+      \range{pages}{16}
+    \endentry
+    \entry{de2017life}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=b8153bec3d6e903cb245fe07d45d546a}{%
+           family={De\bibnamedelima Jong},
+           familyi={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Sierk},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0fffc0e4cb72d87ce9d6c46432ad649e}{%
+           family={Antonissen},
+           familyi={A\bibinitperiod},
+           given={Kay},
+           giveni={K\bibinitperiod}}}%
+        {{hash=d5e971fd3a8fe5299b9eeb175a062b8c}{%
+           family={Hoefnagels},
+           familyi={H\bibinitperiod},
+           given={Ric},
+           giveni={R\bibinitperiod}}}%
+        {{hash=45e8ffa36b1f52999cc685e9f764f05e}{%
+           family={Lonza},
+           familyi={L\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod}}}%
+        {{hash=405aa02bca140f939bbe12e95a79804b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1b9e7b6916b85a08ce464a3cc048d7a6}{%
+           family={Faaij},
+           familyi={F\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dcda1a7277a49397eda399bd2420648e}{%
+           family={Junginger},
+           familyi={J\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{edb8b2473a01acddc83aaaa96776ee90}
+      \strng{fullhash}{e0a946df5c4bf3466b3ed05ea177e648}
+      \strng{fullhashraw}{e0a946df5c4bf3466b3ed05ea177e648}
+      \strng{bibnamehash}{edb8b2473a01acddc83aaaa96776ee90}
+      \strng{authorbibnamehash}{edb8b2473a01acddc83aaaa96776ee90}
+      \strng{authornamehash}{edb8b2473a01acddc83aaaa96776ee90}
+      \strng{authorfullhash}{e0a946df5c4bf3466b3ed05ea177e648}
+      \strng{authorfullhashraw}{e0a946df5c4bf3466b3ed05ea177e648}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biotechnology for biofuels}
+      \field{title}{Life-cycle analysis of greenhouse gas emissions from renewable jet fuel production}
+      \field{volume}{10}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 18}
+      \range{pages}{18}
+    \endentry
+    \entry{sky2020hydrogen}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=b7eefe7c8c4a21f60a718efb648e84b6}{%
+           family={Sky},
+           familyi={S\bibinitperiod},
+           given={Clean},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Hydrogen Knowledge Centre}%
+      }
+      \strng{namehash}{215e8b8e4d99051b7830fa1d012d5bc2}
+      \strng{fullhash}{215e8b8e4d99051b7830fa1d012d5bc2}
+      \strng{fullhashraw}{215e8b8e4d99051b7830fa1d012d5bc2}
+      \strng{bibnamehash}{215e8b8e4d99051b7830fa1d012d5bc2}
+      \strng{authorbibnamehash}{215e8b8e4d99051b7830fa1d012d5bc2}
+      \strng{authornamehash}{215e8b8e4d99051b7830fa1d012d5bc2}
+      \strng{authorfullhash}{215e8b8e4d99051b7830fa1d012d5bc2}
+      \strng{authorfullhashraw}{215e8b8e4d99051b7830fa1d012d5bc2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Hydrogen-powered aviation: a fact-based study of hydrogen technology, economics, and climate impact by 2050}
+      \field{year}{2020}
+    \endentry
+    \entry{dahal2021techno}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=8b1eb2a4bedd3630fb0d02a0f7a6dbad}{%
+           family={Dahal},
+           familyi={D\bibinitperiod},
+           given={Karna},
+           giveni={K\bibinitperiod}}}%
+        {{hash=f061bd1abbb404124a755e7745e02f9a}{%
+           family={Brynolf},
+           familyi={B\bibinitperiod},
+           given={Selma},
+           giveni={S\bibinitperiod}}}%
+        {{hash=91f19d6e12353177c72bfce69e96ba32}{%
+           family={Xisto},
+           familyi={X\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+        {{hash=57946c6534dedefd2ba1ed8be0a27947}{%
+           family={Hansson},
+           familyi={H\bibinitperiod},
+           given={Julia},
+           giveni={J\bibinitperiod}}}%
+        {{hash=79161e359f3e585f60581d5c6c5fe441}{%
+           family={Grahn},
+           familyi={G\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+        {{hash=41ea8bea4bdc2757b4fb8dab51422976}{%
+           family={Grönstedt},
+           familyi={G\bibinitperiod},
+           given={Tomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c19ea89e964d677ce4de43e42cecb932}{%
+           family={Lehtveer},
+           familyi={L\bibinitperiod},
+           given={Mariliis},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{5cdaa84ceacdea998b5d9762062bf18e}
+      \strng{fullhash}{8fb7205ac767103d9fbe3e044729fe3c}
+      \strng{fullhashraw}{8fb7205ac767103d9fbe3e044729fe3c}
+      \strng{bibnamehash}{5cdaa84ceacdea998b5d9762062bf18e}
+      \strng{authorbibnamehash}{5cdaa84ceacdea998b5d9762062bf18e}
+      \strng{authornamehash}{5cdaa84ceacdea998b5d9762062bf18e}
+      \strng{authorfullhash}{8fb7205ac767103d9fbe3e044729fe3c}
+      \strng{authorfullhashraw}{8fb7205ac767103d9fbe3e044729fe3c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Renewable and Sustainable Energy Reviews}
+      \field{title}{Techno-economic review of alternative fuels and propulsion systems for the aviation sector}
+      \field{volume}{151}
+      \field{year}{2021}
+      \field{pages}{111564}
+      \range{pages}{1}
+    \endentry
+    \entry{hepperle2012electric}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=0dbea5de69ddf58c57e6a2671067db73}{%
+           family={Hepperle},
+           familyi={H\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{0dbea5de69ddf58c57e6a2671067db73}
+      \strng{fullhash}{0dbea5de69ddf58c57e6a2671067db73}
+      \strng{fullhashraw}{0dbea5de69ddf58c57e6a2671067db73}
+      \strng{bibnamehash}{0dbea5de69ddf58c57e6a2671067db73}
+      \strng{authorbibnamehash}{0dbea5de69ddf58c57e6a2671067db73}
+      \strng{authornamehash}{0dbea5de69ddf58c57e6a2671067db73}
+      \strng{authorfullhash}{0dbea5de69ddf58c57e6a2671067db73}
+      \strng{authorfullhashraw}{0dbea5de69ddf58c57e6a2671067db73}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Electric flight-potential and limitations}
+      \field{year}{2012}
     \endentry
     \entry{donckers2024electric}{inproceedings}{}{}
       \name{author}{3}{}{%
@@ -113,8 +521,8 @@
       \strng{authornamehash}{18e1138524fc8ea5b8f35ff829581b7c}
       \strng{authorfullhash}{937888f34d43fab1ff5c431f5b7ba9e9}
       \strng{authorfullhashraw}{937888f34d43fab1ff5c431f5b7ba9e9}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Journal of Physics: Conference Series}
@@ -125,63 +533,326 @@
       \field{pages}{012009}
       \range{pages}{1}
     \endentry
-    \entry{sky2020hydrogen}{article}{}{}
+    \entry{dalmia2022powering}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=d0db615ad17c0bb8fab61766fa24f4de}{%
+           family={Dalmia},
+           familyi={D\bibinitperiod},
+           given={Tanay},
+           giveni={T\bibinitperiod}}}%
+        {{hash=08a97c9872099df895885c0eb8843c11}{%
+           family={Doken},
+           familyi={D\bibinitperiod},
+           given={Defne\bibnamedelima Nil},
+           giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=252e2eb04c1b3f99ecdd11d4787d5370}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Aditi},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8d659e19645304d3632a4ff5d6063b63}{%
+           family={Padmanaban},
+           familyi={P\bibinitperiod},
+           given={Rohith\bibnamedelima Murali},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=8fd070d0b98571ec19470264a1115535}{%
+           family={Sanghi},
+           familyi={S\bibinitperiod},
+           given={Veda},
+           giveni={V\bibinitperiod}}}%
+        {{hash=cbb68157bd8ccb6b482d5716c9900558}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Hrsh},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{a5e5901bacaeca5729a4cee40168b6ba}
+      \strng{fullhash}{377a6232d33feaa607655b222e8894fc}
+      \strng{fullhashraw}{377a6232d33feaa607655b222e8894fc}
+      \strng{bibnamehash}{a5e5901bacaeca5729a4cee40168b6ba}
+      \strng{authorbibnamehash}{a5e5901bacaeca5729a4cee40168b6ba}
+      \strng{authornamehash}{a5e5901bacaeca5729a4cee40168b6ba}
+      \strng{authorfullhash}{377a6232d33feaa607655b222e8894fc}
+      \strng{authorfullhashraw}{377a6232d33feaa607655b222e8894fc}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Powering the Future of Electric Aviation}
+      \field{year}{2022}
+    \endentry
+    \entry{salucci2020optimal}{inproceedings}{}{}
       \true{moreauthor}
       \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=b7eefe7c8c4a21f60a718efb648e84b6}{%
-           family={Sky},
+      \name{author}{4}{}{%
+        {{hash=a4ac7b04a2bc0ce2c15fa41b8a45584f}{%
+           family={Salucci},
            familyi={S\bibinitperiod},
-           given={Clean},
-           giveni={C\bibinitperiod}}}%
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=92c9ff69e4afb5803eedfb1c6fe76390}{%
+           family={Riboldi},
+           familyi={R\bibinitperiod},
+           given={Carlo\bibnamedelima ED},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=845e22e475f143fa4502568d19a5c7e4}{%
+           family={Trainelli},
+           familyi={T\bibinitperiod},
+           given={Lorenzo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e514d8ffed8b1c4c98708a32f380c0f9}{%
+           family={Rolando},
+           familyi={R\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{53950d4266b4d4f6f39f880a13cb8820}
+      \strng{fullhash}{9cd31a056ecc539676fb1858a5bc928e}
+      \strng{fullhashraw}{9cd31a056ecc539676fb1858a5bc928e}
+      \strng{bibnamehash}{53950d4266b4d4f6f39f880a13cb8820}
+      \strng{authorbibnamehash}{53950d4266b4d4f6f39f880a13cb8820}
+      \strng{authornamehash}{53950d4266b4d4f6f39f880a13cb8820}
+      \strng{authorfullhash}{9cd31a056ecc539676fb1858a5bc928e}
+      \strng{authorfullhashraw}{9cd31a056ecc539676fb1858a5bc928e}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{1st Aerospace Europe Conference (AEC 2020)}
+      \field{title}{Optimal recharging infrastructure sizing and operations for a regional airport}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+    \endentry
+    \entry{abrantes2024impact}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=6a931112ba83e2265cf3c46ef1382d5b}{%
+           family={Abrantes},
+           familyi={A\bibinitperiod},
+           given={Ivo},
+           giveni={I\bibinitperiod}}}%
+        {{hash=781e7068e9cb7a2be229123778cdf6db}{%
+           family={Ferreira},
+           familyi={F\bibinitperiod},
+           given={Ana\bibnamedelima F},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=77cc50240a81da5d6c4261107a196665}{%
+           family={Magalhães},
+           familyi={M\bibinitperiod},
+           given={Leandro\bibnamedelima B},
+           giveni={L\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=9f9ccc903dc2049de97393147868caf4}{%
+           family={Costa},
+           familyi={C\bibinitperiod},
+           given={Mário},
+           giveni={M\bibinitperiod}}}%
+        {{hash=818ea9de335a293f45e5300259525a4e}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Hydrogen Knowledge Centre}%
+        {Elsevier}%
       }
-      \strng{namehash}{215e8b8e4d99051b7830fa1d012d5bc2}
-      \strng{fullhash}{215e8b8e4d99051b7830fa1d012d5bc2}
-      \strng{fullhashraw}{215e8b8e4d99051b7830fa1d012d5bc2}
-      \strng{bibnamehash}{215e8b8e4d99051b7830fa1d012d5bc2}
-      \strng{authorbibnamehash}{215e8b8e4d99051b7830fa1d012d5bc2}
-      \strng{authornamehash}{215e8b8e4d99051b7830fa1d012d5bc2}
-      \strng{authorfullhash}{215e8b8e4d99051b7830fa1d012d5bc2}
-      \strng{authorfullhashraw}{215e8b8e4d99051b7830fa1d012d5bc2}
+      \strng{namehash}{39feca000605dc816f8a7ea747f5a78d}
+      \strng{fullhash}{d1a4504868fa1e6a0a002217f114c103}
+      \strng{fullhashraw}{d1a4504868fa1e6a0a002217f114c103}
+      \strng{bibnamehash}{39feca000605dc816f8a7ea747f5a78d}
+      \strng{authorbibnamehash}{39feca000605dc816f8a7ea747f5a78d}
+      \strng{authornamehash}{39feca000605dc816f8a7ea747f5a78d}
+      \strng{authorfullhash}{d1a4504868fa1e6a0a002217f114c103}
+      \strng{authorfullhashraw}{d1a4504868fa1e6a0a002217f114c103}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Renewable Energy}
+      \field{title}{The impact of revolutionary aircraft designs on global aviation emissions}
+      \field{volume}{223}
+      \field{year}{2024}
+      \field{pages}{119937}
+      \range{pages}{1}
+    \endentry
+    \entry{shahid2022review}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=d571d5f5e783f55c4b40e5f5f06ae1e8}{%
+           family={Shahid},
+           familyi={S\bibinitperiod},
+           given={Seham},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5f24479ea0e2b36053789c464f6065b6}{%
+           family={Agelin-Chaab},
+           familyi={A\bibinithyphendelim C\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{78e1aabc4706ec2a35f66fbe9f479d9e}
+      \strng{fullhash}{78e1aabc4706ec2a35f66fbe9f479d9e}
+      \strng{fullhashraw}{78e1aabc4706ec2a35f66fbe9f479d9e}
+      \strng{bibnamehash}{78e1aabc4706ec2a35f66fbe9f479d9e}
+      \strng{authorbibnamehash}{78e1aabc4706ec2a35f66fbe9f479d9e}
+      \strng{authornamehash}{78e1aabc4706ec2a35f66fbe9f479d9e}
+      \strng{authorfullhash}{78e1aabc4706ec2a35f66fbe9f479d9e}
+      \strng{authorfullhashraw}{78e1aabc4706ec2a35f66fbe9f479d9e}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Energy Conversion and Management: X}
+      \field{title}{A review of thermal runaway prevention and mitigation strategies for lithium-ion batteries}
+      \field{volume}{16}
+      \field{year}{2022}
+      \field{pages}{100310}
+      \range{pages}{1}
+    \endentry
+    \entry{colpan2022fuel}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=3f27ee69cc3af55dce74fd3ad14705cf}{%
+           family={Colpan},
+           familyi={C\bibinitperiod},
+           given={Can\bibnamedelima Ozgur},
+           giveni={C\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=bc8f07820de4920ae0460ec23e9e381d}{%
+           family={Kovač},
+           familyi={K\bibinitperiod},
+           given={Ankica},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{0692d80313d4580179d0c428f3229693}
+      \strng{fullhash}{0692d80313d4580179d0c428f3229693}
+      \strng{fullhashraw}{0692d80313d4580179d0c428f3229693}
+      \strng{bibnamehash}{0692d80313d4580179d0c428f3229693}
+      \strng{authorbibnamehash}{0692d80313d4580179d0c428f3229693}
+      \strng{authornamehash}{0692d80313d4580179d0c428f3229693}
+      \strng{authorfullhash}{0692d80313d4580179d0c428f3229693}
+      \strng{authorfullhashraw}{0692d80313d4580179d0c428f3229693}
       \field{sortinit}{4}
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Hydrogen-powered aviation: a fact-based study of hydrogen technology, economics, and climate impact by 2050}
-      \field{year}{2020}
+      \field{title}{Fuel Cell and Hydrogen Technologies in Aviation}
+      \field{year}{2022}
     \endentry
-    \entry{let_l410ng}{online}{}{}
-      \name{author}{1}{}{%
-        {{hash=f35d332da04b9ab596623f3a3d972176}{%
-           family={{LET Aircraft Industries}},
-           familyi={L\bibinitperiod}}}%
+    \entry{mulder2019outlook}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=d56edb284db6c409e527fc44f0580d93}{%
+           family={Mulder},
+           familyi={M\bibinitperiod},
+           given={Machiel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bcab3488b0372ddff61b02cd8e2b69bd}{%
+           family={Perey},
+           familyi={P\bibinitperiod},
+           given={Peter\bibnamedelima L},
+           giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=b8d43e443b1cd80a30148c51675f506d}{%
+           family={Moraga},
+           familyi={M\bibinitperiod},
+           given={José\bibnamedelima L},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
       }
-      \strng{namehash}{f35d332da04b9ab596623f3a3d972176}
-      \strng{fullhash}{f35d332da04b9ab596623f3a3d972176}
-      \strng{fullhashraw}{f35d332da04b9ab596623f3a3d972176}
-      \strng{bibnamehash}{f35d332da04b9ab596623f3a3d972176}
-      \strng{authorbibnamehash}{f35d332da04b9ab596623f3a3d972176}
-      \strng{authornamehash}{f35d332da04b9ab596623f3a3d972176}
-      \strng{authorfullhash}{f35d332da04b9ab596623f3a3d972176}
-      \strng{authorfullhashraw}{f35d332da04b9ab596623f3a3d972176}
+      \list{publisher}{1}{%
+        {Centre for Energy Economics Research, University of Groningen,}%
+      }
+      \strng{namehash}{9603173f84b32ed031ad5d037f3981a8}
+      \strng{fullhash}{64e436138f6fbedaf66d1e6a04af5ac7}
+      \strng{fullhashraw}{64e436138f6fbedaf66d1e6a04af5ac7}
+      \strng{bibnamehash}{64e436138f6fbedaf66d1e6a04af5ac7}
+      \strng{authorbibnamehash}{64e436138f6fbedaf66d1e6a04af5ac7}
+      \strng{authornamehash}{9603173f84b32ed031ad5d037f3981a8}
+      \strng{authorfullhash}{64e436138f6fbedaf66d1e6a04af5ac7}
+      \strng{authorfullhashraw}{64e436138f6fbedaf66d1e6a04af5ac7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Outlook for a Dutch hydrogen market: economic conditions and scenarois}
+      \field{year}{2019}
+    \endentry
+    \entry{schaar2010analysis}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=a40a30c368248e9c076080edcae4a234}{%
+           family={Schaar},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a3d34b25e7b7acfd095887808b518824}{%
+           family={Sherry},
+           familyi={S\bibinitperiod},
+           given={Lance},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{3c78be43a41e55712d479b749b3bfd0a}
+      \strng{fullhash}{3c78be43a41e55712d479b749b3bfd0a}
+      \strng{fullhashraw}{3c78be43a41e55712d479b749b3bfd0a}
+      \strng{bibnamehash}{3c78be43a41e55712d479b749b3bfd0a}
+      \strng{authorbibnamehash}{3c78be43a41e55712d479b749b3bfd0a}
+      \strng{authornamehash}{3c78be43a41e55712d479b749b3bfd0a}
+      \strng{authorfullhash}{3c78be43a41e55712d479b749b3bfd0a}
+      \strng{authorfullhashraw}{3c78be43a41e55712d479b749b3bfd0a}
       \field{sortinit}{6}
       \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Archived version from 18 August 2021, accessed on [09. Januar, 2025]}
-      \field{title}{L410 NG}
-      \field{year}{2021}
-      \verb{urlraw}
-      \verb https://web.archive.org/web/20210818120608/http://www.let.cz/en/l410ng
-      \endverb
-      \verb{url}
-      \verb https://web.archive.org/web/20210818120608/http://www.let.cz/en/l410ng
-      \endverb
+      \field{booktitle}{2010 Integrated Communications, Navigation, and Surveillance Conference Proceedings}
+      \field{title}{Analysis of airport stakeholders}
+      \field{year}{2010}
+      \true{nocite}
+      \field{pages}{J4\bibrangedash 1}
+      \range{pages}{-1}
     \endentry
-    \entry{airbus_a321neo}{online}{}{}
+    \entry{martinez2021supply}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=20929d32261557912808aa4f169dcdbd}{%
+           family={Martinez-Valencia},
+           familyi={M\bibinithyphendelim V\bibinitperiod},
+           given={Lina},
+           giveni={L\bibinitperiod}}}%
+        {{hash=c7638abf9f05de32ae6e925bebd9810a}{%
+           family={Garcia-Perez},
+           familyi={G\bibinithyphendelim P\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ea0dcfdeda3e3db5955687b97ef19eab}{%
+           family={Wolcott},
+           familyi={W\bibinitperiod},
+           given={Michael\bibnamedelima P},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{829b7f2aaee4ff113c9d1689c7b73545}
+      \strng{fullhash}{68c6f2d699c9bbc2cd64b18101cdc394}
+      \strng{fullhashraw}{68c6f2d699c9bbc2cd64b18101cdc394}
+      \strng{bibnamehash}{68c6f2d699c9bbc2cd64b18101cdc394}
+      \strng{authorbibnamehash}{68c6f2d699c9bbc2cd64b18101cdc394}
+      \strng{authornamehash}{829b7f2aaee4ff113c9d1689c7b73545}
+      \strng{authorfullhash}{68c6f2d699c9bbc2cd64b18101cdc394}
+      \strng{authorfullhashraw}{68c6f2d699c9bbc2cd64b18101cdc394}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Renewable and Sustainable Energy Reviews}
+      \field{title}{Supply chain configuration of sustainable aviation fuel: Review, challenges, and pathways for including environmental and social benefits}
+      \field{volume}{152}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{111680}
+      \range{pages}{1}
+    \endentry
+    \entry{airbus2022a321}{manual}{}{}
       \name{author}{1}{}{%
         {{hash=b110aa10dc3e3aa939ba099440938e65}{%
            family={{Airbus}},
@@ -196,248 +867,201 @@
       \strng{authorfullhash}{b110aa10dc3e3aa939ba099440938e65}
       \strng{authorfullhashraw}{b110aa10dc3e3aa939ba099440938e65}
       \field{extraname}{1}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Accessed: 03. Februar, 2025}
-      \field{title}{A321neo}
-      \verb{urlraw}
-      \verb https://aircraft.airbus.com/en/aircraft/a320-family/a321neo
-      \endverb
-      \verb{url}
-      \verb https://aircraft.airbus.com/en/aircraft/a320-family/a321neo
-      \endverb
-    \endentry
-    \entry{fonseca2022doc}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=1aab98a30c837f2bef30bb132b814848}{%
-           family={Fonseca},
-           familyi={F\bibinitperiod},
-           given={Diego},
-           giveni={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{1aab98a30c837f2bef30bb132b814848}
-      \strng{fullhash}{1aab98a30c837f2bef30bb132b814848}
-      \strng{fullhashraw}{1aab98a30c837f2bef30bb132b814848}
-      \strng{bibnamehash}{1aab98a30c837f2bef30bb132b814848}
-      \strng{authorbibnamehash}{1aab98a30c837f2bef30bb132b814848}
-      \strng{authornamehash}{1aab98a30c837f2bef30bb132b814848}
-      \strng{authorfullhash}{1aab98a30c837f2bef30bb132b814848}
-      \strng{authorfullhashraw}{1aab98a30c837f2bef30bb132b814848}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{2}
-      \field{note}{Accessed: 03. Februar, 2025}
-      \field{title}{Direct Operating Costs, Fuel Consumption, and Cabin Layout of the Airbus A321LR}
+      \field{edition}{Revision 1}
+      \field{month}{3}
+      \field{note}{Original Issue: September 30, 1992}
+      \field{title}{Airbus A321 Aircraft Characteristics: Airport and Maintenance Planning}
       \field{year}{2022}
+      \true{nocite}
       \verb{urlraw}
-      \verb https://www.fzt.haw-hamburg.de/pers/Scholz/arbeiten/VortragFonseca.pdf
+      \verb https://aircraft.airbus.com/sites/g/files/jlcbta126/files/2023-02/Airbus-techdata-AC_A321_0322%20%282%29.pdf
       \endverb
       \verb{url}
-      \verb https://www.fzt.haw-hamburg.de/pers/Scholz/arbeiten/VortragFonseca.pdf
+      \verb https://aircraft.airbus.com/sites/g/files/jlcbta126/files/2023-02/Airbus-techdata-AC_A321_0322%20%282%29.pdf
       \endverb
     \endentry
-    \entry{marksel2023comparative}{article}{}{}
+    \entry{maertens2023neue}{article}{}{}
       \name{author}{2}{}{%
-        {{hash=fbc428276aeb683d6c459ecfd02df711}{%
-           family={Marksel},
+        {{hash=52549bd021a0e89a95f1a883c3275b8a}{%
+           family={Maertens},
            familyi={M\bibinitperiod},
-           given={Maršenka},
-           giveni={M\bibinitperiod}}}%
-        {{hash=e758c669808aff836b3539e203ad2d1a}{%
-           family={Prapotnik\bibnamedelima Brdnik},
-           familyi={P\bibinitperiod\bibinitdelim B\bibinitperiod},
-           given={Anita},
-           giveni={A\bibinitperiod}}}%
+           given={Sven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5d2dcafcac45c62c5645483505fa7b23}{%
+           family={Fromen},
+           familyi={F\bibinitperiod},
+           given={Katharina},
+           giveni={K\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {MDPI}%
+        {DUNCKER UND HUMBLOT}%
       }
-      \strng{namehash}{30681eba71e823c93f9d0854204a46ff}
-      \strng{fullhash}{30681eba71e823c93f9d0854204a46ff}
-      \strng{fullhashraw}{30681eba71e823c93f9d0854204a46ff}
-      \strng{bibnamehash}{30681eba71e823c93f9d0854204a46ff}
-      \strng{authorbibnamehash}{30681eba71e823c93f9d0854204a46ff}
-      \strng{authornamehash}{30681eba71e823c93f9d0854204a46ff}
-      \strng{authorfullhash}{30681eba71e823c93f9d0854204a46ff}
-      \strng{authorfullhashraw}{30681eba71e823c93f9d0854204a46ff}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \strng{namehash}{6acf9eba8519c67919e60d0873bfaa38}
+      \strng{fullhash}{6acf9eba8519c67919e60d0873bfaa38}
+      \strng{fullhashraw}{6acf9eba8519c67919e60d0873bfaa38}
+      \strng{bibnamehash}{6acf9eba8519c67919e60d0873bfaa38}
+      \strng{authorbibnamehash}{6acf9eba8519c67919e60d0873bfaa38}
+      \strng{authornamehash}{6acf9eba8519c67919e60d0873bfaa38}
+      \strng{authorfullhash}{6acf9eba8519c67919e60d0873bfaa38}
+      \strng{authorfullhashraw}{6acf9eba8519c67919e60d0873bfaa38}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Sustainability}
-      \field{number}{14}
-      \field{title}{Comparative Analysis of Direct Operating Costs: Conventional vs. Hydrogen Fuel Cell 19-Seat Aircraft}
-      \field{volume}{15}
+      \field{journaltitle}{Die Verwaltung}
+      \field{number}{4}
+      \field{title}{Neue EASA-Anforderungen an Bodenverkehrsdienstleister--Chancen und Risiken für die Systempartner im Luftverkehr}
       \field{year}{2023}
-      \field{pages}{11271}
-      \range{pages}{1}
+      \true{nocite}
+      \field{pages}{517\bibrangedash 537}
+      \range{pages}{21}
     \endentry
-    \entry{aerotelegraph_airbus}{online}{}{}
-      \name{author}{1}{}{%
-        {{hash=38b985187d429d11af5a6b6e264cef08}{%
-           family={{AeroTELEGRAPH}},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{38b985187d429d11af5a6b6e264cef08}
-      \strng{fullhash}{38b985187d429d11af5a6b6e264cef08}
-      \strng{fullhashraw}{38b985187d429d11af5a6b6e264cef08}
-      \strng{bibnamehash}{38b985187d429d11af5a6b6e264cef08}
-      \strng{authorbibnamehash}{38b985187d429d11af5a6b6e264cef08}
-      \strng{authornamehash}{38b985187d429d11af5a6b6e264cef08}
-      \strng{authorfullhash}{38b985187d429d11af5a6b6e264cef08}
-      \strng{authorfullhashraw}{38b985187d429d11af5a6b6e264cef08}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Accessed: January 14, 2025}
-      \field{title}{Die Listenpreise 2018 von Airbus}
-      \field{year}{2018}
-      \verb{urlraw}
-      \verb https://www.aerotelegraph.com/die-listenpreise-2018-von-airbus
-      \endverb
-      \verb{url}
-      \verb https://www.aerotelegraph.com/die-listenpreise-2018-von-airbus
-      \endverb
-    \endentry
-    \entry{eurostat_nrg_pc_205}{online}{}{}
-      \name{author}{1}{}{%
-        {{hash=533195c920679b5848eb14c3f57cc69c}{%
-           family={{Eurostat}},
-           familyi={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{533195c920679b5848eb14c3f57cc69c}
-      \strng{fullhash}{533195c920679b5848eb14c3f57cc69c}
-      \strng{fullhashraw}{533195c920679b5848eb14c3f57cc69c}
-      \strng{bibnamehash}{533195c920679b5848eb14c3f57cc69c}
-      \strng{authorbibnamehash}{533195c920679b5848eb14c3f57cc69c}
-      \strng{authornamehash}{533195c920679b5848eb14c3f57cc69c}
-      \strng{authorfullhash}{533195c920679b5848eb14c3f57cc69c}
-      \strng{authorfullhashraw}{533195c920679b5848eb14c3f57cc69c}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Accessed: January 20, 2025}
-      \field{title}{Energy Prices: Household and Industrial Consumers}
-      \field{year}{2025}
-      \verb{doi}
-      \verb https://doi.org/10.2908/NRG_PC_205
-      \endverb
-      \verb{urlraw}
-      \verb https://ec.europa.eu/eurostat/databrowser/view/nrg_pc_205/default/table?lang=en
-      \endverb
-      \verb{url}
-      \verb https://ec.europa.eu/eurostat/databrowser/view/nrg_pc_205/default/table?lang=en
-      \endverb
-    \endentry
-    \entry{wangsness2021fremskyndet}{article}{}{}
+    \entry{schmidt2016challenges}{article}{}{}
       \name{author}{4}{}{%
-        {{hash=35494893af20a7bfccadb42f41a12761}{%
-           family={Wangsness},
-           familyi={W\bibinitperiod},
-           given={Paal\bibnamedelima Brevik},
-           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-        {{hash=29d0456977eff3dfe85d95a538137245}{%
-           family={Ydersbond},
-           familyi={Y\bibinitperiod},
-           given={Inga\bibnamedelima Margrete},
-           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=b40bb4e499e85eaa387dc390401facba}{%
-           family={Veisten},
-           familyi={V\bibinitperiod},
-           given={Knut},
-           giveni={K\bibinitperiod}}}%
-        {{hash=7bfe2b3f31255b72b9361a6d3bc5eee2}{%
-           family={Farstad},
-           familyi={F\bibinitperiod},
-           given={Eivind},
-           giveni={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{227a9b49673f7a35c82bcdfb704ab19f}
-      \strng{fullhash}{0f03b9b853c30f795e18c2e13babba8d}
-      \strng{fullhashraw}{0f03b9b853c30f795e18c2e13babba8d}
-      \strng{bibnamehash}{227a9b49673f7a35c82bcdfb704ab19f}
-      \strng{authorbibnamehash}{227a9b49673f7a35c82bcdfb704ab19f}
-      \strng{authornamehash}{227a9b49673f7a35c82bcdfb704ab19f}
-      \strng{authorfullhash}{0f03b9b853c30f795e18c2e13babba8d}
-      \strng{authorfullhashraw}{0f03b9b853c30f795e18c2e13babba8d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Environmental and Resource Economics}
-      \field{number}{1}
-      \field{title}{Fremskyndet innfasing av elfly i Norge: mulige}
-      \field{volume}{37}
-      \field{year}{2021}
-      \field{pages}{181\bibrangedash 210}
-      \range{pages}{30}
-    \endentry
-    \entry{avogadro2024demystifying}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=26a9bc324d1a3de6cae37b7e63eca908}{%
-           family={Avogadro},
-           familyi={A\bibinitperiod},
-           given={Nicolò},
-           giveni={N\bibinitperiod}}}%
-        {{hash=70e625f1d4e521370a5ae12fe61fed9c}{%
-           family={Redondi},
-           familyi={R\bibinitperiod},
-           given={Renato},
-           giveni={R\bibinitperiod}}}%
+        {{hash=7047d212f80975d90e11f6931e965e13}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a2215160e5a9fccf948f9410551dbe72}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Annika},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ab0f9463e8eaa0bf40aa1718dbe61dcc}{%
+           family={Cole},
+           familyi={C\bibinitperiod},
+           given={Mara},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6a4d9684c9747b7ee69fa39a3ad82263}{%
+           family={Ploetner},
+           familyi={P\bibinitperiod},
+           given={Kay\bibnamedelima Olaf},
+           giveni={K\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Elsevier}%
       }
-      \strng{namehash}{bd8a79b0d674ffdfac0904ec8f3bfcf4}
-      \strng{fullhash}{bd8a79b0d674ffdfac0904ec8f3bfcf4}
-      \strng{fullhashraw}{bd8a79b0d674ffdfac0904ec8f3bfcf4}
-      \strng{bibnamehash}{bd8a79b0d674ffdfac0904ec8f3bfcf4}
-      \strng{authorbibnamehash}{bd8a79b0d674ffdfac0904ec8f3bfcf4}
-      \strng{authornamehash}{bd8a79b0d674ffdfac0904ec8f3bfcf4}
-      \strng{authorfullhash}{bd8a79b0d674ffdfac0904ec8f3bfcf4}
-      \strng{authorfullhashraw}{bd8a79b0d674ffdfac0904ec8f3bfcf4}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \strng{namehash}{b53ee0f0ca388e8a5a2fe4badf6f6c73}
+      \strng{fullhash}{9c0f80235f8875f3490952c7859c3663}
+      \strng{fullhashraw}{9c0f80235f8875f3490952c7859c3663}
+      \strng{bibnamehash}{b53ee0f0ca388e8a5a2fe4badf6f6c73}
+      \strng{authorbibnamehash}{b53ee0f0ca388e8a5a2fe4badf6f6c73}
+      \strng{authornamehash}{b53ee0f0ca388e8a5a2fe4badf6f6c73}
+      \strng{authorfullhash}{9c0f80235f8875f3490952c7859c3663}
+      \strng{authorfullhashraw}{9c0f80235f8875f3490952c7859c3663}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Transportation Research Part D: Transport and Environment}
-      \field{title}{Demystifying electric aircraft’s role in aviation decarbonization: Are first-generation electric aircraft cost-effective?}
-      \field{volume}{130}
-      \field{year}{2024}
-      \field{pages}{104191}
-      \range{pages}{1}
+      \field{journaltitle}{Journal of Air Transport Management}
+      \field{title}{Challenges for ground operations arising from aircraft concepts using alternative energy}
+      \field{volume}{56}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{107\bibrangedash 117}
+      \range{pages}{11}
     \endentry
-    \entry{reimers2018introduction}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=bfb8dcf344d031b6cd1eb85095f29908}{%
-           family={Reimers},
-           familyi={R\bibinitperiod},
-           given={Jan\bibnamedelima Otto},
-           giveni={J\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+    \entry{camilleri2018aircraft}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=e40495ecffb13747c6d23f745a9a7774}{%
+           family={Camilleri},
+           familyi={C\bibinitperiod},
+           given={Mark\bibnamedelima Anthony},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e40495ecffb13747c6d23f745a9a7774}{%
+           family={Camilleri},
+           familyi={C\bibinitperiod},
+           given={Mark\bibnamedelima Anthony},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
       }
-      \strng{namehash}{bfb8dcf344d031b6cd1eb85095f29908}
-      \strng{fullhash}{bfb8dcf344d031b6cd1eb85095f29908}
-      \strng{fullhashraw}{bfb8dcf344d031b6cd1eb85095f29908}
-      \strng{bibnamehash}{bfb8dcf344d031b6cd1eb85095f29908}
-      \strng{authorbibnamehash}{bfb8dcf344d031b6cd1eb85095f29908}
-      \strng{authornamehash}{bfb8dcf344d031b6cd1eb85095f29908}
-      \strng{authorfullhash}{bfb8dcf344d031b6cd1eb85095f29908}
-      \strng{authorfullhashraw}{bfb8dcf344d031b6cd1eb85095f29908}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{712c5c206be02ba843ef5c9528a60b91}
+      \strng{fullhash}{712c5c206be02ba843ef5c9528a60b91}
+      \strng{fullhashraw}{712c5c206be02ba843ef5c9528a60b91}
+      \strng{bibnamehash}{712c5c206be02ba843ef5c9528a60b91}
+      \strng{authorbibnamehash}{712c5c206be02ba843ef5c9528a60b91}
+      \strng{authornamehash}{712c5c206be02ba843ef5c9528a60b91}
+      \strng{authorfullhash}{712c5c206be02ba843ef5c9528a60b91}
+      \strng{authorfullhashraw}{712c5c206be02ba843ef5c9528a60b91}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Green Future: Norway}
-      \field{title}{Introduction of electric aviation in Norway}
+      \field{title}{Aircraft operating costs and profitability}
       \field{year}{2018}
+      \true{nocite}
     \endentry
-    \entry{iata_industry_statistics_2024}{misc}{}{}
+    \entry{wang2021research}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=fef63cc86caa71ae79f81844c945e3f6}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jiexuan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{fef63cc86caa71ae79f81844c945e3f6}
+      \strng{fullhash}{fef63cc86caa71ae79f81844c945e3f6}
+      \strng{fullhashraw}{fef63cc86caa71ae79f81844c945e3f6}
+      \strng{bibnamehash}{fef63cc86caa71ae79f81844c945e3f6}
+      \strng{authorbibnamehash}{fef63cc86caa71ae79f81844c945e3f6}
+      \strng{authornamehash}{fef63cc86caa71ae79f81844c945e3f6}
+      \strng{authorfullhash}{fef63cc86caa71ae79f81844c945e3f6}
+      \strng{authorfullhashraw}{fef63cc86caa71ae79f81844c945e3f6}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Journal of Physics: Conference Series}
+      \field{number}{4}
+      \field{title}{Research on civil aircraft direct maintenance cost analysis and optimization based on data mining}
+      \field{volume}{1992}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{doi}
+      \verb 042075
+      \endverb
+    \endentry
+    \entry{uba_aviation_2023}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=eb35b544edd5583deae1b04b57cf5a08}{%
+           family={Umweltbundesamt},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb35b544edd5583deae1b04b57cf5a08}
+      \strng{fullhash}{eb35b544edd5583deae1b04b57cf5a08}
+      \strng{fullhashraw}{eb35b544edd5583deae1b04b57cf5a08}
+      \strng{bibnamehash}{eb35b544edd5583deae1b04b57cf5a08}
+      \strng{authorbibnamehash}{eb35b544edd5583deae1b04b57cf5a08}
+      \strng{authornamehash}{eb35b544edd5583deae1b04b57cf5a08}
+      \strng{authorfullhash}{eb35b544edd5583deae1b04b57cf5a08}
+      \strng{authorfullhashraw}{eb35b544edd5583deae1b04b57cf5a08}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{09}
+      \field{note}{Zugriff am 23. Dezember 2024}
+      \field{title}{Aviation in the EU ETS and CORSIA in the Fit for 55 package – Factsheet}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.umweltbundesamt.de/publikationen/aviation-in-the-eu-ets-corsia-in-the-fit-for-55
+      \endverb
+      \verb{url}
+      \verb https://www.umweltbundesamt.de/publikationen/aviation-in-the-eu-ets-corsia-in-the-fit-for-55
+      \endverb
+    \endentry
+    \entry{iata_saf_procurement_2024}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=b87c83a47ae1c0a68113d65315f207dd}{%
            family={{International Air Transport Association (IATA)}},
@@ -451,21 +1075,20 @@
       \strng{authornamehash}{b87c83a47ae1c0a68113d65315f207dd}
       \strng{authorfullhash}{b87c83a47ae1c0a68113d65315f207dd}
       \strng{authorfullhashraw}{b87c83a47ae1c0a68113d65315f207dd}
-      \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extraname}{2}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{Report}
-      \field{month}{06}
-      \field{note}{Updated: June 2024}
-      \field{title}{Industry Statistics}
+      \field{note}{Zugriff am 28. Dezember 2024}
+      \field{title}{SAF Procurement: Pricing Options for Different Strategies}
       \field{year}{2024}
+      \true{nocite}
       \verb{urlraw}
-      \verb https://www.iata.org/en/publications/economics/economics-library/
+      \verb https://www.iata.org/en/programs/sustainability/reports/saf-procurement-pricing-options-for-different-strategies/
       \endverb
       \verb{url}
-      \verb https://www.iata.org/en/publications/economics/economics-library/
+      \verb https://www.iata.org/en/programs/sustainability/reports/saf-procurement-pricing-options-for-different-strategies/
       \endverb
     \endentry
     \entry{watson2024sustainable}{article}{}{}
@@ -519,1213 +1142,55 @@
       \strng{authornamehash}{ba8d66b652ed7149bbca3992f2b466a4}
       \strng{authorfullhash}{72640173dd227ab059b140a30ce784e1}
       \strng{authorfullhashraw}{72640173dd227ab059b140a30ce784e1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Cleaner Production}
       \field{title}{Sustainable aviation fuel technologies, costs, emissions, policies, and markets: a critical review}
       \field{volume}{449}
       \field{year}{2024}
+      \true{nocite}
       \verb{doi}
       \verb 141472
       \endverb
     \endentry
-    \entry{discover_airlines_cabin}{online}{}{}
-      \name{author}{1}{}{%
-        {{hash=899ab9a0a9f4227b620877db97eabe45}{%
-           family={{Discover Airlines}},
-           familyi={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{899ab9a0a9f4227b620877db97eabe45}
-      \strng{fullhash}{899ab9a0a9f4227b620877db97eabe45}
-      \strng{fullhashraw}{899ab9a0a9f4227b620877db97eabe45}
-      \strng{bibnamehash}{899ab9a0a9f4227b620877db97eabe45}
-      \strng{authorbibnamehash}{899ab9a0a9f4227b620877db97eabe45}
-      \strng{authornamehash}{899ab9a0a9f4227b620877db97eabe45}
-      \strng{authorfullhash}{899ab9a0a9f4227b620877db97eabe45}
-      \strng{authorfullhashraw}{899ab9a0a9f4227b620877db97eabe45}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Accessed: January 29, 2025}
-      \field{title}{Karriere als Cabin Crew – Bewerbungsbedingungen}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://www.discover-airlines.com/de/de/about-us/career/cabin#terms_conditions
-      \endverb
-      \verb{url}
-      \verb https://www.discover-airlines.com/de/de/about-us/career/cabin#terms_conditions
-      \endverb
-    \endentry
-    \entry{bruge2018wartungskosten}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=5ae2a856be9d6f1b7787e818208376d3}{%
-           family={Brüge},
-           familyi={B\bibinitperiod},
-           given={Niklas},
-           giveni={N\bibinitperiod}}}%
-        {{hash=987f200cb9c8f6d2eb258f1f1114f701}{%
-           family={Kranich},
-           familyi={K\bibinitperiod},
-           given={Felix},
-           giveni={F\bibinitperiod}}}%
-      }
-      \list{publisher}{2}{%
-        {Aircraft Design}%
-        {Systems Group (AERO), Department of Automotive and~…}%
-      }
-      \strng{namehash}{80b0e78c81bfded70cc8d24d42cf6103}
-      \strng{fullhash}{80b0e78c81bfded70cc8d24d42cf6103}
-      \strng{fullhashraw}{80b0e78c81bfded70cc8d24d42cf6103}
-      \strng{bibnamehash}{80b0e78c81bfded70cc8d24d42cf6103}
-      \strng{authorbibnamehash}{80b0e78c81bfded70cc8d24d42cf6103}
-      \strng{authornamehash}{80b0e78c81bfded70cc8d24d42cf6103}
-      \strng{authorfullhash}{80b0e78c81bfded70cc8d24d42cf6103}
-      \strng{authorfullhashraw}{80b0e78c81bfded70cc8d24d42cf6103}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Wartungskosten von Passagierflugzeugen bei verschiedener Triebwerksanzahl berechnet nach DOC-Methoden}
-      \field{year}{2018}
-    \endentry
-    \entry{dfs_flugsicherungsgebuehren}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=73340627de63b9ca6bdb4ecea2e5fa81}{%
-           family={GmbH},
-           familyi={G\bibinitperiod},
-           given={Deutsche\bibnamedelima Flugsicherung},
-           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-      }
-      \strng{namehash}{73340627de63b9ca6bdb4ecea2e5fa81}
-      \strng{fullhash}{73340627de63b9ca6bdb4ecea2e5fa81}
-      \strng{fullhashraw}{73340627de63b9ca6bdb4ecea2e5fa81}
-      \strng{bibnamehash}{73340627de63b9ca6bdb4ecea2e5fa81}
-      \strng{authorbibnamehash}{73340627de63b9ca6bdb4ecea2e5fa81}
-      \strng{authornamehash}{73340627de63b9ca6bdb4ecea2e5fa81}
-      \strng{authorfullhash}{73340627de63b9ca6bdb4ecea2e5fa81}
-      \strng{authorfullhashraw}{73340627de63b9ca6bdb4ecea2e5fa81}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Zugriff am 11. Januar 2025}
-      \field{title}{Flugsicherungsgebühren}
-      \verb{urlraw}
-      \verb https://www.dfs.de/homepage/de/flugsicherung/rechtlicher-rahmen/flugsicherungsgebuehren/
-      \endverb
-      \verb{url}
-      \verb https://www.dfs.de/homepage/de/flugsicherung/rechtlicher-rahmen/flugsicherungsgebuehren/
-      \endverb
-    \endentry
-    \entry{fraport2025entgelte}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=7560a3a5a4de5a4076368c670d994dd9}{%
-           family={{Fraport AG}},
-           familyi={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{7560a3a5a4de5a4076368c670d994dd9}
-      \strng{fullhash}{7560a3a5a4de5a4076368c670d994dd9}
-      \strng{fullhashraw}{7560a3a5a4de5a4076368c670d994dd9}
-      \strng{bibnamehash}{7560a3a5a4de5a4076368c670d994dd9}
-      \strng{authorbibnamehash}{7560a3a5a4de5a4076368c670d994dd9}
-      \strng{authornamehash}{7560a3a5a4de5a4076368c670d994dd9}
-      \strng{authorfullhash}{7560a3a5a4de5a4076368c670d994dd9}
-      \strng{authorfullhashraw}{7560a3a5a4de5a4076368c670d994dd9}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{01}
-      \field{note}{Zugriff am 17. Januar 2025}
-      \field{title}{Flughafenentgelte nach § 19b LuftVG: Entgelte für Zentrale Bodenverkehrsdienst Infrastruktureinrichtungen (gültig ab 01. Januar 2025)}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://www.fraport.com/de/geschaeftsfelder/betrieb/flughafenentgelte.html
-      \endverb
-      \verb{url}
-      \verb https://www.fraport.com/de/geschaeftsfelder/betrieb/flughafenentgelte.html
-      \endverb
-    \endentry
-    \entry{guo2023infrastructure}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=d461b00850170fec9c3c105987c78c11}{%
-           family={Guo},
-           familyi={G\bibinitperiod},
-           given={Zekun},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=d273b8d21a2ddadcae84e30bf48e1750}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Bozheng},
-           giveni={B\bibinitperiod}}}%
-        {{hash=d5ac7272574f4a4ac3e8c2de2e3b5c31}{%
-           family={Taylor},
-           familyi={T\bibinitperiod},
-           given={Gareth},
-           giveni={G\bibinitperiod}}}%
-        {{hash=4f3bb1d3c7fa2a05241e353723deaf63}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Xin},
-           giveni={X\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{138812182f45ddcbfd20f2e73e367a81}
-      \strng{fullhash}{b4fe6ce9b6bbd008f9fcb2e936ba89ff}
-      \strng{fullhashraw}{b4fe6ce9b6bbd008f9fcb2e936ba89ff}
-      \strng{bibnamehash}{138812182f45ddcbfd20f2e73e367a81}
-      \strng{authorbibnamehash}{138812182f45ddcbfd20f2e73e367a81}
-      \strng{authornamehash}{138812182f45ddcbfd20f2e73e367a81}
-      \strng{authorfullhash}{b4fe6ce9b6bbd008f9fcb2e936ba89ff}
-      \strng{authorfullhashraw}{b4fe6ce9b6bbd008f9fcb2e936ba89ff}
-      \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Etransportation}
-      \field{title}{Infrastructure planning for airport microgrid integrated with electric aircraft and parking lot electric vehicles}
-      \field{volume}{17}
-      \field{year}{2023}
-      \field{pages}{100257}
-      \range{pages}{1}
-    \endentry
-    \entry{scholz_design_evaluation_doc}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=5fa27b8d0e164a7be3374306484dbe1b}{%
-           family={Scholz},
-           familyi={S\bibinitperiod},
-           given={Dieter},
-           giveni={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{5fa27b8d0e164a7be3374306484dbe1b}
-      \strng{fullhash}{5fa27b8d0e164a7be3374306484dbe1b}
-      \strng{fullhashraw}{5fa27b8d0e164a7be3374306484dbe1b}
-      \strng{bibnamehash}{5fa27b8d0e164a7be3374306484dbe1b}
-      \strng{authorbibnamehash}{5fa27b8d0e164a7be3374306484dbe1b}
-      \strng{authornamehash}{5fa27b8d0e164a7be3374306484dbe1b}
-      \strng{authorfullhash}{5fa27b8d0e164a7be3374306484dbe1b}
-      \strng{authorfullhashraw}{5fa27b8d0e164a7be3374306484dbe1b}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Lecture Notes, Hamburg University of Applied Sciences (HAW Hamburg)}
-      \field{note}{Zugriff am 5. Januar, 2025}
-      \field{title}{Aircraft Design / DOC}
-      \field{year}{2015}
-      \verb{urlraw}
-      \verb https://www.fzt.haw-hamburg.de/pers/Scholz/HOOU/
-      \endverb
-      \verb{url}
-      \verb https://www.fzt.haw-hamburg.de/pers/Scholz/HOOU/
-      \endverb
-    \endentry
-    \entry{conrady2019luftverkehr}{book}{}{}
+    \entry{anker2023feasibility}{article}{}{}
       \name{author}{3}{}{%
-        {{hash=cf9f57d1850bd1736f958c05ab337bf0}{%
-           family={Conrady},
-           familyi={C\bibinitperiod},
-           given={Roland},
-           giveni={R\bibinitperiod}}}%
-        {{hash=fa861dd41a904cd2f103187b5c60ea58}{%
-           family={Fichert},
-           familyi={F\bibinitperiod},
-           given={Frank},
-           giveni={F\bibinitperiod}}}%
-        {{hash=5576643996826eabc1f8e3ce1226d075}{%
-           family={Sterzenbach},
-           familyi={S\bibinitperiod},
-           given={Rüdiger},
-           giveni={R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Walter de Gruyter GmbH \& Co KG}%
-      }
-      \strng{namehash}{b851cfe2e654765327157b4d6ae151fd}
-      \strng{fullhash}{ddbcb49a8207671b58f71f48216499c1}
-      \strng{fullhashraw}{ddbcb49a8207671b58f71f48216499c1}
-      \strng{bibnamehash}{ddbcb49a8207671b58f71f48216499c1}
-      \strng{authorbibnamehash}{ddbcb49a8207671b58f71f48216499c1}
-      \strng{authornamehash}{b851cfe2e654765327157b4d6ae151fd}
-      \strng{authorfullhash}{ddbcb49a8207671b58f71f48216499c1}
-      \strng{authorfullhashraw}{ddbcb49a8207671b58f71f48216499c1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Luftverkehr: Betriebswirtschaftliches Lehr- und Handbuch}
-      \field{year}{2019}
-    \endentry
-    \entry{monjon2020conceptual}{inproceedings}{}{}
-      \name{author}{2}{}{%
-        {{hash=07bd5cd2d5a42b24e0e5332c735fb227}{%
-           family={Monjon},
-           familyi={M\bibinitperiod},
-           given={Matheus\bibnamedelimb Medeiros\bibnamedelima Maciel},
-           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=ab3cf5fe122224f639376f0d8df97e56}{%
-           family={Freire},
-           familyi={F\bibinitperiod},
-           given={Cesar\bibnamedelima Monzu},
-           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \list{organization}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{7b48951e78651780c0341e552d30838b}
-      \strng{fullhash}{7b48951e78651780c0341e552d30838b}
-      \strng{fullhashraw}{7b48951e78651780c0341e552d30838b}
-      \strng{bibnamehash}{7b48951e78651780c0341e552d30838b}
-      \strng{authorbibnamehash}{7b48951e78651780c0341e552d30838b}
-      \strng{authornamehash}{7b48951e78651780c0341e552d30838b}
-      \strng{authorfullhash}{7b48951e78651780c0341e552d30838b}
-      \strng{authorfullhashraw}{7b48951e78651780c0341e552d30838b}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2020 AIAA/IEEE Electric Aircraft Technologies Symposium (EATS)}
-      \field{title}{Conceptual design and operating costs evaluation of a 19-seat all-electric aircraft for regional aviation}
-      \field{year}{2020}
-      \field{pages}{1\bibrangedash 16}
-      \range{pages}{16}
-    \endentry
-    \entry{guo2020aviation}{inproceedings}{}{}
-      \name{author}{4}{}{%
-        {{hash=d461b00850170fec9c3c105987c78c11}{%
-           family={Guo},
-           familyi={G\bibinitperiod},
-           given={Zekun},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=4f3bb1d3c7fa2a05241e353723deaf63}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Xin},
-           giveni={X\bibinitperiod}}}%
-        {{hash=64da6bc6ae34bf9746395bbe9f38fc23}{%
-           family={Balta-Ozkan},
-           familyi={B\bibinithyphendelim O\bibinitperiod},
-           given={Nazmiye},
-           giveni={N\bibinitperiod}}}%
-        {{hash=38907e56d560f529b787887f9da50c27}{%
-           family={Luk},
-           familyi={L\bibinitperiod},
-           given={Patrick},
-           giveni={P\bibinitperiod}}}%
-      }
-      \list{organization}{1}{%
-        {International Conference on Applied Energy}%
-      }
-      \strng{namehash}{138812182f45ddcbfd20f2e73e367a81}
-      \strng{fullhash}{1cc30d1987ac2d41a224acfe6afd35e7}
-      \strng{fullhashraw}{1cc30d1987ac2d41a224acfe6afd35e7}
-      \strng{bibnamehash}{138812182f45ddcbfd20f2e73e367a81}
-      \strng{authorbibnamehash}{138812182f45ddcbfd20f2e73e367a81}
-      \strng{authornamehash}{138812182f45ddcbfd20f2e73e367a81}
-      \strng{authorfullhash}{1cc30d1987ac2d41a224acfe6afd35e7}
-      \strng{authorfullhashraw}{1cc30d1987ac2d41a224acfe6afd35e7}
-      \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Aviation to grid: Airport charging infrastructure for electric aircraft}
-      \field{year}{2020}
-    \endentry
-    \entry{hoelzen2023h2}{article}{}{}
-      \name{author}{6}{}{%
-        {{hash=c74a351e22c33a38ae50c3d9369940f2}{%
-           family={Hoelzen},
-           familyi={H\bibinitperiod},
-           given={Julian},
-           giveni={J\bibinitperiod}}}%
-        {{hash=42df62fd2fff935b8f3120e66ca02af1}{%
-           family={Koenemann},
-           familyi={K\bibinitperiod},
-           given={L},
-           giveni={L\bibinitperiod}}}%
-        {{hash=4845d9d7126dc42e62cd0f2cbe9472dc}{%
-           family={Kistner},
-           familyi={K\bibinitperiod},
-           given={Lukas},
-           giveni={L\bibinitperiod}}}%
-        {{hash=114e32bcc724adab7381ce4fbc571b9a}{%
-           family={Schenke},
-           familyi={S\bibinitperiod},
-           given={F},
-           giveni={F\bibinitperiod}}}%
-        {{hash=7e0c406194cbb0987045e59138dae081}{%
-           family={Bensmann},
-           familyi={B\bibinitperiod},
-           given={A},
-           giveni={A\bibinitperiod}}}%
-        {{hash=88f731b9d9db30338a9ff363ad03c699}{%
-           family={Hanke-Rauschenbach},
-           familyi={H\bibinithyphendelim R\bibinitperiod},
-           given={Richard},
-           giveni={R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{f4fc93d2c9f4996594eaea682713b9e6}
-      \strng{fullhash}{1eb0f513ab8645a3bc68053e286b674d}
-      \strng{fullhashraw}{1eb0f513ab8645a3bc68053e286b674d}
-      \strng{bibnamehash}{f4fc93d2c9f4996594eaea682713b9e6}
-      \strng{authorbibnamehash}{f4fc93d2c9f4996594eaea682713b9e6}
-      \strng{authornamehash}{f4fc93d2c9f4996594eaea682713b9e6}
-      \strng{authorfullhash}{1eb0f513ab8645a3bc68053e286b674d}
-      \strng{authorfullhashraw}{1eb0f513ab8645a3bc68053e286b674d}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Energy Conversion and Management: X}
-      \field{title}{H2-powered aviation--Design and economics of green LH2 supply for airports}
-      \field{volume}{20}
-      \field{year}{2023}
-      \verb{doi}
-      \verb 100442
-      \endverb
-    \endentry
-    \entry{fesmire2021lh2}{misc}{}{}
-      \name{author}{2}{}{%
-        {{hash=c592827bb0b6f5d29031f399f6784964}{%
-           family={Fesmire},
-           familyi={F\bibinitperiod},
-           given={James\bibnamedelima E.},
-           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=3204310c9c3df1eb660bcb74b4cc29a4}{%
-           family={Swanger},
-           familyi={S\bibinitperiod},
-           given={Adam},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{67ed5d77b133324b1843dc919868bee5}
-      \strng{fullhash}{67ed5d77b133324b1843dc919868bee5}
-      \strng{fullhashraw}{67ed5d77b133324b1843dc919868bee5}
-      \strng{bibnamehash}{67ed5d77b133324b1843dc919868bee5}
-      \strng{authorbibnamehash}{67ed5d77b133324b1843dc919868bee5}
-      \strng{authornamehash}{67ed5d77b133324b1843dc919868bee5}
-      \strng{authorfullhash}{67ed5d77b133324b1843dc919868bee5}
-      \strng{authorfullhashraw}{67ed5d77b133324b1843dc919868bee5}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Presentation at DOE/NASA Advances in Liquid Hydrogen Storage Workshop}
-      \field{month}{8}
-      \field{note}{Accessed: January 16, 2025}
-      \field{title}{New LH2 Sphere Presentation}
-      \field{year}{2021}
-      \verb{urlraw}
-      \verb https://ntrs.nasa.gov/api/citations/20210020920/downloads/New%20LH2%20Sphere%20Presentation%2017Aug2021.pdf
-      \endverb
-      \verb{url}
-      \verb https://ntrs.nasa.gov/api/citations/20210020920/downloads/New%20LH2%20Sphere%20Presentation%2017Aug2021.pdf
-      \endverb
-    \endentry
-    \entry{bundesregierung}{online}{}{}
-      \name{author}{1}{}{%
-        {{hash=3b17c5b0f3f47d3a7e3400d3af6dbb07}{%
-           family={{Die Bundesregierung}},
-           familyi={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{3b17c5b0f3f47d3a7e3400d3af6dbb07}
-      \strng{fullhash}{3b17c5b0f3f47d3a7e3400d3af6dbb07}
-      \strng{fullhashraw}{3b17c5b0f3f47d3a7e3400d3af6dbb07}
-      \strng{bibnamehash}{3b17c5b0f3f47d3a7e3400d3af6dbb07}
-      \strng{authorbibnamehash}{3b17c5b0f3f47d3a7e3400d3af6dbb07}
-      \strng{authornamehash}{3b17c5b0f3f47d3a7e3400d3af6dbb07}
-      \strng{authorfullhash}{3b17c5b0f3f47d3a7e3400d3af6dbb07}
-      \strng{authorfullhashraw}{3b17c5b0f3f47d3a7e3400d3af6dbb07}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{04}
-      \field{note}{Zugriff am 20. November, 2024}
-      \field{title}{Klimaziel: Deutschland reduziert Emissionen um 37 Millionen Tonnen CO\textsubscript{2}-Äquivalente}
-      \field{year}{2024}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://www.bundesregierung.de/breg-de/aktuelles/treibhausgasbilanz-2023-2265440
-      \endverb
-      \verb{url}
-      \verb https://www.bundesregierung.de/breg-de/aktuelles/treibhausgasbilanz-2023-2265440
-      \endverb
-    \endentry
-    \entry{mensen2013handbuch}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=b70ec40ffc6348199acc5d7a32451fd2}{%
-           family={Mensen},
-           familyi={M\bibinitperiod},
-           given={Heinrich},
-           giveni={H\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer-Verlag}%
-      }
-      \strng{namehash}{b70ec40ffc6348199acc5d7a32451fd2}
-      \strng{fullhash}{b70ec40ffc6348199acc5d7a32451fd2}
-      \strng{fullhashraw}{b70ec40ffc6348199acc5d7a32451fd2}
-      \strng{bibnamehash}{b70ec40ffc6348199acc5d7a32451fd2}
-      \strng{authorbibnamehash}{b70ec40ffc6348199acc5d7a32451fd2}
-      \strng{authornamehash}{b70ec40ffc6348199acc5d7a32451fd2}
-      \strng{authorfullhash}{b70ec40ffc6348199acc5d7a32451fd2}
-      \strng{authorfullhashraw}{b70ec40ffc6348199acc5d7a32451fd2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Handbuch der Luftfahrt}
-      \field{year}{2013}
-      \true{nocite}
-    \endentry
-    \entry{schaar2010analysis}{inproceedings}{}{}
-      \name{author}{2}{}{%
-        {{hash=a40a30c368248e9c076080edcae4a234}{%
-           family={Schaar},
-           familyi={S\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
-        {{hash=a3d34b25e7b7acfd095887808b518824}{%
-           family={Sherry},
-           familyi={S\bibinitperiod},
-           given={Lance},
-           giveni={L\bibinitperiod}}}%
-      }
-      \list{organization}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{3c78be43a41e55712d479b749b3bfd0a}
-      \strng{fullhash}{3c78be43a41e55712d479b749b3bfd0a}
-      \strng{fullhashraw}{3c78be43a41e55712d479b749b3bfd0a}
-      \strng{bibnamehash}{3c78be43a41e55712d479b749b3bfd0a}
-      \strng{authorbibnamehash}{3c78be43a41e55712d479b749b3bfd0a}
-      \strng{authornamehash}{3c78be43a41e55712d479b749b3bfd0a}
-      \strng{authorfullhash}{3c78be43a41e55712d479b749b3bfd0a}
-      \strng{authorfullhashraw}{3c78be43a41e55712d479b749b3bfd0a}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2010 Integrated Communications, Navigation, and Surveillance Conference Proceedings}
-      \field{title}{Analysis of airport stakeholders}
-      \field{year}{2010}
-      \true{nocite}
-      \field{pages}{J4\bibrangedash 1}
-      \range{pages}{-1}
-    \endentry
-    \entry{martinez2021supply}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=20929d32261557912808aa4f169dcdbd}{%
-           family={Martinez-Valencia},
-           familyi={M\bibinithyphendelim V\bibinitperiod},
-           given={Lina},
-           giveni={L\bibinitperiod}}}%
-        {{hash=c7638abf9f05de32ae6e925bebd9810a}{%
-           family={Garcia-Perez},
-           familyi={G\bibinithyphendelim P\bibinitperiod},
-           given={Manuel},
-           giveni={M\bibinitperiod}}}%
-        {{hash=ea0dcfdeda3e3db5955687b97ef19eab}{%
-           family={Wolcott},
-           familyi={W\bibinitperiod},
-           given={Michael\bibnamedelima P},
-           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{829b7f2aaee4ff113c9d1689c7b73545}
-      \strng{fullhash}{68c6f2d699c9bbc2cd64b18101cdc394}
-      \strng{fullhashraw}{68c6f2d699c9bbc2cd64b18101cdc394}
-      \strng{bibnamehash}{68c6f2d699c9bbc2cd64b18101cdc394}
-      \strng{authorbibnamehash}{68c6f2d699c9bbc2cd64b18101cdc394}
-      \strng{authornamehash}{829b7f2aaee4ff113c9d1689c7b73545}
-      \strng{authorfullhash}{68c6f2d699c9bbc2cd64b18101cdc394}
-      \strng{authorfullhashraw}{68c6f2d699c9bbc2cd64b18101cdc394}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Renewable and Sustainable Energy Reviews}
-      \field{title}{Supply chain configuration of sustainable aviation fuel: Review, challenges, and pathways for including environmental and social benefits}
-      \field{volume}{152}
-      \field{year}{2021}
-      \true{nocite}
-      \field{pages}{111680}
-      \range{pages}{1}
-    \endentry
-    \entry{AirbusA380Characteristics}{manual}{}{}
-      \name{author}{1}{}{%
-        {{hash=a9335c2bf347110c6fed5c13528d1dfe}{%
-           family={S.A.S.},
-           familyi={S\bibinitperiod},
-           given={Airbus},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{organization}{1}{%
-        {Airbus S.A.S.}%
-      }
-      \strng{namehash}{a9335c2bf347110c6fed5c13528d1dfe}
-      \strng{fullhash}{a9335c2bf347110c6fed5c13528d1dfe}
-      \strng{fullhashraw}{a9335c2bf347110c6fed5c13528d1dfe}
-      \strng{bibnamehash}{a9335c2bf347110c6fed5c13528d1dfe}
-      \strng{authorbibnamehash}{a9335c2bf347110c6fed5c13528d1dfe}
-      \strng{authornamehash}{a9335c2bf347110c6fed5c13528d1dfe}
-      \strng{authorfullhash}{a9335c2bf347110c6fed5c13528d1dfe}
-      \strng{authorfullhashraw}{a9335c2bf347110c6fed5c13528d1dfe}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{Revision Nov 01/20}
-      \field{month}{03}
-      \field{note}{Zugriff am 31. Dezember 2024}
-      \field{title}{Aircraft Characteristics Airport and Maintenance Planning: A380}
-      \field{year}{2005}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://www.airbus.com/sites/g/files/jlcbta136/files/2021-11/Airbus-Aircraft-AC-A380.pdf
-      \endverb
-      \verb{url}
-      \verb https://www.airbus.com/sites/g/files/jlcbta136/files/2021-11/Airbus-Aircraft-AC-A380.pdf
-      \endverb
-    \endentry
-    \entry{maertens2023neue}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=52549bd021a0e89a95f1a883c3275b8a}{%
-           family={Maertens},
-           familyi={M\bibinitperiod},
-           given={Sven},
-           giveni={S\bibinitperiod}}}%
-        {{hash=5d2dcafcac45c62c5645483505fa7b23}{%
-           family={Fromen},
-           familyi={F\bibinitperiod},
-           given={Katharina},
-           giveni={K\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {DUNCKER UND HUMBLOT}%
-      }
-      \strng{namehash}{6acf9eba8519c67919e60d0873bfaa38}
-      \strng{fullhash}{6acf9eba8519c67919e60d0873bfaa38}
-      \strng{fullhashraw}{6acf9eba8519c67919e60d0873bfaa38}
-      \strng{bibnamehash}{6acf9eba8519c67919e60d0873bfaa38}
-      \strng{authorbibnamehash}{6acf9eba8519c67919e60d0873bfaa38}
-      \strng{authornamehash}{6acf9eba8519c67919e60d0873bfaa38}
-      \strng{authorfullhash}{6acf9eba8519c67919e60d0873bfaa38}
-      \strng{authorfullhashraw}{6acf9eba8519c67919e60d0873bfaa38}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Die Verwaltung}
-      \field{number}{4}
-      \field{title}{Neue EASA-Anforderungen an Bodenverkehrsdienstleister--Chancen und Risiken für die Systempartner im Luftverkehr}
-      \field{year}{2023}
-      \true{nocite}
-      \field{pages}{517\bibrangedash 537}
-      \range{pages}{21}
-    \endentry
-    \entry{camilleri2018aircraft}{book}{}{}
-      \name{author}{2}{}{%
-        {{hash=e40495ecffb13747c6d23f745a9a7774}{%
-           family={Camilleri},
-           familyi={C\bibinitperiod},
-           given={Mark\bibnamedelima Anthony},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=e40495ecffb13747c6d23f745a9a7774}{%
-           family={Camilleri},
-           familyi={C\bibinitperiod},
-           given={Mark\bibnamedelima Anthony},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{712c5c206be02ba843ef5c9528a60b91}
-      \strng{fullhash}{712c5c206be02ba843ef5c9528a60b91}
-      \strng{fullhashraw}{712c5c206be02ba843ef5c9528a60b91}
-      \strng{bibnamehash}{712c5c206be02ba843ef5c9528a60b91}
-      \strng{authorbibnamehash}{712c5c206be02ba843ef5c9528a60b91}
-      \strng{authornamehash}{712c5c206be02ba843ef5c9528a60b91}
-      \strng{authorfullhash}{712c5c206be02ba843ef5c9528a60b91}
-      \strng{authorfullhashraw}{712c5c206be02ba843ef5c9528a60b91}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Aircraft operating costs and profitability}
-      \field{year}{2018}
-      \true{nocite}
-    \endentry
-    \entry{uba_aviation_2023}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=eb35b544edd5583deae1b04b57cf5a08}{%
-           family={Umweltbundesamt},
-           familyi={U\bibinitperiod}}}%
-      }
-      \strng{namehash}{eb35b544edd5583deae1b04b57cf5a08}
-      \strng{fullhash}{eb35b544edd5583deae1b04b57cf5a08}
-      \strng{fullhashraw}{eb35b544edd5583deae1b04b57cf5a08}
-      \strng{bibnamehash}{eb35b544edd5583deae1b04b57cf5a08}
-      \strng{authorbibnamehash}{eb35b544edd5583deae1b04b57cf5a08}
-      \strng{authornamehash}{eb35b544edd5583deae1b04b57cf5a08}
-      \strng{authorfullhash}{eb35b544edd5583deae1b04b57cf5a08}
-      \strng{authorfullhashraw}{eb35b544edd5583deae1b04b57cf5a08}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{09}
-      \field{note}{Zugriff am 23. Dezember 2024}
-      \field{title}{Aviation in the EU ETS and CORSIA in the Fit for 55 package – Factsheet}
-      \field{year}{2023}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://www.umweltbundesamt.de/publikationen/aviation-in-the-eu-ets-corsia-in-the-fit-for-55
-      \endverb
-      \verb{url}
-      \verb https://www.umweltbundesamt.de/publikationen/aviation-in-the-eu-ets-corsia-in-the-fit-for-55
-      \endverb
-    \endentry
-    \entry{ansell2023review}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=c11466b0b16591d451360b36e5c13724}{%
-           family={Ansell},
+        {{hash=fc6f8d4694195d09ced258e66270f1b6}{%
+           family={Anker},
            familyi={A\bibinitperiod},
-           given={Phillip\bibnamedelima J},
-           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{c11466b0b16591d451360b36e5c13724}
-      \strng{fullhash}{c11466b0b16591d451360b36e5c13724}
-      \strng{fullhashraw}{c11466b0b16591d451360b36e5c13724}
-      \strng{bibnamehash}{c11466b0b16591d451360b36e5c13724}
-      \strng{authorbibnamehash}{c11466b0b16591d451360b36e5c13724}
-      \strng{authornamehash}{c11466b0b16591d451360b36e5c13724}
-      \strng{authorfullhash}{c11466b0b16591d451360b36e5c13724}
-      \strng{authorfullhashraw}{c11466b0b16591d451360b36e5c13724}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Progress in Aerospace Sciences}
-      \field{title}{Review of sustainable energy carriers for aviation: Benefits, challenges, and future viability}
-      \field{volume}{141}
-      \field{year}{2023}
-      \true{nocite}
-      \field{pages}{100919}
-      \range{pages}{1}
-    \endentry
-    \entry{iata_saf_2024}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=b87c83a47ae1c0a68113d65315f207dd}{%
-           family={{International Air Transport Association (IATA)}},
-           familyi={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{b87c83a47ae1c0a68113d65315f207dd}
-      \strng{fullhash}{b87c83a47ae1c0a68113d65315f207dd}
-      \strng{fullhashraw}{b87c83a47ae1c0a68113d65315f207dd}
-      \strng{bibnamehash}{b87c83a47ae1c0a68113d65315f207dd}
-      \strng{authorbibnamehash}{b87c83a47ae1c0a68113d65315f207dd}
-      \strng{authornamehash}{b87c83a47ae1c0a68113d65315f207dd}
-      \strng{authorfullhash}{b87c83a47ae1c0a68113d65315f207dd}
-      \strng{authorfullhashraw}{b87c83a47ae1c0a68113d65315f207dd}
-      \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Zugriff am 27. Dezember 2024}
-      \field{title}{IATA SAF Handbook}
-      \field{year}{2024}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://www.iata.org
-      \endverb
-      \verb{url}
-      \verb https://www.iata.org
-      \endverb
-    \endentry
-    \entry{virginatlantic_saf_2023}{online}{}{}
-      \name{author}{1}{}{%
-        {{hash=a68a6506b0dfb8513d5f3ee719e71231}{%
-           family={{Virgin Atlantic}},
-           familyi={V\bibinitperiod}}}%
-      }
-      \strng{namehash}{a68a6506b0dfb8513d5f3ee719e71231}
-      \strng{fullhash}{a68a6506b0dfb8513d5f3ee719e71231}
-      \strng{fullhashraw}{a68a6506b0dfb8513d5f3ee719e71231}
-      \strng{bibnamehash}{a68a6506b0dfb8513d5f3ee719e71231}
-      \strng{authorbibnamehash}{a68a6506b0dfb8513d5f3ee719e71231}
-      \strng{authornamehash}{a68a6506b0dfb8513d5f3ee719e71231}
-      \strng{authorfullhash}{a68a6506b0dfb8513d5f3ee719e71231}
-      \strng{authorfullhashraw}{a68a6506b0dfb8513d5f3ee719e71231}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Zugriff am 27. Dezember 2024}
-      \field{title}{Virgin Atlantic operates world's first 100\% SAF transatlantic flight}
-      \field{year}{2023}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://corporate.virginatlantic.com/gb/en/media/press-releases/worlds-first-sustainable-aviation-fuel-flight.html
-      \endverb
-      \verb{url}
-      \verb https://corporate.virginatlantic.com/gb/en/media/press-releases/worlds-first-sustainable-aviation-fuel-flight.html
-      \endverb
-    \endentry
-    \entry{icao_saf_conversion_2024}{online}{}{}
-      \name{author}{1}{}{%
-        {{hash=e294a4f9170f91276bf0b2639b9857aa}{%
-           family={{International Civil Aviation Organization (ICAO)}},
-           familyi={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{e294a4f9170f91276bf0b2639b9857aa}
-      \strng{fullhash}{e294a4f9170f91276bf0b2639b9857aa}
-      \strng{fullhashraw}{e294a4f9170f91276bf0b2639b9857aa}
-      \strng{bibnamehash}{e294a4f9170f91276bf0b2639b9857aa}
-      \strng{authorbibnamehash}{e294a4f9170f91276bf0b2639b9857aa}
-      \strng{authornamehash}{e294a4f9170f91276bf0b2639b9857aa}
-      \strng{authorfullhash}{e294a4f9170f91276bf0b2639b9857aa}
-      \strng{authorfullhashraw}{e294a4f9170f91276bf0b2639b9857aa}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Zugriff am 28. Dezember 2024}
-      \field{title}{Sustainable Aviation Fuel (SAF) Conversion Processes}
-      \field{year}{2024}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://www.icao.int/environmental-protection/GFAAF/Pages/Conversion-processes.aspx
-      \endverb
-      \verb{url}
-      \verb https://www.icao.int/environmental-protection/GFAAF/Pages/Conversion-processes.aspx
-      \endverb
-    \endentry
-    \entry{iata_saf_procurement_2024}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=b87c83a47ae1c0a68113d65315f207dd}{%
-           family={{International Air Transport Association (IATA)}},
-           familyi={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{b87c83a47ae1c0a68113d65315f207dd}
-      \strng{fullhash}{b87c83a47ae1c0a68113d65315f207dd}
-      \strng{fullhashraw}{b87c83a47ae1c0a68113d65315f207dd}
-      \strng{bibnamehash}{b87c83a47ae1c0a68113d65315f207dd}
-      \strng{authorbibnamehash}{b87c83a47ae1c0a68113d65315f207dd}
-      \strng{authornamehash}{b87c83a47ae1c0a68113d65315f207dd}
-      \strng{authorfullhash}{b87c83a47ae1c0a68113d65315f207dd}
-      \strng{authorfullhashraw}{b87c83a47ae1c0a68113d65315f207dd}
-      \field{extraname}{3}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Zugriff am 28. Dezember 2024}
-      \field{title}{SAF Procurement: Pricing Options for Different Strategies}
-      \field{year}{2024}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://www.iata.org/en/programs/sustainability/reports/saf-procurement-pricing-options-for-different-strategies/
-      \endverb
-      \verb{url}
-      \verb https://www.iata.org/en/programs/sustainability/reports/saf-procurement-pricing-options-for-different-strategies/
-      \endverb
-    \endentry
-    \entry{de2017life}{article}{}{}
-      \name{author}{7}{}{%
-        {{hash=b8153bec3d6e903cb245fe07d45d546a}{%
-           family={De\bibnamedelima Jong},
-           familyi={D\bibinitperiod\bibinitdelim J\bibinitperiod},
-           given={Sierk},
-           giveni={S\bibinitperiod}}}%
-        {{hash=0fffc0e4cb72d87ce9d6c46432ad649e}{%
-           family={Antonissen},
-           familyi={A\bibinitperiod},
-           given={Kay},
-           giveni={K\bibinitperiod}}}%
-        {{hash=d5e971fd3a8fe5299b9eeb175a062b8c}{%
-           family={Hoefnagels},
+           given={Markus\bibnamedelima Aasen},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=a166a75fc42b189dabfa2eac127362e9}{%
+           family={Hartmann},
            familyi={H\bibinitperiod},
-           given={Ric},
-           giveni={R\bibinitperiod}}}%
-        {{hash=45e8ffa36b1f52999cc685e9f764f05e}{%
-           family={Lonza},
-           familyi={L\bibinitperiod},
-           given={Laura},
-           giveni={L\bibinitperiod}}}%
-        {{hash=405aa02bca140f939bbe12e95a79804b}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-        {{hash=1b9e7b6916b85a08ce464a3cc048d7a6}{%
-           family={Faaij},
-           familyi={F\bibinitperiod},
-           given={André},
-           giveni={A\bibinitperiod}}}%
-        {{hash=dcda1a7277a49397eda399bd2420648e}{%
-           family={Junginger},
-           familyi={J\bibinitperiod},
-           given={Martin},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{edb8b2473a01acddc83aaaa96776ee90}
-      \strng{fullhash}{e0a946df5c4bf3466b3ed05ea177e648}
-      \strng{fullhashraw}{e0a946df5c4bf3466b3ed05ea177e648}
-      \strng{bibnamehash}{edb8b2473a01acddc83aaaa96776ee90}
-      \strng{authorbibnamehash}{edb8b2473a01acddc83aaaa96776ee90}
-      \strng{authornamehash}{edb8b2473a01acddc83aaaa96776ee90}
-      \strng{authorfullhash}{e0a946df5c4bf3466b3ed05ea177e648}
-      \strng{authorfullhashraw}{e0a946df5c4bf3466b3ed05ea177e648}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Biotechnology for biofuels}
-      \field{title}{Life-cycle analysis of greenhouse gas emissions from renewable jet fuel production}
-      \field{volume}{10}
-      \field{year}{2017}
-      \true{nocite}
-      \field{pages}{1\bibrangedash 18}
-      \range{pages}{18}
-    \endentry
-    \entry{jarin2024emissions}{inproceedings}{}{}
-      \name{author}{4}{}{%
-        {{hash=5b1b03f217265ed5901bab9ebc2e072a}{%
-           family={Jarin},
-           familyi={J\bibinitperiod},
-           given={Jean-Baptiste},
-           giveni={J\bibinithyphendelim B\bibinitperiod}}}%
-        {{hash=798e2551269cc8bbd0741bc3d14ba979}{%
-           family={Champion-Réaud},
-           familyi={C\bibinithyphendelim R\bibinitperiod},
-           given={Jean-Louis},
-           giveni={J\bibinithyphendelim L\bibinitperiod}}}%
-        {{hash=55cc618c2cf955e0886f108bbb70f4e3}{%
-           family={Sallinen},
-           familyi={S\bibinitperiod},
-           given={Reetu},
-           giveni={R\bibinitperiod}}}%
-        {{hash=53e2a986c1b3cbf6bcaa97d0156ef3ca}{%
-           family={Steenwinkel},
-           familyi={S\bibinitperiod},
-           given={Edgar},
-           giveni={E\bibinitperiod}}}%
-      }
-      \list{organization}{1}{%
-        {American Society of Mechanical Engineers}%
-      }
-      \strng{namehash}{e16b6cf3d6f1a45a8dc998c90ad48add}
-      \strng{fullhash}{5d486cee390afb4fabd9a2de77c1aa68}
-      \strng{fullhashraw}{5d486cee390afb4fabd9a2de77c1aa68}
-      \strng{bibnamehash}{e16b6cf3d6f1a45a8dc998c90ad48add}
-      \strng{authorbibnamehash}{e16b6cf3d6f1a45a8dc998c90ad48add}
-      \strng{authornamehash}{e16b6cf3d6f1a45a8dc998c90ad48add}
-      \strng{authorfullhash}{5d486cee390afb4fabd9a2de77c1aa68}
-      \strng{authorfullhashraw}{5d486cee390afb4fabd9a2de77c1aa68}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Turbo Expo: Power for Land, Sea, and Air}
-      \field{title}{Emissions Comparison of 100\% SAF With Bio-Aromatics and Conventional (Fossil) Jet Fuel}
-      \field{volume}{87936}
-      \field{year}{2024}
-      \true{nocite}
-      \field{pages}{V002T03A012}
-      \range{pages}{-1}
-    \endentry
-    \entry{dahal2021techno}{article}{}{}
-      \name{author}{7}{}{%
-        {{hash=8b1eb2a4bedd3630fb0d02a0f7a6dbad}{%
-           family={Dahal},
-           familyi={D\bibinitperiod},
-           given={Karna},
-           giveni={K\bibinitperiod}}}%
-        {{hash=f061bd1abbb404124a755e7745e02f9a}{%
-           family={Brynolf},
-           familyi={B\bibinitperiod},
-           given={Selma},
-           giveni={S\bibinitperiod}}}%
-        {{hash=91f19d6e12353177c72bfce69e96ba32}{%
-           family={Xisto},
-           familyi={X\bibinitperiod},
-           given={Carlos},
+           given={Christian},
            giveni={C\bibinitperiod}}}%
-        {{hash=57946c6534dedefd2ba1ed8be0a27947}{%
-           family={Hansson},
-           familyi={H\bibinitperiod},
-           given={Julia},
-           giveni={J\bibinitperiod}}}%
-        {{hash=79161e359f3e585f60581d5c6c5fe441}{%
-           family={Grahn},
-           familyi={G\bibinitperiod},
-           given={Maria},
-           giveni={M\bibinitperiod}}}%
-        {{hash=41ea8bea4bdc2757b4fb8dab51422976}{%
-           family={Grönstedt},
-           familyi={G\bibinitperiod},
-           given={Tomas},
-           giveni={T\bibinitperiod}}}%
-        {{hash=c19ea89e964d677ce4de43e42cecb932}{%
-           family={Lehtveer},
-           familyi={L\bibinitperiod},
-           given={Mariliis},
-           giveni={M\bibinitperiod}}}%
+        {{hash=b92cd56af4813b4c81b6485cd42808d1}{%
+           family={N{ø}land},
+           familyi={N\bibinitperiod},
+           given={Jonas\bibnamedelima Kristiansen},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Elsevier}%
+        {Authorea}%
       }
-      \strng{namehash}{5cdaa84ceacdea998b5d9762062bf18e}
-      \strng{fullhash}{8fb7205ac767103d9fbe3e044729fe3c}
-      \strng{fullhashraw}{8fb7205ac767103d9fbe3e044729fe3c}
-      \strng{bibnamehash}{5cdaa84ceacdea998b5d9762062bf18e}
-      \strng{authorbibnamehash}{5cdaa84ceacdea998b5d9762062bf18e}
-      \strng{authornamehash}{5cdaa84ceacdea998b5d9762062bf18e}
-      \strng{authorfullhash}{8fb7205ac767103d9fbe3e044729fe3c}
-      \strng{authorfullhashraw}{8fb7205ac767103d9fbe3e044729fe3c}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \strng{namehash}{7113067a499be725edf585176ac1c8e8}
+      \strng{fullhash}{e8d29ea6aa32c5eaed0ce63dade9f7ab}
+      \strng{fullhashraw}{e8d29ea6aa32c5eaed0ce63dade9f7ab}
+      \strng{bibnamehash}{e8d29ea6aa32c5eaed0ce63dade9f7ab}
+      \strng{authorbibnamehash}{e8d29ea6aa32c5eaed0ce63dade9f7ab}
+      \strng{authornamehash}{7113067a499be725edf585176ac1c8e8}
+      \strng{authorfullhash}{e8d29ea6aa32c5eaed0ce63dade9f7ab}
+      \strng{authorfullhashraw}{e8d29ea6aa32c5eaed0ce63dade9f7ab}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Renewable and Sustainable Energy Reviews}
-      \field{title}{Techno-economic review of alternative fuels and propulsion systems for the aviation sector}
-      \field{volume}{151}
-      \field{year}{2021}
-      \true{nocite}
-      \field{pages}{111564}
-      \range{pages}{1}
-    \endentry
-    \entry{salucci2020optimal}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{4}{}{%
-        {{hash=a4ac7b04a2bc0ce2c15fa41b8a45584f}{%
-           family={Salucci},
-           familyi={S\bibinitperiod},
-           given={Francesco},
-           giveni={F\bibinitperiod}}}%
-        {{hash=92c9ff69e4afb5803eedfb1c6fe76390}{%
-           family={Riboldi},
-           familyi={R\bibinitperiod},
-           given={Carlo\bibnamedelima ED},
-           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=845e22e475f143fa4502568d19a5c7e4}{%
-           family={Trainelli},
-           familyi={T\bibinitperiod},
-           given={Lorenzo},
-           giveni={L\bibinitperiod}}}%
-        {{hash=e514d8ffed8b1c4c98708a32f380c0f9}{%
-           family={Rolando},
-           familyi={R\bibinitperiod},
-           given={Alberto},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{53950d4266b4d4f6f39f880a13cb8820}
-      \strng{fullhash}{9cd31a056ecc539676fb1858a5bc928e}
-      \strng{fullhashraw}{9cd31a056ecc539676fb1858a5bc928e}
-      \strng{bibnamehash}{53950d4266b4d4f6f39f880a13cb8820}
-      \strng{authorbibnamehash}{53950d4266b4d4f6f39f880a13cb8820}
-      \strng{authornamehash}{53950d4266b4d4f6f39f880a13cb8820}
-      \strng{authorfullhash}{9cd31a056ecc539676fb1858a5bc928e}
-      \strng{authorfullhashraw}{9cd31a056ecc539676fb1858a5bc928e}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{1st Aerospace Europe Conference (AEC 2020)}
-      \field{title}{Optimal recharging infrastructure sizing and operations for a regional airport}
-      \field{year}{2020}
-      \true{nocite}
-      \field{pages}{1\bibrangedash 8}
-      \range{pages}{8}
-    \endentry
-    \entry{abrantes2024impact}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=6a931112ba83e2265cf3c46ef1382d5b}{%
-           family={Abrantes},
-           familyi={A\bibinitperiod},
-           given={Ivo},
-           giveni={I\bibinitperiod}}}%
-        {{hash=781e7068e9cb7a2be229123778cdf6db}{%
-           family={Ferreira},
-           familyi={F\bibinitperiod},
-           given={Ana\bibnamedelima F},
-           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{hash=77cc50240a81da5d6c4261107a196665}{%
-           family={Magalhães},
-           familyi={M\bibinitperiod},
-           given={Leandro\bibnamedelima B},
-           giveni={L\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-        {{hash=9f9ccc903dc2049de97393147868caf4}{%
-           family={Costa},
-           familyi={C\bibinitperiod},
-           given={Mário},
-           giveni={M\bibinitperiod}}}%
-        {{hash=818ea9de335a293f45e5300259525a4e}{%
-           family={Silva},
-           familyi={S\bibinitperiod},
-           given={André},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{39feca000605dc816f8a7ea747f5a78d}
-      \strng{fullhash}{d1a4504868fa1e6a0a002217f114c103}
-      \strng{fullhashraw}{d1a4504868fa1e6a0a002217f114c103}
-      \strng{bibnamehash}{39feca000605dc816f8a7ea747f5a78d}
-      \strng{authorbibnamehash}{39feca000605dc816f8a7ea747f5a78d}
-      \strng{authornamehash}{39feca000605dc816f8a7ea747f5a78d}
-      \strng{authorfullhash}{d1a4504868fa1e6a0a002217f114c103}
-      \strng{authorfullhashraw}{d1a4504868fa1e6a0a002217f114c103}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Renewable Energy}
-      \field{title}{The impact of revolutionary aircraft designs on global aviation emissions}
-      \field{volume}{223}
-      \field{year}{2024}
-      \true{nocite}
-      \field{pages}{119937}
-      \range{pages}{1}
-    \endentry
-    \entry{dalmia2022powering}{article}{}{}
-      \name{author}{6}{}{%
-        {{hash=d0db615ad17c0bb8fab61766fa24f4de}{%
-           family={Dalmia},
-           familyi={D\bibinitperiod},
-           given={Tanay},
-           giveni={T\bibinitperiod}}}%
-        {{hash=08a97c9872099df895885c0eb8843c11}{%
-           family={Doken},
-           familyi={D\bibinitperiod},
-           given={Defne\bibnamedelima Nil},
-           giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{hash=252e2eb04c1b3f99ecdd11d4787d5370}{%
-           family={Kumar},
-           familyi={K\bibinitperiod},
-           given={Aditi},
-           giveni={A\bibinitperiod}}}%
-        {{hash=8d659e19645304d3632a4ff5d6063b63}{%
-           family={Padmanaban},
-           familyi={P\bibinitperiod},
-           given={Rohith\bibnamedelima Murali},
-           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=8fd070d0b98571ec19470264a1115535}{%
-           family={Sanghi},
-           familyi={S\bibinitperiod},
-           given={Veda},
-           giveni={V\bibinitperiod}}}%
-        {{hash=cbb68157bd8ccb6b482d5716c9900558}{%
-           family={Shah},
-           familyi={S\bibinitperiod},
-           given={Hrsh},
-           giveni={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{a5e5901bacaeca5729a4cee40168b6ba}
-      \strng{fullhash}{377a6232d33feaa607655b222e8894fc}
-      \strng{fullhashraw}{377a6232d33feaa607655b222e8894fc}
-      \strng{bibnamehash}{a5e5901bacaeca5729a4cee40168b6ba}
-      \strng{authorbibnamehash}{a5e5901bacaeca5729a4cee40168b6ba}
-      \strng{authornamehash}{a5e5901bacaeca5729a4cee40168b6ba}
-      \strng{authorfullhash}{377a6232d33feaa607655b222e8894fc}
-      \strng{authorfullhashraw}{377a6232d33feaa607655b222e8894fc}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Powering the Future of Electric Aviation}
-      \field{year}{2022}
-      \true{nocite}
-    \endentry
-    \entry{mulder2019outlook}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=d56edb284db6c409e527fc44f0580d93}{%
-           family={Mulder},
-           familyi={M\bibinitperiod},
-           given={Machiel},
-           giveni={M\bibinitperiod}}}%
-        {{hash=bcab3488b0372ddff61b02cd8e2b69bd}{%
-           family={Perey},
-           familyi={P\bibinitperiod},
-           given={Peter\bibnamedelima L},
-           giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=b8d43e443b1cd80a30148c51675f506d}{%
-           family={Moraga},
-           familyi={M\bibinitperiod},
-           given={José\bibnamedelima L},
-           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Centre for Energy Economics Research, University of Groningen,}%
-      }
-      \strng{namehash}{9603173f84b32ed031ad5d037f3981a8}
-      \strng{fullhash}{64e436138f6fbedaf66d1e6a04af5ac7}
-      \strng{fullhashraw}{64e436138f6fbedaf66d1e6a04af5ac7}
-      \strng{bibnamehash}{64e436138f6fbedaf66d1e6a04af5ac7}
-      \strng{authorbibnamehash}{64e436138f6fbedaf66d1e6a04af5ac7}
-      \strng{authornamehash}{9603173f84b32ed031ad5d037f3981a8}
-      \strng{authorfullhash}{64e436138f6fbedaf66d1e6a04af5ac7}
-      \strng{authorfullhashraw}{64e436138f6fbedaf66d1e6a04af5ac7}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Outlook for a Dutch hydrogen market: economic conditions and scenarois}
-      \field{year}{2019}
-      \true{nocite}
-    \endentry
-    \entry{colpan2022fuel}{book}{}{}
-      \name{author}{2}{}{%
-        {{hash=3f27ee69cc3af55dce74fd3ad14705cf}{%
-           family={Colpan},
-           familyi={C\bibinitperiod},
-           given={Can\bibnamedelima Ozgur},
-           giveni={C\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
-        {{hash=bc8f07820de4920ae0460ec23e9e381d}{%
-           family={Kovač},
-           familyi={K\bibinitperiod},
-           given={Ankica},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{0692d80313d4580179d0c428f3229693}
-      \strng{fullhash}{0692d80313d4580179d0c428f3229693}
-      \strng{fullhashraw}{0692d80313d4580179d0c428f3229693}
-      \strng{bibnamehash}{0692d80313d4580179d0c428f3229693}
-      \strng{authorbibnamehash}{0692d80313d4580179d0c428f3229693}
-      \strng{authornamehash}{0692d80313d4580179d0c428f3229693}
-      \strng{authorfullhash}{0692d80313d4580179d0c428f3229693}
-      \strng{authorfullhashraw}{0692d80313d4580179d0c428f3229693}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Fuel Cell and Hydrogen Technologies in Aviation}
-      \field{year}{2022}
+      \field{journaltitle}{Authorea Preprints}
+      \field{title}{Feasibility of Battery-Powered Propulsion Systems for All-Electric Short-Haul Commuter Aircraft}
+      \field{year}{2023}
       \true{nocite}
     \endentry
     \entry{embraer_energia_2021}{misc}{}{}
@@ -1742,8 +1207,8 @@
       \strng{authornamehash}{40ad4f895fb200216025d411516325cb}
       \strng{authorfullhash}{40ad4f895fb200216025d411516325cb}
       \strng{authorfullhashraw}{40ad4f895fb200216025d411516325cb}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Zugriff am 03. Januar 2025}
@@ -1755,6 +1220,35 @@
       \endverb
       \verb{url}
       \verb https://embraer.com/global/en/news?slug=1206950-embraer-presents-the-energia-family-four-new-aircraft-concepts-using-renewable-energy-propulsion-technologies
+      \endverb
+    \endentry
+    \entry{wright_electric_website}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=435b78141f1bd24e8f7b216a214480e3}{%
+           family={{Wright Electric}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{435b78141f1bd24e8f7b216a214480e3}
+      \strng{fullhash}{435b78141f1bd24e8f7b216a214480e3}
+      \strng{fullhashraw}{435b78141f1bd24e8f7b216a214480e3}
+      \strng{bibnamehash}{435b78141f1bd24e8f7b216a214480e3}
+      \strng{authorbibnamehash}{435b78141f1bd24e8f7b216a214480e3}
+      \strng{authornamehash}{435b78141f1bd24e8f7b216a214480e3}
+      \strng{authorfullhash}{435b78141f1bd24e8f7b216a214480e3}
+      \strng{authorfullhashraw}{435b78141f1bd24e8f7b216a214480e3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Zugriff am 9. Februar, 2025}
+      \field{title}{Wright Electric - Ultra-Lightweight Motors, Generators, and Batteries for Aerospace and Defense}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.weflywright.com/
+      \endverb
+      \verb{url}
+      \verb https://www.weflywright.com/
       \endverb
     \endentry
     \entry{goodge2024analysis}{article}{}{}
@@ -1781,8 +1275,8 @@
       \strng{authornamehash}{917a22a424d7f4685dd886b1bed8f46f}
       \strng{authorfullhash}{917a22a424d7f4685dd886b1bed8f46f}
       \strng{authorfullhashraw}{917a22a424d7f4685dd886b1bed8f46f}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Aerospace}
@@ -1793,6 +1287,82 @@
       \true{nocite}
       \field{pages}{1007}
       \range{pages}{1}
+    \endentry
+    \entry{scholz_design_evaluation_doc}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=5fa27b8d0e164a7be3374306484dbe1b}{%
+           family={Scholz},
+           familyi={S\bibinitperiod},
+           given={Dieter},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{5fa27b8d0e164a7be3374306484dbe1b}
+      \strng{fullhash}{5fa27b8d0e164a7be3374306484dbe1b}
+      \strng{fullhashraw}{5fa27b8d0e164a7be3374306484dbe1b}
+      \strng{bibnamehash}{5fa27b8d0e164a7be3374306484dbe1b}
+      \strng{authorbibnamehash}{5fa27b8d0e164a7be3374306484dbe1b}
+      \strng{authornamehash}{5fa27b8d0e164a7be3374306484dbe1b}
+      \strng{authorfullhash}{5fa27b8d0e164a7be3374306484dbe1b}
+      \strng{authorfullhashraw}{5fa27b8d0e164a7be3374306484dbe1b}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Lecture Notes, Hamburg University of Applied Sciences (HAW Hamburg)}
+      \field{note}{Zugriff am 5. Januar, 2025}
+      \field{title}{Aircraft Design / DOC}
+      \field{year}{2015}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.fzt.haw-hamburg.de/pers/Scholz/HOOU/
+      \endverb
+      \verb{url}
+      \verb https://www.fzt.haw-hamburg.de/pers/Scholz/HOOU/
+      \endverb
+    \endentry
+    \entry{wangsness2021fremskyndet}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=35494893af20a7bfccadb42f41a12761}{%
+           family={Wangsness},
+           familyi={W\bibinitperiod},
+           given={Paal\bibnamedelima Brevik},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=29d0456977eff3dfe85d95a538137245}{%
+           family={Ydersbond},
+           familyi={Y\bibinitperiod},
+           given={Inga\bibnamedelima Margrete},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=b40bb4e499e85eaa387dc390401facba}{%
+           family={Veisten},
+           familyi={V\bibinitperiod},
+           given={Knut},
+           giveni={K\bibinitperiod}}}%
+        {{hash=7bfe2b3f31255b72b9361a6d3bc5eee2}{%
+           family={Farstad},
+           familyi={F\bibinitperiod},
+           given={Eivind},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{227a9b49673f7a35c82bcdfb704ab19f}
+      \strng{fullhash}{0f03b9b853c30f795e18c2e13babba8d}
+      \strng{fullhashraw}{0f03b9b853c30f795e18c2e13babba8d}
+      \strng{bibnamehash}{227a9b49673f7a35c82bcdfb704ab19f}
+      \strng{authorbibnamehash}{227a9b49673f7a35c82bcdfb704ab19f}
+      \strng{authornamehash}{227a9b49673f7a35c82bcdfb704ab19f}
+      \strng{authorfullhash}{0f03b9b853c30f795e18c2e13babba8d}
+      \strng{authorfullhashraw}{0f03b9b853c30f795e18c2e13babba8d}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Environmental and Resource Economics}
+      \field{number}{1}
+      \field{title}{Fremskyndet innfasing av elfly i Norge: mulige}
+      \field{volume}{37}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{181\bibrangedash 210}
+      \range{pages}{30}
     \endentry
     \entry{liebeck1995advanced}{report}{}{}
       \name{author}{8}{}{%
@@ -1845,14 +1415,44 @@
       \strng{authornamehash}{05bfc0dad076528b4bf2a19cbc197004}
       \strng{authorfullhash}{9d08b89987f36dee8c0945746cd6cc77}
       \strng{authorfullhashraw}{9d08b89987f36dee8c0945746cd6cc77}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Advanced subsonic airplane design and economic studies}
       \field{type}{techreport}
       \field{year}{1995}
       \true{nocite}
+    \endentry
+    \entry{dfs_flugsicherungsgebuehren}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=73340627de63b9ca6bdb4ecea2e5fa81}{%
+           family={GmbH},
+           familyi={G\bibinitperiod},
+           given={Deutsche\bibnamedelima Flugsicherung},
+           giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{73340627de63b9ca6bdb4ecea2e5fa81}
+      \strng{fullhash}{73340627de63b9ca6bdb4ecea2e5fa81}
+      \strng{fullhashraw}{73340627de63b9ca6bdb4ecea2e5fa81}
+      \strng{bibnamehash}{73340627de63b9ca6bdb4ecea2e5fa81}
+      \strng{authorbibnamehash}{73340627de63b9ca6bdb4ecea2e5fa81}
+      \strng{authornamehash}{73340627de63b9ca6bdb4ecea2e5fa81}
+      \strng{authorfullhash}{73340627de63b9ca6bdb4ecea2e5fa81}
+      \strng{authorfullhashraw}{73340627de63b9ca6bdb4ecea2e5fa81}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Zugriff am 11. Januar 2025}
+      \field{title}{Flugsicherungsgebühren}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.dfs.de/homepage/de/flugsicherung/rechtlicher-rahmen/flugsicherungsgebuehren/
+      \endverb
+      \verb{url}
+      \verb https://www.dfs.de/homepage/de/flugsicherung/rechtlicher-rahmen/flugsicherungsgebuehren/
+      \endverb
     \endentry
     \entry{iea_biojet_2021}{misc}{}{}
       \name{author}{1}{}{%
@@ -1868,8 +1468,8 @@
       \strng{authornamehash}{680ce87ff3ae8510ed56f7f1a277d47e}
       \strng{authorfullhash}{680ce87ff3ae8510ed56f7f1a277d47e}
       \strng{authorfullhashraw}{680ce87ff3ae8510ed56f7f1a277d47e}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Zugriff am 03. Januar 2025}
@@ -1881,6 +1481,38 @@
       \endverb
       \verb{url}
       \verb https://www.iea.org/data-and-statistics/charts/fossil-jet-and-biojet-fuel-production-cost-ranges-2010-2030
+      \endverb
+    \endentry
+    \entry{iata_industry_statistics_2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b87c83a47ae1c0a68113d65315f207dd}{%
+           family={{International Air Transport Association (IATA)}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{b87c83a47ae1c0a68113d65315f207dd}
+      \strng{fullhash}{b87c83a47ae1c0a68113d65315f207dd}
+      \strng{fullhashraw}{b87c83a47ae1c0a68113d65315f207dd}
+      \strng{bibnamehash}{b87c83a47ae1c0a68113d65315f207dd}
+      \strng{authorbibnamehash}{b87c83a47ae1c0a68113d65315f207dd}
+      \strng{authornamehash}{b87c83a47ae1c0a68113d65315f207dd}
+      \strng{authorfullhash}{b87c83a47ae1c0a68113d65315f207dd}
+      \strng{authorfullhashraw}{b87c83a47ae1c0a68113d65315f207dd}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Report}
+      \field{month}{06}
+      \field{note}{Updated: June 2024}
+      \field{title}{Industry Statistics}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.iata.org/en/publications/economics/economics-library/
+      \endverb
+      \verb{url}
+      \verb https://www.iata.org/en/publications/economics/economics-library/
       \endverb
     \endentry
     \entry{ecb_exchange_rates_usd}{misc}{}{}
@@ -1897,8 +1529,8 @@
       \strng{authornamehash}{ffc0a10c29f7ebc0137657985086d664}
       \strng{authorfullhash}{ffc0a10c29f7ebc0137657985086d664}
       \strng{authorfullhashraw}{ffc0a10c29f7ebc0137657985086d664}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Online Resource}
@@ -1927,8 +1559,8 @@
       \strng{authorfullhash}{b110aa10dc3e3aa939ba099440938e65}
       \strng{authorfullhashraw}{b110aa10dc3e3aa939ba099440938e65}
       \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Online PDF}
@@ -1960,8 +1592,8 @@
       \strng{authornamehash}{28dc46b56eabe3d8dff434cb2751e15c}
       \strng{authorfullhash}{28dc46b56eabe3d8dff434cb2751e15c}
       \strng{authorfullhashraw}{28dc46b56eabe3d8dff434cb2751e15c}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Technical Report}
@@ -1972,6 +1604,312 @@
       \field{type}{techreport}
       \field{year}{2022}
       \true{nocite}
+    \endentry
+    \entry{fraport2025entgelte}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=7560a3a5a4de5a4076368c670d994dd9}{%
+           family={{Fraport AG}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{7560a3a5a4de5a4076368c670d994dd9}
+      \strng{fullhash}{7560a3a5a4de5a4076368c670d994dd9}
+      \strng{fullhashraw}{7560a3a5a4de5a4076368c670d994dd9}
+      \strng{bibnamehash}{7560a3a5a4de5a4076368c670d994dd9}
+      \strng{authorbibnamehash}{7560a3a5a4de5a4076368c670d994dd9}
+      \strng{authornamehash}{7560a3a5a4de5a4076368c670d994dd9}
+      \strng{authorfullhash}{7560a3a5a4de5a4076368c670d994dd9}
+      \strng{authorfullhashraw}{7560a3a5a4de5a4076368c670d994dd9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{01}
+      \field{note}{Zugriff am 17. Januar 2025}
+      \field{title}{Flughafenentgelte nach § 19b LuftVG: Entgelte für Zentrale Bodenverkehrsdienst Infrastruktureinrichtungen (gültig ab 01. Januar 2025)}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.fraport.com/de/geschaeftsfelder/betrieb/flughafenentgelte.html
+      \endverb
+      \verb{url}
+      \verb https://www.fraport.com/de/geschaeftsfelder/betrieb/flughafenentgelte.html
+      \endverb
+    \endentry
+    \entry{eurostat_nrg_pc_205}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=533195c920679b5848eb14c3f57cc69c}{%
+           family={{Eurostat}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{fullhash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{fullhashraw}{533195c920679b5848eb14c3f57cc69c}
+      \strng{bibnamehash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{authorbibnamehash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{authornamehash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{authorfullhash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{authorfullhashraw}{533195c920679b5848eb14c3f57cc69c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Zugriff am 20. Januar, 2025}
+      \field{title}{Energy Prices: Household and Industrial Consumers}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{doi}
+      \verb https://doi.org/10.2908/NRG_PC_205
+      \endverb
+      \verb{urlraw}
+      \verb https://ec.europa.eu/eurostat/databrowser/view/nrg_pc_205/default/table?lang=en
+      \endverb
+      \verb{url}
+      \verb https://ec.europa.eu/eurostat/databrowser/view/nrg_pc_205/default/table?lang=en
+      \endverb
+    \endentry
+    \entry{avogadro2024demystifying}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=26a9bc324d1a3de6cae37b7e63eca908}{%
+           family={Avogadro},
+           familyi={A\bibinitperiod},
+           given={Nicolò},
+           giveni={N\bibinitperiod}}}%
+        {{hash=70e625f1d4e521370a5ae12fe61fed9c}{%
+           family={Redondi},
+           familyi={R\bibinitperiod},
+           given={Renato},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{bd8a79b0d674ffdfac0904ec8f3bfcf4}
+      \strng{fullhash}{bd8a79b0d674ffdfac0904ec8f3bfcf4}
+      \strng{fullhashraw}{bd8a79b0d674ffdfac0904ec8f3bfcf4}
+      \strng{bibnamehash}{bd8a79b0d674ffdfac0904ec8f3bfcf4}
+      \strng{authorbibnamehash}{bd8a79b0d674ffdfac0904ec8f3bfcf4}
+      \strng{authornamehash}{bd8a79b0d674ffdfac0904ec8f3bfcf4}
+      \strng{authorfullhash}{bd8a79b0d674ffdfac0904ec8f3bfcf4}
+      \strng{authorfullhashraw}{bd8a79b0d674ffdfac0904ec8f3bfcf4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transportation Research Part D: Transport and Environment}
+      \field{title}{Demystifying electric aircraft’s role in aviation decarbonization: Are first-generation electric aircraft cost-effective?}
+      \field{volume}{130}
+      \field{year}{2024}
+      \true{nocite}
+      \field{pages}{104191}
+      \range{pages}{1}
+    \endentry
+    \entry{let_l410ng}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=f35d332da04b9ab596623f3a3d972176}{%
+           family={{LET Aircraft Industries}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f35d332da04b9ab596623f3a3d972176}
+      \strng{fullhash}{f35d332da04b9ab596623f3a3d972176}
+      \strng{fullhashraw}{f35d332da04b9ab596623f3a3d972176}
+      \strng{bibnamehash}{f35d332da04b9ab596623f3a3d972176}
+      \strng{authorbibnamehash}{f35d332da04b9ab596623f3a3d972176}
+      \strng{authornamehash}{f35d332da04b9ab596623f3a3d972176}
+      \strng{authorfullhash}{f35d332da04b9ab596623f3a3d972176}
+      \strng{authorfullhashraw}{f35d332da04b9ab596623f3a3d972176}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Archivierte Version vom 18. August 2021, Zugriff am [09. Januar, 2025]}
+      \field{title}{L410 NG}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://web.archive.org/web/20210818120608/http://www.let.cz/en/l410ng
+      \endverb
+      \verb{url}
+      \verb https://web.archive.org/web/20210818120608/http://www.let.cz/en/l410ng
+      \endverb
+    \endentry
+    \entry{heart_aerospace_es19}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=66730f430c5ef05e0a721c98c94073cd}{%
+           family={{Heart Aerospace}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{66730f430c5ef05e0a721c98c94073cd}
+      \strng{fullhash}{66730f430c5ef05e0a721c98c94073cd}
+      \strng{fullhashraw}{66730f430c5ef05e0a721c98c94073cd}
+      \strng{bibnamehash}{66730f430c5ef05e0a721c98c94073cd}
+      \strng{authorbibnamehash}{66730f430c5ef05e0a721c98c94073cd}
+      \strng{authornamehash}{66730f430c5ef05e0a721c98c94073cd}
+      \strng{authorfullhash}{66730f430c5ef05e0a721c98c94073cd}
+      \strng{authorfullhashraw}{66730f430c5ef05e0a721c98c94073cd}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Zugriff am 20. Januar, 2025}
+      \field{title}{Heart Aerospace partners with Aernnova to design and develop the structure for the ES-19 electric airplane}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://heartaerospace.com/newsroom/heart-aerospace-partners-with-aernnova-to-design-and-develop-the-structure-for-the-es-19-electric-airplane/
+      \endverb
+      \verb{url}
+      \verb https://heartaerospace.com/newsroom/heart-aerospace-partners-with-aernnova-to-design-and-develop-the-structure-for-the-es-19-electric-airplane/
+      \endverb
+    \endentry
+    \entry{discover_airlines_cabin}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=899ab9a0a9f4227b620877db97eabe45}{%
+           family={{Discover Airlines}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{899ab9a0a9f4227b620877db97eabe45}
+      \strng{fullhash}{899ab9a0a9f4227b620877db97eabe45}
+      \strng{fullhashraw}{899ab9a0a9f4227b620877db97eabe45}
+      \strng{bibnamehash}{899ab9a0a9f4227b620877db97eabe45}
+      \strng{authorbibnamehash}{899ab9a0a9f4227b620877db97eabe45}
+      \strng{authornamehash}{899ab9a0a9f4227b620877db97eabe45}
+      \strng{authorfullhash}{899ab9a0a9f4227b620877db97eabe45}
+      \strng{authorfullhashraw}{899ab9a0a9f4227b620877db97eabe45}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Zugriff am 29. Januar, 2025}
+      \field{title}{Karriere als Cabin Crew – Bewerbungsbedingungen}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.discover-airlines.com/de/de/about-us/career/cabin#terms_conditions
+      \endverb
+      \verb{url}
+      \verb https://www.discover-airlines.com/de/de/about-us/career/cabin#terms_conditions
+      \endverb
+    \endentry
+    \entry{airbus_a321neo}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=b110aa10dc3e3aa939ba099440938e65}{%
+           family={{Airbus}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b110aa10dc3e3aa939ba099440938e65}
+      \strng{fullhash}{b110aa10dc3e3aa939ba099440938e65}
+      \strng{fullhashraw}{b110aa10dc3e3aa939ba099440938e65}
+      \strng{bibnamehash}{b110aa10dc3e3aa939ba099440938e65}
+      \strng{authorbibnamehash}{b110aa10dc3e3aa939ba099440938e65}
+      \strng{authornamehash}{b110aa10dc3e3aa939ba099440938e65}
+      \strng{authorfullhash}{b110aa10dc3e3aa939ba099440938e65}
+      \strng{authorfullhashraw}{b110aa10dc3e3aa939ba099440938e65}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Zugriff am 03. Februar, 2025}
+      \field{title}{A321neo}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://aircraft.airbus.com/en/aircraft/a320-family/a321neo
+      \endverb
+      \verb{url}
+      \verb https://aircraft.airbus.com/en/aircraft/a320-family/a321neo
+      \endverb
+    \endentry
+    \entry{fonseca2022doc}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=1aab98a30c837f2bef30bb132b814848}{%
+           family={Fonseca},
+           familyi={F\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{1aab98a30c837f2bef30bb132b814848}
+      \strng{fullhash}{1aab98a30c837f2bef30bb132b814848}
+      \strng{fullhashraw}{1aab98a30c837f2bef30bb132b814848}
+      \strng{bibnamehash}{1aab98a30c837f2bef30bb132b814848}
+      \strng{authorbibnamehash}{1aab98a30c837f2bef30bb132b814848}
+      \strng{authornamehash}{1aab98a30c837f2bef30bb132b814848}
+      \strng{authorfullhash}{1aab98a30c837f2bef30bb132b814848}
+      \strng{authorfullhashraw}{1aab98a30c837f2bef30bb132b814848}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{note}{Zugriff am 03. Februar, 2025}
+      \field{title}{Direct Operating Costs, Fuel Consumption, and Cabin Layout of the Airbus A321LR}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.fzt.haw-hamburg.de/pers/Scholz/arbeiten/VortragFonseca.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.fzt.haw-hamburg.de/pers/Scholz/arbeiten/VortragFonseca.pdf
+      \endverb
+    \endentry
+    \entry{let2016l410}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=f35d332da04b9ab596623f3a3d972176}{%
+           family={{LET Aircraft Industries}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f35d332da04b9ab596623f3a3d972176}
+      \strng{fullhash}{f35d332da04b9ab596623f3a3d972176}
+      \strng{fullhashraw}{f35d332da04b9ab596623f3a3d972176}
+      \strng{bibnamehash}{f35d332da04b9ab596623f3a3d972176}
+      \strng{authorbibnamehash}{f35d332da04b9ab596623f3a3d972176}
+      \strng{authornamehash}{f35d332da04b9ab596623f3a3d972176}
+      \strng{authorfullhash}{f35d332da04b9ab596623f3a3d972176}
+      \strng{authorfullhashraw}{f35d332da04b9ab596623f3a3d972176}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Zugriff am 2. Februar, 2025}
+      \field{title}{L 410 UVP-E20 Brochure}
+      \field{year}{2016}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://web.archive.org/web/20190423024417/http://www.let.cz/files/file/KeStazeni/2016/EN_Brochure_L410_UVP-E20.pdf
+      \endverb
+      \verb{url}
+      \verb https://web.archive.org/web/20190423024417/http://www.let.cz/files/file/KeStazeni/2016/EN_Brochure_L410_UVP-E20.pdf
+      \endverb
+    \endentry
+    \entry{aerotelegraph_airbus}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=38b985187d429d11af5a6b6e264cef08}{%
+           family={{AeroTELEGRAPH}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{38b985187d429d11af5a6b6e264cef08}
+      \strng{fullhash}{38b985187d429d11af5a6b6e264cef08}
+      \strng{fullhashraw}{38b985187d429d11af5a6b6e264cef08}
+      \strng{bibnamehash}{38b985187d429d11af5a6b6e264cef08}
+      \strng{authorbibnamehash}{38b985187d429d11af5a6b6e264cef08}
+      \strng{authornamehash}{38b985187d429d11af5a6b6e264cef08}
+      \strng{authorfullhash}{38b985187d429d11af5a6b6e264cef08}
+      \strng{authorfullhashraw}{38b985187d429d11af5a6b6e264cef08}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Zugriff am 14. Januar, 2025}
+      \field{title}{Die Listenpreise 2018 von Airbus}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.aerotelegraph.com/die-listenpreise-2018-von-airbus
+      \endverb
+      \verb{url}
+      \verb https://www.aerotelegraph.com/die-listenpreise-2018-von-airbus
+      \endverb
     \endentry
     \entry{gu2023hydrogen}{article}{}{}
       \name{author}{5}{}{%
@@ -2012,8 +1950,8 @@
       \strng{authornamehash}{dd4be08961deb7851386ab62196df726}
       \strng{authorfullhash}{588e6bd613fec508f9641008015372c6}
       \strng{authorfullhashraw}{588e6bd613fec508f9641008015372c6}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Sustainability}
@@ -2042,13 +1980,13 @@
       \strng{authornamehash}{df480ffab29345ba625c8f61d151223b}
       \strng{authorfullhash}{df480ffab29345ba625c8f61d151223b}
       \strng{authorfullhashraw}{df480ffab29345ba625c8f61d151223b}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Technical Report}
       \field{month}{03}
-      \field{note}{Accessed: January 16, 2025}
+      \field{note}{Zugriff am 16. Januar, 2025}
       \field{title}{Airports, Airlines, Airspace Operations and Hydrogen Infrastructure}
       \field{type}{techreport}
       \field{year}{2022}
@@ -2076,8 +2014,8 @@
       \strng{authornamehash}{8fca1f4f666ab2b9d9438d07e9a92803}
       \strng{authorfullhash}{8fca1f4f666ab2b9d9438d07e9a92803}
       \strng{authorfullhashraw}{8fca1f4f666ab2b9d9438d07e9a92803}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Agenda}
@@ -2132,8 +2070,8 @@
       \strng{authornamehash}{8c4795231605fbf32efa40b8a617950d}
       \strng{authorfullhash}{873e7cba58645abf3ed240d10dc80c7b}
       \strng{authorfullhashraw}{873e7cba58645abf3ed240d10dc80c7b}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Energy Conversion and Management: X}
@@ -2144,6 +2082,380 @@
       \verb{doi}
       \verb 100797
       \endverb
+    \endentry
+    \entry{hoelzen2023h2}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=c74a351e22c33a38ae50c3d9369940f2}{%
+           family={Hoelzen},
+           familyi={H\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=42df62fd2fff935b8f3120e66ca02af1}{%
+           family={Koenemann},
+           familyi={K\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4845d9d7126dc42e62cd0f2cbe9472dc}{%
+           family={Kistner},
+           familyi={K\bibinitperiod},
+           given={Lukas},
+           giveni={L\bibinitperiod}}}%
+        {{hash=114e32bcc724adab7381ce4fbc571b9a}{%
+           family={Schenke},
+           familyi={S\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+        {{hash=7e0c406194cbb0987045e59138dae081}{%
+           family={Bensmann},
+           familyi={B\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=88f731b9d9db30338a9ff363ad03c699}{%
+           family={Hanke-Rauschenbach},
+           familyi={H\bibinithyphendelim R\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{f4fc93d2c9f4996594eaea682713b9e6}
+      \strng{fullhash}{1eb0f513ab8645a3bc68053e286b674d}
+      \strng{fullhashraw}{1eb0f513ab8645a3bc68053e286b674d}
+      \strng{bibnamehash}{f4fc93d2c9f4996594eaea682713b9e6}
+      \strng{authorbibnamehash}{f4fc93d2c9f4996594eaea682713b9e6}
+      \strng{authornamehash}{f4fc93d2c9f4996594eaea682713b9e6}
+      \strng{authorfullhash}{1eb0f513ab8645a3bc68053e286b674d}
+      \strng{authorfullhashraw}{1eb0f513ab8645a3bc68053e286b674d}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Energy Conversion and Management: X}
+      \field{title}{H2-powered aviation--Design and economics of green LH2 supply for airports}
+      \field{volume}{20}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{doi}
+      \verb 100442
+      \endverb
+    \endentry
+    \entry{fesmire2021lh2}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=c592827bb0b6f5d29031f399f6784964}{%
+           family={Fesmire},
+           familyi={F\bibinitperiod},
+           given={James\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=3204310c9c3df1eb660bcb74b4cc29a4}{%
+           family={Swanger},
+           familyi={S\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{67ed5d77b133324b1843dc919868bee5}
+      \strng{fullhash}{67ed5d77b133324b1843dc919868bee5}
+      \strng{fullhashraw}{67ed5d77b133324b1843dc919868bee5}
+      \strng{bibnamehash}{67ed5d77b133324b1843dc919868bee5}
+      \strng{authorbibnamehash}{67ed5d77b133324b1843dc919868bee5}
+      \strng{authornamehash}{67ed5d77b133324b1843dc919868bee5}
+      \strng{authorfullhash}{67ed5d77b133324b1843dc919868bee5}
+      \strng{authorfullhashraw}{67ed5d77b133324b1843dc919868bee5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Presentation at DOE/NASA Advances in Liquid Hydrogen Storage Workshop}
+      \field{month}{8}
+      \field{note}{Zugriff am 16. Januar, 2025}
+      \field{title}{New LH2 Sphere Presentation}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://ntrs.nasa.gov/api/citations/20210020920/downloads/New%20LH2%20Sphere%20Presentation%2017Aug2021.pdf
+      \endverb
+      \verb{url}
+      \verb https://ntrs.nasa.gov/api/citations/20210020920/downloads/New%20LH2%20Sphere%20Presentation%2017Aug2021.pdf
+      \endverb
+    \endentry
+    \entry{hoelzen2022h2}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=c74a351e22c33a38ae50c3d9369940f2}{%
+           family={Hoelzen},
+           familyi={H\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0e4613abdbc25845e23beaf52aa16ed3}{%
+           family={Flohr},
+           familyi={F\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4a73df19fefabc3067058204bc33786f}{%
+           family={Silberhorn},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8954de4b4ac9724d7465d4e7e2376959}{%
+           family={Mangold},
+           familyi={M\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7e0c406194cbb0987045e59138dae081}{%
+           family={Bensmann},
+           familyi={B\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=88f731b9d9db30338a9ff363ad03c699}{%
+           family={Hanke-Rauschenbach},
+           familyi={H\bibinithyphendelim R\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{f4fc93d2c9f4996594eaea682713b9e6}
+      \strng{fullhash}{6bb1c03b82ac457578cd6f81b8d8f513}
+      \strng{fullhashraw}{6bb1c03b82ac457578cd6f81b8d8f513}
+      \strng{bibnamehash}{f4fc93d2c9f4996594eaea682713b9e6}
+      \strng{authorbibnamehash}{f4fc93d2c9f4996594eaea682713b9e6}
+      \strng{authornamehash}{f4fc93d2c9f4996594eaea682713b9e6}
+      \strng{authorfullhash}{6bb1c03b82ac457578cd6f81b8d8f513}
+      \strng{authorfullhashraw}{6bb1c03b82ac457578cd6f81b8d8f513}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Energy Conversion and Management: X}
+      \field{title}{H2-powered aviation at airports--Design and economics of LH2 refueling systems}
+      \field{volume}{14}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{doi}
+      \verb 100206
+      \endverb
+    \endentry
+    \entry{guo2020aviation}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=d461b00850170fec9c3c105987c78c11}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Zekun},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=4f3bb1d3c7fa2a05241e353723deaf63}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod}}}%
+        {{hash=64da6bc6ae34bf9746395bbe9f38fc23}{%
+           family={Balta-Ozkan},
+           familyi={B\bibinithyphendelim O\bibinitperiod},
+           given={Nazmiye},
+           giveni={N\bibinitperiod}}}%
+        {{hash=38907e56d560f529b787887f9da50c27}{%
+           family={Luk},
+           familyi={L\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {International Conference on Applied Energy}%
+      }
+      \strng{namehash}{138812182f45ddcbfd20f2e73e367a81}
+      \strng{fullhash}{1cc30d1987ac2d41a224acfe6afd35e7}
+      \strng{fullhashraw}{1cc30d1987ac2d41a224acfe6afd35e7}
+      \strng{bibnamehash}{138812182f45ddcbfd20f2e73e367a81}
+      \strng{authorbibnamehash}{138812182f45ddcbfd20f2e73e367a81}
+      \strng{authornamehash}{138812182f45ddcbfd20f2e73e367a81}
+      \strng{authorfullhash}{1cc30d1987ac2d41a224acfe6afd35e7}
+      \strng{authorfullhashraw}{1cc30d1987ac2d41a224acfe6afd35e7}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Aviation to grid: Airport charging infrastructure for electric aircraft}
+      \field{year}{2020}
+      \true{nocite}
+    \endentry
+    \entry{reimers2018introduction}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=bfb8dcf344d031b6cd1eb85095f29908}{%
+           family={Reimers},
+           familyi={R\bibinitperiod},
+           given={Jan\bibnamedelima Otto},
+           giveni={J\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{bfb8dcf344d031b6cd1eb85095f29908}
+      \strng{fullhash}{bfb8dcf344d031b6cd1eb85095f29908}
+      \strng{fullhashraw}{bfb8dcf344d031b6cd1eb85095f29908}
+      \strng{bibnamehash}{bfb8dcf344d031b6cd1eb85095f29908}
+      \strng{authorbibnamehash}{bfb8dcf344d031b6cd1eb85095f29908}
+      \strng{authornamehash}{bfb8dcf344d031b6cd1eb85095f29908}
+      \strng{authorfullhash}{bfb8dcf344d031b6cd1eb85095f29908}
+      \strng{authorfullhashraw}{bfb8dcf344d031b6cd1eb85095f29908}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Green Future: Norway}
+      \field{title}{Introduction of electric aviation in Norway}
+      \field{year}{2018}
+      \true{nocite}
+    \endentry
+    \entry{guo2023infrastructure}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=d461b00850170fec9c3c105987c78c11}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Zekun},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=d273b8d21a2ddadcae84e30bf48e1750}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Bozheng},
+           giveni={B\bibinitperiod}}}%
+        {{hash=d5ac7272574f4a4ac3e8c2de2e3b5c31}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Gareth},
+           giveni={G\bibinitperiod}}}%
+        {{hash=4f3bb1d3c7fa2a05241e353723deaf63}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{138812182f45ddcbfd20f2e73e367a81}
+      \strng{fullhash}{b4fe6ce9b6bbd008f9fcb2e936ba89ff}
+      \strng{fullhashraw}{b4fe6ce9b6bbd008f9fcb2e936ba89ff}
+      \strng{bibnamehash}{138812182f45ddcbfd20f2e73e367a81}
+      \strng{authorbibnamehash}{138812182f45ddcbfd20f2e73e367a81}
+      \strng{authornamehash}{138812182f45ddcbfd20f2e73e367a81}
+      \strng{authorfullhash}{b4fe6ce9b6bbd008f9fcb2e936ba89ff}
+      \strng{authorfullhashraw}{b4fe6ce9b6bbd008f9fcb2e936ba89ff}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Etransportation}
+      \field{title}{Infrastructure planning for airport microgrid integrated with electric aircraft and parking lot electric vehicles}
+      \field{volume}{17}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{100257}
+      \range{pages}{1}
+    \endentry
+    \entry{marksel2023comparative}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=fbc428276aeb683d6c459ecfd02df711}{%
+           family={Marksel},
+           familyi={M\bibinitperiod},
+           given={Maršenka},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e758c669808aff836b3539e203ad2d1a}{%
+           family={Prapotnik\bibnamedelima Brdnik},
+           familyi={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Anita},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{30681eba71e823c93f9d0854204a46ff}
+      \strng{fullhash}{30681eba71e823c93f9d0854204a46ff}
+      \strng{fullhashraw}{30681eba71e823c93f9d0854204a46ff}
+      \strng{bibnamehash}{30681eba71e823c93f9d0854204a46ff}
+      \strng{authorbibnamehash}{30681eba71e823c93f9d0854204a46ff}
+      \strng{authornamehash}{30681eba71e823c93f9d0854204a46ff}
+      \strng{authorfullhash}{30681eba71e823c93f9d0854204a46ff}
+      \strng{authorfullhashraw}{30681eba71e823c93f9d0854204a46ff}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sustainability}
+      \field{number}{14}
+      \field{title}{Comparative Analysis of Direct Operating Costs: Conventional vs. Hydrogen Fuel Cell 19-Seat Aircraft}
+      \field{volume}{15}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{11271}
+      \range{pages}{1}
+    \endentry
+    \entry{monjon2020conceptual}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=07bd5cd2d5a42b24e0e5332c735fb227}{%
+           family={Monjon},
+           familyi={M\bibinitperiod},
+           given={Matheus\bibnamedelimb Medeiros\bibnamedelima Maciel},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=ab3cf5fe122224f639376f0d8df97e56}{%
+           family={Freire},
+           familyi={F\bibinitperiod},
+           given={Cesar\bibnamedelima Monzu},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{7b48951e78651780c0341e552d30838b}
+      \strng{fullhash}{7b48951e78651780c0341e552d30838b}
+      \strng{fullhashraw}{7b48951e78651780c0341e552d30838b}
+      \strng{bibnamehash}{7b48951e78651780c0341e552d30838b}
+      \strng{authorbibnamehash}{7b48951e78651780c0341e552d30838b}
+      \strng{authornamehash}{7b48951e78651780c0341e552d30838b}
+      \strng{authorfullhash}{7b48951e78651780c0341e552d30838b}
+      \strng{authorfullhashraw}{7b48951e78651780c0341e552d30838b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 AIAA/IEEE Electric Aircraft Technologies Symposium (EATS)}
+      \field{title}{Conceptual design and operating costs evaluation of a 19-seat all-electric aircraft for regional aviation}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 16}
+      \range{pages}{16}
+    \endentry
+    \entry{bruge2018wartungskosten}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=5ae2a856be9d6f1b7787e818208376d3}{%
+           family={Brüge},
+           familyi={B\bibinitperiod},
+           given={Niklas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=987f200cb9c8f6d2eb258f1f1114f701}{%
+           family={Kranich},
+           familyi={K\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Aircraft Design}%
+        {Systems Group (AERO), Department of Automotive and~…}%
+      }
+      \strng{namehash}{80b0e78c81bfded70cc8d24d42cf6103}
+      \strng{fullhash}{80b0e78c81bfded70cc8d24d42cf6103}
+      \strng{fullhashraw}{80b0e78c81bfded70cc8d24d42cf6103}
+      \strng{bibnamehash}{80b0e78c81bfded70cc8d24d42cf6103}
+      \strng{authorbibnamehash}{80b0e78c81bfded70cc8d24d42cf6103}
+      \strng{authornamehash}{80b0e78c81bfded70cc8d24d42cf6103}
+      \strng{authorfullhash}{80b0e78c81bfded70cc8d24d42cf6103}
+      \strng{authorfullhashraw}{80b0e78c81bfded70cc8d24d42cf6103}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wartungskosten von Passagierflugzeugen bei verschiedener Triebwerksanzahl berechnet nach DOC-Methoden}
+      \field{year}{2018}
+      \true{nocite}
     \endentry
   \enddatalist
 \endrefsection
