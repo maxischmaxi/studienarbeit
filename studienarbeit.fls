@@ -567,19 +567,16 @@ INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-SemiBold-T1
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-SemiBold-T1-TLF--base.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Regular-T1-TLF.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Regular-T1-TLF--base.tfm
-INPUT ./1_Chapters/1 Einleitung.tex
-INPUT ./1_Chapters/1 Einleitung.tex
-INPUT 1_Chapters/1 Einleitung.tex
+INPUT ./3_Methodik/3_4_Betriebsszenarien.tex
+INPUT ./3_Methodik/3_4_Betriebsszenarien.tex
+INPUT 3_Methodik/3_4_Betriebsszenarien.tex
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-LightItalic-T1-TLF.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-LightItalic-T1-TLF--base.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-T1-TLF.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-T1-TLF.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Light-T1-TLF.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-T1-TLF--base.tfm
-INPUT ./2_Grundlagen/2_4 nachhaltige Alternativen.tex
-INPUT ./2_Grundlagen/2_4 nachhaltige Alternativen.tex
-INPUT 2_Grundlagen/2_4 nachhaltige Alternativen.tex
+INPUT c:/texlive/2024/texmf-dist/tex/latex/opensans/TS1opensans-TLF.fd
+INPUT c:/texlive/2024/texmf-dist/tex/latex/opensans/TS1opensans-TLF.fd
+INPUT c:/texlive/2024/texmf-dist/tex/latex/opensans/TS1opensans-TLF.fd
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-TS1-TLF.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
@@ -604,55 +601,48 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cbfonts/grmn0700.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cbfonts/grmi1440.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cbfonts/grmi0700.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-SemiBold-T1-TLF.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-SemiBold-T1-TLF.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-SemiBold-T1-TLF--base.tfm
-INPUT ./BIlder/Preise SAF.png
-INPUT ./BIlder/Preise SAF.png
-INPUT ./BIlder/Preise SAF.png
-INPUT ./BIlder/Preise SAF.png
-INPUT ./BIlder/Preise SAF.png
+INPUT ./BIlder/BetriebsszenarioI.png
+INPUT ./BIlder/BetriebsszenarioI.png
+INPUT ./BIlder/BetriebsszenarioI.png
+INPUT ./BIlder/BetriebsszenarioI.png
+INPUT ./BIlder/BetriebsszenarioI.png
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-T1-TLF.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Regular-T1-TLF.tfm
+INPUT ./BIlder/BetriebsszenarioII.png
+INPUT ./BIlder/BetriebsszenarioII.png
+INPUT ./BIlder/BetriebsszenarioII.png
+INPUT ./BIlder/BetriebsszenarioII.png
+INPUT ./BIlder/BetriebsszenarioII.png
+INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Light-TS1-TLF.vf
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-TS1-TLF--base.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/opensans/a_nvvucy.enc
+INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-SemiBold-T1-TLF.vf
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-SemiBold-T1-TLF--base.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Regular-T1-TLF.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Regular-T1-TLF--base.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Light-T1-TLF.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-T1-TLF--base.tfm
-INPUT ./2_Grundlagen/2_4_2 electric.tex
-INPUT ./2_Grundlagen/2_4_2 electric.tex
-INPUT 2_Grundlagen/2_4_2 electric.tex
-INPUT ./BIlder/BA.png
-INPUT ./BIlder/BA.png
-INPUT ./BIlder/BA.png
-INPUT ./BIlder/BA.png
-INPUT ./BIlder/BA.png
-INPUT ./2_Grundlagen/2_4_3 hydrogen.tex
-INPUT ./2_Grundlagen/2_4_3 hydrogen.tex
-INPUT 2_Grundlagen/2_4_3 hydrogen.tex
-INPUT c:/texlive/2024/texmf-dist/tex/latex/opensans/TS1opensans-TLF.fd
-INPUT c:/texlive/2024/texmf-dist/tex/latex/opensans/TS1opensans-TLF.fd
-INPUT c:/texlive/2024/texmf-dist/tex/latex/opensans/TS1opensans-TLF.fd
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-TS1-TLF.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Light-TS1-TLF.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-TS1-TLF--base.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/opensans/a_nvvucy.enc
-INPUT ./3_Methodik/3_4_Betriebsszenarien.tex
-INPUT ./3_Methodik/3_4_Betriebsszenarien.tex
-INPUT 3_Methodik/3_4_Betriebsszenarien.tex
-INPUT ./BIlder/BetriebsszenarioI.png
-INPUT ./BIlder/BetriebsszenarioI.png
-INPUT ./BIlder/BetriebsszenarioI.png
-INPUT ./BIlder/BetriebsszenarioI.png
-INPUT ./BIlder/BetriebsszenarioI.png
-INPUT ./BIlder/BetriebsszenarioII.png
-INPUT ./BIlder/BetriebsszenarioII.png
-INPUT ./BIlder/BetriebsszenarioII.png
-INPUT ./BIlder/BetriebsszenarioII.png
-INPUT ./BIlder/BetriebsszenarioII.png
 INPUT ./BIlder/BetriebsszenarioIII.png
 INPUT ./BIlder/BetriebsszenarioIII.png
 INPUT ./BIlder/BetriebsszenarioIII.png
 INPUT ./BIlder/BetriebsszenarioIII.png
 INPUT ./BIlder/BetriebsszenarioIII.png
+INPUT ./5_Ergebnisse/5_1_Ergebnisse_Fzg.tex
+INPUT ./5_Ergebnisse/5_1_Ergebnisse_Fzg.tex
+INPUT 5_Ergebnisse/5_1_Ergebnisse_Fzg.tex
+INPUT ./BIlder/VergleichBA_Ref.png
+INPUT ./BIlder/VergleichBA_Ref.png
+INPUT ./BIlder/VergleichBA_Ref.png
+INPUT ./BIlder/VergleichBA_Ref.png
+INPUT ./BIlder/VergleichBA_Ref.png
+INPUT ./5_Ergebnisse/5_2_Ergebnisse_Betriebsszenarien.tex
+INPUT ./5_Ergebnisse/5_2_Ergebnisse_Betriebsszenarien.tex
+INPUT 5_Ergebnisse/5_2_Ergebnisse_Betriebsszenarien.tex
+INPUT ./BIlder/Infr_Szenarien.png
+INPUT ./BIlder/Infr_Szenarien.png
+INPUT ./BIlder/Infr_Szenarien.png
+INPUT ./BIlder/Infr_Szenarien.png
+INPUT ./BIlder/Infr_Szenarien.png
 INPUT ./4_References/bib.tex
 INPUT ./4_References/bib.tex
 INPUT ./4_References/bib.tex
@@ -673,4 +663,5 @@ INPUT c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-LightIta
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Regular.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-SemiBold.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb

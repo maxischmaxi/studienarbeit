@@ -137,7 +137,6 @@ in dieser Arbeit werden ebenfalls 5 \% angenommen \cite{scholz_design_evaluation
 %
 %Für wasserstoffbetriebene Flugzeuge werden in der Quelle vorgestellte Formeln benutzt, um Kaufpreis einschätzen zu können.
 Außerdem bestehen bei alternativen Antrieben betriebliche Kosten, die durch Infrastruktur bedingt sind.
-So werden bei BA die zusäzliche
 \subsection{Infrastrukturkosten}
 
 \textbf{Batterie-Antrieb}\\
@@ -192,7 +191,11 @@ $P_{BSS}$ ist der Preis des Ladegeräts der Batteriewechselstation und $n_{BSS}$
 		\hline
 		 & \textbf{Werte} & \textbf{Quelle} \\ \hline
 		$P_{BSS} ~[\text{EUR}]$ &  11 974  & \cite{guo2020aviation} \\ \hline
+      Abschreibung $BSS ~[\text{Jahre}]$&  10  & \cite{salucci2020optimal} \\ \hline
 		$P_{Bat} ~[\text{EUR/kWh}]$ & 125000 & \cite{guo2020aviation} \\ \hline
+      Lebenszyklen $Bat$ & 5000 & \\ \hline
+      Abschreibung $Bat ~[\text{Jahre}]$& 2,7 & \\ \hline
+
 		%$P_{W,Bat} ~[\text{EUR}] $ & 285  & \cite{guo2023infrastructure}\\ \hline
     %  $P_{HW} ~[\text{EUR}] $ &  &\\ \hline
 	\end{tabular}
@@ -206,12 +209,13 @@ Ladedauer ist von Leistung des Ladungstations und Kapazität einer Batterie.
 Für die Ladegeräte wurde die Leistung von 250 kW angenommen. Die Verluste beim Laden werden ignoriert. 
 Zusätzlich wird der Puffer von 20 \% implementiert, um mögliche Engpässe zu vermeiden. 
 Wie bereits bei Betriebskosten einem batteriebetriebenen Flugzeug erwähnt wurde, wird in dieser Arbeit eine Batteriekapazität von 900 kWh angenommen.
-%bei einem 18 Stunden-Betrieb entspricht das 3,6 Stunden Ladedauer für eine Batterie mit insgesamt 5 Ladezyklen pro Tag. 
+Bei einem 18 Stunden-Betrieb entspricht das 3,6 Stunden Ladedauer für eine Batterie mit insgesamt 5 Ladezyklen pro Tag. Daraus kann abgeleitet werden, dass
+jede Batterie 1000 Tage überleben bis ihre Leistung sinkt.
 Die Anzahl der Ladegeräte $n_{BSS}$ ist von der Gesamtzahl der Batterien und Ladezyklen abhängig.
-
+\cite{salucci2020optimal}
 
 \begin{equation}
-  {N_{Bat}} = {1,2} \cdot \frac{N_{Abfertigung}}{c_{Batterie}}\\
+  {n_{Bat}} = {1,2} \cdot \frac{N_{Abfertigung}}{c_{Batterie}}\\
   \label{BatAnzahl}
   \end{equation}
 
@@ -236,12 +240,13 @@ Die Preise für die Anlage sind in der Tabelle \ref{BA_Infrastrukturtab} zusamme
 	\begin{tabular}{|l|c|c|c|}
 		\hline
 		 & \textbf{Werte}& \textbf{Einheit}& \textbf{Quellen} \\ \hline
-		Preis Lagertank $P_{Lagertank}$ & 34 & EUR/kgGH2 stored  & sek \cite{hoelzen2023h2}\\ \hline
-      Abschreibung Lagertank & 20  & Jahre  & sek \cite{hoelzen2023h2}\\ \hline
+		Preis Lagertank $P_{Lagertank}$ & 41,9 & EUR/kg \eq{LH2}  & \cite{schenke2024lh2}\\ \hline
+      Abschreibung Lagertank & 20  & Jahre  & \cite{hoelzen2023h2}\\ \hline
       Volumen Lagertank ~[\text{$m^3$}] & 4 732 &  & \cite{fesmire2021lh2}\\ \hline
-		Preis kryogene Pumpe $P_{kP}$ & 346 & EUR/kg/h & sek \cite{hoelzen2023h2} \\ \hline
-      Abschreibung ${kP}$ & 10 & Jahre & sek \cite{hoelzen2023h2} \\ \hline
+		Preis kryogene Pumpe $P_{kP}$ & 250171 & EUR/kg/h & \cite{hoelzen2022h2} \\ \hline
+      Abschreibung ${kP}$ & 10 & Jahre & \cite{hoelzen2023h2} \\ \hline
 		Preis Betankungswagen $P_{BW}$ & 87848 & EUR & \cite{hoelzen2022h2} \\ \hline
+      Abschreibung ${BW}$ & 12  & Jahre  & \cite{hoelzen2022h2} \\ \hline
 	\end{tabular}
     \end{center}
 \end{table}
