@@ -131,14 +131,14 @@ Außerdem bestehen bei alternativen Antrieben betriebliche Kosten, die durch Inf
 Kapitalkosten für BA-Infrastruktur sind in folgender Formel zusammengestellt:
 
 \begin{equation}
-     {CAPEX ~[\text{EUR}]} = C_{Bat} + C_{Strom} + C_{BSS} + C_{W,Bat} \\
+     {CAPEX ~[\text{EUR}]} = C_{Bat} + C_{BSS} \\ % C_{Strom} + C_{W,Bat}
      \label{BA_Infrastruktur}
   \end{equation}
 
 \begin{equation}
    \begin{split}
   {C_{Bat}} = P_{Bat} \cdot n_{Bat}  \\
-  {C_{Strom}} = n_{BSS} \cdot P_{Strom} \cdot N_{menge}\\ %brauche ich das?
+ % {C_{Strom}} = n_{BSS} \cdot P_{Strom} \cdot N_{menge}\\ %brauche ich das?
   {C_{BSS}} = P_{BSS} \cdot n_{BSS} \\
   %(\frac{30}{Lebensdauer})\\
   %{C_{Hubwagen}} = P_{Hubwagen} \cdot n_{Hubwagen}
@@ -148,9 +148,10 @@ Kapitalkosten für BA-Infrastruktur sind in folgender Formel zusammengestellt:
 
 , wobei $P_{Bat}$ der Preis für eine Batterie darstellt und $n_{Bat}$ die Anzahl der Batterien, die benötigt sind. 
 Dazu werden noch die 20 \% Reserve-Batterien mitgerechnet, um Einschränkung in den Betrieb zu umgehen.
-$N_{menge}$ ist die Menge an Strom, der für das Laden einer Batterie nötig ist.
+%$N_{menge}$ ist die Menge an Strom, der für das Laden einer Batterie nötig ist.
 $P_{BSS}$ ist der Preis des Ladegeräts der Batteriewechselstation und $n_{BSS}$ ist der Anzahl an Ladegeräten. %ich weiß nicht was du mit wie immer meinst
-%Zusätzlich werden die Kosten für Batteriewechsel $P_{W,Bat}$ und Preis pro Hubwagen $P_{Hubwagen}$ mitbetrachtet.
+Stromkosten werden hier nicht mitbetrachtet, da die bereits in Betriebskosten pro Flug mitberechnet werden und somit durch Fluggesellschaft
+gedeckt wird. %Zusätzlich werden die Kosten für Batteriewechsel $P_{W,Bat}$ und Preis pro Hubwagen $P_{Hubwagen}$ mitbetrachtet.
 
   
 %Energiekosten = Menge mal Preis
