@@ -22,6 +22,15 @@ Wartungskosten $C_W$, Entgelten und Gebühren $C_{EG}$, Kosten für Personal $C_
      \label{DOC}
   \end{equation}
 %
+Die Betriebskosten werden auf Basis von Blockstunden kalkuliert. 
+Blockstunden setzen sich aus Flugzeit $t_{F,h}$ sowie der kumulierten Rollzeit $t_{R}$ von und zur Parkposition $t_{R}$ zusammen. 
+Für Kurz- und Mittelstrecken beträgt $t_{R}$ {0,25 h} und für Langstrecken 0,42 h \cite{scholz_design_evaluation_doc}.
+
+\begin{equation}
+   t_{B} = t_{F,h} + t_{R} \\
+   \label{blockzeit}
+\end{equation}
+
 \textbf{Treibstoff-/ Energiepreise} hängen vom Treibstoff- bzw. Energiepreis selbst \\ $P_{T/E}$ und vom Verbrauch 
 eines Flugzeugs pro Blockstunde $m_{Verbrauch,B}$ ab (vgl. \eqref{fuel}).
 
@@ -62,28 +71,7 @@ wird aus Gründen der Vereinfachung trotzdem diese Formel genutzt.
 %Wartungskosten wachsen mit der Größe des Flugzeugs, da mehr Personal oder mehr Zeit für die Wartung benötigt ist.
 
 Unter \textbf{Entgelte und Gebühren} sind Flughafenentgelte (Passagier-, Lande- und Startentgelte, Sicherheitsentgelte sowie Abfertigung am 
-Vorfeld) und die Flugsicherungsgebühr gemeint. 
-Die Formel der Flugsicherungsgebühr $(C_{FS})$ für jeweils An- und Abfluggebühr stammt aus \cite{dfs_flugsicherungsgebuehren} und ist in der Gleichung \eqref{Flugsicherung}
-dargestellt. Im Jahr 2025 liegt der Wert $P_{FS}$ bei 380,71 Euro. 
-Der $MTOW$ bezeichnet das Höchstabfluggewicht (Maximum Take-Off Weight) eines Flugzeugs. 
-Die zugrunde liegenden Werte der Flughafenentgelte basieren auf den Daten von \cite{fraport2025entgelte}.
-Außerdem bestehen bei alternativen Antrieben betriebliche Kosten, die durch Infrastrukturbedienung bedingt sind.
-So werden bei BA-Flugzeugen die Kosten für Batteriewechsel zu Flughafenentgelten einkalkuliert. 
-Pro Flugzeug wird von einem Wert in Höhe von 285 EUR ausgegangen \cite{guo2023infrastructure}.
-
-\begin{equation}
-   {C_{FS} ~[\text{EUR}]} = (\frac{MTOW}{50})^{0,7} \cdot P_{FS} \\
-   \label{Flugsicherung}
-\end{equation}
-
-Die Betriebskosten werden auf Basis von Blockstunden kalkuliert. 
-Blockstunden setzen sich aus Flugzeit $t_{F,h}$ sowie der kumulierten Rollzeit $t_{R}$ von und zur Parkposition $t_{R}$ zusammen. 
-Für Kurz- und Mittelstrecken beträgt $t_{R}$ {0,25 h} und für Langstrecken 0,42 h \cite{scholz_design_evaluation_doc}.
-
-\begin{equation}
-   t_{B} = t_{F,h} + t_{R} \\
-   \label{blockzeit}
-\end{equation}
+Vorfeld) und die Flugsicherungsgebühr gemeint. Die detaillierte Beschreibung den benutzten Entgelten und Gebühren sind in der Anhang XX zu finden.
 
 \textbf{Crewkosten} setzen sich aus Lohnkosten für Piloten $L_{Pilot}$ und Besatzung $L_{crew}$ zusammen. 
 Die Anzahl der Besatzungsmitglieder $n_{crew}$ ist von der Anzahl der Passagiere abhängig. 
@@ -123,16 +111,16 @@ Ein weiterer wichtiger Faktor der kapitalgebundenen Kosten ist die Auslastung $U
 der verfügbaren Stunden p.a. $t_{verf}$, Blockzeit $t_B$ und Turnaround Zeit $t_{TA}$ berechnet. 
 Die jährliche Verfügbarkeitszeit $t_{verf}$ beträgt für Kurzstreckenflugzeuge 3750 h, 
 während für Mittel- und Langstreckenflugzeuge ein Wert von 4800 h eingesetzt wird \cite{scholz_design_evaluation_doc}. Für die Kurzstrecken-Flugzeuge 
-wurde Turnaround-Zeit ein Wert von 1,5 h genommen. Aufgrund der Größe und aufwendigere Abfertigung wird für die Mittelstrecken 2 h ausgewählt.
+wurde Turnaround-Zeit ein Wert von 1,5 h genommen (Quelle). Aufgrund der Größe und aufwendigere Abfertigung wird für die Mittelstrecken 2 h ausgewählt.
 
 \begin{equation}
-   U = \frac{t_{verf}}{t_B + t_{TA}} \\
+   $U$ = \frac{t_{verf}}{t_B + t_{TA}} \\
    \label{utilisation}
 \end{equation}
 
 Verzinsungskosten $C_{Zins}$ sind durch den Prozentanteil von Anschaffungskosten bedingt, für diese gelten ca. 5 \%. 
 Versicherungskosten sind hingegen von dem Kaufpreis eines Flugzeugs abhängig (inklusive Rabatte beim Kauf), 
-in dieser Arbeit werden ebenfalls 5 \% angenommen \cite{scholz_design_evaluation_doc}. Die Formeln sind im Anhang zu finden.
+in dieser Arbeit werden ebenfalls 5 \% angenommen \cite{scholz_design_evaluation_doc}. Die Formeln sind im Anhang XX zu finden.
 %sind Anschaffungskosten geteilt durch 
 %
 %Für wasserstoffbetriebene Flugzeuge werden in der Quelle vorgestellte Formeln benutzt, um Kaufpreis einschätzen zu können.
@@ -143,13 +131,13 @@ Außerdem bestehen bei alternativen Antrieben betriebliche Kosten, die durch Inf
 Kapitalkosten für BA-Infrastruktur sind in folgender Formel zusammengestellt:
 
 \begin{equation}
-     {CAPEX ~[\text{EUR}]} = C_{Bat} + C_{Strom} + C_{BSS} + C_{W,Bat} + C_{Hubwagen}\\
+     {CAPEX ~[\text{EUR}]} = C_{Bat} + C_{Strom} + C_{BSS} + C_{W,Bat} \\
      \label{BA_Infrastruktur}
   \end{equation}
 
 \begin{equation}
    \begin{split}
-  {C_{Bat}} = P_{Bat} \cdot n_{Bat} \cdot {1,2} \\
+  {C_{Bat}} = P_{Bat} \cdot n_{Bat}  \\
   {C_{Strom}} = n_{BSS} \cdot P_{Strom} \cdot N_{menge}\\ %brauche ich das?
   {C_{BSS}} = P_{BSS} \cdot n_{BSS} \\
   %(\frac{30}{Lebensdauer})\\
@@ -193,7 +181,7 @@ $P_{BSS}$ ist der Preis des Ladegeräts der Batteriewechselstation und $n_{BSS}$
 		$P_{BSS} ~[\text{EUR}]$ &  11 974  & \cite{guo2020aviation} \\ \hline
       Abschreibung $BSS ~[\text{Jahre}]$&  10  & \cite{salucci2020optimal} \\ \hline
 		$P_{Bat} ~[\text{EUR/kWh}]$ & 125000 & \cite{guo2020aviation} \\ \hline
-      Lebenszyklen $Bat$ & 5000 & \\ \hline
+      Lebenszyklen $Bat$ & 5000 & \cite{reimers2018introduction} \\ \hline
       Abschreibung $Bat ~[\text{Jahre}]$& 2,7 & \\ \hline
 
 		%$P_{W,Bat} ~[\text{EUR}] $ & 285  & \cite{guo2023infrastructure}\\ \hline
@@ -215,7 +203,7 @@ Die Anzahl der Ladegeräte $n_{BSS}$ ist von der Gesamtzahl der Batterien und La
 \cite{salucci2020optimal}
 
 \begin{equation}
-  {n_{Bat}} = {1,2} \cdot \frac{N_{Abfertigung}}{c_{Batterie}}\\
+  {n_{Bat}} = {1,2} \cdot \frac{N_{Abfertigung}}{c_{Bat}}\\
   \label{BatAnzahl}
   \end{equation}
 

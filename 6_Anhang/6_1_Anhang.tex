@@ -1,0 +1,47 @@
+1. Inlationsfaktoren
+\begin{table}[h]
+	\begin{center}
+    \caption{abgeleitete Inflationsfaktoren}
+	\label{Inflationsfaktoren}
+	\begin{tabular}{|l|c|}
+		\hline
+		Jahren & \textbf{Inflationsfaktor} \\ \hline
+		1994 - 2024 & 1,71 \\ \hline
+		2020 - 2024 & 1,193 \\ \hline
+        2021 - 2024 & 1,157 \\ \hline
+        2023 - 2024 & 1,022 \\ \hline
+	\end{tabular}
+    \end{center}
+\end{table}
+
+2. kostenbezogene Formeln
+
+
+A1.3 Entgelte und Gebühren
+
+In der Arbeit wurden folgende Flughafen-Entgelte mitberechnet: Entgelte für Abfertigung, Passagierentgelte, Entgelt Landung und Start
+und zusätzliche passagierbezogene Entgelte. Die Passagierentgelte wurden im Fall Kurzstrecken angenommen,
+dass die Passagiere innerhalb EU reisen, für Mittel- und Langstrecken wurde angenommen, Passagiere außer EU-Rahmen reisen.
+Es muss beachtet werden, dass es eine Reihe anderen Entgelte an Flughäfen vorhanden, 
+wie die sicherheits- oder emissionsabhängige Entgelte. Zur Reduktion der Komplexität in der Berechnung werden die jedoch nicht betrachtet.
+
+Die Formel der Flugsicherungsgebühr $(C_{FS})$ für jeweils An- und Abfluggebühr stammt aus \cite{dfs_flugsicherungsgebuehren} und ist in der Gleichung \eqref{Flugsicherung}
+dargestellt. Im Jahr 2025 liegt der Wert $P_{FS}$ bei 380,71 Euro. 
+Der $MTOW$ bezeichnet das Höchstabfluggewicht (Maximum Take-Off Weight) eines Flugzeugs. 
+Die zugrunde liegenden Werte der Flughafenentgelten wurden aus den Daten von \cite{fraport2025entgelte} entnommen.
+Außerdem bestehen bei alternativen Antrieben betriebliche Kosten, die durch Infrastrukturbedienung bedingt sind.
+So werden bei BA-Flugzeugen die Kosten für Batteriewechsel zu Flughafenentgelten einkalkuliert. Aufgrund hoher Kosten für Batterien
+und ausgewählten Batteriewechselsystems am Flughafen können die Fluggesellschaften die Anschaffungskosten nicht leisten. 
+Zudem wird es schwer die Ladegeräte für unterschiedliche 
+Batterien bereitzustellen. Aus diesem Grund wird ein Konzept vorgeschlagen, dass
+Fluggesellschaften die Batterie bei Flughafengesellschaft leihen. Pro 1,5 Stundenflug wird ein Wert von 250 EUR dazugerechnet, da es durch
+die Häufigkeit der Ladezyklen und Abschreibungsjahren (siehe Tab. \ref{BA_Infrastrukturtab}) plausibel erscheint.
+Dieser Wert ermöglicht für den Flughafen Anschaffungskosten zu decken und unerwartete dazukommende Kosten zu bewältigen.
+Pro Flugzeug wird von einem Wert in Höhe von 285 EUR ausgegangen \cite{guo2023infrastructure}.
+
+Flugsicherungsgebühr
+\begin{equation}
+	{C_{FS} ~[\text{EUR}]} = (\frac{MTOW}{50})^{0,7} \cdot P_{FS} \\
+	\label{Flugsicherung}
+ \end{equation}
+ 
