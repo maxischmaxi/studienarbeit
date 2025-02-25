@@ -1,60 +1,37 @@
 %\subsection{Annahmen für die Berechnung der Kosten}
 %\label{s:Annahmen für die Berechnung der Kosten}
 
-Auf der Grundlage der unterschiedlichen Quellen und vernünftigen Behauptungen wurde eine Reihe der Annahmen getroffen.
-
-Die Betriebskosten werden mit Reisegeschwindigkeit ohne Beachtung von Start und Landung, wo mehr Energie verbraucht wird berechnet.
-Mit jetziger Leistung der Batterien wäre es unmöglich bei so einem Gewicht und der Distanz zu bleiben.
-Deswegen wird es angenommen, dass die Batterien sich positiv in Gewicht/Leistung-ratio entwickeln und Kapazitätswert von 450 kWh/kg genommen.
-
-Manche Studien gehen davon aus, dass die Einsparungen in der Wartungskosten von BA-Flugzeugen 10-15 \% erreichen können 
-\cite{wangsness2021fremskyndet,avogadro2024demystifying}. Deswegen in dieser Arbeit wird ein Wert von 10 \% zu dem Referenzflugzeug genommen.
-
-Es wird davon ausgegangen, dass Sicherheitsradius beim Wasserstoffbetankung nicht erweitert wird. 
-%Diese Daten in der Literatur sind noch nicht verfügbar.
 Infrastrukturkosten
-
-Da sich die Flughafenposition topografisch unterscheidet, wird die Annahme getroffen, dass die Lieferung mit LKW stattfindet 
-und die Lieferkosten bereits in dem Preis von flüssigem Wasserstoff inbegriffen sind.
-
+%
+Die Inflationsfaktoren stammen aus Verbraucherpreisindex Deutschland aus Statistischem Bundesamt und genutzte Werte sind in der Anlage XX zu finden.
 Alle Werte in USD werden mit dem Wechselkurs \footnote{Wechselkurs vom 14.01.2025} (EUR 1 = USD 1.0245) umgerechnet und mit Pfund (1,20 = EUR 1).
-
+Aufgrund der hohen Unsicherheit der Preisprojektionen wird der Preis für Kerosin konstant gehalten, nämlich im Wert von
+0,688 EUR pro Liter \cite{iata_industry_statistics_2024}. Stromkosten von 0.1976 € per kWh werden auch als konstante angenommen \cite{eurostat_nrg_pc_205}.
+In Anbetracht der Kostensenkung für nachhaltige Kraftstoffe in der Zukunft, wird der minimale Preis für HEFA-Treibstoff 
+von 1,07 EUR pro Liter wird in den Rechnungen verwendet \cite{watson2024sustainable}.
 %Nach AEA wird die Versicherung als einem Wert von 0,5 \%  des Flugzeugpreises berechnet und durchschnittliche Verzinsungsrate ca.5 \%
 
 %\cite{scholz_design_evaluation_doc}.
 %Die Lebensdauer mach AEA für Kurz- und Mittelstrecken erreicht 14 Jahre und für die Langstrecken 16 Jahre \cite{scholz_design_evaluation_doc}.
 
-%Beechcraft ist mit 2 Triebwerken PT6A-67D ausgestattet, Take-off power (5 Min) - 954 kW, sonst die Leistung 906 kW.\cite{easa_tcds_pt6a67}
 
-Obwohl die maximalen Geschwindigkeiten unter Referenz- und BA-Flugzeugen sich unterscheiden werden, 
-für die Kurzstrecken-Flügen ergibt es sich nicht eine sehr große Differenz.
-Deswegen es wird angenommen, dass die batteriebetriebenen Flugzeuge ähnliche Auslastung wie konventionelle Flugzeuge aufweisen.
 
 %Lebensdauer von 1000 Zyklen bis die Kapazität bis 80 \% reduziert wird für eine Li-Ion-Batterie wird angenommen, da folgende Werte bei Auto-Industrie bekannt für.
-In der Zukunft ist die Lebensdauer einer Batterie bis 5000 und mehr Zyklen zu erwarten \cite{reimers2018introduction}, deswegen wurde auch dieser
-Wert in der Berechnung angenommen.
+%In der Zukunft ist die Lebensdauer einer Batterie bis 5000 und mehr Zyklen zu erwarten \cite{reimers2018introduction}, deswegen wurde auch dieser
+%Wert in der Berechnung angenommen.
 
-Aufgrund der hohen Unsicherheit der Preisprojektionen wird der Preis für Kerosin konstant gehalten, nämlich im Wert von
-0,688 EUR pro Liter \cite{iata_industry_statistics_2024}. Stromkosten von 0.1976 € per kWh werden auch als konstante angenommen \cite{eurostat_nrg_pc_205}.
 
 
 %Kosten für den Markt?
 %Kosten für SAF (HEFA) (Produktionskosten) Jahr 2030 - Durchschnittspreis 1.0 USD/l, 
 %minimal 0.8 USD/l, 1.2 USD/l. 
 %Fossil jet range with CO2 price 0.4-0.9 USD/l für Jahr 2021 (Carbon price = USD 50/tonne.)\cite{iea_biojet_2021}
-In Anbetracht der Kostensenkung für nachhaltige Kraftstoffe in der Zukunft, wird der minimale Preis für HEFA-Treibstoff 
-von 1,07 EUR pro Liter wird in den Rechnungen verwendet \cite{watson2024sustainable}.
+%In Anbetracht der Kostensenkung für nachhaltige Kraftstoffe in der Zukunft, wird der minimale Preis für HEFA-Treibstoff 
+%von 1,07 EUR pro Liter wird in den Rechnungen verwendet \cite{watson2024sustainable}.
 
-Lieferkosten für flüssigen Wasserstoff und HEFA werden nicht explizit ausgerechnet,
-da die schon in Betriebskosten von Wasserstoff-getriebene Flugzeuge eingeschlossen sind. Es wird vor allem angenommen, dass die Produktion 
-des Wasserstoffes und Verflüssigung nicht am Flughafen stattfindet, sondern eingekauft und zum Flughafen transportiert.
-
-Es wird angenommen, dass die Batterien für BA zur Flughafen-Infrastruktur gehören, 
-d.h. die Anschaffungskosten Flughafen anfallen und danach werden die für Fluggesellschaften ausgeliehen.
-Die Inflationsfaktoren stammen aus Verbraucherpreisindex Deutschland aus Statistischem Bundesamt.
 
 Die Besatzungskosten sind mit Lohn von 37 EUR für Flugbegleiter und 90 EUR für Piloten pro Blockstunden berechnet \cite{discover_airlines_cabin}.
 
 Die konstante Spitzenleistung von Batteriewechselsystem von 250 kW wird angenommen. Der Strom ist normalerweise von Tag und Nacht abhängig
-und wie viel parallel genutzt wird. Angenommen ist die Batteriekapazität, wie bei der ES-19, dauert es 3,6 h bis die Batterie geladen wird.
+und wie viel parallel genutzt wird \cite{salucci2020optimal}. Angenommen ist die Batteriekapazität, wie bei der ES-19, dauert es 3,6 h bis die Batterie geladen wird.
 d.h. 10 fzg jeder braucht batterie, dann diese batterie kann erst in 4 std benutzt werden.

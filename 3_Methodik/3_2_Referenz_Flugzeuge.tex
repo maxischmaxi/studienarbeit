@@ -1,32 +1,51 @@
 \section{Flugzeuge und Annahmen}
-\subsection{Relevante Flugzeugdaten}
+\subsection{Verglichene Flugzeuge und relevante Flugzeugdaten}
+\label{ss:Relevante Flugzeugdaten}
+%
 Um den betrieblichen Unterschied zwischen konventionellen und mit neuartigen Antrieben zu zeigen, werden die Referenz-Flugzeuge mit neuen 
-Konzepten verglichen.
-Für den Vergleich mit BA wurde für L410 entschieden. L410 ist ein Zubringer-Flugzeug mit 19 Plätzen der Firma Aircraft Industries. 
-Die moderne Version L410NG verfügt über neue Avionik und mit zwei GE H85-200 Triebwerken mit einer Wellenleistung von 850 (SHP) ausgestattet.
+Konzepten verglichen. 
+Der Wahl eines Antriebes ist von der Reichweite abhängig.\\
+\textit{Konventionelle Flugzeuge}\\
+Für den Vergleich mit elektrischen Batteriegetriebene Flugzeug wurde ein L410 genommen. 
+L410 ist ein Zubringer-Flugzeug mit 19 Plätzen der Firma Aircraft Industries. 
+Die moderne Version L410NG verfügt über neue Avionik und mit zwei GE H85-200 Triebwerken mit einer Wellenleistung von 850 (SHP) ausgestattet (Quellen).
+Verbrauch von einem L410 beträgt 240 kg/h \cite{let2016l410}. Sonstige wichtige für die Methodik Flugzeugdaten wurden in der Tabelle \ref{Flugzeuge} zusammengefasst.
+Unter $V$ ist die Reisegeschwindigkeit zu verstehen. $R$ ist die Reichweite eines Flugzeugs. $MTOW$ ist die Höchstabfluggewicht und 
 
+Für den Vergleich von größeren Distanzen wurde für A321LR entschieden. 
+Die A321LR ist ein Schmalrumpfflugzeug von Airbus und ist eine Version der A321neo mit einer größeren Reichweite.
+Flugzeug ist mit zwei Triebwerken ausgestattet, die einem maximalen Schub ($T_{T/O}$) von 33 kN haben \cite{eurocontrol_a321}.
+
+\textit{Alternative Flugzeuge und Annahmen}
 Die ES-19 von Heart Aerospace dient als Vergleich zur L410. Das Konzept hat einen rein elektrischen, batteriebetriebenen Antrieb.
 Das Unternehmen hat zwar die ES-19 auf eine hybride Wasserstoffversion ES-30 umgerüstet, das Konzept der ES-19 wurde allerdings breit diskutiert 
-und oft in wissenschaftlichen Arbeiten erwähnt. Sie hat vier Triebwerke und sollte über eine Reichweite von 400 km verfügen, 
-wobei sie hierbei mit einer Reisegeschwindigkeit von 330 km/h fliegt \cite{anker2023feasibility} \cite{heart_aerospace_es19}.
-Für die Batterie der ES-19 wird eine Kapazität von 900 kWh angenommen \cite{donckers2024electric}. \\
-Verbrauch von einem L410 beträgt 240 kg/h \cite{let2016l410}.
-In der Tabelle \ref{Flugzeuge} sind relevante charakteristische Werte und Annahmen von beiden Flugzeugen zusammengefasst.
-Die ES-19 ist langsamer als eine L410, d.h. das für gleiche Strecke mehr Zeit benötigt wird, was am Ende die Auslastung verändern kann.
-Aufgrund des Batteriegewichts ist das BA Flugzeug schwerer als konventionelle Alternativen.
-
-Die A321LR ist eine von Airbus vorgestellte neue Version der A321neo mit einer größeren Reichweite.
-Flugzeug ist mit ... Triebwerken ausgestattet 
+und oft in wissenschaftlichen Arbeiten erwähnt. Das Flugzeug hat vier Triebwerke und sollte über eine Reichweite von 400 km verfügen, 
+wobei hierbei eine Reisegeschwindigkeit von 330 km/h erreicht wird \cite{anker2023feasibility} \cite{heart_aerospace_es19}.
+Für die Batterie der ES-19 wird eine Kapazität von 720 kWh benötigt, mit 30 \% der Reserveenergie resultiert in 900 kWh \cite{donckers2024electric}. \\
+Mit jetziger Leistung der Batterien wäre es unmöglich bei so einem Gewicht und der Distanz zu bleiben.
+Deswegen wird es angenommen, dass die Batterien sich positiv in Gewicht-zu-Leistungs-Verhältnis entwickeln und Kapazitätswert von 450 kWh/kg erreicht wird.
+Manche Studien gehen davon aus, dass die Einsparungen in der Wartungskosten von BA-Flugzeugen 10-15 \% erreichen können 
+\cite{wangsness2021fremskyndet,avogadro2024demystifying}. 
+Deswegen in dieser Arbeit wird eine Verminderung von 10 \% zu dem Referenzflugzeug genommen.
+%
 Da es bis jetzt nur wenig ausgearbeitete größere Konzepte für Wasserstoff-Antrieb gibt, wird der Betriebsvergleich
-auf der Basis von einer A321LR stattfinden, mit der Annahme, dass Flugzeug mit Wasserstoffturbine betrieben ist.
+auf der Basis von einer A321LR stattfinden. Dabei wird es angenommen, dass das Flugzeug mit Wasserstoffturbine betrieben ist.
 Im Vergleich zu konventionellen Flugzeugen werden die Wasserstoff-Flugzeuge, die für Mittelstrecken geeignet, 14 \% höheres MTOW haben 
-und die Kapitalkosten für das Kurzstrecken-Flugzeug sowie Wartungskosten steigen um 7 \% und 6 \% \cite{sky2020hydrogen}. 
+und die Kapitalkosten für das Kurzstrecken-Flugzeug um 7 \% sowie Wartungskosten um 6 \% steigen \cite{sky2020hydrogen}. 
 Diese Anteile sind zwar für Mittel- und Langstrecken Flugzeuge positiv, aber werden dennoch für diese Arbeit angenommen.
 
 Es ist auch zu erwarten, dass die Flugzeit zwischen 5 und 15 \% aufgrund des Wasserstofftank-Gewichts zunimmt \cite{sky2020hydrogen}. 
-Aus diesem Grund wurde für ein Wert von 10 \% für die Arbeit entschieden.
+Aus diesem Grund wurde es für einen Wert von 10 \% für die Arbeit entschieden.
 Der Vergleich zu SAF-Betriebskosten findet auch mit der A321LR statt. Es wird davon ausgegangen, dass der Unterschied 
 nur bei Treibstoffkosten entsteht. Für die A321LR wird die Passagieranzahl von 220 und Verbrauch von 1,7 kg pro Kilometer und pro PAX angenommen \cite{fonseca2022doc}.
+%
+In der Tabelle \ref{Flugzeuge} sind relevante charakteristische Werte und Annahmen für die Vergleichflugzeuge zusammengefasst.
+Anhand dieser Daten ist ES-19 langsamer als ein L410, das bedeutet für gleiche Strecke wird mehr Zeit benötigt, was am Ende die Auslastung 
+eines Flugzeugs und Betriebskosten verändern kann. Aufgrund des Batteriegewichts ist das BA Flugzeug schwerer als konventionelle Alternativen.
+Die beiden Flugzeuge können die gleiche Anzahl an Passagieren zu befördern. 
+Obwohl die Reisegeschwindigkeiten bei Referenz- und BA-Flugzeugen sich unterscheiden werden, 
+für die Kurzstrecken-Flügen ergibt sich keine erhebliche Differenz.
+Deswegen es wird angenommen, dass die batteriebetriebenen Flugzeuge ähnliche Auslastung wie konventionelle Flugzeuge aufweisen.
 
 \begin{table}[h]
 	\begin{center}
@@ -38,16 +57,18 @@ nur bei Treibstoffkosten entsteht. Für die A321LR wird die Passagieranzahl von 
 		 & \textbf{Quellen} \\ \hline
 		L410  & 417 & 2 570 & 7000 & 4120 & 19 & \cite{let_l410ng}\\ \hline
 		ES-19 &  330 & 400 & 8618 & & 19 & \cite{anker2023feasibility} \cite{heart_aerospace_es19}\\ \hline
-		A321LR & 1104 & 7400 & 97000 & & 220 & \cite{airbus_a321neo} \cite{fonseca2022doc} \\ \hline
-		AZEROe Turboprop &  &  &  & 110580 & -- &\\ \hline
+		A321LR & 1104 & 7400 & 97000 & & max. 244 & \cite{airbus_a321neo} \cite{fonseca2022doc} \\ \hline
+		WA &  &  &  & 110580 & -- &\\ \hline
 	\end{tabular}
     \end{center}
 \end{table}
 
-Dass die Anschaffungspreise die Betriebskosten beeinflussen, wurde bereits in 2-2 diskutiert. 
+Dass die Anschaffungspreise die Betriebskosten beeinflussen, wurde bereits in \ref{s:Kosten} diskutiert. 
 Die Tabelle \ref{Flugzeugpreise} stellt die Verkaufspreise für konventionelle Referenz-Flugzeuge dar.
 Da der Verkaufspreis einer A321LR nicht zur Verfügung steht, wird auf den Listenpreis einer A321neo zurückgegriffen. 
-Da sie aus einer Flugzeug-Reihe kommen, kann es davon ausgegangen werden, dass die Preise ähnlich sind.
+Da sie aus einer Flugzeug-Reihe kommen, kann es davon ausgegangen werden, dass die Preise ähnlich sind. 
+Die Preise können nicht aktuell
+sein, deswegen wird für die beiden noch ein Inflationsfaktor dazugerechnet.
 %Die Preise für alternative Antriebe sind wegen  nicht dargestellt
 
 \begin{table}[h]
@@ -62,5 +83,5 @@ Da sie aus einer Flugzeug-Reihe kommen, kann es davon ausgegangen werden, dass d
     \end{center}
 \end{table}
 
-\subsection{Sonstige Annahmen}
-\input{3_Methodik/Annahmen.tex}
+\subsection{Allgemeine Annahmen}
+

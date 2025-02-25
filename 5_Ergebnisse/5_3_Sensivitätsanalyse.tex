@@ -1,0 +1,32 @@
+\section{Sensitivitätsanalyse}
+\label{s:Sensitivitätsanalyse}
+%
+Die Sensitivitätsanalyse ermöglicht die Robustheit einer Berechnung zu überprüfen und die Parameter mit größtem Einfluss herauszufinden. 
+Dafür wurde die Teilkosten aus dem \ref{s:Ergebnisse_Flugzeuge} ausgesucht, die größter Einfluss auf die Gesamtkosten haben. 
+Bei den Vergleich von Batterie, SAF und herkömmlichen Treibstoff sind das Entgelte und Gebühren, als auch kapitalbezogene Kosten.
+Dafür wurden folgende Parametern ausgesucht: 1. der Preis für Leasing einer Batterie, 2. Flugzeugpreis
+Der ersten Wert kann je nach Leistung der Batterie und Häufigkeit der Nutzung unterschiedlich ausfallen, deswegen wäre es wichtig anzuschauen,
+welcher Unterschied im Betriebskosten entsteht, wenn ich Preis für Leasing 10 \% teurer wäre. Die Preise für neue Flugzeugantriebe
+werden durch die steigende Nachfrage mit der Zeit sinken, aus diesem Grund wurde der 10 \% Rückgang wurde angeschaut.
+
+Beim Vergleich von Wasserstoffbetrieben und SAF mit konventionellem Antrieb entsteht der größte Kostenanteil
+von Treibstoffkosten und kapitalbezogenen Kosten. Deswegen wurde für Parametern wie: 1. Preis für Treibstoff; 
+2. Anschaffungskosten eines Flugzeugs entschieden. Dabei Preis für alternative Antriebe soll in der Zukunft senken und Preis für herkömmlichen
+Treibstoffen aufgrund Wachstum von Ölpreisen wachsen. Es wird auch den Wert von 10 \% genommen.
+Wie bereits angesprochen wird der Anschaffungspreis für neue Technologien mit der Zeit sinken.
+
+\begin{table}[h]
+	\begin{center}
+    \caption{Sensitivitätsanalyse: Unterschied der Betriebskosten vom Parameter Treibstoffpreis}
+	\label{BA_Infrastrukturtab}
+	\begin{tabular}{|l|c|c|c|}
+		\hline
+		Antriebe & \textbf{Referenz}& \textbf{Wasserstoff}& \textbf{SAF} \\ \hline
+		Ausgang $EUR$ & 56340,3 & 78853,1 & 66853,5  \\ \hline
+        Preis Szenario (+/- 10 \%) & 58290,4  & 75020,3 & 63852,1 \\ \hline
+        Abweichung $\%$ & 3,5 & -4,9 & -4,5 \\ \hline
+	\end{tabular}
+    \end{center}
+\end{table}
+
+Der Wasserstoffantrieb reagiert der Preisänderung gegenüber am stärksten.

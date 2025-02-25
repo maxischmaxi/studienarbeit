@@ -141,7 +141,8 @@ hyperfootnotes=false
 
 \begin{document}
 
-
+	\frontmatter
+	\pagenumbering{Roman}
 
 %\maketitle
 
@@ -150,24 +151,43 @@ hyperfootnotes=false
 %\date{October 2024}
 \input{1_Title.tex}
 %\maketitle
-
+%
 \input{1_Chapters/0 Thesen.tex}
-\input{1_Chapters/5_acronyms.tex}
-%\input{1_Chapters/1 Einleitung.tex}
+
+	\tableofcontents
+%\input{1_Chapters/2_task.tex}
+%\input{1_Chapters/4_bibnachweis.tex}
+%\input{1_Chapters/5_acronyms.tex}
+%\input{1_Chapters/7_abbildungen.tex}
+%\input{1_Chapters/8_tables.tex}
+%\input{1_Chapters/9_equations.tex}
+\mainmatter
+\input{1_Chapters/1 Einleitung.tex}
+%
 %\section{Introduction}
-%\input{2_Grundlagen/2_1 Stakeholder.tex}
-%\input{2_Grundlagen/2_2 Kosten.tex}
-%\input{2_Grundlagen/2_4 nachhaltige Alternativen.tex}
-%\input{2_Grundlagen/2_4_2 electric.tex}
-%\input{2_Grundlagen/2_4_3 hydrogen.tex}
-%\input{3_Methodik/3_1_Änderungen.tex}
-%\input{3_Methodik/3_2_Referenz_Flugzeuge.tex}
-%\input{3_Methodik/3_3_Kosten_Formeln.tex}
+\input{2_Grundlagen/2_1 Stakeholder.tex}
+\input{2_Grundlagen/2_2 Kosten.tex}
+\input{2_Grundlagen/2_3 Strategien.tex}
+\input{2_Grundlagen/2_4 nachhaltige Alternativen.tex}
+\input{2_Grundlagen/2_4_2 electric.tex}
+\input{2_Grundlagen/2_4_3 hydrogen.tex}
+\input{3_Methodik/3_1_Änderungen.tex}
+\input{3_Methodik/3_2_Referenz_Flugzeuge.tex}
+\input{3_Methodik/3_3_Kosten_Formeln.tex}
 \input{3_Methodik/3_4_Betriebsszenarien.tex}
 \input{5_Ergebnisse/5_1_Ergebnisse_Fzg.tex}
 \input{5_Ergebnisse/5_2_Ergebnisse_Betriebsszenarien.tex}
-%\input{5_Ergebnisse/5_3_Diskussion.tex}
-\input{4_References/bib}
+\input{5_Ergebnisse/5_3_Sensivitätsanalyse.tex}
+\input{5_Ergebnisse/5_4_Diskussion.tex}
+
+\newpage
+\pagenumbering{Roman}
+\setcounter{page}{23}
+
+%\input{1_Chapters/3_statement.tex}
+%\input{4_References/bib}
+
+%\input{1_Chapters/6_appendix.tex}
 
 
 

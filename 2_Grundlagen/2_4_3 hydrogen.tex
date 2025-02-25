@@ -1,70 +1,92 @@
 \subsection{Wasserstoff-Antrieb}
 \label{Wasserstoff-Antrieb}
 
-In vielen Forschungsarbeiten wird der Wasserstoff als die Lösung für umweltfreundliche Luftfahrt dargestellt.
-Diese Alternative wird jedoch von Kosten, Sicherheit und öffentlicher Akzeptanz behindert \cite{ansell2023review}.
-Durch Nutzung von Wasserstoff werden keine \ce{CO2}-Emissionen verursacht, 
-jedoch können andere Abgase wie Stickoxid \ce{NOx} bei der Verbrennung in Wasserstoffturbinen oder Wasserdampf emittiert werden, 
-was zur Bildung von Kondensstreifen führt(Quelle).
+In vielen Forschungsarbeiten wird der Wasserstoff als die Lösung für umweltfreundliche Luftfahrt dargestellt/vorgestellt.
+Dieses Energiemedium wird jedoch von Kosten, Sicherheit und öffentlicher Akzeptanz behindert \cite{ansell2023review}.
+Durch Nutzung von Wasserstoff werden keine \ce{CO2}-Emissionen verursacht, jedoch können andere Abgase 
+wie Stickstoffoxid \ce{NOx} bei der Verbrennung in Wasserstoffturbinen oder Wasserdampf emittiert werden, was zur Bildung der Kondensstreifen
+führt \cite{hepperle2012electric}.
+%was zur Bildung von Kondensstreifen führt \cite{conrady2019luftverkehr}. %überprüfen
+%
+\textit{Herstellung}\\
+Es existieren unterschiedliche Wege zur Herstellung von Wasserstoff. 
+Die gängigsten Herstellungswege sind Dampfreformierung (Steam Methane Reforming - SMR) und die Elektrolyse. %(Fully Renewable). 
+Bei SMR trifft Wasserdampf in der Reaktion zusammen mit Methan aus Erdgas, infolgedessen entsteht der
+Wasserstoff \ce{H2} und Kohlenmonoxid \ce{CO} bzw. -dioxid \cite{mulder2019outlook}. Bei der Elektrolyse wird das Wasser mithilfe von Elektrizität 
+in Wasserstoff \ce{H2O} und Sauerstoff \ce{O2} gespaltet \cite{mulder2019outlook}. Durch diesen Herstellungsweg können \ce{CO2}-Emissionen 
+vollständig vermieden werden \cite{dalmia2022powering}. 
+Die Nachhaltigkeit der Elektrolyse ist außerdem genauso wie bei BA von der Stromquelle abhängig.
+%
+Wenn für die Produktion von Wasserstoff erneuerbare Energiequellen (wie Solar- und Windanlagen) genutzt worden, 
+wird dieser als grüner Wasserstoff bezeichnet \cite{mulder2019outlook}. 
+Durch Elektrolyse produzierter grüner Wasserstoff ist kostenintensiv \cite{dalmia2022powering} und von den Stromkosten abhängig. 
+Wird der Strom aus fossilen Energieträgern erzeugt, kommt es zu indirekten Emissionen.
+Beispielhaft bei anderen Herstellungswegen (grauer und blauer Wasserstoff)
+kommt es hingegen zum Ausstoß von Kohlenstoff, wobei bei blauem Wasserstoff das \ce{CO2} gesammelt und gespeichert wird \cite{mulder2019outlook}.
+%Chardonnet et al. schätzt die Investitionskosten für die Produktion in 15 Mio. € (nach \cite{mulder2019outlook}). wie viel kilo?
+
+%
+\textit{Zustände}
+Es gibt unterschiedliche Zustände, wie das Wasserstoff benutzt werden kann. Die gängigsten in
+Verkehrsbranche sind die gasförmige \ce{GH2} und kryogener flüssigen Wasserstoff \ce{LH2}. 
+Um mehr Energie speichern zu können, muss der gasförmigen \ce{H2} stark komprimiert werden, 
+nämlich bei einem Druck von 350 oder 700 bar
+gespeichert werden \cite{colpan2022fuel}, um weniger Platz zu verbrauchen/benötigen.
+Flüssiger Wasserstoff entsteht durch die Verflüssigung des Wasserstoffs.
+%"LH2 hat die höchste spezifische Energie- und Kühlleistung aller herkömmlichen Substanzen." \cite{ansell2023review}
+In der Tabelle \ref{wasserstoff_energie} sind die Vergleichswerte für Kerosin und Wasserstoff sowohl im flüssigen Zustand 
+als auch im gasförmigen dargestellt. 
+Das \ce{LH2} hat zwar bessere Gewichtsverhältnisse als Kerosin, jedoch wird für die gleiche Menge Energie 3,5-mal so viel Platz gebraucht. 
+%(flüssiger Wasserstoff - geringere Gesamtspeichermasse-größere Flugzeuge und volumenanforderungen; für kleinere regionale - GH2)
+
+Flüssiger kryogener Wasserstoff ist viel besser geeignet für den Trasport mit LKW als gasförmigen,
+aber dafür benötigt mehr Energieaufwand \cite{colpan2022fuel}. 
 
 Zündungstemperatur?
 
 \begin{table}[h]
 	\begin{center}
-    \caption{Vergleich von unkomprimiertem Wasserstoffgas hinsichtlich energiebezogenen Eigenschaften mit anderen marktüblichen Treibstoffen bei 26 \acs{Celsius} }
+    \caption{Vergleich von flüssigen Wasserstoff energiebezogenen Eigenschaften mit anderen konventionellen Treibstoffen }
 	\label{wasserstoff_energie}
-	\begin{tabular}{|l|c|c|c|}
+	\begin{tabular}{|l|c|c|c|c|}
 		\hline
-		& \textbf{volumetrische Energiedichte in \acs{kWh/l}} & \textbf{gravimetrische Energiedichte in \acs{kWh/kg}} & \textbf{Zündungstemperatur in \acs{kWh/kg}} \\ \hline
-		Wasserstoff & 2,6 \cite{colpan2022fuel} & 37,0 \cite{colpan2022fuel} & \\ \hline
+		& \textbf{volumetrische Energiedichte in \acs{kWh/l}} & \textbf{gravimetrische Energiedichte in \acs{kWh/kg}} & \textbf{ \acs{kWh/kg}} & \textbf{Zündungstemperatur in \acs{kWh/kg}} \\ \hline
+		Wasserstoff LH2 & 2,6 \cite{colpan2022fuel} & 37,0 \cite{colpan2022fuel} & \\ \hline
+		Wasserstoff GH2 & & \\ \hline
 		Kerosin & ~9,5 \cite{colpan2022fuel} & ~11.9 \cite{colpan2022fuel}& \\ \hline
 	\end{tabular}
     \end{center}
 \end{table}
 
-In der Tabelle \ref{wasserstoff_energie} sind die Vergleichswerte für Kerosin und Wasserstoff im flüssigen Zustand dargestellt. 
-Das \ce{LH2} hat zwar bessere Gewichtsverhältnisse als Kerosin, jedoch wird für die gleiche Menge Energie 3,5-mal so viel Platz gebraucht. 
-%(flüssiger Wasserstoff - geringere Gesamtspeichermasse-größere Flugzeuge und volumenanforderungen; für kleinere regionale - GH2)
-
-Für Flugzeuge ist die Tankisolierung von großer Bedeutung. Der \ce{LH2} muss bei -253 °C Grad gelagert werden, 
-ansonsten geht es zur gasförmigen Form über \cite{colpan2022fuel}. In dieser Form muss der Wasserstoff in einem Speicher
-bei einem Druck von 350 oder 700 Bar gelagert werden \cite{colpan2022fuel}.
+Für Flugzeuge, die mit Wasserstoff betrieben werden, ist die Tankisolierung von großer Bedeutung. 
+Der flüssigen \ce{LH2} muss bei -253 °C Grad gelagert werden \cite{colpan2022fuel}.
 %Das kann die Abfertigungszeiten beeinflussen. (bei schlechte Isolierung - schneller starten, bei guten - mehr Flexibilität)
 %
-Es existieren unterschiedliche Wege zur Herstellung von Wasserstoff. 
-Die gängigsten Herstellungswege sind Steam Methane Reforming (SMR) und die Elektrolyse. %(Fully Renewable). 
-Bei SMR trifft Wasserdampf in der Reaktion zusammen mit Methan aus Erdgas, infolgedessen entstehet der
-Wasserstoff \ce{H2} und Kohlenmonoxid bzw. -dioxid \cite{mulder2019outlook}. Bei der Elektrolyse wird das Wasser mithilfe von Elektrizität 
-in Wasserstoff und Sauerstoff \ce{O2} gespaltet \cite{mulder2019outlook}. Durch diesen Herstellungsweg können \ce{CO2}-Emissionen 
-vollständig vermieden werden \cite{dalmia2022powering}. 
-
-Die Nachhaltigkeit der Elektrolyse ist außerdem von der Stromquelle abhängig. 
-Wenn für die Produktion von Wasserstoff erneuerbare Energiequellen (wie Solar- und Windanlagen) genutzt worden, 
-wird dieser als grüner Wasserstoff bezeichnet \cite{mulder2019outlook}. 
-Wird der Strom aus fossilen Energieträgern erzeugt, kommt es zu indirekten Kohlenstoffemissionen.
-Durch Elektrolyse produzierter grüner Wasserstoff ist kostenintensiv \cite{dalmia2022powering} und von den Stromkosten abhängig. 
-%Chardonnet et al. schätzt die Investitionskosten für die Produktion in 15 Mio. € (nach \cite{mulder2019outlook}). wie viel kilo?
-Bei anderen Herstellungswegen (grauer und blauer Wasserstoff)
-kommt es hingegen zum Ausstoß von Kohlenstoff, wobei bei blauem Wasserstoff das \ce{CO2} gesammelt und gespeichert \cite{mulder2019outlook} wird.
+%
 %
 %\cite{mulder2019outlook} - Annahme: anstatt Windkraftanlage - Stromnetz
-
+\textit{Antrieb}\\
 Wasserstoff kann in zwei unterschiedlichen Weisen als Antrieb genutzt werden: 
 erstens als Treibstoff für die Verbrennung im \ce{H2}-Verbrennungsmotor,
-zweitens als Brennstoffzelle, um den elektrischen Motor anzutreiben \cite{sky2020hydrogen}.
+zweitens in der Brennstoffzelle, um den elektrischen Motor anzutreiben \cite{sky2020hydrogen}. Zudem gibt es ein hybrid-elektrisches Antrieb,
+wo die Brennstoffzelle zusammen mit einer Batterie genutzt wird.
+%
+Eine andere Methode, um Wasserstoff in der Luftfahrt zu nutzen ist die Brennstoffzellentechnologie.
+Durch die chemische Reaktion aus gasförmigem Wasserstoff \ce{H2} und Sauerstoff \ce{O2} wird Strom produziert \cite{dalmia2022powering} und 
+dadurch der Propeller vom Flugzeug angetrieben.
+Brennstoffzellen (wie die Polymerelektrolytbrennstoffzelle) haben eine höhere Energiedichte (als was?) und 
+können somit für Mittel- oder Langstrecken genutzt werden \cite{dalmia2022powering}. 
+Brennstoffzellen benötigen den gasförmigen Wasserstoff \cite{colpan2022fuel} und ziemlich schwer von Gewicht und der Struktur \cite{hepperle2012electric}. 
+Aufgrund besseren Speicherung in flüssigen Form muss überlegt werden, wann der Wasserstoff in Gasform überführt wird. 
 
-"Die Wasserstofftriebwerke werden in ihrer Architektur den bestehenden Düsentriebwerken ähneln, 
-jedoch mit einigen Ergänzungen, wie z. B. Kraftstoffpumpen und -steuergeräten, Brennkammern und
- einem zusätzlichen Wärmetauscher zur Verdampfung von flüssigem Wasserstoff (LH2)" \cite{colpan2022fuel}
-Colpan et al. \cite{colpan2022fuel} ist der Meinung, dass sich die Wasserstofftriebwerke im Vergleich zu konventionellen Triebwerken ähneln werden. 
-Allerdings werden Komponenten, wie Kraftstoffpumpen, 
+
+%"Die Wasserstofftriebwerke werden in ihrer Architektur den bestehenden Düsentriebwerken ähneln, 
+%jedoch mit einigen Ergänzungen, wie z. B. Kraftstoffpumpen und -steuergeräten, Brennkammern und
+% einem zusätzlichen Wärmetauscher zur Verdampfung von flüssigem Wasserstoff (LH2)" \cite{colpan2022fuel}
+Colpan et al. \cite{colpan2022fuel} ist der Meinung, dass sich die Wasserstofftriebwerke im Vergleich zu konventionellen Düsentriebwerken ähneln werden. 
+Allerdings werden zusätzliche Komponenten, wie Kraftstoffpumpen, Wärmetauscher von flüssigem Wasserstoff.
 
 Flüssiger Wasserstoff
-
-%"LH2 hat die höchste spezifische Energie- und Kühlleistung aller herkömmlichen Substanzen." \cite{ansell2023review}
-Flüssiger Wasserstoff entsteht durch die Verflüssigung des Wasserstoffs.
-
-Senkt man die Temperatur von Wasserstoff auf -253 °C \cite{colpan2022fuel}, entsteht flüssiger Treibstoff.
 
 Die Nutzung von Wassertreibstoff ist für größere Flugzeuge geeignet und somit für längere Stecken. Das vorhergeht von % der satz ist komisch, bitte überprüfen
 Gewichtsanteil von LH2 Tank in Anhängigkeit von der gelagerten Menge. 
@@ -73,35 +95,33 @@ Große Flugzeuge bieten bessere Speichereffizienz und Wasserstoffmengen-Verhält
 \cite{ansell2023review}
 
 
-Gasförmiger Wasserstoff/ Brennstoffzellentechnologie
-
-Eine andere Methode, um Wasserstoff in der Luftfahrt zu nutzen ist der Wasserstoff im gasförmigen Zustand. 
-Diese Technologie wird Brennstoffzellentechnologie genannt.
-Durch die chemische Reaktion aus gasförmigem Wasserstoff \ce{H2} und Sauerstoff \ce{O2} wird Strom produziert \cite{dalmia2022powering} und 
-dadurch der Propeller vom Flugzeug angetrieben.
-Brennstoffzellen (wie die Polymerelektrolytbrennstoffzelle) haben eine höhrere Energiedichte (als was?) und 
-können somit für Mittel- oder Langstrecken genutzt werden \cite{dalmia2022powering}. 
-Um mehr Energiedichte speichern zu können, muss \ce{H2} stark komprimiert werden. 
-
 hydrogen-Electric Antrieb
-
 Sobald die Brennstoffzellen in dem Flugzeug integriert sind, werden Generatoren/Generatoren das 
 Auxiliary Power Unit (APU)-System des Flugzeugs mit Strom versorgen. Zum Einsatz kommen Brennstoffzellen 
 mit Protonenaustauschmembran, deren Strom die Motoren antreibt. Die Motoren werden über Propeller verfügen,
 die dann dem Flugzeug Schub verleihen, da sie sich mit unterschiedlichen Geschwindigkeiten im Verhältnis zur Drosselklappe drehen.\cite{dalmia2022powering}
 
-Wasserstoff kann in einer chemischen Verbindung gebunden werden, wie Ammoniak und Methanol, und somit auch transportiert.
+\textit{Transport}
+Wasserstoff kann auch in einer chemischen Verbindung gebunden werden, wie Ammoniak und Methanol, und somit transportiert.
 
 not sure:
-
 \cite{dahal2021techno} In der Dahal et el. Studie wurde ein Konzept vorgeschlagen, wo die Tanks auf dem Fuselage sich befinden.
 "Die kryogenen Kraftstofftanks erfordern eine angemessene Isolierung sowie die Verwendung von Materialien, die 
 gegen Versprödung und zyklische Belastungen schützen, die durch die thermische Ausdehnung und Kontraktion beim Nachfüllen 
 und den Kraftstoffverbrauch verursacht werden"
 
+
+%Betriebsleergewicht bleibt konstant, im Betracht Startbruttogewicht um 30 \%, jedoch wegen großen Wasserstofftank
+\textit{Sicherheit beim Umgang mit Wasserstoff}
+Wasserstoff kann hochentzündlich sein \cite{dalmia2022powering}.
+Die Forschung der Wasserstoff muss sich mit den Themen wie Explosionsgefahr, Materialgefahr, 
+Betankung und bei der Umgang bei Abfertigung auseinandersetzen. 
+Bei richtiger Infrastruktur ist der Wasserstoff nicht gefährlicher als andere brennbare konventionelle Treibstoffe und in manchen 
+Fällen sogar sicherer \cite{khandelwal2013hydrogen}.
+
+Für die Verbrennung des Wasserstoffs werden Änderung in der Brennkammer benötigt, damit höhere Temperaturen vermieden werden können \cite{khandelwal2013hydrogen}
+Der Wasserstoff hat hohe Flammengeschwindigkeit, und große Gefahr Flammensrückschlag bei der Flammenausbreitung.
+
 Die zusätzliche Ausbildung für Wartungsmitarbeiter und die Schulungen für Bodenabfertigen
 werden benötigt, weil die Charakteristiken von Wasserstoff 
 sich von herkömmlichen Treibstoffen stark unterscheiden. \cite{mulder2019outlook}?
-
-Betriebsleergewicht bleibt konstant, im Betracht Startbruttogewicht um 30 \%, jedoch wegen großen Wasserstofftank
-

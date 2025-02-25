@@ -512,10 +512,9 @@ INPUT 1_Chapters/0 Thesen.tex
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Regular-T1-TLF.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Light-T1-TLF.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-T1-TLF--base.tfm
-INPUT ./1_Chapters/5_acronyms.tex
-INPUT ./1_Chapters/5_acronyms.tex
-INPUT 1_Chapters/5_acronyms.tex
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-LightItalic-T1-TLF.tfm
+INPUT ./studienarbeit.toc
+INPUT ./studienarbeit.toc
+INPUT studienarbeit.toc
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
@@ -553,6 +552,22 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cbfonts/grmn0600.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cbfonts/grmi1200.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cbfonts/grmi0800.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cbfonts/grmi0600.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-LightItalic-T1-TLF.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Regular-T1-TLF.vf
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Regular-T1-TLF--base.tfm
+OUTPUT studienarbeit.toc
+INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-LightItalic-T1-TLF.vf
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-LightItalic-T1-TLF--base.tfm
+INPUT ./1_Chapters/1 Einleitung.tex
+INPUT ./1_Chapters/1 Einleitung.tex
+INPUT 1_Chapters/1 Einleitung.tex
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-T1-TLF.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-T1-TLF.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Light-T1-TLF.vf
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-T1-TLF--base.tfm
+INPUT ./2_Grundlagen/2_1 Stakeholder.tex
+INPUT ./2_Grundlagen/2_1 Stakeholder.tex
+INPUT 2_Grundlagen/2_1 Stakeholder.tex
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/esvect/vect10.tfm
@@ -565,58 +580,143 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cbfonts/grmi1000.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-SemiBold-T1-TLF.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-SemiBold-T1-TLF.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-SemiBold-T1-TLF--base.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Regular-T1-TLF.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Regular-T1-TLF--base.tfm
-INPUT ./3_Methodik/3_4_Betriebsszenarien.tex
-INPUT ./3_Methodik/3_4_Betriebsszenarien.tex
-INPUT 3_Methodik/3_4_Betriebsszenarien.tex
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-LightItalic-T1-TLF.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-LightItalic-T1-TLF--base.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT c:/texlive/2024/texmf-dist/tex/latex/opensans/TS1opensans-TLF.fd
 INPUT c:/texlive/2024/texmf-dist/tex/latex/opensans/TS1opensans-TLF.fd
 INPUT c:/texlive/2024/texmf-dist/tex/latex/opensans/TS1opensans-TLF.fd
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-TS1-TLF.tfm
-INPUT ./BIlder/Betriebsszenarien.png
-INPUT ./BIlder/Betriebsszenarien.png
-INPUT ./BIlder/Betriebsszenarien.png
-INPUT ./BIlder/Betriebsszenarien.png
-INPUT ./BIlder/Betriebsszenarien.png
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-T1-TLF.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Regular-T1-TLF.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/esvect/vect7.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/esvect/vect5.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib7.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm0700.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cbfonts/grmn0700.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cbfonts/grmn0500.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cbfonts/grmi0700.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cbfonts/grmi0500.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-T1-TLF.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Light-TS1-TLF.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-TS1-TLF--base.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/opensans/a_nvvucy.enc
+INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Light-T1-TLF.vf
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-T1-TLF--base.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Light-T1-TLF.vf
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-T1-TLF--base.tfm
+INPUT ./2_Grundlagen/2_2 Kosten.tex
+INPUT ./2_Grundlagen/2_2 Kosten.tex
+INPUT 2_Grundlagen/2_2 Kosten.tex
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/esvect/vect10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cbfonts/grmn1440.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cbfonts/grmi1440.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-SemiBold-T1-TLF.tfm
+INPUT ./BIlder/Systematik der DOC_Berechnung.png
+INPUT ./BIlder/Systematik der DOC_Berechnung.png
+INPUT ./BIlder/Systematik der DOC_Berechnung.png
+INPUT ./BIlder/Systematik der DOC_Berechnung.png
+INPUT ./BIlder/Systematik der DOC_Berechnung.png
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Regular-T1-TLF.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-SemiBold-T1-TLF.vf
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-SemiBold-T1-TLF--base.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Regular-T1-TLF.vf
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Regular-T1-TLF--base.tfm
+INPUT ./2_Grundlagen/2_3 Strategien.tex
+INPUT ./2_Grundlagen/2_3 Strategien.tex
+INPUT 2_Grundlagen/2_3 Strategien.tex
+INPUT ./2_Grundlagen/2_4 nachhaltige Alternativen.tex
+INPUT ./2_Grundlagen/2_4 nachhaltige Alternativen.tex
+INPUT 2_Grundlagen/2_4 nachhaltige Alternativen.tex
+INPUT ./BIlder/Preise SAF.png
+INPUT ./BIlder/Preise SAF.png
+INPUT ./BIlder/Preise SAF.png
+INPUT ./BIlder/Preise SAF.png
+INPUT ./BIlder/Preise SAF.png
+INPUT ./2_Grundlagen/2_4_2 electric.tex
+INPUT ./2_Grundlagen/2_4_2 electric.tex
+INPUT 2_Grundlagen/2_4_2 electric.tex
+INPUT ./BIlder/BA.png
+INPUT ./BIlder/BA.png
+INPUT ./BIlder/BA.png
+INPUT ./BIlder/BA.png
+INPUT ./BIlder/BA.png
+INPUT ./2_Grundlagen/2_4_3 hydrogen.tex
+INPUT ./2_Grundlagen/2_4_3 hydrogen.tex
+INPUT 2_Grundlagen/2_4_3 hydrogen.tex
+INPUT ./3_Methodik/3_1_Änderungen.tex
+INPUT ./3_Methodik/3_1_Änderungen.tex
+INPUT 3_Methodik/3_1_Änderungen.tex
+INPUT ./BIlder/Supply_hydrogen.png
+INPUT ./BIlder/Supply_hydrogen.png
+INPUT ./BIlder/Supply_hydrogen.png
+INPUT ./BIlder/Supply_hydrogen.png
+INPUT ./BIlder/Supply_hydrogen.png
+INPUT ./3_Methodik/3_2_Referenz_Flugzeuge.tex
+INPUT ./3_Methodik/3_2_Referenz_Flugzeuge.tex
+INPUT 3_Methodik/3_2_Referenz_Flugzeuge.tex
+INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
+INPUT ./3_Methodik/3_3_Kosten_Formeln.tex
+INPUT ./3_Methodik/3_3_Kosten_Formeln.tex
+INPUT 3_Methodik/3_3_Kosten_Formeln.tex
+INPUT ./3_Methodik/3_4_Betriebsszenarien.tex
+INPUT ./3_Methodik/3_4_Betriebsszenarien.tex
+INPUT 3_Methodik/3_4_Betriebsszenarien.tex
+INPUT ./BIlder/Betriebsszenarien.png
+INPUT ./BIlder/Betriebsszenarien.png
+INPUT ./BIlder/Betriebsszenarien.png
+INPUT ./BIlder/Betriebsszenarien.png
+INPUT ./BIlder/Betriebsszenarien.png
 INPUT ./5_Ergebnisse/5_1_Ergebnisse_Fzg.tex
 INPUT ./5_Ergebnisse/5_1_Ergebnisse_Fzg.tex
 INPUT 5_Ergebnisse/5_1_Ergebnisse_Fzg.tex
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Regular-T1-TLF.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Regular-T1-TLF--base.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Light-T1-TLF.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-T1-TLF--base.tfm
 INPUT ./BIlder/VergleichBA_Ref.png
 INPUT ./BIlder/VergleichBA_Ref.png
 INPUT ./BIlder/VergleichBA_Ref.png
 INPUT ./BIlder/VergleichBA_Ref.png
 INPUT ./BIlder/VergleichBA_Ref.png
+INPUT ./BIlder/VergleichWA_SAF.png
+INPUT ./BIlder/VergleichWA_SAF.png
+INPUT ./BIlder/VergleichWA_SAF.png
+INPUT ./BIlder/VergleichWA_SAF.png
+INPUT ./BIlder/VergleichWA_SAF.png
 INPUT ./5_Ergebnisse/5_2_Ergebnisse_Betriebsszenarien.tex
 INPUT ./5_Ergebnisse/5_2_Ergebnisse_Betriebsszenarien.tex
 INPUT 5_Ergebnisse/5_2_Ergebnisse_Betriebsszenarien.tex
+INPUT ./BIlder/betriebssz_res.png
+INPUT ./BIlder/betriebssz_res.png
+INPUT ./BIlder/betriebssz_res.png
+INPUT ./BIlder/betriebssz_res.png
+INPUT ./BIlder/betriebssz_res.png
 INPUT ./BIlder/Infr_Szenarien.png
 INPUT ./BIlder/Infr_Szenarien.png
 INPUT ./BIlder/Infr_Szenarien.png
 INPUT ./BIlder/Infr_Szenarien.png
 INPUT ./BIlder/Infr_Szenarien.png
-INPUT ./4_References/bib.tex
-INPUT ./4_References/bib.tex
-INPUT ./4_References/bib.tex
-INPUT ./4_References/bib.tex
-INPUT 4_References/bib.tex
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-T1-TLF.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Regular-T1-TLF.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-LightItalic-T1-TLF.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-LightItalic-T1-TLF.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-LightItalic-T1-TLF--base.tfm
+INPUT ./5_Ergebnisse/5_3_Sensivitätsanalyse.tex
+INPUT ./5_Ergebnisse/5_3_Sensivitätsanalyse.tex
+INPUT 5_Ergebnisse/5_3_Sensivitätsanalyse.tex
+INPUT ./5_Ergebnisse/5_4_Diskussion.tex
+INPUT ./5_Ergebnisse/5_4_Diskussion.tex
+INPUT 5_Ergebnisse/5_4_Diskussion.tex
 INPUT studienarbeit.aux
 INPUT ./studienarbeit.out
 INPUT ./studienarbeit.out
@@ -628,4 +728,7 @@ INPUT c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Regular.
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-SemiBold.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb
