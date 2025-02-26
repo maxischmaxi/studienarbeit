@@ -561,8 +561,15 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-LightItali
 INPUT ./1_Chapters/1 Einleitung.tex
 INPUT ./1_Chapters/1 Einleitung.tex
 INPUT 1_Chapters/1 Einleitung.tex
+INPUT c:/texlive/2024/texmf-dist/tex/latex/opensans/TS1opensans-TLF.fd
+INPUT c:/texlive/2024/texmf-dist/tex/latex/opensans/TS1opensans-TLF.fd
+INPUT c:/texlive/2024/texmf-dist/tex/latex/opensans/TS1opensans-TLF.fd
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-TS1-TLF.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-T1-TLF.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-T1-TLF.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Light-TS1-TLF.vf
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-TS1-TLF--base.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/opensans/a_nvvucy.enc
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Light-T1-TLF.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-T1-TLF--base.tfm
 INPUT ./2_Grundlagen/2_1 Stakeholder.tex
@@ -578,13 +585,19 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cbfonts/grmn1000.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cbfonts/grmi1000.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-SemiBold-T1-TLF.tfm
+INPUT ./BIlder/Stakeholder.png
+INPUT ./BIlder/Stakeholder.png
+INPUT ./BIlder/Stakeholder.png
+INPUT ./BIlder/Stakeholder.png
+INPUT ./BIlder/Stakeholder.png
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-T1-TLF.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Regular-T1-TLF.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-SemiBold-T1-TLF.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-SemiBold-T1-TLF--base.tfm
-INPUT c:/texlive/2024/texmf-dist/tex/latex/opensans/TS1opensans-TLF.fd
-INPUT c:/texlive/2024/texmf-dist/tex/latex/opensans/TS1opensans-TLF.fd
-INPUT c:/texlive/2024/texmf-dist/tex/latex/opensans/TS1opensans-TLF.fd
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-TS1-TLF.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-T1-TLF.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Regular-T1-TLF.vf
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Regular-T1-TLF--base.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Light-T1-TLF.vf
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-T1-TLF--base.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
@@ -606,13 +619,13 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cbfonts/grmn0500.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cbfonts/grmi0700.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cbfonts/grmi0500.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-T1-TLF.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Light-TS1-TLF.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-TS1-TLF--base.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/opensans/a_nvvucy.enc
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Light-T1-TLF.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-T1-TLF--base.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Light-T1-TLF.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-T1-TLF--base.tfm
+INPUT ./BIlder/A321_Abfertigung.png
+INPUT ./BIlder/A321_Abfertigung.png
+INPUT ./BIlder/A321_Abfertigung.png
+INPUT ./BIlder/A321_Abfertigung.png
+INPUT ./BIlder/A321_Abfertigung.png
 INPUT ./2_Grundlagen/2_2 Kosten.tex
 INPUT ./2_Grundlagen/2_2 Kosten.tex
 INPUT 2_Grundlagen/2_2 Kosten.tex
@@ -635,11 +648,8 @@ INPUT ./BIlder/Systematik der DOC_Berechnung.png
 INPUT ./BIlder/Systematik der DOC_Berechnung.png
 INPUT ./BIlder/Systematik der DOC_Berechnung.png
 INPUT ./BIlder/Systematik der DOC_Berechnung.png
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Regular-T1-TLF.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-SemiBold-T1-TLF.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-SemiBold-T1-TLF--base.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Regular-T1-TLF.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Regular-T1-TLF--base.tfm
 INPUT ./2_Grundlagen/2_3 Strategien.tex
 INPUT ./2_Grundlagen/2_3 Strategien.tex
 INPUT 2_Grundlagen/2_3 Strategien.tex
@@ -662,6 +672,14 @@ INPUT ./BIlder/BA.png
 INPUT ./2_Grundlagen/2_4_3 hydrogen.tex
 INPUT ./2_Grundlagen/2_4_3 hydrogen.tex
 INPUT 2_Grundlagen/2_4_3 hydrogen.tex
+INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
+INPUT ./2_Grundlagen/2_5 Konzepte.tex
+INPUT ./2_Grundlagen/2_5 Konzepte.tex
+INPUT 2_Grundlagen/2_5 Konzepte.tex
+INPUT ./BIlder/BA.png
+INPUT ./BIlder/BA.png
+INPUT ./BIlder/BA.png
+INPUT ./BIlder/BA.png
 INPUT ./3_Methodik/3_1_Änderungen.tex
 INPUT ./3_Methodik/3_1_Änderungen.tex
 INPUT 3_Methodik/3_1_Änderungen.tex
@@ -673,7 +691,6 @@ INPUT ./BIlder/Supply_hydrogen.png
 INPUT ./3_Methodik/3_2_Referenz_Flugzeuge.tex
 INPUT ./3_Methodik/3_2_Referenz_Flugzeuge.tex
 INPUT 3_Methodik/3_2_Referenz_Flugzeuge.tex
-INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT ./3_Methodik/3_3_Kosten_Formeln.tex
 INPUT ./3_Methodik/3_3_Kosten_Formeln.tex
 INPUT 3_Methodik/3_3_Kosten_Formeln.tex
@@ -711,12 +728,30 @@ INPUT ./BIlder/Infr_Szenarien.png
 INPUT ./BIlder/Infr_Szenarien.png
 INPUT ./BIlder/Infr_Szenarien.png
 INPUT ./BIlder/Infr_Szenarien.png
+INPUT ./BIlder/infr_abschreibung.png
+INPUT ./BIlder/infr_abschreibung.png
+INPUT ./BIlder/infr_abschreibung.png
+INPUT ./BIlder/infr_abschreibung.png
+INPUT ./BIlder/infr_abschreibung.png
 INPUT ./5_Ergebnisse/5_3_Sensivitätsanalyse.tex
 INPUT ./5_Ergebnisse/5_3_Sensivitätsanalyse.tex
 INPUT 5_Ergebnisse/5_3_Sensivitätsanalyse.tex
 INPUT ./5_Ergebnisse/5_4_Diskussion.tex
 INPUT ./5_Ergebnisse/5_4_Diskussion.tex
 INPUT 5_Ergebnisse/5_4_Diskussion.tex
+INPUT ./6_Ende/6_Fazit.tex
+INPUT ./6_Ende/6_Fazit.tex
+INPUT 6_Ende/6_Fazit.tex
+INPUT ./4_References/bib.tex
+INPUT ./4_References/bib.tex
+INPUT ./4_References/bib.tex
+INPUT ./4_References/bib.tex
+INPUT 4_References/bib.tex
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Light-T1-TLF.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Regular-T1-TLF.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-LightItalic-T1-TLF.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-LightItalic-T1-TLF.vf
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-LightItalic-T1-TLF--base.tfm
 INPUT studienarbeit.aux
 INPUT ./studienarbeit.out
 INPUT ./studienarbeit.out
