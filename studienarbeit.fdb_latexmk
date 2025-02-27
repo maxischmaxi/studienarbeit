@@ -1,18 +1,18 @@
 # Fdb version 4
-["biber studienarbeit"] 1740683526.68103 "studienarbeit.bcf" "studienarbeit.bbl" "studienarbeit" 1740688836.8382 0
+["biber studienarbeit"] 1740683526.68103 "studienarbeit.bcf" "studienarbeit.bbl" "studienarbeit" 1740690804.11887 0
   "4_References/Quellen.bib" 1740679545 25846 fad4a61c8678a79c21ae8b1638455ba0 ""
-  "studienarbeit.bcf" 1740688836 123307 b30f5c675ee0dcea62d9ca3a7a591e25 "pdflatex"
+  "studienarbeit.bcf" 1740690803 123307 b30f5c675ee0dcea62d9ca3a7a591e25 "pdflatex"
   (generated)
   "studienarbeit.bbl"
   "studienarbeit.blg"
   (rewritten before read)
-["pdflatex"] 1740688823.31484 "c:/Users/henri/Desktop/Studienarbeit/studienarbeit.tex" "studienarbeit.pdf" "studienarbeit" 1740688836.8382 0
+["pdflatex"] 1740690790.39953 "c:/Users/henri/Desktop/Studienarbeit/studienarbeit.tex" "studienarbeit.pdf" "studienarbeit" 1740690804.12015 0
   "1_Chapters/0 Thesen.tex" 1740481287 2277 984a5adf38c93bc5e02e46dcd333b99c ""
   "1_Chapters/1 Einleitung.tex" 1740580364 5202 035d997f878b7117e7da822ce3d95a31 ""
   "1_Title.tex" 1739217115 1934 03c9e888d217cd22f916c9b8f7acc451 ""
   "2_Grundlagen/2_1 Stakeholder.tex" 1740674634 13327 dc6b75ea42c5a9a944903c25dbd3c653 ""
   "2_Grundlagen/2_2 Kosten.tex" 1740481287 13062 ca6b16e98b5dadfc1ddc952a7b883249 ""
-  "2_Grundlagen/2_3 Strategien.tex" 1740593494 4916 672c5c147a11914f6e8d32209c946c51 ""
+  "2_Grundlagen/2_3 Strategien.tex" 1740690772 5034 ad8254c5aece9a7507976fc38e068744 ""
   "2_Grundlagen/2_4 nachhaltige Alternativen.tex" 1740666030 9154 e59522bd70f33a27270fb379b0cfd1c5 ""
   "2_Grundlagen/2_4_2 electric.tex" 1740663322 8099 01950f42027d2678646439dac24face4 ""
   "2_Grundlagen/2_4_3 hydrogen.tex" 1740679545 10200 d40f1a83db37992e6f5b5ecddc76661f ""
@@ -315,12 +315,12 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1733836144 5441979 24d9d8a39025f77a4677560676ba95ea ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1733691995 2047510 365f18ade55dc77082ee1801e30469e9 ""
   "c:/texlive/2024/texmf.cnf" 1733691684 713 614551405fc44b98efbf516466e3c909 ""
-  "studienarbeit.aux" 1740688836 51260 08b201c05337b76c65a237d1952afd18 "pdflatex"
+  "studienarbeit.aux" 1740690803 51260 8c2418fa7031707fe5bf7f99b509920e "pdflatex"
   "studienarbeit.bbl" 1740683529 124668 36c7d5b1894a685a832b4ba49883b535 "biber studienarbeit"
-  "studienarbeit.out" 1740688829 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "studienarbeit.run.xml" 1740688836 2472 7a1361865f17653a833309afb16cc46f "pdflatex"
+  "studienarbeit.out" 1740690797 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "studienarbeit.run.xml" 1740690803 2472 7a1361865f17653a833309afb16cc46f "pdflatex"
   "studienarbeit.tex" 1740587558 5979 4294afe73c95ecfc2d4ca2033f3359dc ""
-  "studienarbeit.toc" 1740688836 3486 1bf092b1af8c01bd2ac0702c7b8a7cf9 "pdflatex"
+  "studienarbeit.toc" 1740690803 3486 42f1244f3bd6a887060457947fa5bd92 "pdflatex"
   (generated)
   "studienarbeit.aux"
   "studienarbeit.bcf"
