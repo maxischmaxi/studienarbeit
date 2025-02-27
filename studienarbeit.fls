@@ -680,6 +680,7 @@ INPUT ./BIlder/BA.png
 INPUT ./BIlder/BA.png
 INPUT ./BIlder/BA.png
 INPUT ./BIlder/BA.png
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Regular-T1-TLF.tfm
 INPUT ./3_Methodik/3_1_Änderungen.tex
 INPUT ./3_Methodik/3_1_Änderungen.tex
 INPUT 3_Methodik/3_1_Änderungen.tex

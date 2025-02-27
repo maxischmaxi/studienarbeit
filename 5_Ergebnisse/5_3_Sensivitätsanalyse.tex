@@ -3,11 +3,16 @@
 %
 Die Sensitivitätsanalyse ermöglicht die Robustheit einer Berechnung zu überprüfen und die Parameter mit größtem Einfluss herauszufinden. 
 Dafür wurde die Teilkosten aus dem \ref{s:Ergebnisse_Flugzeuge} ausgesucht, die größter Einfluss auf die Gesamtkosten haben. 
-Bei den Vergleich von Batterie, SAF und herkömmlichen Treibstoff sind das Entgelte und Gebühren, als auch kapitalbezogene Kosten.
+Bei den Vergleich von Batterie, SAF und herkömmlichen Treibstoff sind die Entgelte und Gebühren, als auch kapitalbezogene Kosten.
+
+Werden Entgelte um 10 \% erhöht, erhöhen sich die Betriebskosten moderat ($S$=0,15), auch der Preissenkung für die Anschaffungspreise
+um 10 \% nicht so einen großen Einfluss aus das Gesamtsystem hat ($S$=0,28).
+
 Dafür wurden folgende Parametern ausgesucht: 1. der Preis für Leasing einer Batterie, 2. Flugzeugpreis
 Der ersten Wert kann je nach Leistung der Batterie und Häufigkeit der Nutzung unterschiedlich ausfallen, deswegen wäre es wichtig anzuschauen,
 welcher Unterschied im Betriebskosten entsteht, wenn ich Preis für Leasing 10 \% teurer wäre. Die Preise für neue Flugzeugantriebe
 werden durch die steigende Nachfrage mit der Zeit sinken, aus diesem Grund wurde der 10 \% Rückgang wurde angeschaut.
+
 
 Beim Vergleich von Wasserstoffbetrieben und SAF mit konventionellem Antrieb entsteht der größte Kostenanteil
 von Treibstoffkosten und kapitalbezogenen Kosten. Deswegen wurde für Parametern wie: 1. Preis für Treibstoff; 
@@ -25,8 +30,10 @@ Wie bereits angesprochen wird der Anschaffungspreis für neue Technologien mit d
 		Ausgang $EUR$ & 56340,3 & 78853,1 & 66853,5  \\ \hline
         Preis Szenario (+/- 10 \%) & 58290,4  & 75020,3 & 63852,1 \\ \hline
         Abweichung $\%$ & 3,5 & -4,9 & -4,5 \\ \hline
+		$S$ & 0,35 & 0,49 & 0,45 \\ \hline
 	\end{tabular}
     \end{center}
 \end{table}
 
-Der Wasserstoffantrieb reagiert der Preisänderung gegenüber am stärksten.
+Der Wasserstoffantrieb reagiert der Preisänderung (S=0,49) gegenüber am stärksten. Das System reagiert relativ 
+empfindlich auf die Preisänderung von Wasserstoff, die Preise für Kerosin und SAF sind weniger sensibel.
