@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber studienarbeit"] 1740679563.18695 "studienarbeit.bcf" "studienarbeit.bbl" "studienarbeit" 1740680956.4709 0
+["biber studienarbeit"] 1740683526.68103 "studienarbeit.bcf" "studienarbeit.bbl" "studienarbeit" 1740688836.8382 0
   "4_References/Quellen.bib" 1740679545 25846 fad4a61c8678a79c21ae8b1638455ba0 ""
-  "studienarbeit.bcf" 1740680955 123621 b2644f81ae007c848e4e5ad388f2c2a6 "pdflatex"
+  "studienarbeit.bcf" 1740688836 123307 b30f5c675ee0dcea62d9ca3a7a591e25 "pdflatex"
   (generated)
   "studienarbeit.bbl"
   "studienarbeit.blg"
   (rewritten before read)
-["pdflatex"] 1740680943.71027 "c:/Users/henri/Desktop/Studienarbeit/studienarbeit.tex" "studienarbeit.pdf" "studienarbeit" 1740680956.47184 0
+["pdflatex"] 1740688823.31484 "c:/Users/henri/Desktop/Studienarbeit/studienarbeit.tex" "studienarbeit.pdf" "studienarbeit" 1740688836.8382 0
   "1_Chapters/0 Thesen.tex" 1740481287 2277 984a5adf38c93bc5e02e46dcd333b99c ""
   "1_Chapters/1 Einleitung.tex" 1740580364 5202 035d997f878b7117e7da822ce3d95a31 ""
   "1_Title.tex" 1739217115 1934 03c9e888d217cd22f916c9b8f7acc451 ""
@@ -18,12 +18,12 @@
   "2_Grundlagen/2_4_3 hydrogen.tex" 1740679545 10200 d40f1a83db37992e6f5b5ecddc76661f ""
   "2_Grundlagen/2_5 Konzepte.tex" 1740674723 6157 af3df728a9f72993f1a8a3f2eea2f936 ""
   "3_Methodik/3_1_Änderungen.tex" 1740666030 18785 4e6cc36e944b47d8242a39292a733776 ""
-  "3_Methodik/3_2_Referenz_Flugzeuge.tex" 1740674820 7098 18c207a6ad6b89898bea6bc0a3d9a061 ""
-  "3_Methodik/3_3_Kosten_Formeln.tex" 1740651791 16321 a88bf8382cf4f732f3a39fc32e35abaa ""
-  "3_Methodik/3_4_Betriebsszenarien.tex" 1740401544 4069 6df7444372de1b46c41195814c52934e ""
+  "3_Methodik/3_2_Referenz_Flugzeuge.tex" 1740683512 6272 d5fe1d2a1a66a591913b1d529c3f45de ""
+  "3_Methodik/3_3_Kosten_Formeln.tex" 1740688804 16438 416c1b55622860241ef983882276308c ""
+  "3_Methodik/3_4_Betriebsszenarien.tex" 1740682360 5253 fcb96e03dd06206e080e432e858a754d ""
   "4_References/bib.tex" 1734552435 475 c94d3befd0d8b759787b14f4b91b1850 ""
   "5_Ergebnisse/5_1_Ergebnisse_Fzg.tex" 1740663322 4399 c73c904d99b865627baa7b3f2fede44d ""
-  "5_Ergebnisse/5_2_Ergebnisse_Betriebsszenarien.tex" 1740651791 4690 ce4dec8e6aa4273f13fc7a2674fa0c3c ""
+  "5_Ergebnisse/5_2_Ergebnisse_Betriebsszenarien.tex" 1740681485 3719 6c33a8d3ad3630ae022b4d76fad1fe5d ""
   "5_Ergebnisse/5_3_Sensivitätsanalyse.tex" 1740680942 2561 d4f1e73a3e61b7c36029924f7b21b8d3 ""
   "5_Ergebnisse/5_4_Diskussion.tex" 1740666030 7188 29468371fe2a7eba5df74a6b855aeb68 ""
   "6_Ende/6_Fazit.tex" 1740649372 1921 e9154f666dc9e45ab1d1baa176fa470c ""
@@ -315,12 +315,12 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1733836144 5441979 24d9d8a39025f77a4677560676ba95ea ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1733691995 2047510 365f18ade55dc77082ee1801e30469e9 ""
   "c:/texlive/2024/texmf.cnf" 1733691684 713 614551405fc44b98efbf516466e3c909 ""
-  "studienarbeit.aux" 1740680955 51954 557cb0e389aabaaf345f797505412d9a "pdflatex"
-  "studienarbeit.bbl" 1740679566 124668 36c7d5b1894a685a832b4ba49883b535 "biber studienarbeit"
-  "studienarbeit.out" 1740680950 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "studienarbeit.run.xml" 1740680955 2472 7a1361865f17653a833309afb16cc46f "pdflatex"
+  "studienarbeit.aux" 1740688836 51260 08b201c05337b76c65a237d1952afd18 "pdflatex"
+  "studienarbeit.bbl" 1740683529 124668 36c7d5b1894a685a832b4ba49883b535 "biber studienarbeit"
+  "studienarbeit.out" 1740688829 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "studienarbeit.run.xml" 1740688836 2472 7a1361865f17653a833309afb16cc46f "pdflatex"
   "studienarbeit.tex" 1740587558 5979 4294afe73c95ecfc2d4ca2033f3359dc ""
-  "studienarbeit.toc" 1740680955 3576 d4cd3ee154cd6ba4d482ba74661eba7c "pdflatex"
+  "studienarbeit.toc" 1740688836 3486 1bf092b1af8c01bd2ac0702c7b8a7cf9 "pdflatex"
   (generated)
   "studienarbeit.aux"
   "studienarbeit.bcf"
