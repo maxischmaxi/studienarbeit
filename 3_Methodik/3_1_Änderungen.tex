@@ -24,29 +24,27 @@ die Forschungsrichtung ausgesucht.
 SAF ist zwar nicht die beste langfristige Lösung wegen vorhandenen Emissionen, aber wegen benötigter Entwicklung der anderen nachhaltigen
 Antrieben stellt eine gute Option dar. In der nahen Zukunft werden vor allem die großen Flugzeuge mit BA-Antrieb nicht entwickelt, 
 deswegen können SAF für die Langstreckenflüge benutzt werden \cite{dalmia2022powering}.
-Diese Arbeit wird sich auf das reine SAF ohne Beimischung beschränken, da nur so das Ziel 2050 erreicht werden kann.
+Diese Arbeit wird sich auf das reine SAF ohne Beimischung beschränken, da nur so das gesetzte Ziel bis zum Jahr 2050 erreicht werden kann.
 
 SAF benötigt keine Infrastrukturänderung und darf in bestehenden Systemen und Flugzeugen benutzt werden \cite{dalmia2022powering}.
 Dadurch, dass SAF zu herkömmlichen Treibstoffen beigemischt wird, ist zurzeit einen zusätzlichen Treibstofftank 
 für das gemischten Kraftstoff gebraucht. Bis jetzt Transport von SAF mit einer Pipeline nicht zugelassen (Quelle?).
-Bei der intensiven Recherche wurde keine Information gefunden, die besagt, dass es verboten wird reine SAF nicht als
+Bei der intensiven Recherche wurde jedoch keine Information gefunden, die besagt, dass es verboten wird reine SAF nicht als
 Drop-In zu benutzen. Aus diesem Grund gilt für die Arbeit, dass die Lieferung von SAF mit bestehenden Pipelines 
-und genauso wie Kerosin-Betankung zugelassen wird.
+zertifiziert und genauso wie bei Betankung mit herkömmlichen Treibstoffen zugelassen wird.
 
 \subsection{Batterie-Antrieb}
 Batteriegetriebene Flugzeuge brauchen größere Veränderung am Flughafen als bei der Nutzung von SAF.
 Bis zum Jahr 2050 sind die BAs auf die kleineren Flugzeuge und damit auf Kurz- und Regionalverkehr beschränkt. 
 
-Wartungsverfahren unterscheidet sich stark von konventionellen Flugzeugen. 
-Es ist zu erwarten, dass die Wartungskosten niedriger sein können durch weniger bewegende Teile in dem Antrieb. 
-Jedoch bei einem Fehler oder  muss den ganzen Motor ausgetauscht werden \cite{dalmia2022powering}, 
-was die hohen Kosten mit sich bringt.
+Wartungsverfahren hierbei unterscheidet sich stark von konventionellen Flugzeugen. 
+Es ist zu erwarten, dass die Wartungskosten niedriger sein können durch weniger bewegende Teile in dem Antrieb \cite{dalmia2022powering}. 
 %
 Die elektrischen Motoren werden keine Kontrolle Gasturbinentriebwerks (Hot-Section Inspection) benötigen, 
 jedoch die Teile wie Lager ausgetauscht werden müssen und 
-es werden mögliche Schäden durch Gelangen den Fremdpartikeln in den Motor verursacht \cite{reimers2018introduction}, was ungeplante
-Wartungen benötigt.
-Die Änderung der Lebensdauer von Flugzeugen wird auch nicht erwartet \cite{reimers2018introduction}.
+es werden mögliche Schäden durch Gelangen den Fremdpartikeln in den Motor verursacht \cite{reimers2018introduction} 
+und bei einem Fehler muss den ganzen Motor ausgetauscht werden \cite{dalmia2022powering}, was ungeplante
+Wartungen und zusätzlichen Kosten benötigt.
 
 In der Literatur werden zwei Batterien-Lademöglichkeiten diskutiert, die Batterien zu wechseln (Swap-Methode), 
 wo die Batterie aus dem Flugzeug herausgenommen werden und 
@@ -54,10 +52,9 @@ an einer Ladestation geladen, oder Ladekabel in das Flugzeug einzustecken (Plug-
 %
 Bei diesem Antrieb muss beachtet werden, welche Lebensdauer eine Batterie hat und wie die Batterien geladen werden. 
 Je länger die Ladung dauert, desto mehr Kosten auf dem Boden verursacht werden. Nichtsdestotrotz kann schnelle Ladung 
-zur Stagnation von Lebensdauer einer Batterie bringen.
+zur Stagnation von Lebensdauer einer Batterie bringen (Quelle).
 
-Bei \textit{Plug-In} ...
-Plug-In Methode benötigt ein schnelles Laden, damit Flugzeuge weniger Zeit auf Boden verbringen müssen
+\textit{Plug-In} Methode benötigt ein schnelles Laden, damit Flugzeuge weniger Zeit auf Boden verbringen müssen.
 Jedoch ist ein Anstieg in Turnaround-Zeiten aufgrund nicht zurzeit möglichen Schnellladung möglich \cite{avogadro2024demystifying}.
 
 Bei \textit{Swap-Methode} kann Aus- und Einbau der Batterie aus dem/in das Flugzeug lange dauern \cite{dalmia2022powering}. 
@@ -70,11 +67,20 @@ da der Austausch einer Batterie viel schneller ist, als Dauer einer Plug-In Ladu
 Außerdem ermöglicht der Swap-Methode langsameres Laden und macht das Laden mit geringer Leistung möglich \cite{avogadro2024demystifying}.
 Aus diesen Gründen werden in nächsten Teilen die Kosten für diese Option ausgewertet. 
 
-\textit{Annahmen für die Arbeit}
+Würde der Austausch der Batterien parallel zu anderen Prozessen, wie Deboading kann die kürzere Turnaround-Zeit im 
+Vergleich zu konventionellen Flugzeugen erreicht werden \cite{schmidt2016challenges}.
+
+\textit{Annahmen für die BA-Analyse}\\
+
+Für weitere Betrachtung wurde es die Swap-Methode entschieden. Zudem wird es angenommen, 
+dass die Batterien für Flugzeuge zur Flughafen-Infrastruktur gehören.
+Das bedeutet, dass diese Anschaffungskosten für Flughafen anfallen und danach werden sie in Form von Leasing 
+von für Fluggesellschaften ausgeliehen.
+
+Für die Ladevorgänge wird Strom benötigt. 
 Die Strompreise und die vorhandene Leistung sind normalerweise von Tag und Nacht abhängig \cite{salucci2020optimal}, 
 aus praktischen Gründen wird die konstante Spitzenleistung von Batteriewechselsystem von 250 kW wird angenommen. 
-Bei einer Batteriekapazität von 900 kWh, dauert es 3,6 h bis die Batterie mit so einer Leistung geladen wird.
-
+Bei einer Batteriekapazität von 900 kWh, würde die Ladung bei so einer Leistung ohne Beachtung der Verluste 3,6 Stunden dauern.
 
 %
 Für die Nachhaltigkeit des Batterieantriebes sind die Energiequellen von der Bedeutung. 
@@ -86,80 +92,91 @@ Anstieg in Turnaround-Zeiten aufgrund nicht zurzeit möglichen Schnellladen mög
 %Für die Ladung den batteriegetriebene-Flugzeugen Infrastruktur:
 %Infrastrukturmodell nach Guo et al. "Die EA-Aufladung wird teilweise von einer flughafenbasierten Solar-PV-Anlage geliefert.
 %Jährliche Betriebskosten (OPEX)= Strombezugskosten aus dem Netz in der Sommer und Wintersaison (typische Tage) basierend auf der Nachfrage. \cite{guo2020aviation}
-Zudem ist ein modulares System möglich, wo beide Ansätze benutzt werden \cite{salucci2020optimal.}
+Zudem ist ein modulares System möglich, wo beide Ansätze benutzt werden \cite{salucci2020optimal}.
 
 \subsection{Wasserstoff}
-\textit{Transport}
-Wasserstoff kann auch in einer chemischen Verbindung gebunden werden, wie Ammoniak und Methanol, und somit transportiert.
+Logistik ist ein wichtiger Teil der Produktionskette. 
+Die Nutzung des Wasserstoffs am Flughafen erfordert Austausch der Betankungsanlagen und Anschaffung neuen Lieferketten, 
+um Wasserstoff als Treibstoff benutzen zu können. Diese Investitionskosten werden die Flughafenbetreiber beeinträchtigen. 
+\textit{Transport}\\
+Die Lieferketten und die Produktion des Wasserstoffs haben ein großes Gewicht in der vorhandenen Literatur.
+Der Transport ist durch Pipelines im gasförmigen Zustand, LKW und Zügen sowohl im gasförmigen, als auch im flüssigen Zustand möglich. 
+Kapitel \ref{ss:Wasserstoff-Antrieb} stellte die möglichen physischen Formen von Wasserstoff dar und am Ende darlegte,
+dass flüssiger Wasserstoff für den Transport als im Gasform vorteilhafter ist. 
+Außerdem kann es auch in einer chemischen Verbindung, wie Ammoniak und Methanol, gebunden und somit transportiert werden.
 %
-Die Betankungsanlagen am Flughafen müssen ausgetauscht werden oder neue Lieferketten angeschafft werden müssen, 
-um Wasserstoff als Treibstoff benutzen zu können.
-Diese Investitionskosten werden die Betreiber beeinträchtigen. 
-Wasserstoff kann hochentzündlich sein \cite{dalmia2022powering}. %(prüfen ob entzündlicher als Kerosin)
-
+%
+%Wasserstoff kann hochentzündlich sein \cite{dalmia2022powering}. %(prüfen ob entzündlicher als Kerosin)
+%
 % 
 Die Effizienz der Produktion- und Lieferkosten ist geografisch determiniert. 
+Die Lieferoptionen sind nach Flughafenposition zu wählen. Für die Flughäfen, die nahe einer Wasserstoff-Pipeline liegen ist sinnvoller
+damit der Wasserstoff zu besorgen, als mit einem LKW transportieren zu lassen.
+%
 Für europäische Distanzen sind die Wasserstoff-Pipelines günstiger als Transport mit chemischen Verbindungen, 
-welcher bei längeren Distanzen in Betracht kommt \cite{undertaking2022strategic}. Bei Änderung von Erdgasleitung für Wasserstoff können Kosten gespart
+welcher bei längeren Distanzen in Betracht kommt \cite{undertaking2022strategic}. 
+Bei Änderung von Erdgasleitung für Wasserstoff können Kosten gespart
 werden und muss keine neue Infrastruktur gebaut werden, sondern die Leitungen für Wasserstoff umgerüstet werden können \cite{undertaking2022strategic}.
-Lieferung
-Logistik ist ein wichtiger Teil der Produktionskette. Nach Schenke et al. \cite{schenke2024lh2} kann Lieferung den flüssigen Wasserstoff mit einem LKW bei einer großen Zahl an Flügen 
-kostengünstiger als andere Lieferalternativen sein. Transport von LH2 erfordert speziell konstruierte Tanks \cite{mulder2019outlook}.
-Der Transport ist durch Pipelines im gasförmigen Zustand, LKW und Zügen sowohl im gasförmigen, als auch im flüssigen Zustand möglich. 
 
-Wasserstoff kann unterirdisch in Salzkavernen und in erschöpften Gasfelder gespeichert werden \cite{undertaking2022strategic}, 
-Sie müssen sich in der unmittelbaren Nähe zum Flughafen befinden. Da es sich je nach Flughafenstandort variiert, wird dieser Speicheroption nicht weiter behandelt.
-Außerdem kann es für die Lagerung ein oberirdischer Druckzylinder, wo flüssiger Wasserstoff oder in festen Materialien (wie Metallhybriden) gespeichert wird.
-Diese Zylinder oder Tankern müssen gut isoliert und kryogen sein \cite{undertaking2022strategic}.
-Andernfalls wird flüssiger Wasserstoff bei der Lagerung verdampft, was zum Verlust der Menge kommt, 
-jedoch der größte Teil der Verdampfung findet durch Transferphase statt \cite{undertaking2022strategic}.
-%Wasserstoff kann in Hochdrucktanks und Salzkavernen gelagert werden \cite{mulder2019outlook}
-Der Weg zwischen Betankung und dem Tank, damit Verdampfungsverluste minimiert werden können \cite{colpan2022fuel}
-Die externe Produktion ist am Anfang sinnvoll \cite{colpan2022fuel}. Der Transfer von LH2 mit vakuumsisolierte Pipeline beschränkt sich auf die kurze Distanzen
-wegen Skalierung der Verluste zu Leitungslänge (proportional) \cite{colpan2022fuel}.
-Wird der größe Menge benötigt, weder LKW noch Pipeline sinnvoll \cite{colpan2022fuel}
+Der Transfer von \ce{LH2} mit vakuumisolierte Pipeline beschränkt sich auf die kurzen Distanzen
+wegen proportionalen Skalierung der Verluste zu Leitungslänge \cite{colpan2022fuel}.
 
-Obwohl auf Wasserstoff und dazugehörige Infrastruktur wartet eine Reihe der Zertifizierungen, die Anschaffungskosten können bereits gefunden werden.
+Colpan et al.\cite{colpan2022fuel} ist der Meinung im Fall, wenn große Menge an Wasserstoff benötigt wird, 
+ist der Lieferung weder LKW noch Pipeline sinnvoll. 
 
-Aufgrund aufwendigen Infrastrukturprozessen für die Produktion und Verflüssigung von Wasserstoff werden wahrscheinlich Flughäfen, 
-besonders kleineren, anfangs auf die "On-Site" Produktion verzichten.
-
-Die Verdampfung wird mit größeren Lager kleiner \cite{colpan2022fuel}.
-Eine weitere mögliche Betankungsoption ist die Austausch des Flugzeugtanks als Kapseln, dabei werden die leeren Kapseln an die 
-Wasserstoffproduktionstelle zurückgegeben, wo die wieder nachgefüllt werden können \cite{colpan2022fuel}. 
-Diese Möglichkeit kann vor allem für die kleineren Flughäfen als Alternative sein, da man kein Wasserstoffspeicher und 
-sonstige Anlagen bauen muss.
-Für längeres Parken am Flughafen, werden für kalte Tanks eine sichere Verbindung mit der Wasserstoffinfrastruktur \cite{colpan2022fuel} %weiß nicht
-Transportkosten sind von der geografische Lage des Flughafens abhängig, befindet sich ein Flughafen nahe einer Wasserstoff-Pipeline...
-%"current FCEV system costs higher than 200 €/kW for passenger cars but need 
-%to fall below 50 €/kW for mass market. " \cite{undertaking2022strategic}
-
-Auslastung eines Flugzeugs mit Wasserstoff-Antrieb kann im Vergleich zu konventionellen Flugzeug sinken, da eventuell WA-Flugzeuge wegen der Betankungsprozesse
-mehr Zeit auf dem Boden verbringen werden (Quelle).
+Dennoch nach Schenke et al. \cite{schenke2024lh2} kann Lieferung den flüssigen Wasserstoff mit einem LKW bei einer hohen Anzahl an Flügen 
+kostengünstiger als andere Lieferalternativen sein. Allerdings Transport von \ce{LH2} erfordert speziell konstruierte Tanks \cite{mulder2019outlook}.
 
 Lieferung von gasförmigem Wasserstoff mit niedrigem Druck mit dem Straßenverkehr bis jetzt nur für ungenügende Menge möglich \cite{undertaking2022strategic}
 
-%neue terminals: In dem Fall, falls die Flugzeuge länger als übliche Modelle werden, die Sicherheitssperzone für die Betankung 20 Meter betragen kann \cite{gu2023hydrogen}
-Wartung:
-Brennstoffzellen haben auch weniger bewegende Teile \cite{dalmia2022powering} und in dem Bereich zu weniger Wartungskosten kommen kann,
-allerdings der benötigte Wasserstofftank braucht öfteren Wartung (Quelle).
-%
-"Flüssiger Wasserstoff muss jedoch bei Minusgraden gelagert werden, was eine Verbesserung der Speichertechnologien sowohl im Flugzeug selbst als auch auf Flughäfen erfordert."
-Wasserstoff kann entweder als Brennstoff für Verbrennung genutzt werden oder als Wasserbrennstoffzelle für die elektrischen Flugzeuge. \cite{dalmia2022powering}
+Obwohl die hohen Kapitalkosten von Pipeline-Anlage zu erwarten, die Betriebskosten niedriger sein werden \cite{mulder2019outlook}. Also bei größerem Umfang lohnt es Pipelines, sonst Lkw \cite{mulder2019outlook}.
 
-In dem Unterkapitel \ref{Wasserstoff-Antrieb} wurde angeführt, dass die Produktion des Wasserstoffs hohe Kosten, viel Platz und Energie benötigt. 
+\textit{Speicherung}\\
+Gasförmiger Wasserstoff kann unterirdisch in Salzkavernen und in erschöpften Gasfelder gespeichert werden \cite{undertaking2022strategic}, 
+Sie müssen sich in der unmittelbaren Nähe zum Flughafen befinden. Da es sich je nach Flughafenstandort variiert, wird dieser Speicheroption nicht weiter behandelt.
+Außerdem kann es für die Lagerung ein oberirdischer Druckzylinder, wo flüssiger Wasserstoff oder als festen Materialien (wie Metallhybriden) gespeichert wird.
+Aufgrund tiefen Temperaturen müssen diese Zylinder oder Tankern müssen gut isoliert und kryogen sein \cite{undertaking2022strategic}.
+Andernfalls wird flüssiger Wasserstoff bei der Lagerung verdampft, was zum Verlust der Menge kommt \cite{undertaking2022strategic}. 
+Die Verdampfung wird mit größeren Lager kleiner \cite{colpan2022fuel}.
+
+Dennoch der größte Teil der Verdampfung findet durch Transferphase statt \cite{undertaking2022strategic}.
+%Wasserstoff kann in Hochdrucktanks und Salzkavernen gelagert werden \cite{mulder2019outlook}
+Somit muss der Weg zwischen Betankung und dem Speicher kurz sein, damit Verdampfungsverluste minimiert werden können \cite{colpan2022fuel}
+
+
+Eine weitere mögliche Betankungsoption ist der Austausch des Flugzeugtanks als Kapseln. Dabei werden die leeren Kapseln an die 
+Wasserstoffproduktionsstelle zurückgegeben, wo die wieder nachgefüllt werden können \cite{colpan2022fuel}. 
+Diese Möglichkeit kann vor allem für die kleineren Flughäfen als Alternative sein, da kein Wasserstoffspeicher und 
+sonstige Anlagen bereitgestellt werden müssen.
+Für längeres Parken am Flughafen werden kalte Tanks eine sichere Verbindung mit der Wasserstoffinfrastruktur benötigen \cite{colpan2022fuel} %weiß nicht
+Grund?
+%"current FCEV system costs higher than 200 €/kW for passenger cars but need 
+%to fall below 50 €/kW for mass market. " \cite{undertaking2022strategic}
+
+
+%neue terminals: In dem Fall, falls die Flugzeuge länger als übliche Modelle werden, die Sicherheitssperzone für die Betankung 20 Meter betragen kann \cite{gu2023hydrogen}
+%
+%
+%"Flüssiger Wasserstoff muss jedoch bei Minusgraden gelagert werden, was eine Verbesserung der Speichertechnologien sowohl im Flugzeug selbst als auch auf Flughäfen erfordert."
+%Wasserstoff kann entweder als Brennstoff für Verbrennung genutzt werden oder als Wasserbrennstoffzelle für die elektrischen Flugzeuge. \cite{dalmia2022powering}
+
+In dem Unterkapitel \ref{Wasserstoff-Antrieb} wurde angeführt, dass die Produktion des Wasserstoffs, 
+viel Platz Energie und hohe Kosten benötigt. Produktion und Verflüssigung des Wasserstoffs am Flughafen würde viel zusätzliche Infrastrukturkosten \cite{dalmia2022powering}.
 Deswegen für die Flughäfen wäre es die Alternative besser, das Wasserstoff, woanders einzukaufen und zum Flughafen 
-mit LKW oder Pipelines liefern zu lassen \cite{gu2023hydrogen}. Die Änderung für Abfertingsprozesse können erheblich sein \cite{ati_hydrogen_infrastructure}. Es ist zu erwarten, dass die Wasserstoff-Flugzeuge länger als konventionelle Flugzeuge werden
-und dass Kraftstoffsicherheitszone bei Anschließen und Trennung von Wasserstoff-Betankung zum Jahr 2030 auf 20 m reduziert werden \cite{hoelzen2022h2}.
+mit LKW oder Pipelines liefern zu lassen \cite{gu2023hydrogen}.
+Aufgrund aufwendigeren und kostenintensiven Infrastrukturprozessen für die Produktion und Verflüssigung von 
+Wasserstoff werden wahrscheinlich Flughäfen, 
+besonders kleineren, anfangs auf die "On-Site" Produktion verzichten.
 
 Aufgrund hohen Unterschiedes zu herkömmlichen Treibstoffen und neuen Ausrüstungen müssen die Mitarbeiter neu geschult werden, 
 um mögliche Gefahren zu erkennen und zu vermeiden \cite{gu2023hydrogen}.
 
-In der Arbeit Dalmia et al. \cite{dalmia2022powering} wird die Produktion am Flughafen diskutiert. 
-Dazu wird einen Elektrolyseur für Erzeugung des gasförmigen Wasserstoffs, einen Kompressor und einen Tankwagen oder
-eine Pipeline mit modularem Tanksystem für Betankung der Flugzeuge benötigt. Modulares Tanksystem kann in bestehenden Flugzeugen eingesetzt werden
-und wird als wie Fracht in das Flugzeug geladen. %(nochmal nachlesen)
-
+%In der Arbeit Dalmia et al. \cite{dalmia2022powering} wird die Produktion am Flughafen diskutiert. 
+%Dazu wird einen Elektrolyseur für Erzeugung des gasförmigen Wasserstoffs, einen Kompressor und einen Tankwagen oder
+%eine Pipeline mit modularem Tanksystem für Betankung der Flugzeuge benötigt. 
+%Modulares Tanksystem kann in bestehenden Flugzeugen eingesetzt werden
+%und wird als wie Fracht in das Flugzeug geladen. %(nochmal nachlesen)
+%
 %Für die Wasserstofferzeugung wäre die ideale Methode der Elektrolyse, die mit Strom betrieben würde, der vor Ort aus 
 %erneuerbaren Ressourcen erzeugt würde, wie z. B. Solarenergie aus nicht reflektierenden Paneelen (um eine Blendung der 
 %Solarmodule für Piloten zu vermeiden). Das Wasser, das für den Prozess verwendet wird, wird aus nahe gelegenen 
@@ -179,31 +196,22 @@ und wird als wie Fracht in das Flugzeug geladen. %(nochmal nachlesen)
 %Der Transport ist durch Pipelines im gasförmigen Zustand, LKW und Zügen sowohl im gasförmigen,
 % als auch im flüssigen Zustand möglich. 
 % Transport von LH2 erfordert speziell konstruierte Tanks \cite{mulder2019outlook}
-Mulder et al. \cite{mulder2019outlook} schätzt die Investitionskosten für Wasserstoff durch Elektrolyse deutlicher günstiger als ein Kohlekraftwerk. 
-Obwohl die hohen Kapitalkosten von Pipeline-Anlage zu erwarten, die Betriebskosten niedriger sein werden. Also bei größerem Umfang lohnt es Pipelines, sonst Lkw.
-Annahmen:
-Es wird davon ausgegangen, dass Sicherheitsradius beim Wasserstoffbetankung nicht erweitert wird.
-Da sich die Flughafenposition topografisch unterscheidet, wird die Annahme getroffen, dass die Lieferung mit LKW stattfindet 
-und die Lieferkosten bereits in dem Preis von flüssigem Wasserstoff inbegriffen sind.
-%eigentlich same
-Lieferkosten für flüssigen Wasserstoff \ce{LH2} und HEFA werden nicht explizit ausgerechnet,
-da die schon in Betriebskosten von Wasserstoff-getriebene Flugzeuge eingeschlossen sind. Es wird vor allem angenommen, dass die Produktion 
-des Wasserstoffes und Verflüssigung nicht am Flughafen stattfindet, sondern eingekauft und zum Flughafen transportiert.
 
-
-"Eine Kryopumpe 
-bringt den Wasserstoff auf den benötigten Druck von 1000 bar. " ?file:///C:/Users/henri/Downloads/765438.pdf
+%"Eine Kryopumpe 
+%bringt den Wasserstoff auf den benötigten Druck von 1000 bar. " ?file:///C:/Users/henri/Downloads/765438.pdf
 
 \textit{Annahmen für die Analyse}
 Die Gesamtinvestitionen sind von der Wahl der Produktion, Speicherung, Lieferketten als auch Betankungsentscheidung abhängig.
-Da derzeit nicht einsehbar ist, welcher Technologie umgesetzt wird, fokussiert sich die Arbeit auf eine bestimmte Versorgungsweg.
+Da derzeit nicht einsehbar ist, welcher Technologie umgesetzt wird, fokussiert sich die Arbeit auf einen bestimmten Versorgungsweg.
 
-Lieferkosten für flüssigen Wasserstoff \ce{LH2} werden nicht explizit ausgerechnet,
-da die schon in Betriebskosten von Wasserstoff-getriebene Flugzeuge eingeschlossen sind. Es wird vor allem angenommen, dass die Produktion 
-des gasförmigen Wasserstoffes und Verflüssigung nicht am Flughafen stattfindet, sondern eingekauft und zum Flughafen mit LKW transportiert wird.
+Die externe Produktion ist am Anfang sinnvoll \cite{colpan2022fuel}, aus diesem Grund wurde angenommen, dass die Produktion 
+des Wasserstoffes und Verflüssigung nicht am Flughafen stattfindet, sondern eingekauft und zum Flughafen mit LKW transportiert.
 Am Flughafen wird der Wasserstoff in kryogenen Tanks gespeichert und mit Betankungswagen werden die Flugzeuge mit Kraftstoff befüllt.
+%
+Lieferkosten für flüssigen Wasserstoff \ce{LH2} werden nicht explizit ausgerechnet,
+da die schon in Betriebskosten von Wasserstoffbetriebenen Flugzeuge eingeschlossen sind.
+%
 Die Abbildung \ref{supply_wasserstoff} stellt so eine Variante von Produktion- und Lieferketten für flüssigen Wasserstoff dar.
-
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\linewidth]{Bilder/Supply_hydrogen.png}
@@ -211,6 +219,4 @@ Die Abbildung \ref{supply_wasserstoff} stellt so eine Variante von Produktion- u
 	\label{supply_wasserstoff}
 \end{figure}
 
-Batterie-Antrieb
-Es wird angenommen, dass die Batterien für BA zur Flughafen-Infrastruktur gehören, 
-d.h. die Anschaffungskosten für Flughafen anfallen und danach werden von für Fluggesellschaften ausgeliehen in Form von Leasing.
+Zusätzlich wird es davon ausgegangen, dass Sicherheitsradius beim Wasserstoffbetankung nicht erweitert wird.
