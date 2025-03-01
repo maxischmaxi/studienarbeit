@@ -676,12 +676,12 @@ INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT ./2_Grundlagen/2_5 Konzepte.tex
 INPUT ./2_Grundlagen/2_5 Konzepte.tex
 INPUT 2_Grundlagen/2_5 Konzepte.tex
-INPUT ./BIlder/NASA.jpg
-INPUT ./BIlder/NASA.jpg
-INPUT ./BIlder/NASA.jpg
-INPUT ./BIlder/NASA.jpg
-INPUT ./BIlder/NASA.jpg
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Regular-T1-TLF.tfm
+INPUT ./BIlder/NASA.jpg
+INPUT ./BIlder/NASA.jpg
+INPUT ./BIlder/NASA.jpg
+INPUT ./BIlder/NASA.jpg
+INPUT ./BIlder/NASA.jpg
 INPUT ./3_Methodik/3_1_Änderungen.tex
 INPUT ./3_Methodik/3_1_Änderungen.tex
 INPUT 3_Methodik/3_1_Änderungen.tex
