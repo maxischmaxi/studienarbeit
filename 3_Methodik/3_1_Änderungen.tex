@@ -40,17 +40,19 @@ Bis zum Jahr 2050 sind die BAs auf die kleineren Flugzeuge und damit auf Kurz- u
 In der Literatur werden zwei Batterien-Lademöglichkeiten diskutiert, die Batterien zu wechseln (Swap-Methode), 
 wo die Batterie aus dem Flugzeug herausgenommen werden und 
 an einer Ladestation geladen, oder Ladekabel in das Flugzeug einzustecken (Plug-In), wie bei etablierten E-Autos.
+Zudem ist ein modulares System möglich, wo beide Ansätze benutzt werden \cite{salucci2020optimal}.
 %
 Bei diesem Antrieb muss beachtet werden, welche Lebensdauer eine Batterie hat und wie die Batterien geladen werden. 
 Je länger die Ladung dauert, desto mehr Kosten auf dem Boden verursacht werden. Nichtsdestotrotz kann schnelle Ladung 
-zur Stagnation von Lebensdauer einer Batterie bringen (Quelle).
+zur Stagnation von Lebensdauer einer Batterie führen (Quelle).
 
-Ladeleistung ist für die Dauer der Ladung verantwortlich. Durch schnellere Ladungen wird Lebensdauer der Batterien reduziert. 
-Was mit sich bringt, dass die Batterien schneller ausgetauscht werden müssen
-und mehr Kosten dadurch entsteht. (Quelle) Wobei die langsamen Laden ist für die Fluggesellschaften nicht rentabel sein kann, 
-da wenn Flugzeug auf dem Boden steht verdienen Fluggesellschaften kein Geld.
+Ladeleistung ist für die Dauer der Ladung verantwortlich. Reduzierung der Lebensdauer der Batterien 
+hat zur Folge, dass die Batterien schneller ausgetauscht werden müssen
+und mehr Kosten dadurch entstehen. 
+%Wobei die langsamen Laden ist für die Fluggesellschaften nicht rentabel sein kann, 
+%da wenn Flugzeug auf dem Boden steht verdienen Fluggesellschaften kein Geld.
 
-
+%
 \textit{Plug-In} Methode benötigt ein schnelles Laden, damit Flugzeuge weniger Zeit auf Boden verbringen müssen.
 Jedoch ist ein Anstieg in Turnaround-Zeiten aufgrund nicht zurzeit möglichen Schnellladung möglich \cite{avogadro2024demystifying}.
 
@@ -62,7 +64,7 @@ Jedoch mit Batteriewechsel können die Abfertigungszeiten reduziert werden (Quel
 
 Batteriewechsel bietet gleichmäßigere Deckung der Nachfrage \cite{guo2020aviation} und kompatibler mit der Flugplanung \cite{salucci2020optimal}, 
 da der Austausch einer Batterie viel schneller ist, als Dauer einer Plug-In Ladung. 
-Jedoch werden mehrere Batterien benötigt, die zudem ordnungsgemäß und sicher gelagert werden müssen \cite{salucci2020optimal}.
+Dennoch werden mehrere Batterien benötigt, die zudem ordnungsgemäß und sicher gelagert werden müssen \cite{salucci2020optimal}.
 Außerdem ermöglicht der Swap-Methode langsameres Laden und macht das Laden mit geringer Leistung möglich \cite{avogadro2024demystifying}.
 Aus diesen Gründen werden in nächsten Teilen die Kosten für diese Option ausgewertet. 
 
@@ -70,10 +72,10 @@ Würde der Austausch der Batterien parallel zu anderen Prozessen, wie Deboarding
 Vergleich zu konventionellen Flugzeugen erreicht werden \cite{schmidt2016challenges}.
 
 \textit{Annahmen für die BA-Analyse}\\
-
+%
 Für weitere Betrachtung wurde es die Swap-Methode entschieden. Zudem wird es angenommen, 
 dass die Batterien für Flugzeuge zur Flughafen-Infrastruktur gehören.
-Das bedeutet, dass diese Anschaffungskosten für Flughafen anfallen und danach werden sie in Form von Leasing 
+Das bedeutet, dass diese Anschaffungskosten für Flughafen anfallen. Danach werden die Batterien in Form von Leasing 
 von für Fluggesellschaften ausgeliehen.
 
 Für die Ladevorgänge wird Strom benötigt. 
@@ -81,22 +83,21 @@ Die Strompreise und die vorhandene Leistung sind normalerweise von Tag und Nacht
 aus praktischen Gründen wird die konstante Spitzenleistung von Batteriewechselsystem von 250 kW wird angenommen. 
 Bei einer Batteriekapazität von 900 kWh, würde die Ladung bei so einer Leistung ohne Beachtung der Verluste 3,6 Stunden dauern.
 
-%
+%%%%%%% kommt später in 2_4_2
 Für die Nachhaltigkeit des Batterieantriebes sind die Energiequellen von der Bedeutung. 
 Der Strom aus dem Stromnetz kann sein Ursprung aus den Kraftwerken und Verteilerzentren haben \cite{dalmia2022powering}. 
 Was dazu führt, dass die fossilen Brennstoffe für die Verbrennung benutzt werden und dadurch zu Emissionen beitragen. 
 Als Alternative wäre Nutzung der erneuerbaren Energiequellen, wie Windenergie oder Solarenergie. Diese Energie ist normalerweise teurer
 und die Produktionsmenge ist bis jetzt nicht ausreichend, um die Luftverkehr-Nachfrage zu decken (Quelle).
-Anstieg in Turnaround-Zeiten aufgrund nicht zurzeit möglichen Schnellladen möglich \cite{avogadro2024demystifying}.
+
 %Für die Ladung den batteriegetriebene-Flugzeugen Infrastruktur:
 %Infrastrukturmodell nach Guo et al. "Die EA-Aufladung wird teilweise von einer flughafenbasierten Solar-PV-Anlage geliefert.
 %Jährliche Betriebskosten (OPEX)= Strombezugskosten aus dem Netz in der Sommer und Wintersaison (typische Tage) basierend auf der Nachfrage. \cite{guo2020aviation}
-Zudem ist ein modulares System möglich, wo beide Ansätze benutzt werden \cite{salucci2020optimal}.
 
 \subsection{Wasserstoff}
 Logistik ist ein wichtiger Teil der Produktionskette. 
 Die Nutzung des Wasserstoffs am Flughafen erfordert Austausch der Betankungsanlagen und Anschaffung neuen Lieferketten, 
-um Wasserstoff als Treibstoff benutzen zu können. Diese Investitionskosten werden die Flughafenbetreiber beeinträchtigen. 
+um Wasserstoff als Treibstoff benutzen zu können. Diese Investitionskosten werden die Flughafenbetreiber beeinträchtigen. \\
 \textit{Transport}\\
 Die Lieferketten und die Produktion des Wasserstoffs haben ein großes Gewicht in der vorhandenen Literatur.
 Der Transport ist durch Pipelines im gasförmigen Zustand, LKW und Zügen sowohl im gasförmigen, als auch im flüssigen Zustand möglich. 
@@ -109,26 +110,28 @@ Außerdem kann es auch in einer chemischen Verbindung, wie Ammoniak und Methanol
 %
 % 
 Die Effizienz der Produktion- und Lieferkosten ist geografisch determiniert. 
-Die Lieferoptionen sind nach Flughafenposition zu wählen. Für die Flughäfen, die nahe einer Wasserstoff-Pipeline liegen ist sinnvoller
+Die Lieferoptionen müssen nach Flughafenposition gewählt werden. Für die Flughäfen, die nahe einer Wasserstoff-Pipeline liegen ist sinnvoller
 damit der Wasserstoff zu besorgen, als mit einem LKW transportieren zu lassen.
 %
 Für europäische Distanzen sind die Wasserstoff-Pipelines günstiger als Transport mit chemischen Verbindungen, 
 welcher bei längeren Distanzen in Betracht kommt \cite{undertaking2022strategic}. 
 Bei Änderung von Erdgasleitung für Wasserstoff können Kosten gespart
 werden und muss keine neue Infrastruktur gebaut werden, sondern die Leitungen für Wasserstoff umgerüstet werden können \cite{undertaking2022strategic}.
-
-Der Transfer von \ce{LH2} mit vakuumisolierte Pipeline beschränkt sich auf die kurzen Distanzen
+%
+Jedoch der Transfer von \ce{LH2} mit vakuumisolierte Pipeline beschränkt sich auf die kurzen Distanzen
 wegen proportionalen Skalierung der Verluste zu Leitungslänge \cite{colpan2022fuel}.
+Obwohl die hohen Kapitalkosten von Pipeline-Anlage zu erwarten, die Betriebskosten niedriger sein werden \cite{mulder2019outlook}.
 
-Colpan et al.\cite{colpan2022fuel} ist der Meinung im Fall, wenn große Menge an Wasserstoff benötigt wird, 
-ist der Lieferung weder LKW noch Pipeline sinnvoll. 
+Mulder et al. \cite{mulder2019outlook} vertritt der Ansicht, dass bei größerem Umfang an Wasserstoff die Pipelines 
+vorteilhafter als LKW - Lieferung sind. 
+Colpan et al.\cite{colpan2022fuel} ist jedoch der Meinung im Fall, wenn große Menge an Wasserstoff benötigt wird, 
+ist der Lieferung weder mit LKW noch Pipeline sinnvoll. 
 
 Dennoch nach Schenke et al. \cite{schenke2024lh2} kann Lieferung den flüssigen Wasserstoff mit einem LKW bei einer hohen Anzahl an Flügen 
 kostengünstiger als andere Lieferalternativen sein. Allerdings Transport von \ce{LH2} erfordert speziell konstruierte Tanks \cite{mulder2019outlook}.
 
-Lieferung von gasförmigem Wasserstoff mit niedrigem Druck mit dem Straßenverkehr bis jetzt nur für ungenügende Menge möglich \cite{undertaking2022strategic}
-
-Obwohl die hohen Kapitalkosten von Pipeline-Anlage zu erwarten, die Betriebskosten niedriger sein werden \cite{mulder2019outlook}. Also bei größerem Umfang lohnt es Pipelines, sonst Lkw \cite{mulder2019outlook}.
+%Lieferung von gasförmigem Wasserstoff mit niedrigem Druck mit dem Straßenverkehr bis jetzt nur für ungenügende Menge möglich \cite{undertaking2022strategic}
+%
 
 \textit{Speicherung}\\
 Gasförmiger Wasserstoff kann unterirdisch in Salzkavernen und in erschöpften Gasfelder gespeichert werden \cite{undertaking2022strategic}, 
@@ -148,7 +151,7 @@ Wasserstoffproduktionsstelle zurückgegeben, wo die wieder nachgefüllt werden k
 Diese Möglichkeit kann vor allem für die kleineren Flughäfen als Alternative sein, da kein Wasserstoffspeicher und 
 sonstige Anlagen bereitgestellt werden müssen.
 Für längeres Parken am Flughafen werden kalte Tanks eine sichere Verbindung mit der Wasserstoffinfrastruktur benötigen \cite{colpan2022fuel} %weiß nicht
-Grund?
+
 %"current FCEV system costs higher than 200 €/kW for passenger cars but need 
 %to fall below 50 €/kW for mass market. " \cite{undertaking2022strategic}
 
