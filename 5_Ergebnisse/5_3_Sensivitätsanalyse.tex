@@ -3,22 +3,20 @@
 %
 Die Sensitivitätsanalyse ermöglicht die Robustheit einer Berechnung zu überprüfen und die Parameter mit größtem Einfluss herauszufinden. 
 Dafür wurde die Teilkosten aus dem \ref{s:Ergebnisse_Flugzeuge} ausgesucht, die größter Einfluss auf die Gesamtkosten haben. 
-Bei den Vergleich von Batterie, SAF und herkömmlichen Treibstoff sind die Entgelte und Gebühren, als auch kapitalbezogene Kosten.
+Bei dem Vergleich von Batterie, SAF und herkömmlichen Treibstoff sind die Entgelte und Gebühren, als auch kapitalbezogene Kosten.
 
-Werden Entgelte um 10 \% erhöht, erhöhen sich die Betriebskosten moderat ($S$=0,15), auch der Preissenkung für die Anschaffungspreise
-um 10 \% nicht so einen großen Einfluss aus das Gesamtsystem hat ($S$=0,28).
+Dafür wurden folgende Parametern für BA ausgesucht: 1. der Preis für Leasing einer Batterie, 2. Anschaffungspreis für das Flugzeug.
+Der erste Wert kann je nach Leistung der Batterie und Häufigkeit der Nutzung unterschiedlich ausfallen, deswegen wäre es wichtig anzuschauen,
+welcher Unterschied im Betriebskosten entsteht, wenn der Preis für Leasing 10 \% teurer wäre. Die Preise für neue Flugzeugantriebe
+werden durch die steigende Nachfrage mit der Zeit sinken, aus diesem Grund wurde der 10 \% Rückgang den Anschaffungspreisen angeschaut.
 
-Dafür wurden folgende Parametern ausgesucht: 1. der Preis für Leasing einer Batterie, 2. Flugzeugpreis
-Der ersten Wert kann je nach Leistung der Batterie und Häufigkeit der Nutzung unterschiedlich ausfallen, deswegen wäre es wichtig anzuschauen,
-welcher Unterschied im Betriebskosten entsteht, wenn ich Preis für Leasing 10 \% teurer wäre. Die Preise für neue Flugzeugantriebe
-werden durch die steigende Nachfrage mit der Zeit sinken, aus diesem Grund wurde der 10 \% Rückgang wurde angeschaut.
-
+Werden Entgelte um 10 \% erhöht, erhöhen sich die Betriebskosten moderat ($S$ = 0,15), auch der Senkung den Anschaffungspreisen
+um 10 \% nicht so einen großen Einfluss aus das Gesamtsystem hat ($S$ = 0,28).
 
 Beim Vergleich von Wasserstoffbetrieben und SAF mit konventionellem Antrieb entsteht der größte Kostenanteil
-von Treibstoffkosten und kapitalbezogenen Kosten. Deswegen wurde für Parametern wie: 1. Preis für Treibstoff; 
-2. Anschaffungskosten eines Flugzeugs entschieden. Dabei Preis für alternative Antriebe soll in der Zukunft senken und Preis für herkömmlichen
-Treibstoffen aufgrund Wachstum von Ölpreisen wachsen. Es wird auch den Wert von 10 \% genommen.
-Wie bereits angesprochen wird der Anschaffungspreis für neue Technologien mit der Zeit sinken.
+von Treibstoffkosten. Deswegen wurde der Parameter "Treibstoffpreis" für Sensitivitätsanalyse ausgewählt.
+Der Preis für alternative Antriebe und Treibstoffe soll in der Zukunft senken und Preis für herkömmlichen
+Treibstoffen aufgrund Wachstum von Ölpreisen wachsen. Zudem wird ein Wert von 10 \% zugrunde gelegt.
 
 \begin{table}[h]
 	\begin{center}
@@ -35,5 +33,5 @@ Wie bereits angesprochen wird der Anschaffungspreis für neue Technologien mit d
     \end{center}
 \end{table}
 
-Der Wasserstoffantrieb reagiert der Preisänderung (S=0,49) gegenüber am stärksten. Das System reagiert relativ 
+Der Wasserstoffantrieb reagiert der Preisänderung ($S$ = 0,49) gegenüber am stärksten. Das System reagiert relativ 
 empfindlich auf die Preisänderung von Wasserstoff, die Preise für Kerosin und SAF sind weniger sensibel.

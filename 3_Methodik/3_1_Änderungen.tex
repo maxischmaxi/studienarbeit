@@ -2,7 +2,7 @@
 \label{ch:Änderungen durch neue Antriebe, Annahmen und Methodik}
 
 Konzepte mit neuen Antrieben befinden sich im Entwicklungsprozess und bis jetzt es ist ratsam, wie zukünftige Flughäfen aussehen werden
-und welche Ausstattung für die Flugzeug-Abfertigung ausgesucht wird. Wasserstoff-Flugzeuge werden ab Jahr 2035 in 
+und welche Ausstattung für die Flugzeug-Abfertigung ausgesucht wird. Wasserstoff-Flugzeuge werden erst ab dem Jahr 2035 in 
 auf den Markt eintreten, wobei die BA-Flugzeuge schon in den nächsten Jahren erwartet werden.
 Der Wechsel zu nachhaltigen Antrieben kann es zu deutlichen Änderungen in der Infrastruktur und Abläufen am Vorfeld führen, die
 in diesem Kapitel beschrieben werden.
@@ -15,8 +15,8 @@ Außerdem auf der Grundlage der unterschiedlichen Quellen und vernünftigen Beha
 \section{Änderungen an der Abfertigung und dazugehörige Kosten von alternativen Antrieben}
 \label{s:Änderungen an der Abfertigung und dazugehörige Kosten von alternativen Antrieben}
 
-Die Größe des Flughafens beeinflusst die Infrastrukturkosten. Größere Flughäfen können mehr Flugzeuge als Regionalflughäfen 
-abfertigen, was dazu führt, dass mehr Abfertigungsplätze umgerüstet/versorgt werden müssen und mehr Arbeitskräfte geschult werden müssen. 
+Infrastrukturkosten sind von der Größe des Flughafens abhängig. Größere Flughäfen können mehr Flugzeuge als Regionalflughäfen 
+abfertigen, was dazu führt, dass mehr Abfertigungsplätze umgerüstet und versorgt werden müssen und mehr Arbeitskräfte geschult werden müssen. 
 In diesem Teil wird näher auf die Änderungen in der Infrastruktur durch die Einführung von neuen Antrieben eingegangen und 
 die Forschungsrichtung ausgesucht.
 
@@ -37,15 +37,6 @@ zertifiziert und genauso wie bei Betankung mit herkömmlichen Treibstoffen zugel
 Batteriegetriebene Flugzeuge brauchen größere Veränderung am Flughafen als bei der Nutzung von SAF.
 Bis zum Jahr 2050 sind die BAs auf die kleineren Flugzeuge und damit auf Kurz- und Regionalverkehr beschränkt. 
 
-Wartungsverfahren hierbei unterscheidet sich stark von konventionellen Flugzeugen. 
-Es ist zu erwarten, dass die Wartungskosten niedriger sein können durch weniger bewegende Teile in dem Antrieb \cite{dalmia2022powering}. 
-%
-Die elektrischen Motoren werden keine Kontrolle Gasturbinentriebwerks (Hot-Section Inspection) benötigen, 
-jedoch die Teile wie Lager ausgetauscht werden müssen und 
-es werden mögliche Schäden durch Gelangen den Fremdpartikeln in den Motor verursacht \cite{reimers2018introduction} 
-und bei einem Fehler muss den ganzen Motor ausgetauscht werden \cite{dalmia2022powering}, was ungeplante
-Wartungen und zusätzlichen Kosten benötigt.
-
 In der Literatur werden zwei Batterien-Lademöglichkeiten diskutiert, die Batterien zu wechseln (Swap-Methode), 
 wo die Batterie aus dem Flugzeug herausgenommen werden und 
 an einer Ladestation geladen, oder Ladekabel in das Flugzeug einzustecken (Plug-In), wie bei etablierten E-Autos.
@@ -53,6 +44,12 @@ an einer Ladestation geladen, oder Ladekabel in das Flugzeug einzustecken (Plug-
 Bei diesem Antrieb muss beachtet werden, welche Lebensdauer eine Batterie hat und wie die Batterien geladen werden. 
 Je länger die Ladung dauert, desto mehr Kosten auf dem Boden verursacht werden. Nichtsdestotrotz kann schnelle Ladung 
 zur Stagnation von Lebensdauer einer Batterie bringen (Quelle).
+
+Ladeleistung ist für die Dauer der Ladung verantwortlich. Durch schnellere Ladungen wird Lebensdauer der Batterien reduziert. 
+Was mit sich bringt, dass die Batterien schneller ausgetauscht werden müssen
+und mehr Kosten dadurch entsteht. (Quelle) Wobei die langsamen Laden ist für die Fluggesellschaften nicht rentabel sein kann, 
+da wenn Flugzeug auf dem Boden steht verdienen Fluggesellschaften kein Geld.
+
 
 \textit{Plug-In} Methode benötigt ein schnelles Laden, damit Flugzeuge weniger Zeit auf Boden verbringen müssen.
 Jedoch ist ein Anstieg in Turnaround-Zeiten aufgrund nicht zurzeit möglichen Schnellladung möglich \cite{avogadro2024demystifying}.
@@ -62,12 +59,14 @@ Guo et al. \cite{guo2020aviation} ist zum Schluss gekommen, dass Batteriewechsel
 wenn die batteriebetriebenen Flugzeuge nur ein kleiner Teil (unter 10 \%) der Flotte ist, in anderem Fall lohnt sich eine Plug-In-Ladung. 
 Für die Batteriewechsel müssen auch Transport und Hebegeräte gestellt werden, um die Batterien bewegen zu können \cite{reimers2018introduction}.
 Jedoch mit Batteriewechsel können die Abfertigungszeiten reduziert werden (Quelle), was an einem großen Flughafen von der Bedeutung ist. 
-Batteriewechsel bietet gleichmäßigere Deckung der Nachfrage, 
-da der Austausch einer Batterie viel schneller ist, als Dauer einer Plug-In Ladung \cite{guo2020aviation}. 
+
+Batteriewechsel bietet gleichmäßigere Deckung der Nachfrage \cite{guo2020aviation} und kompatibler mit der Flugplanung \cite{salucci2020optimal}, 
+da der Austausch einer Batterie viel schneller ist, als Dauer einer Plug-In Ladung. 
+Jedoch werden mehrere Batterien benötigt, die zudem ordnungsgemäß und sicher gelagert werden müssen \cite{salucci2020optimal}.
 Außerdem ermöglicht der Swap-Methode langsameres Laden und macht das Laden mit geringer Leistung möglich \cite{avogadro2024demystifying}.
 Aus diesen Gründen werden in nächsten Teilen die Kosten für diese Option ausgewertet. 
 
-Würde der Austausch der Batterien parallel zu anderen Prozessen, wie Deboading kann die kürzere Turnaround-Zeit im 
+Würde der Austausch der Batterien parallel zu anderen Prozessen, wie Deboarding kann die kürzere Turnaround-Zeit im 
 Vergleich zu konventionellen Flugzeugen erreicht werden \cite{schmidt2016challenges}.
 
 \textit{Annahmen für die BA-Analyse}\\
