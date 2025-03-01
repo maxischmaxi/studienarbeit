@@ -1,24 +1,24 @@
 # Fdb version 4
-["biber studienarbeit"] 1740828672.47867 "studienarbeit.bcf" "studienarbeit.bbl" "studienarbeit" 1740828795.04928 0
+["biber studienarbeit"] 1740832838.45417 "studienarbeit.bcf" "studienarbeit.bbl" "studienarbeit" 1740832859.3806 0
   "4_References/Quellen.bib" 1740679545 25846 fad4a61c8678a79c21ae8b1638455ba0 ""
-  "studienarbeit.bcf" 1740828794 123613 3f6fbab238e7531b0b58d833dfaaf087 "pdflatex"
+  "studienarbeit.bcf" 1740832858 123613 e8bdc212ad3cf8807f0645aa334bd513 "pdflatex"
   (generated)
   "studienarbeit.bbl"
   "studienarbeit.blg"
   (rewritten before read)
-["pdflatex"] 1740828782.44285 "c:/Users/henri/Desktop/Studienarbeit/studienarbeit.tex" "studienarbeit.pdf" "studienarbeit" 1740828795.05041 0
+["pdflatex"] 1740832847.19538 "c:/Users/henri/Desktop/Studienarbeit/studienarbeit.tex" "studienarbeit.pdf" "studienarbeit" 1740832859.3823 0
   "1_Chapters/0 Thesen.tex" 1740786501 2287 d5c4fb07168a8b4a81aebe48070871c6 ""
   "1_Chapters/1 Einleitung.tex" 1740786501 5354 4fa7452f9f48648545f669783e5cc068 ""
   "1_Title.tex" 1739217115 1934 03c9e888d217cd22f916c9b8f7acc451 ""
-  "2_Grundlagen/2_1 Stakeholder.tex" 1740786501 14150 8236ca062ce36ca0ac9bfa06ad3792c9 ""
-  "2_Grundlagen/2_2 Kosten.tex" 1740786501 13431 2cf24543e5a74c268c10df4395a53769 ""
-  "2_Grundlagen/2_3 Strategien.tex" 1740690772 5034 ad8254c5aece9a7507976fc38e068744 ""
-  "2_Grundlagen/2_4 nachhaltige Alternativen.tex" 1740666030 9154 e59522bd70f33a27270fb379b0cfd1c5 ""
-  "2_Grundlagen/2_4_2 electric.tex" 1740824683 10324 01631c158f952b0bf22f12d12c5c0228 ""
-  "2_Grundlagen/2_4_3 hydrogen.tex" 1740786501 10526 c653c8569a03dc5e63eae493a04cac5d ""
-  "2_Grundlagen/2_5 Konzepte.tex" 1740828781 6165 1efd8482531fd4efa26b8c8b4dfa96e3 ""
+  "2_Grundlagen/2_1 Stakeholder.tex" 1740829709 14151 348140aa0a659567571a7b64a2585234 ""
+  "2_Grundlagen/2_2 Kosten.tex" 1740829709 13607 374130823fe599272b4e86ce3520cbbe ""
+  "2_Grundlagen/2_3 Strategien.tex" 1740829709 5125 1efbd33dc05673382491dececf986823 ""
+  "2_Grundlagen/2_4 nachhaltige Alternativen.tex" 1740829709 9139 ad4b31dd664f685c3c4b8efdee9ee237 ""
+  "2_Grundlagen/2_4_2 electric.tex" 1740829709 10401 f1c149c8e34693f6247f9433d2c37568 ""
+  "2_Grundlagen/2_4_3 hydrogen.tex" 1740832820 10754 368b0abd5f7297ff07f3cb50a4c8c336 ""
+  "2_Grundlagen/2_5 Konzepte.tex" 1740829709 6431 bb89da0a72a9a0863be6937126a7e143 ""
   "3_Methodik/3_1_Änderungen.tex" 1740828656 18287 16a654ff8b0f7264ababdea710aa5444 ""
-  "3_Methodik/3_2_Referenz_Flugzeuge.tex" 1740828656 7348 fe7d61e3a93cb4ff98ac6a602f08bab2 ""
+  "3_Methodik/3_2_Referenz_Flugzeuge.tex" 1740832820 7110 1c9d4891e3af393d594872b1e55afc9e ""
   "3_Methodik/3_3_Kosten_Formeln.tex" 1740828656 16622 018b91590978823896f0157c7d015eb0 ""
   "3_Methodik/3_4_Betriebsszenarien.tex" 1740824544 5271 e67420a442b40e0c925ebcee9c1e8340 ""
   "4_References/bib.tex" 1734552435 475 c94d3befd0d8b759787b14f4b91b1850 ""
@@ -316,12 +316,12 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1733836144 5441979 24d9d8a39025f77a4677560676ba95ea ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1733691995 2047510 365f18ade55dc77082ee1801e30469e9 ""
   "c:/texlive/2024/texmf.cnf" 1733691684 713 614551405fc44b98efbf516466e3c909 ""
-  "studienarbeit.aux" 1740828794 51495 ae021aea371fb2f56178f0a959f23b2f "pdflatex"
-  "studienarbeit.bbl" 1740828680 124668 89c98998585194e9ad3b15b3a92f781e "biber studienarbeit"
-  "studienarbeit.out" 1740828788 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "studienarbeit.run.xml" 1740828794 2472 fbf170860968199a79a3878f2a929ef4 "pdflatex"
+  "studienarbeit.aux" 1740832858 51496 a91f6372ecf36a79c537db566a8b92b4 "pdflatex"
+  "studienarbeit.bbl" 1740832847 124668 89c98998585194e9ad3b15b3a92f781e "biber studienarbeit"
+  "studienarbeit.out" 1740832853 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "studienarbeit.run.xml" 1740832858 2472 fbf170860968199a79a3878f2a929ef4 "pdflatex"
   "studienarbeit.tex" 1740587558 5979 4294afe73c95ecfc2d4ca2033f3359dc ""
-  "studienarbeit.toc" 1740828794 3486 e5f902b19512833e53e1a778ac1820f3 "pdflatex"
+  "studienarbeit.toc" 1740832858 3486 7037b7f8d60f4bb4b41dd67ff0c04682 "pdflatex"
   (generated)
   "studienarbeit.aux"
   "studienarbeit.bcf"
