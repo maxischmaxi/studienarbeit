@@ -1,12 +1,22 @@
 # Fdb version 4
+<<<<<<< HEAD
 ["biber studienarbeit"] 1740928478.09009 "studienarbeit.bcf" "studienarbeit.bbl" "studienarbeit" 1740928499.13583 0
   "4_References/Quellen.bib" 1740911365.52697 27224 1ff1c7e8b724d44f2de046e297f3544c ""
   "studienarbeit.bcf" 1740928499.01482 123640 b0969487562f622a4cb1de3441d20596 "pdflatex"
+=======
+["biber studienarbeit"] 1740920903.25325 "studienarbeit.bcf" "studienarbeit.bbl" "studienarbeit" 1740927922.41874 0
+  "4_References/Quellen.bib" 1740911365.52697 27224 1ff1c7e8b724d44f2de046e297f3544c ""
+  "studienarbeit.bcf" 1740927922.30271 123727 88720f6d79ab89067c41da22b223a236 "pdflatex"
+>>>>>>> 2faaf1d (update)
   (generated)
   "studienarbeit.bbl"
   "studienarbeit.blg"
   (rewritten before read)
+<<<<<<< HEAD
 ["pdflatex"] 1740928492.57164 "studienarbeit.tex" "studienarbeit.pdf" "studienarbeit" 1740928499.13604 0
+=======
+["pdflatex"] 1740927916.21265 "studienarbeit.tex" "studienarbeit.pdf" "studienarbeit" 1740927922.41894 0
+>>>>>>> 2faaf1d (update)
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/opensans/a_jg4h6q.enc" 1561498186 2952 84fda6c8ae8be17712e9d998ffe48bad ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/opensans/a_nvvucy.enc" 1561498186 3364 7c78cdd102714be824555fc722b51d02 ""
@@ -288,6 +298,7 @@
   "1_Chapters/6_appendix.tex" 1740911365.52543 406 db97a878ce21928e17ae0c1880356b8b ""
   "1_Title.tex" 1739217570.97916 1866 03c9e888d217cd22f916c9b8f7acc451 ""
   "2_Grundlagen/2_1 Stakeholder.tex" 1740916061.63035 13735 ff815f1bd27cd6aa2dcc5636e06e022d ""
+<<<<<<< HEAD
   "2_Grundlagen/2_2 Kosten.tex" 1740928150.87975 13221 ecf42558ebb937d3340bac61968c000d ""
   "2_Grundlagen/2_3 Strategien.tex" 1740928150.87993 5660 9893bbdccf22ae79d7b59fda3cc0a2ac ""
   "2_Grundlagen/2_4 nachhaltige Alternativen.tex" 1740928150.88035 9299 72ec0000f8c7290923cb434c3c3223db ""
@@ -298,6 +309,18 @@
   "3_Methodik/3_2_Referenz_Flugzeuge.tex" 1740863738.12057 7338 f290a1cb127e1e51a6a23e6c5da8a5df ""
   "3_Methodik/3_3_Kosten_Formeln.tex" 1740911365.52675 16559 71df385a32788003decdae0bd533a22c ""
   "3_Methodik/3_4_Betriebsszenarien.tex" 1740928140.07637 5326 c5c999a7c862d0c5c31c85f347b98ef9 ""
+=======
+  "2_Grundlagen/2_2 Kosten.tex" 1740917943.77317 13221 ecf42558ebb937d3340bac61968c000d ""
+  "2_Grundlagen/2_3 Strategien.tex" 1740918286.83026 5660 9893bbdccf22ae79d7b59fda3cc0a2ac ""
+  "2_Grundlagen/2_4 nachhaltige Alternativen.tex" 1740918344.28555 9299 72ec0000f8c7290923cb434c3c3223db ""
+  "2_Grundlagen/2_4_2 electric.tex" 1740918517.4713 10366 17fd6778daa4c5ec2508d94e08ab5c6f ""
+  "2_Grundlagen/2_4_3 hydrogen.tex" 1740918682.97936 11132 f6479d025057ee69a7efb527a036d33f ""
+  "2_Grundlagen/2_5 Konzepte.tex" 1740924209.00751 6160 fed02559c9dd955d004ead44eb2c9e12 ""
+  "3_Methodik/3_1_Änderungen.tex" 1740927911.92228 18870 449bf6e7db6020c58d18e502e61024ad ""
+  "3_Methodik/3_2_Referenz_Flugzeuge.tex" 1740863738.12057 7338 f290a1cb127e1e51a6a23e6c5da8a5df ""
+  "3_Methodik/3_3_Kosten_Formeln.tex" 1740911365.52675 16559 71df385a32788003decdae0bd533a22c ""
+  "3_Methodik/3_4_Betriebsszenarien.tex" 1740926905.99736 5322 8873051c37a06d9bb4f7290699abcb0f ""
+>>>>>>> 2faaf1d (update)
   "4_References/bib.tex" 1739217570.98263 450 c94d3befd0d8b759787b14f4b91b1850 ""
   "5_Ergebnisse/5_1_Ergebnisse_Fzg.tex" 1740863746.82528 4806 76cec80ac9f3889547cc59132a1ce254 ""
   "5_Ergebnisse/5_2_Ergebnisse_Betriebsszenarien.tex" 1740911365.52739 4248 bd48e8c1ea6b0ed5251bfbfd66b920f4 ""
@@ -319,12 +342,21 @@
   "Bilder/betriebssz_res.png" 1740819447.47349 59873 d1554d83d154fa31f29d5ac76f0131bb ""
   "Bilder/eis.png" 1740911365.52782 66121 d5f07dee090c547ddfd50b152f9f7d4d ""
   "Bilder/infr_abschreibung.png" 1740819447.47366 38955 9cf47c535d80bcecb285d9206ff6ba23 ""
+<<<<<<< HEAD
   "studienarbeit.aux" 1740928498.99322 54636 7ce611c3eb8469e707c07cb81c787874 "pdflatex"
   "studienarbeit.bbl" 1740928479.63858 121599 480c310d7fc290bc94bdd6b69a096a87 "biber studienarbeit"
   "studienarbeit.out" 1740928495.84928 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "studienarbeit.run.xml" 1740928499.01532 2472 221a1c8b318028fdd60d749c3a0651cd "pdflatex"
   "studienarbeit.tex" 1740911365.53698 5813 d046b3f19f56788f69021e5b17415c26 ""
   "studienarbeit.toc" 1740928499.01537 3611 99ed47232a3d36387ec7a7f0f7c67e53 "pdflatex"
+=======
+  "studienarbeit.aux" 1740927922.28197 54351 4b24577d25e35479cac2b202b088789c "pdflatex"
+  "studienarbeit.bbl" 1740920904.82813 121599 c2f709e4c14c0f974bc8ed263ccb2994 "biber studienarbeit"
+  "studienarbeit.out" 1740927919.34766 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "studienarbeit.run.xml" 1740927922.3032 2472 221a1c8b318028fdd60d749c3a0651cd "pdflatex"
+  "studienarbeit.tex" 1740911365.53698 5813 d046b3f19f56788f69021e5b17415c26 ""
+  "studienarbeit.toc" 1740927922.30324 3612 fe70a36df769a6473168e314c1d3459a "pdflatex"
+>>>>>>> 2faaf1d (update)
   (generated)
   "studienarbeit.aux"
   "studienarbeit.bcf"
