@@ -26,6 +26,12 @@
 *.stt
 *.xdy
 *.tdo
+*.bcf
+
+*.fdb_latexmk
+*.fls
+*.run.xml
+*.toc
 
 # Generated files
 *.dvi
