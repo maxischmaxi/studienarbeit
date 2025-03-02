@@ -18,8 +18,8 @@ entsprechend eingesetzte Werte sind in der Anlage XX zu finden. % MAX: anlage?
 Alle Werte in USD werden mit dem Wechselkurs\footnote{Wechselkurs vom 14.01.2025} (1 EUR = 1,0245 USD)
 umgerechnet, alle Werte in Pfund mit dem Kurs (1 GBP = 1,20 EUR).
 Aufgrund der hohen Unsicherheit der Preisprojektionen wird der Preis für Kerosin 
-konstant gehalten, es wird von einem Wert von 0,688 EUR pro Liter \cite{iata_industry_statistics_2024} ausgegangen. 
-Stromkosten von 0.1976 € pro kWh werden ebenfalls als konstante angenommen \cite{eurostat_nrg_pc_205}.
+konstant gehalten, es wird von einem Wert von 0,688 EUR pro Liter\footnote{Es wurde der } ausgegangen \cite{iata_industry_statistics_2024}. 
+Stromkosten von 0,1976 € pro kWh werden ebenfalls als konstant angenommen \cite{eurostat_nrg_pc_205}.
 In Anbetracht der Kostensenkung für nachhaltige Kraftstoffe in der Zukunft, 
 wird der minimale Preis für HEFA-Treibstoff von 1,07 EUR pro Liter in den Berechnungen verwendet \cite{watson2024sustainable}.
 Wegen der starken Schwankungen des Wasserstoffpreises wird der Durchschnittspreis für 
@@ -46,7 +46,7 @@ von und zur Parkposition $t_{R}$ zusammen.
 Für Kurz- und Mittelstrecken beträgt $t_{R}$ {0,25 h} und für Langstrecken 0,42 h \cite{scholz_design_evaluation_doc}.
 
 \begin{equation}
-   t_{B} = t_{F,h} + t_{R} \\
+   t_{B} ~[\text{h}] = t_{F,h} + t_{R} \\
    \label{blockzeit}
 \end{equation}
 
@@ -78,7 +78,7 @@ Die Wartungskosten der Zelle sind von dem leeren Betriebsgewicht
 Kosten des Triebwerks sind vom erzeugten Schub beim Start (Take-Off Thrust $T_{T/O}$) abhängig.
 
 \begin{equation}
-   {C_{W,B} ~[\text{EUR}]} = (C_{W,Zelle,B} + n_{T} \cdot C_{W,Triebwerk,B} ) t_{B} \cdot n_{F, Jahr} \cdot k_{WK} \cdot k_{Infl}\\
+   {C_{W,B} ~[\text{EUR}]} = (C_{W,Zelle,B} + n_{T} \cdot C_{W,Triebwerk,B} ) \cdot t_{B} \cdot n_{F, Jahr} \cdot k_{WK} \cdot k_{Infl}\\
    \label{maintenance}
 \end{equation}
 
@@ -133,7 +133,9 @@ Kurz- und Mittelstecken und 16 Jahre für Langstrecken.
 Da keine öffentlich zugänglichen Marktpreise für Luftfahrzeuge mit alternativen Antriebssystemen vorliegen, 
 wird die Kalkulation der Anschaffungskosten für elektrisch betriebene Flugzeuge 
 nach der Methodik von \cite{monjon2020conceptual} durchgeführt. 
-In der Arbeit wurde das Regressionsmodell anhand einer Marktanalyse für die Berechnung erstellt. 
+In der Arbeit wurde das Regressionsmodell \eqref{price BA} mit Abhängigkeit von Passagieranzahl $n_{PAX}$ 
+anhand einer Marktanalyse für die Berechnung erstellt. 
+%
 In der Formel sind aufgrund der Einführung neuer Technologien 10 \% höhere Anschaffungskosten mitbetrachtet. 
 Die Studie ist aus dem Jahr 2020, Preise wurden in USD berechnet, 
 weshalb die Inflationsfaktor $k_{Infl}$ und der Wechselkurs $k_{WK}$ 
@@ -167,8 +169,8 @@ Weitere Formeln für kapitalgebundene Kosten sind in dem Anhang XX zu finden. % 
 %Außerdem bestehen bei alternativen Antrieben betriebliche Kosten, die durch Infrastruktur bedingt sind.
 \subsection{Infrastrukturkosten}
 
-\textbf{Batterie-Antrieb}\\
-Kapitalkosten für BA-Infrastruktur sind in folgender Formel zusammengestellt:
+\subsubsection{Batterie-Antrieb}
+Kapitalkosten der Batterieantrieb-Infrastruktur sind in folgender Formel zusammengestellt:
 
 \begin{equation}
      {CAPEX ~[\text{EUR}]} = C_{Bat} + C_{BSS} \\ % C_{Strom} + C_{W,Bat}
@@ -185,8 +187,8 @@ Kapitalkosten für BA-Infrastruktur sind in folgender Formel zusammengestellt:
   \label{BA}
    \end{split}
   \end{equation}
-
-, wobei $P_{Bat}$ der Preis einer Batterie darstellt und $n_{Bat}$ die Anzahl der Batterien, die benötigt werden. 
+%
+$P_{Bat}$ stellt der Preis einer Batterie und $n_{Bat}$ die Anzahl der Batterien dar, die benötigt werden. 
 Dazu werden noch 20 \% Reserve-Batterien einberechnet, um Einschränkungen im Betrieb zu umgehen. 
 %$N_{menge}$ ist die Menge an Strom, der für das Laden einer Batterie nötig ist.
 $P_{BSS}$ ist der Preis des Ladegeräts der Batteriewechselstation und $n_{BSS}$ ist der Anzahl an Ladegeräten. 
@@ -225,7 +227,7 @@ von Batterien zusätzliche Anlagen, z.B. Lagergebäude, nötig sind.
       Abschreibung $BSS ~[\text{Jahre}]$&  10  & \cite{salucci2020optimal} \\ \hline
 		$P_{Bat} ~[\text{EUR/kWh}]$ & 125000 & \cite{guo2020aviation} \\ \hline
       Lebenszyklen $Bat$ & 5000 & \cite{reimers2018introduction} \\ \hline
-      Abschreibung $Bat ~[\text{Jahre}]$& 2,7 & \\ \hline
+      Abschreibung $Bat ~[\text{Jahre}]$& 2,7 & -\\ \hline
 		%$P_{W,Bat} ~[\text{EUR}] $ & 285  & \cite{guo2023infrastructure}\\ \hline
     %  $P_{HW} ~[\text{EUR}] $ &  &\\ \hline
 	\end{tabular}
@@ -237,7 +239,7 @@ Zeitgleich ist die Anzahl der Zyklen, die eine Batterie an einem Tag geladen wer
 von Betriebsstunden des Flughafens und Ladedauer der Batterie abhängig. 
 In der Zukunft ist die Lebensdauer einer Batterie bis zu 5000 und mehr Zyklen zu erwarten \cite{reimers2018introduction}, 
 weshalb ein Wert von 5000 Zyklen in der Berechnung angenommen wird.
-DIe Ladedauer ist von der Leistung der Ladestationen und Kapazität einer Batterie abhängig.
+Die Ladedauer ist von der Leistung der Ladestationen und Kapazität einer Batterie abhängig.
 Für die Ladegeräte wurde die konstante Spitzenleistung von 250 kW angenommen \cite{salucci2020optimal}. 
 %Der Strom ist normalerweise von Tag und Nacht abhängig und wie viel parallel genutzt wird.  Die Verluste beim Laden werden ignoriert. 
 Zusätzlich wird der Puffer von 20 \% für die Batterieanzahl implementiert, um mögliche Engpässe zu vermeiden. 
@@ -246,14 +248,15 @@ Die Anzahl der Ladegeräte $n_{BSS}$ ist von der Gesamtzahl der Batterien und La
 Mit einer angenommenen Batteriekapazität von 900 kWh und Ladegeräten 
 mit der Leistung von 250 kW, entspricht das 3,6 Stunden Ladedauer.
 Bei einem 18 Stunden-Betrieb entspricht das insgesamt 5 Ladezyklen pro Tag für jede Batterie. 
-Daraus kann abgeleitet werden, dass jede Batterie 1000 Tage überlebt bis ihre Leistung auf 80 \% sinkt.
+Daraus kann abgeleitet werden, dass jede Batterie 1000 Tage überlebt bis ihre Kapazität auf 80 \% sinkt.
 Die Einbeziehung der Abschreibungswerte unterstützt die dritte Hypothese.
 %
 \begin{equation}
   {n_{Bat}} = {1,2} \cdot \frac{N_{Abfertigung}}{c_{Bat}}\\
   \label{BatAnzahl}
   \end{equation}
-\textbf{Wasserstoff-Antrieb}
+%
+\subsubsection{Wasserstoff-Antrieb}
 %
 %Lieferung
 %falls in flüssigform: LKW/Schiff/Bahn - Distanz und von der Menge abhängig.
@@ -292,8 +295,8 @@ als auch Wirkungsgrad der Technologien, wird dabei nicht betrachtet.
 Wie bereits im Grundlagen-Kapitel erläutert wurde, 
 hat der kryogene Wasserstoff eine Dichte von ca. 65 $kg/m^3$ \cite{colpan2022fuel},
 also können 307,58 t in einem kugelförmigen Lagertank gespeichert werden.
-A wird davon ausgegangen, dass die Vorgänge der Betankung des Wagens % MAX: was ist A?
+Es wird davon ausgegangen, dass die Vorgänge der Betankung des Wagens % MAX: was ist A?
 und folgende Betankung des Flugzeugs jeweils 30 Minuten dauern \cite{hoelzen2022h2}. 
-(1 Flugzeug pro Tankwagen, also alles von - Ankunftsrate abhängig)
-
-Außerdem müssen diese Teile mit Spannung versorgt werden: Kontrollraum, Wartungseinrichtugen % MAX: ist das ein Satz?
+Zudem wird zur Vereinfachung angenommen, dass pro Flugzeug ein Tankwagen benötigt wird.
+%
+%Außerdem müssen diese Teile mit Spannung versorgt werden: Kontrollraum, Wartungseinrichtugen % MAX: ist das ein Satz?
