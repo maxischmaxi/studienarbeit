@@ -754,6 +754,12 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Regular-T1
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-LightItalic-T1-TLF.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-LightItalic-T1-TLF.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-LightItalic-T1-TLF--base.tfm
+INPUT ./1_Chapters/6_appendix.tex
+INPUT ./1_Chapters/6_appendix.tex
+INPUT 1_Chapters/6_appendix.tex
+INPUT ./7_Anhang/7_1_Anhang.tex
+INPUT ./7_Anhang/7_1_Anhang.tex
+INPUT 7_Anhang/7_1_Anhang.tex
 INPUT studienarbeit.aux
 INPUT ./studienarbeit.out
 INPUT ./studienarbeit.out

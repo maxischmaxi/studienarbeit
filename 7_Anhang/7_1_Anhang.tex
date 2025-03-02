@@ -1,4 +1,6 @@
-1. Für die Ausrechnung der Inflationsfaktoren wurden die Daten von Statistischem Bundesamt verwendet.
+\chapter{Anhang A. Ergänzende Formeln und Berechnungsgrundlagen}
+A1.1 genutzte Inflationsfaktoren
+Für die Ausrechnung der Inflationsfaktoren wurden die Daten von Statistischem Bundesamt verwendet. 
 \begin{table}[h]
 	\begin{center}
     \caption{abgeleitete Inflationsfaktoren}
@@ -15,11 +17,14 @@
     \end{center}
 \end{table}
 
-Beispiel die Ausrechnung eines Inflationsfaktors:
+$VPI$ ist Verbraucherpreisindex. Beispiel die Ausrechnung eines Inflationsfaktors $k_{Infl}$:
+\begin{equation}
+	{k_{Infl}} = \frac{VPI_{2024}}{VPI_{2018}} \\
+	\label{inflation}
+ \end{equation}
 
-VPI2024/VPI2018
-2. kostenbezogene Formeln
-
+A1.2 kostenbezogene Formeln
+Die Formeln von AEA stammen aus \cite{minwoo2019analysis} oder scholz
 
 A1.3 Entgelte und Gebühren
 
@@ -32,7 +37,11 @@ wie die sicherheits- oder emissionsabhängige Entgelte. Zur Reduktion der Komple
 Die Formel der Flugsicherungsgebühr $(C_{FS})$ für jeweils An- und Abfluggebühr stammt aus \cite{dfs_flugsicherungsgebuehren} und ist in der Gleichung \eqref{Flugsicherung}
 dargestellt. Im Jahr 2025 liegt der Wert $P_{FS}$ bei 380,71 Euro. 
 Der $MTOW$ bezeichnet das Höchstabfluggewicht (Maximum Take-Off Weight) eines Flugzeugs. 
-Die zugrunde liegenden Werte der Flughafenentgelten wurden aus den Daten von \cite{fraport2025entgelte} entnommen.
+\begin{equation}
+	{C_{FS} ~[\text{EUR}]} = (\frac{MTOW}{50})^{0,7} \cdot P_{FS} \\
+	\label{Flugsicherung}
+ \end{equation}
+Die zugrunde liegenden Werte den Flughafenentgelten wurden aus den Daten von \cite{fraport2025entgelte} entnommen.
 Außerdem bestehen bei alternativen Antrieben betriebliche Kosten, die durch Infrastrukturbedienung bedingt sind.
 So werden bei BA-Flugzeugen die Kosten für Batteriewechsel zu Flughafenentgelten einkalkuliert. Aufgrund hoher Kosten für Batterien
 und ausgewählten Batteriewechselsystems am Flughafen können die Fluggesellschaften die Anschaffungskosten nicht leisten. 
@@ -43,11 +52,4 @@ die Häufigkeit der Ladezyklen und Abschreibungsjahren (siehe Tab. \ref{BA_Infra
 Dieser Wert ermöglicht für den Flughafen Anschaffungskosten zu decken und unerwartete dazukommende Kosten zu bewältigen.
 Pro Flugzeug wird von einem Wert in Höhe von 285 EUR ausgegangen \cite{guo2023infrastructure}.
 
-Flugsicherungsgebühr
-\begin{equation}
-	{C_{FS} ~[\text{EUR}]} = (\frac{MTOW}{50})^{0,7} \cdot P_{FS} \\
-	\label{Flugsicherung}
- \end{equation}
  
-A1.4
-Lohnrate Besatzung und Piloten 
