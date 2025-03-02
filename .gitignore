@@ -27,6 +27,7 @@
 *.xdy
 *.tdo
 *.bcf
+*.synctex
 
 *.fdb_latexmk
 *.fls
