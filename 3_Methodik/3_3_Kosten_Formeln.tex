@@ -13,7 +13,7 @@ Falls die Quelle abweicht, wurde sie explizit angegeben. % MAX: was meinst du da
 
 Die Betriebskosten werden mit konstanter Reisegeschwindigkeit und Verbrauch ohne 
 Berücksichtigung erheblicher Energieverluste während des Starts und der Landung berechnet. 
-Die Inflationsfaktoren stammen aus dem Verbraucherpreisindex Deutschland des Statistischem Bundesamts, 
+Die Inflationsfaktoren stammen aus dem Verbraucherpreisindex Deutschland des Statistischen Bundesamts, 
 entsprechend eingesetzte Werte sind in der Anlage XX zu finden. % MAX: anlage?
 Alle Werte in USD werden mit dem Wechselkurs\footnote{Wechselkurs vom 14.01.2025} (1 EUR = 1,0245 USD)
 umgerechnet, alle Werte in Pfund mit dem Kurs (1 GBP = 1,20 EUR).
@@ -51,7 +51,7 @@ Für Kurz- und Mittelstrecken beträgt $t_{R}$ {0,25 h} und für Langstrecken 0,
 \end{equation}
 
 \textbf{Treibstoff-/ Energiepreise} hängen vom Treibstoff- bzw. Energiepreis selbst $P_{T/E}$ 
-und vom Verbrauch eines Flugzeugs pro Blockstunde $m_{V,B}$ ab (vgl. \eqref{fuel}).
+und vom Verbrauch eines Flugzeugs pro Blockstunde $m_{V,B}$ ab (vgl. \eqref{fuel}) ab.
 
 \begin{equation}
    {C_T ~[\text{EUR}]} = (P_{T/E} \cdot m_{V,B}) \\
@@ -75,7 +75,7 @@ und der Triebwerke $C_{W,Triebwerk,B}$ aufgeteilt,
 wie in den Gleichungen \eqref{maintenance}-\eqref{maintenance engine} dargestellt. 
 Die Wartungskosten der Zelle sind von dem leeren Betriebsgewicht 
 (Operating Empty Mass $m_{OE}$) abhängig. 
-Kosten des Triebwerks sind vom erzeugten Schub beim Start (Take-Off Thrust $T_{T/O}$) abhängig.
+Die Kosten des Triebwerks sind vom erzeugten Schub beim Start (Take-Off Thrust $T_{T/O}$) abhängig.
 
 \begin{equation}
    {C_{W,B} ~[\text{EUR}]} = (C_{W,Zelle,B} + n_{T} \cdot C_{W,Triebwerk,B} ) \cdot t_{B} \cdot n_{F, Jahr} \cdot k_{WK} \cdot k_{Infl}\\
@@ -106,7 +106,7 @@ Die detaillierte Beschreibung der benutzten Entgelten und Gebühren sind in der 
 \textbf{Crewkosten} setzen sich aus Lohnkosten für Piloten $L_{Pilot}$ und Besatzung $L_{crew}$ zusammen. 
 Die Anzahl der Besatzungsmitglieder $n_{crew}$ ist von der Anzahl der Passagiere abhängig. 
 Gemäß den luftfahrtrechtlichen Bestimmungen ist pro 50 Passagiere ein Flugbegleiter notwendig \cite{conrady2019luftverkehr}.
-Die Besatzungskosten sind mit Lohn von 37 EUR für Flugbegleiter 
+Die Besatzungskosten sind mit einem Stundenlohn von 37 EUR für Flugbegleiter 
 und 90 EUR für Piloten pro Blockstunden berechnet \cite{discover_airlines_cabin}.
 Die Erklärung für die Kosten sind im Anhang XX zu finden. % MAX: anhang?
 Die Werte setzen sich aus Grundgehalt und 75 Blockstunden pro Monat zusammen.
@@ -125,8 +125,8 @@ Die Werte setzen sich aus Grundgehalt und 75 Blockstunden pro Monat zusammen.
 %   \label{engine group price hydrogen}
 %\end{equation}
 Zu \textbf{kapitalbezogenen Kosten} gehören Abschreibungs-, Versicherungs- und Verzinsungskosten. 
-Abschreibungskosten sind von Anschaffungskosten bzw. Kaufpreis, 
-Abschreibungsdauer und Blockstunden pro Jahr abhängig \cite{conrady2019luftverkehr}.
+Abschreibungskosten sind von den Anschaffungskosten bzw. dem Kaufpreis, 
+der Abschreibungsdauer und den Blockstunden pro Jahr abhängig \cite{conrady2019luftverkehr}.
 Die Abschreibungsdauer nach AEA beträgt jeweils 14 Jahre für 
 Kurz- und Mittelstecken und 16 Jahre für Langstrecken.
 
@@ -138,7 +138,7 @@ anhand einer Marktanalyse für die Berechnung erstellt.
 %
 In der Formel sind aufgrund der Einführung neuer Technologien 10 \% höhere Anschaffungskosten mitbetrachtet. 
 Die Studie ist aus dem Jahr 2020, Preise wurden in USD berechnet, 
-weshalb die Inflationsfaktor $k_{Infl}$ und der Wechselkurs $k_{WK}$ 
+weshalb der Inflationsfaktor $k_{Infl}$ und der Wechselkurs $k_{WK}$ 
 ebenfalls betrachtet werden.
 
 \begin{equation}
@@ -148,7 +148,7 @@ ebenfalls betrachtet werden.
 
 Ein weiterer wichtiger Faktor der kapitalgebundenen Kosten ist die Auslastung $U$ eines Flugzeuges. 
 Er wird durch die Anzahl der verfügbaren Stunden pro Jahr $t_{verf}$, 
-Blockzeit $t_B$ und Turnaround Zeit $t_{TA}$ berechnet. 
+der Block- $t_B$ und der Turnaround-Zeit $t_{TA}$ berechnet. 
 Die jährliche Verfügbarkeitszeit $t_{verf}$ beträgt für Kurzstreckenflugzeuge 3750 h, 
 während für Mittel- und Langstreckenflugzeuge ein Wert von 4800 h eingesetzt wird \cite{scholz_design_evaluation_doc}. 
 Für die Kurzstrecken-Flugzeuge wurde eine Turnaround-Zeit von 1,5 h gewählt (Quelle).
@@ -159,7 +159,7 @@ Aufgrund der Größe und aufwendigeren Abfertigung wird für Mittel- und Langstr
    \label{utilisation}
 \end{equation}
 
-Verzinsungskosten $C_{Zins}$ sind durch den Prozentanteil von Anschaffungskosten bedingt, für diese gelten ca. 5 \%. 
+Verzinsungskosten $C_{Zins}$ sind durch den Prozentanteil der Anschaffungskosten bedingt, für diese gelten ca. 5 \%. 
 Versicherungskosten sind hingegen von dem Kaufpreis eines Flugzeugs abhängig (inklusive Rabatte beim Kauf), 
 in dieser Arbeit werden ebenfalls 5 \% angenommen \cite{scholz_design_evaluation_doc}. 
 Weitere Formeln für kapitalgebundene Kosten sind in dem Anhang XX zu finden. % MAX: anhang?
@@ -195,9 +195,9 @@ $P_{BSS}$ ist der Preis des Ladegeräts der Batteriewechselstation und $n_{BSS}$
 Stromkosten werden hier nicht betrachtet, da diese bereits in Betriebskosten 
 pro Flug einberechnet werden und somit durch die Fluggesellschaft gedeckt werden. 
 %Zusätzlich werden die Kosten für Batteriewechsel $P_{W,Bat}$ und Preis pro Hubwagen $P_{Hubwagen}$ mitbetrachtet.
-Für die Berechnung wird die lineare Beschreibung genutzt. 
-Es ist nicht auszuschließen, dass für die richtige Lagerung 
-von Batterien zusätzliche Anlagen, z.B. Lagergebäude, nötig sind.
+Für die Berechnung wird eine lineare Beschreibung genutzt. 
+Es ist nicht auszuschließen, dass für die ordnungsgemäße Lagerung 
+von Batterien zusätzliche Anlagen wie bspw. Lagergebäude nötig sind.
   
 %Energiekosten = Menge mal Preis
 %
@@ -236,11 +236,11 @@ von Batterien zusätzliche Anlagen, z.B. Lagergebäude, nötig sind.
 Die Anzahl der Batterien ist von der Gesamtanzahl der Abfertigungen $N_{Abfertigung}$ 
 und Ladezyklen $c_{Batterie}$ einer Batterie abhängig. 
 Zeitgleich ist die Anzahl der Zyklen, die eine Batterie an einem Tag geladen werden kann, 
-von Betriebsstunden des Flughafens und Ladedauer der Batterie abhängig. 
-In der Zukunft ist die Lebensdauer einer Batterie bis zu 5000 und mehr Zyklen zu erwarten \cite{reimers2018introduction}, 
+von den Betriebsstunden des Flughafens und der Ladedauer der Batterie abhängig. 
+In Zukunft ist eine Lebensdauer einer Batterie von bis zu 5000 und mehr Zyklen zu erwarten \cite{reimers2018introduction}, 
 weshalb ein Wert von 5000 Zyklen in der Berechnung angenommen wird.
 Die Ladedauer ist von der Leistung der Ladestationen und Kapazität einer Batterie abhängig.
-Für die Ladegeräte wurde die konstante Spitzenleistung von 250 kW angenommen \cite{salucci2020optimal}. 
+Für die Ladegeräte wurde eine konstante Spitzenleistung von 250 kW angenommen \cite{salucci2020optimal}. 
 %Der Strom ist normalerweise von Tag und Nacht abhängig und wie viel parallel genutzt wird.  Die Verluste beim Laden werden ignoriert. 
 Zusätzlich wird der Puffer von 20 \% für die Batterieanzahl implementiert, um mögliche Engpässe zu vermeiden. 
 Die Anzahl der Ladegeräte $n_{BSS}$ ist von der Gesamtzahl der Batterien und Ladezyklen abhängig.
@@ -248,7 +248,8 @@ Die Anzahl der Ladegeräte $n_{BSS}$ ist von der Gesamtzahl der Batterien und La
 Mit einer angenommenen Batteriekapazität von 900 kWh und Ladegeräten 
 mit der Leistung von 250 kW, entspricht das 3,6 Stunden Ladedauer.
 Bei einem 18 Stunden-Betrieb entspricht das insgesamt 5 Ladezyklen pro Tag für jede Batterie. 
-Daraus kann abgeleitet werden, dass jede Batterie 1000 Tage überlebt bis ihre Kapazität auf 80 \% sinkt.
+Daraus kann abgeleitet werden, dass jede Batterie 1000 Tage genutzt werden kann,
+bis ihre Leistung auf 80 \% sinkt.
 Die Einbeziehung der Abschreibungswerte unterstützt die dritte Hypothese.
 %
 \begin{equation}
@@ -266,8 +267,8 @@ eine kryogene Pumpe zum Befüllen und Entleeren des Lagers ${kP}$
 und ein Tankwagen ${BW}$ gebraucht (vgl. \eqref{WA_Infrastruktur}). 
 Die Preise für die Anlage sind in der Tabelle \ref{BA_Infrastrukturtab} zusammengefasst. 
 %
-Benötigter spezifischer Energiebedarf der Infrastrukturelemente wie Betankungswagen oder kryogener Pumpen,
-als auch Wirkungsgrad der Technologien, wird dabei nicht betrachtet.
+Der benötigte spezifische Energiebedarf der Infrastrukturelemente wie sowohl Betankungswägen 
+oder kryogener Pumpen, als auch Wirkungsgrad der Technologien, wird dabei nicht betrachtet.
 
 \begin{equation}
    {CAPEX ~[\text{EUR}]} = {P_{Lagertank}} + P_{kP} \cdot N_{kP} + P_{BW} \cdot N_{BW}  \\
@@ -296,7 +297,7 @@ Wie bereits im Grundlagen-Kapitel erläutert wurde,
 hat der kryogene Wasserstoff eine Dichte von ca. 65 $kg/m^3$ \cite{colpan2022fuel},
 also können 307,58 t in einem kugelförmigen Lagertank gespeichert werden.
 Es wird davon ausgegangen, dass die Vorgänge der Betankung des Wagens % MAX: was ist A?
-und folgende Betankung des Flugzeugs jeweils 30 Minuten dauern \cite{hoelzen2022h2}. 
+und die folgende Betankung des Flugzeugs jeweils 30 Minuten dauern \cite{hoelzen2022h2}. 
 Zudem wird zur Vereinfachung angenommen, dass pro Flugzeug ein Tankwagen benötigt wird.
 %
 %Außerdem müssen diese Teile mit Spannung versorgt werden: Kontrollraum, Wartungseinrichtugen % MAX: ist das ein Satz?
