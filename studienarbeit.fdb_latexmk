@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber studienarbeit"] 1740911030.3652 "studienarbeit.bcf" "studienarbeit.bbl" "studienarbeit" 1740911231.68205 0
+["biber studienarbeit"] 1740914611.29834 "studienarbeit.bcf" "studienarbeit.bbl" "studienarbeit" 1740914628.58051 0
   "4_References/Quellen.bib" 1740910654 27973 1ff1c7e8b724d44f2de046e297f3544c ""
-  "studienarbeit.bcf" 1740911231 124250 b7c44afe523e0e460a9a9f542f76d390 "pdflatex"
+  "studienarbeit.bcf" 1740914627 124318 73fb0d995ad9cc625069ba68f8446bdf "pdflatex"
   (generated)
   "studienarbeit.bbl"
   "studienarbeit.blg"
   (rewritten before read)
-["pdflatex"] 1740911215.45483 "c:/Users/henri/Desktop/Studienarbeit/studienarbeit.tex" "studienarbeit.pdf" "studienarbeit" 1740911231.68311 0
+["pdflatex"] 1740914614.52901 "c:/Users/henri/Desktop/Studienarbeit/studienarbeit.tex" "studienarbeit.pdf" "studienarbeit" 1740914628.58152 0
   "1_Chapters/0 Thesen.tex" 1740786501 2287 d5c4fb07168a8b4a81aebe48070871c6 ""
   "1_Chapters/1 Einleitung.tex" 1740864631 5379 5956d17b1dd4fd0e0e8a214df46c8768 ""
   "1_Chapters/6_appendix.tex" 1740867070 417 db97a878ce21928e17ae0c1880356b8b ""
@@ -15,9 +15,9 @@
   "2_Grundlagen/2_2 Kosten.tex" 1740847634 13390 fcb523dd14cde72970c3711f8be1b5b9 ""
   "2_Grundlagen/2_3 Strategien.tex" 1740836816 5730 49737eb854b94924fb37c68743998501 ""
   "2_Grundlagen/2_4 nachhaltige Alternativen.tex" 1740866827 9432 b8ba4b732e76691906cbec166eb5d267 ""
-  "2_Grundlagen/2_4_2 electric.tex" 1740911213 10548 b45411394c31f98836a340b64169ba4c ""
+  "2_Grundlagen/2_4_2 electric.tex" 1740914536 10439 125f6e4cebfa37d4d89e51b1ccd06d65 ""
   "2_Grundlagen/2_4_3 hydrogen.tex" 1740850809 11057 c32be105a9fba872655cf26a45d07fae ""
-  "2_Grundlagen/2_5 Konzepte.tex" 1740849008 6109 259dd3d8903646517ead93fecd114ba2 ""
+  "2_Grundlagen/2_5 Konzepte.tex" 1740914536 6167 558a5e0f0362afe81e6eb93f7f85b923 ""
   "3_Methodik/3_1_Änderungen.tex" 1740907577 19152 c4a725d166f925ee205df7e9f28a295d ""
   "3_Methodik/3_2_Referenz_Flugzeuge.tex" 1740851000 7460 f290a1cb127e1e51a6a23e6c5da8a5df ""
   "3_Methodik/3_3_Kosten_Formeln.tex" 1740872908 16858 71df385a32788003decdae0bd533a22c ""
@@ -318,12 +318,12 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1733836144 5441979 24d9d8a39025f77a4677560676ba95ea ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1733691995 2047510 365f18ade55dc77082ee1801e30469e9 ""
   "c:/texlive/2024/texmf.cnf" 1733691684 713 614551405fc44b98efbf516466e3c909 ""
-  "studienarbeit.aux" 1740911230 55030 8bd6d5609a455b6eaf8c0f7c553f3a99 "pdflatex"
-  "studienarbeit.bbl" 1740911033 135569 abf0c5fc8db09f8c2231507b99c62607 "biber studienarbeit"
-  "studienarbeit.out" 1740911224 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "studienarbeit.run.xml" 1740911231 2472 fbf170860968199a79a3878f2a929ef4 "pdflatex"
+  "studienarbeit.aux" 1740914627 55093 fc8bcdb99f19d8954611915e479788f0 "pdflatex"
+  "studienarbeit.bbl" 1740914614 135569 abf0c5fc8db09f8c2231507b99c62607 "biber studienarbeit"
+  "studienarbeit.out" 1740914621 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "studienarbeit.run.xml" 1740914627 2472 fbf170860968199a79a3878f2a929ef4 "pdflatex"
   "studienarbeit.tex" 1740867070 6009 d046b3f19f56788f69021e5b17415c26 ""
-  "studienarbeit.toc" 1740911231 3710 f86898edcfce379ceaa1ad11fb944fa2 "pdflatex"
+  "studienarbeit.toc" 1740914627 3710 f86898edcfce379ceaa1ad11fb944fa2 "pdflatex"
   (generated)
   "studienarbeit.aux"
   "studienarbeit.bcf"
