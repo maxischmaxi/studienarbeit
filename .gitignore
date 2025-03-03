@@ -53,3 +53,4 @@
 *.sublime-project
 vscode/
 idea/
+*.bbl-SAVE-ERROR
