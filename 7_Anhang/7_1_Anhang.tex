@@ -1,5 +1,5 @@
 \chapter{Anhang A. Ergänzende Formeln und Berechnungsgrundlagen}
-A1.1 genutzte Inflationsfaktoren
+\subsubsection{A1.1 genutzte Inflationsfaktoren}
 Für die Ausrechnung der Inflationsfaktoren wurden die Daten des Statistischen Bundesamts verwendet. 
 \begin{table}[h]
 	\begin{center}
@@ -23,10 +23,34 @@ $VPI$ ist Verbraucherpreisindex. Beispiel die Ausrechnung eines Inflationsfaktor
 	\label{inflation}
  \end{equation}
 
-A1.2 kostenbezogene Formeln
-Die Formeln von AEA stammen aus \cite{minwoo2019analysis} oder scholz
+\subsubsection{A1.2 Kapitalbezogene Formeln}
+Die Formeln für kapitalbezogenen Kosten von AEA stammen aus \cite{minwoo2019analysis}.
+Die Abschreibung $DEP$ ist anhand Gesamtinvestitionen für das Flugzeug $TI$ und Auslastung des Flugzeugs $U$ berechnet
+und mit einen Verzinsprozentanteil von 5 \% \cite{scholz_design_evaluation_doc}.
+Versicherungskosten $INS$ sind normalerweise anhand Herstellerpreises berechnet. 
+Es wird angenommen, dass Herstellerpreis nicht stark sich 
+vom dem Kaufpreis unterscheidet und somit werden sich die Versicherungskosten auf Gesamtinvestitionen $TI$
+für das Flugzeug beziehen. Versicherungsprozentanteil von 6 \% wird angenommen.
 
-A1.3 Entgelte und Gebühren
+Die Formeln für die kapitalbezogenen Kosten von AEA stammen aus dieser Quelle.
+Die Abschreibung wird auf Grundlage der Gesamtinvestitionen $TI$ für das Flugzeug sowie dessen Auslastung $U$
+berechnet und mit einem Zinssatz von 5 \% verzinst \cite{scholz_design_evaluation_doc}.
+Die Versicherungskosten werden in der Regel anhand des Herstellerpreises berechnet.
+Und haben große Spanne
+Es wird angenommen, dass sich der Herstellerpreis nicht wesentlich vom Kaufpreis unterscheidet, 
+sodass sich die Versicherungskosten auf die Gesamtinvestitionen für das Flugzeug beziehen. 
+Nach AEA ist ein Versicherungsprozentanteil von 0,5 \% mitberechnet \cite{scholz_design_evaluation_doc}.
+
+\begin{equation}
+	\begin{split}
+	{DEP} = \frac{TI}{14 \cdot U} \\
+	{INT} = {0,05} \cdot \frac{TI}{U} \\
+	{INS} = {0,005} \cdot \frac{TI}{U} \\
+	\label{kapitalkosten}
+ \end{split}
+\end{equation}
+
+\subsubsection{A1.3 Entgelte und Gebühren}
 
 In der Arbeit wurden folgende Flughafen-Entgelte mitberechnet: Entgelte für Abfertigung, 
 Passagierentgelte, Entgelt Landung und Start
