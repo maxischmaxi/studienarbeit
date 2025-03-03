@@ -60,8 +60,8 @@ und vom Verbrauch eines Flugzeugs pro Blockstunde $m_{V}$ ab (vgl. \eqref{fuel})
    {C_T ~[\text{EUR}]} = (P_{T/E} \cdot m_{V} \cdot t_B) \\
    \label{fuel}
 \end{equation}
-
-Die Treibstoff- bzw. Energiepreise $P_{T/E}$ sind in der Tabelle zusammengeführt.
+%
+%Die Treibstoff- bzw. Energiepreise $P_{T/E}$ sind in der Tabelle zusammengeführt.
 
 Die \textbf{Wartungskosten} werden nach dem Jenkinson 1999 Modell berechnet. 
 Das Modell ermöglicht es, grob aber schnell die Wartungskosten 
@@ -166,7 +166,7 @@ Weitere Formeln für kapitalgebundene Kosten sind in dem Anhang A1.2 zu finden.
 
 \subsubsection{Batterie-Antrieb}
 Kapitalkosten der Batterieantrieb-Infrastruktur sind in folgender Formel zusammengestellt:
-
+%
 \begin{equation}
      {CAPEX ~[\text{EUR}]} = C_{Bat} + C_{BSS} \\ % C_{Strom} + C_{W,Bat}
      \label{BA_Infrastruktur}
@@ -190,10 +190,11 @@ $P_{BSS}$ ist der Preis des Ladegeräts der Batteriewechselstation und $N_{BSS}$
 Stromkosten werden hier nicht betrachtet, da diese bereits in Betriebskosten 
 pro Flug einberechnet werden und somit durch die Fluggesellschaft gedeckt werden. 
 %Zusätzlich werden die Kosten für Batteriewechsel $P_{W,Bat}$ und Preis pro Hubwagen $P_{Hubwagen}$ mitbetrachtet.
-Für die Berechnung wird eine lineare Beschreibung genutzt. 
+Für die Berechnung wird eine lineare Abschreibung genutzt. 
 Es ist nicht auszuschließen, dass für die ordnungsgemäße Lagerung 
-von Batterien zusätzliche Anlagen wie bspw. Lagergebäude nötig sind.
-  
+von Batterien zusätzliche Anlagen wie bspw. Lagergebäude nötig sind. %Geli: sein werden?
+In der Tabelle \ref{BA_Infrastrukturtab} sind die genutzten Werte für die batteriegebundene Infrastruktur aufgeführt.
+%
 %Energiekosten = Menge mal Preis
 %
 % Stromkosten = Anzahl der BSS mal die Leistung mal Kosten pro Einheit Spitzleistung mal Anzahl der Tage/30
@@ -220,8 +221,8 @@ von Batterien zusätzliche Anlagen wie bspw. Lagergebäude nötig sind.
 		 & \textbf{Werte} & \textbf{Quelle} \\ \hline
 		$P_{BSS} ~[\text{EUR}]$ &  11 974  & \cite{guo2020aviation} \\ \hline
       Abschreibung $BSS ~[\text{Jahre}]$&  10  & \cite{salucci2020optimal} \\ \hline
-		$P_{Bat} ~[\text{EUR/kWh}]$ & 125000 & \cite{guo2020aviation} \\ \hline
-      Lebenszyklen $c_{Bat}$ & 5000 & \cite{reimers2018introduction} \\ \hline
+		$P_{Bat} ~[\text{EUR/kWh}]$ & 125 000 & \cite{guo2020aviation} \\ \hline
+      Lebenszyklen $c_{Bat}$ & 5 000 & \cite{reimers2018introduction} \\ \hline
       Abschreibung $Bat ~[\text{Jahre}]$& 2,7 & -\\ \hline
 		%$P_{W,Bat} ~[\text{EUR}] $ & 285  & \cite{guo2023infrastructure}\\ \hline
     %  $P_{HW} ~[\text{EUR}] $ &  &\\ \hline
@@ -242,7 +243,7 @@ Die Anzahl der Ladegeräte $N_{BSS}$ ist von der Gesamtzahl der Batterien und La
 
 Mit einer angenommenen Batteriekapazität von 900 kWh und Ladegeräten 
 mit der Leistung von 250 kW, entspricht das 3,6 Stunden Ladedauer.
-Bei einem 18 Stunden-Betrieb entspricht das insgesamt 5 Ladezyklen pro Tag für jede Batterie. 
+Bei einem 18 Stunden-Betrieb entspricht das insgesamt 5 Ladezyklen pro Tag für jede Batterie. %Geli: resultiert insgesamt in 5 ..? was denkst du
 Daraus kann abgeleitet werden, dass jede Batterie 1000 Tage genutzt werden kann,
 bis ihre Leistung auf 80 \% sinkt.
 Die Einbeziehung der Abschreibungswerte unterstützt die dritte Hypothese.
@@ -262,21 +263,30 @@ Die Einbeziehung der Abschreibungswerte unterstützt die dritte Hypothese.
 
 Für Wasserstoff-Antriebe wird ein oberirdischer Tank für kryogenen flüssigen Wasserstoff \ce{LH2}, 
 eine kryogene Pumpe zum Befüllen und Entleeren des Lagers ${kP}$ 
-und ein Tankwagen ${BW}$ gebraucht (vgl. \eqref{WA_Infrastruktur}). 
-Die Preise für die Anlage sind in der Tabelle \ref{BA_Infrastrukturtab} zusammengefasst. 
+und ein Betankungsfahrzeug ${BF}$ gebraucht (vgl. \eqref{WA_Infrastruktur}). 
+Die Preise und Abschreibungswerte für die Infrastruktur mit dem Wasserstoff sind in  %klingt komisch?
+der Tabelle \ref{WA_Infrastrukturtab} zusammengefasst. 
 %
-Der benötigte spezifische Energiebedarf der Infrastrukturelemente wie sowohl Betankungswägen 
+Der benötigte spezifische Energiebedarf der Infrastrukturelemente wie sowohl Betankungsfahrzeuge 
 oder kryogener Pumpen, als auch Wirkungsgrad der Technologien, wird dabei nicht betrachtet.
 
 \begin{equation}
-   {CAPEX ~[\text{EUR}]} = {P_{Lagertank}} + P_{kP} \cdot N_{kP} + P_{BW} \cdot N_{BW}  \\
+   {CAPEX ~[\text{EUR}]} = {P_{Lagertank}} + P_{kP} \cdot N_{kP} + P_{BF} \cdot N_{BF}  \\
    \label{WA_Infrastruktur}
 \end{equation}
-
+%
+Die Anzahl der Betankungsfahrzeugen $N_{BF}$ hängt von der Anzahl der stündlichen Abfertigungen ab. 
+Zudem wird ein Sicherheitsfaktor
+von 1,2 dazugerechnet, um reibungslose Prozesse sicherzustellen.
+Die Gesamtzahl den Betankungsfahrzeugen bestimmt die benötigte Anzahl an Kryopumpen $N_{kP}$. 
+Es wird angenommen, dass pro Fahrzeug eine Kryopumpe benötigt \cite{}.
+Der Konstante 1 beschreibt eine Kryopumpe,
+die permanent mit dem Wasserstoffspeicher verbunden ist.
+Zudem wird zur Vereinfachung angenommen, dass pro Flugzeug ein Tankwagen benötigt wird.
 \begin{equation}
    \begin{split}
-   {N_{BW}} = {1,2} \cdot {N_{Abfertigung,h}}\\
-   {N_{kP}} = N_{BW} + 1 \\
+   {N_{BF}} = {1,2} \cdot {N_{Abfertigung,h}}\\
+   {N_{kP}} = N_{BF} + 1 \\
    \label{WAInfrAnzahl}
    \end{split}
    \end{equation}
@@ -291,9 +301,9 @@ oder kryogener Pumpen, als auch Wirkungsgrad der Technologien, wird dabei nicht 
 		Preis Lagertank $P_{Lagertank}$ & 41,9 & EUR/kg \ce{LH2}  & \cite{schenke2024lh2}\\ \hline
       Abschreibung Lagertank & 20  & Jahre  & \cite{hoelzen2023h2}\\ \hline
       Volumen Lagertank ~[\text{$m^3$}] & 4 732 & $m^3$ & \cite{fesmire2021lh2}\\ \hline
-		Preis kryogene Pumpe $P_{kP}$ & 250171 & EUR/kg/h & \cite{hoelzen2022h2} \\ \hline
+		Preis kryogene Pumpe $P_{kP}$ & 250 171 & EUR/kg/h & \cite{hoelzen2022h2} \\ \hline
       Abschreibung ${kP}$ & 10 & Jahre & \cite{hoelzen2023h2} \\ \hline
-		Preis Betankungswagen $P_{BW}$ & 87848 & EUR & \cite{hoelzen2022h2} \\ \hline
+		Preis Betankungswagen $P_{BW}$ & 87 848 & EUR & \cite{hoelzen2022h2} \\ \hline
       Abschreibung ${BW}$ & 12  & Jahre  & \cite{hoelzen2022h2} \\ \hline
 	\end{tabular}
     \end{center}
@@ -302,8 +312,7 @@ oder kryogener Pumpen, als auch Wirkungsgrad der Technologien, wird dabei nicht 
 Wie bereits im Grundlagen-Kapitel erläutert wurde, 
 hat der kryogene Wasserstoff eine Dichte von ca. 65 $kg/m^3$ \cite{colpan2022fuel},
 also können 307,58 t in einem kugelförmigen Lagertank gespeichert werden.
-Es wird davon ausgegangen, dass die Vorgänge der Betankung des Wagens % MAX: was ist A?
+Es wird davon ausgegangen, dass die Vorgänge der Betankung des Wagens
 und die folgende Betankung des Flugzeugs jeweils 30 Minuten dauern \cite{hoelzen2022h2}. 
-Zudem wird zur Vereinfachung angenommen, dass pro Flugzeug ein Tankwagen benötigt wird.
 %
 %Außerdem müssen diese Teile mit Spannung versorgt werden: Kontrollraum, Wartungseinrichtugen % MAX: ist das ein Satz?
