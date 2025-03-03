@@ -14,29 +14,67 @@
         Treibstoffkosten & 252,20 & 177,84 & 349,35 \\
         Entgelte und Gebühren & 973,97 & 1549,03 & 973,97 \\
         Kapitalbezogene Kosten & 660,97 & 809,85 & 660,97 \\
+        \midrule
         Gesamtkosten & 2624,95 & 3281,74 & 2722,10 \\
         \bottomrule
     \end{tabular}
 \end{table}
-
+Die Abkürzung \textit{WA} bedeutet Wasserstoffantrieb, \textit{BA} - Batterieantrieb.
 \begin{table}[h]
-    \caption{Kostenübersicht}
-    \centering
-    \begin{tabular}{lrrrr}
+    \caption{Kostenübersicht für 6000 km}
+    %\centering
+    \begin{tabular}{lcccc}
         \toprule
-        \textbf{Kosten [EUR]} & \textbf{Referenzflugzeug} & \textbf{Wasserstoffantrieb} & \textbf{Wasserstoffantrieb 2050} & \textbf{SAF} \\
+        \textbf{Kosten [EUR]} & \textbf{Referenzflugzeug} & \textbf{WA} & \textbf{WA 2050} & \textbf{SAF} \\
         \midrule
-        Wartungskosten         & 3247,07  & 3441,89  &         & 3247,07  \\
-        Crewkosten             & 2323,91  & 2541,05  &         & 2323,91  \\
+        Wartungskosten         & 3247,07  & 3441,89  &    -     & 3247,07  \\
+        Crewkosten             & 2323,91  & 2541,05  &     -    & 2323,91  \\
         Treibstoffkosten       & 19500,36 & 38327,52 & 16493,40 & 30013,50 \\
-        Entgelte und Gebühren  & 8809,59  & 8900,47  &         & 8809,59  \\
-        Abschreibung           & 12767,01 & 14933,36 &         & 12767,01 \\
-        Verzinsung             & 10213,61 & 11946,69 &         & 10213,61 \\
-        Versicherung           & 1021,36  & 1194,67  &         & 1021,36  \\
-        kapitalbezogene Kosten & 24001,98 & 28074,72 &         & 24001,98 \\
+        Entgelte und Gebühren  & 8809,59  & 8900,47  &     -    & 8809,59  \\
+        Abschreibung           & 12767,01 & 14933,36 &     -    & 12767,01 \\
+        Verzinsung             & 10213,61 & 11946,69 &     -    & 10213,61 \\
+        Versicherung           & 1021,36  & 1194,67  &     -    & 1021,36  \\
+        apitalbezogene Kosten & 24001,98 & 28074,72 &     -    & 24001,98 \\
+        \midrule
         Betriebskosten gesamt  & 57882,91 & 81285,65 & 59451,53 & 68396,05 \\
         \bottomrule
     \end{tabular}
 \end{table}
 
 \subsubsection{B1.2 Ergebnisse für Betriebsszenarien}
+Alle dargestellte Kosten sind in EUR angegeben.
+\begin{table}[h]
+    \centering
+    \caption{Betriebskosten für die Szenarien}
+    \begin{tabular}{lcccc}
+        \toprule
+        \textbf{Szenario} & \textbf{BA} & \textbf{WA} & \textbf{SAF} & \textbf{Gesamtkosten} \\
+        \midrule
+        Szenario I   & 1 385 683,36  & 3 121 131,50  & 7 100 877,92  & 11 607 692,80 \\
+        Szenario II  & 692 841,68    & 6 845 640,00  & 4 549 855,11  & 12 088 336,55 \\
+        Szenario III & 951 705,60    & 5 780 104,00  & 5 242 328,48  & 11 974 137,67 \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:betriebsszenarien}
+\end{table}
+
+\begin{table}[h]
+   \centering
+    \caption{Infrastrukturkosten nach Betriebsszenario und jährliche Abschreibungskosten}
+    \begin{tabular}{lccc}
+        \toprule
+        \textbf{Szenario} & \textbf{Gesamt} & \textbf{Infrastruktur BA} & \textbf{Infrastruktur WA} \\
+        \midrule
+        Szenario I   & 28 068 315,58 & 12 864 480  & 15 203 835,58 \\
+        Szenario II  & 35 716 010,65 & 6 494 740   & 29 221 270,65 \\
+        Szenario III & 34 033 527,49 & 8 917 636   & 25 115 891,49 \\
+        \midrule
+        \multicolumn{4}{c}{\textbf{Jährliche Abschreibungskosten}} \\
+        \midrule
+        Szenario I   & 5 570 020,85  & 4 699 873,93  & 870 146,92  \\
+        Szenario II  & 4 640 583,14  & 2 373 085,11  & 2 267 498,03 \\
+        Szenario III & 5 117 392,72  & 3 257 504,34  & 1 859 888,38 \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:szenario_analyse}
+\end{table}
