@@ -18,7 +18,9 @@ entsprechend eingesetzte Werte sind in der Anlage XX zu finden. % MAX: anlage?
 Alle Werte in USD werden mit dem Wechselkurs\footnote{Wechselkurs vom 14.01.2025} (1 EUR = 1,0245 USD)
 umgerechnet, alle Werte in Pfund mit dem Kurs (1 GBP = 1,20 EUR).
 Aufgrund der hohen Unsicherheit der Preisprojektionen wird der Preis für Kerosin 
-konstant gehalten, es wird von einem Wert von 0,688 EUR pro Liter\footnote{Es wurde der } ausgegangen \cite{iata_industry_statistics_2024}. 
+konstant gehalten, es wird von einem Wert von 0,688 EUR pro Liter\footnote{Der Wert von 112,2 USD/bbl 
+wurde verwendet, anschließend in Liter umgerechnet und mit dem aktuellen Wechselkurs angepasst.} 
+ausgegangen \cite{iata_industry_statistics_2024}. 
 Stromkosten von 0,1976 € pro kWh werden ebenfalls als konstant angenommen \cite{eurostat_nrg_pc_205}.
 In Anbetracht der Kostensenkung für nachhaltige Kraftstoffe in der Zukunft, 
 wird der minimale Preis für HEFA-Treibstoff von 1,07 EUR pro Liter in den Berechnungen verwendet \cite{watson2024sustainable}.
@@ -179,9 +181,9 @@ Kapitalkosten der Batterieantrieb-Infrastruktur sind in folgender Formel zusamme
 
 \begin{equation}
    \begin{split}
-  {C_{Bat}} = P_{Bat} \cdot n_{Bat}  \\
+  {C_{Bat}} = P_{Bat} \cdot N_{Bat}  \\
  % {C_{Strom}} = n_{BSS} \cdot P_{Strom} \cdot N_{menge}\\ %brauche ich das?
-  {C_{BSS}} = P_{BSS} \cdot n_{BSS} \\
+  {C_{BSS}} = P_{BSS} \cdot N_{BSS} \\
   %(\frac{30}{Lebensdauer})\\
   %{C_{Hubwagen}} = P_{Hubwagen} \cdot n_{Hubwagen}
   \label{BA}
@@ -189,9 +191,9 @@ Kapitalkosten der Batterieantrieb-Infrastruktur sind in folgender Formel zusamme
   \end{equation}
 %
 $P_{Bat}$ stellt der Preis einer Batterie und $n_{Bat}$ die Anzahl der Batterien dar, die benötigt werden. 
-Dazu werden noch 20 \% Reserve-Batterien einberechnet, um Einschränkungen im Betrieb zu umgehen. 
+Dazu werden noch 20 \% Reserve-Batterien einberechnet, um Einschränkungen im Betrieb zu umgehen \eqref{BatInfAnzahl}. 
 %$N_{menge}$ ist die Menge an Strom, der für das Laden einer Batterie nötig ist.
-$P_{BSS}$ ist der Preis des Ladegeräts der Batteriewechselstation und $n_{BSS}$ ist der Anzahl an Ladegeräten. 
+$P_{BSS}$ ist der Preis des Ladegeräts der Batteriewechselstation und $N_{BSS}$ ist der Anzahl an Ladegeräten. 
 Stromkosten werden hier nicht betrachtet, da diese bereits in Betriebskosten 
 pro Flug einberechnet werden und somit durch die Fluggesellschaft gedeckt werden. 
 %Zusätzlich werden die Kosten für Batteriewechsel $P_{W,Bat}$ und Preis pro Hubwagen $P_{Hubwagen}$ mitbetrachtet.
@@ -226,7 +228,7 @@ von Batterien zusätzliche Anlagen, z.B. Lagergebäude, nötig sind.
 		$P_{BSS} ~[\text{EUR}]$ &  11 974  & \cite{guo2020aviation} \\ \hline
       Abschreibung $BSS ~[\text{Jahre}]$&  10  & \cite{salucci2020optimal} \\ \hline
 		$P_{Bat} ~[\text{EUR/kWh}]$ & 125000 & \cite{guo2020aviation} \\ \hline
-      Lebenszyklen $Bat$ & 5000 & \cite{reimers2018introduction} \\ \hline
+      Lebenszyklen $c_{Bat}$ & 5000 & \cite{reimers2018introduction} \\ \hline
       Abschreibung $Bat ~[\text{Jahre}]$& 2,7 & -\\ \hline
 		%$P_{W,Bat} ~[\text{EUR}] $ & 285  & \cite{guo2023infrastructure}\\ \hline
     %  $P_{HW} ~[\text{EUR}] $ &  &\\ \hline
@@ -243,7 +245,7 @@ Die Ladedauer ist von der Leistung der Ladestationen und Kapazität einer Batter
 Für die Ladegeräte wurde die konstante Spitzenleistung von 250 kW angenommen \cite{salucci2020optimal}. 
 %Der Strom ist normalerweise von Tag und Nacht abhängig und wie viel parallel genutzt wird.  Die Verluste beim Laden werden ignoriert. 
 Zusätzlich wird der Puffer von 20 \% für die Batterieanzahl implementiert, um mögliche Engpässe zu vermeiden. 
-Die Anzahl der Ladegeräte $n_{BSS}$ ist von der Gesamtzahl der Batterien und Ladezyklen abhängig.
+Die Anzahl der Ladegeräte $N_{BSS}$ ist von der Gesamtzahl der Batterien und Ladezyklen abhängig.
 
 Mit einer angenommenen Batteriekapazität von 900 kWh und Ladegeräten 
 mit der Leistung von 250 kW, entspricht das 3,6 Stunden Ladedauer.
@@ -252,9 +254,12 @@ Daraus kann abgeleitet werden, dass jede Batterie 1000 Tage überlebt bis ihre K
 Die Einbeziehung der Abschreibungswerte unterstützt die dritte Hypothese.
 %
 \begin{equation}
-  {n_{Bat}} = {1,2} \cdot \frac{N_{Abfertigung}}{c_{Bat}}\\
-  \label{BatAnzahl}
-  \end{equation}
+   \begin{split}
+  {N_{Bat}} = {1,2} \cdot \frac{N_{Abfertigung}}{c_{Bat}}\\
+   {N_{BSS}} = \frac{N_{Bat}}{c_{Bat}}\\
+   \label{BatInfAnzahl}
+    \end{split}
+   \end{equation}
 %
 \subsubsection{Wasserstoff-Antrieb}
 %
@@ -273,6 +278,14 @@ als auch Wirkungsgrad der Technologien, wird dabei nicht betrachtet.
    {CAPEX ~[\text{EUR}]} = {P_{Lagertank}} + P_{kP} \cdot N_{kP} + P_{BW} \cdot N_{BW}  \\
    \label{WA_Infrastruktur}
 \end{equation}
+
+\begin{equation}
+   \begin{split}
+   {N_{BW}} = {1,2} \cdot {N_{Abfertigung,h}}\\
+   {N_{kP}} = N_{BW} + 1 \\
+   \label{WAAnzahl}
+   \end{split}
+   \end{equation}
 
 \begin{table}[h]
 	\begin{center}
