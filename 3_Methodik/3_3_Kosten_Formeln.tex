@@ -9,6 +9,7 @@ Diese wurden in dem Teil \ref{s:Kosten} erwähnt.
 Als Grundlage für ein Modell wurde die Association of European Airlines (AEA) 1989 gewählt, 
 da sie häufige Anwendung in der akademischen Welt hat, 
 sehr umfassend ist und Berechnungswerte für sowohl Kurz-, als auch Langstrecken hat. 
+Die Formeln für AEA wurden von \cite{} entnommen.
 Falls die Quelle abweicht, wurde sie explizit angegeben. % MAX: was meinst du damit?
 
 Die Betriebskosten werden mit konstanter Reisegeschwindigkeit und Verbrauch ohne 
@@ -52,11 +53,11 @@ Für Kurz- und Mittelstrecken beträgt $t_{R}$ {0,25 h} und für Langstrecken 0,
    \label{blockzeit}
 \end{equation}
 
-\textbf{Treibstoff-/ Energiepreise} hängen vom Treibstoff- bzw. Energiepreis selbst $P_{T/E}$ 
-und vom Verbrauch eines Flugzeugs pro Blockstunde $m_{V,B}$ ab (vgl. \eqref{fuel}).
+\textbf{Treibstoff-/ Energiepreise} hängen vom Treibstoff- bzw. Energiepreis selbst $P_{T/E}$, 
+vom Verbrauch eines Flugzeugs $m_{V}$ und Blockstunde ab (vgl. \eqref{fuel}).
 
 \begin{equation}
-   {C_T ~[\text{EUR}]} = (P_{T/E} \cdot m_{V,B}) \\
+   {C_T ~[\text{EUR}]} = (P_{T/E} \cdot m_{V} \cdot t_B) \\
    \label{fuel}
 \end{equation}
 
@@ -74,24 +75,20 @@ Die Berechnung liefert die Ergebnisse in USD,
 aus diesem Grund wird ein Wechselkursfaktor $k_{WK}$ in die Berechnung implementiert.
 Wartungskosten werden normalerweise auf die Wartung der Flugzeugzelle $C_{W,Zelle,B}$ 
 und der Triebwerke $C_{W,Triebwerk,B}$ aufgeteilt, 
-wie in den Gleichungen \eqref{maintenance}-\eqref{maintenance engine} dargestellt. 
+wie in den Gleichungen \eqref{maintenance} dargestellt. 
 Die Wartungskosten der Zelle sind von dem leeren Betriebsgewicht 
 (Operating Empty Mass $m_{OE}$) abhängig. 
 Kosten des Triebwerks sind vom erzeugten Schub beim Start (Take-Off Thrust $T_{T/O}$) abhängig.
 
 \begin{equation}
+   \begin{split}
    {C_{W,B} ~[\text{EUR}]} = (C_{W,Zelle,B} + n_{T} \cdot C_{W,Triebwerk,B} ) \cdot t_{B} \cdot n_{F, Jahr} \cdot k_{WK} \cdot k_{Infl}\\
+%
+   {C_{M,AF,b} ~[\text{USD}]} = (175 \frac{USD}{h} + 0,0041 \frac{USD}{h} \cdot m_{OE} )\cdot k_{Infl}\\
+%
+   {C_{M,E,L,b} ~[\text{USD}]} = (0,00029 \frac{USD}{h} \cdot T_{T/O} )\cdot k_{Infl}\\
    \label{maintenance}
-\end{equation}
-
-\begin{equation}
-   {C_{M,AF,b} ~[\text{EUR}]} = (175 \frac{USD}{h} + 0,0041 \frac{USD}{h} \cdot m_{OE} )\cdot k_{Infl}\\
-   \label{maintenance Zelle}
-\end{equation}
-
-\begin{equation}
-   {C_{M,E,L,b} ~[\text{EUR}]} = (0,00029 \frac{USD}{h} \cdot T_{T/O} )\cdot k_{Infl}\\
-   \label{maintenance engine}
+   \end{split}
 \end{equation}
 %
 Diese Formeln sind für Triebwerke mit einem Nebenstromverhältnis von 5:1 ausgelegt \cite{bruge2018wartungskosten}. %warum hier die 5?
@@ -109,8 +106,7 @@ Die detaillierte Beschreibung der benutzten Entgelten und Gebühren sind in der 
 Die Anzahl der Besatzungsmitglieder $n_{crew}$ ist von der Anzahl der Passagiere abhängig. 
 Gemäß den luftfahrtrechtlichen Bestimmungen ist pro 50 Passagiere ein Flugbegleiter notwendig \cite{conrady2019luftverkehr}.
 Die Besatzungskosten sind mit Lohn von 37 EUR für Flugbegleiter 
-und 90 EUR für Piloten pro Blockstunden berechnet \cite{discover_airlines_cabin}.
-Die Erklärung für die Kosten sind im Anhang XX zu finden. % MAX: anhang?
+und Durchschnittslohn von 90 EUR für Piloten pro Blockstunden berechnet \cite{discover_airlines_cabin}.
 Die Werte setzen sich aus Grundgehalt und 75 Blockstunden pro Monat zusammen.
 
 \begin{equation}
@@ -130,7 +126,7 @@ Zu \textbf{kapitalbezogenen Kosten} gehören Abschreibungs-, Versicherungs- und 
 Abschreibungskosten sind von Anschaffungskosten bzw. Kaufpreis, 
 Abschreibungsdauer und Blockstunden pro Jahr abhängig \cite{conrady2019luftverkehr}.
 Die Abschreibungsdauer nach AEA beträgt jeweils 14 Jahre für 
-Kurz- und Mittelstecken und 16 Jahre für Langstrecken.
+Kurz- und Mittelstecken und 16 Jahre für Langstrecken \cite{scholz_design_evaluation_doc}.
 
 Da keine öffentlich zugänglichen Marktpreise für Luftfahrzeuge mit alternativen Antriebssystemen vorliegen, 
 wird die Kalkulation der Anschaffungskosten für elektrisch betriebene Flugzeuge 
@@ -150,7 +146,7 @@ ebenfalls betrachtet werden.
 
 Ein weiterer wichtiger Faktor der kapitalgebundenen Kosten ist die Auslastung $U$ eines Flugzeuges. 
 Er wird durch die Anzahl der verfügbaren Stunden pro Jahr $t_{verf}$, 
-Blockzeit $t_B$ und Turnaround Zeit $t_{TA}$ berechnet. 
+Blockzeit $t_B$ und Turnaround Zeit $t_{TA}$ berechnet \cite{minwoo2019analysis}. 
 Die jährliche Verfügbarkeitszeit $t_{verf}$ beträgt für Kurzstreckenflugzeuge 3750 h, 
 während für Mittel- und Langstreckenflugzeuge ein Wert von 4800 h eingesetzt wird \cite{scholz_design_evaluation_doc}. 
 Für die Kurzstrecken-Flugzeuge wurde eine Turnaround-Zeit von 1,5 h gewählt (Quelle).
@@ -160,11 +156,8 @@ Aufgrund der Größe und aufwendigeren Abfertigung wird für Mittel- und Langstr
    U = \frac{t_{verf}}{t_B + t_{TA}} \\
    \label{utilisation}
 \end{equation}
-
-Verzinsungskosten $C_{Zins}$ sind durch den Prozentanteil von Anschaffungskosten bedingt, für diese gelten ca. 5 \%. 
-Versicherungskosten sind hingegen von dem Kaufpreis eines Flugzeugs abhängig (inklusive Rabatte beim Kauf), 
-in dieser Arbeit werden ebenfalls 5 \% angenommen \cite{scholz_design_evaluation_doc}. 
-Weitere Formeln für kapitalgebundene Kosten sind in dem Anhang XX zu finden. % MAX: anhang?
+ 
+Weitere Formeln für kapitalgebundene Kosten sind in dem Anhang A1.2 zu finden. % MAX: anhang?
 %sind Anschaffungskosten geteilt durch 
 %
 %Für wasserstoffbetriebene Flugzeuge werden in der Quelle vorgestellte Formeln benutzt, um Kaufpreis einschätzen zu können.
@@ -186,11 +179,11 @@ Kapitalkosten der Batterieantrieb-Infrastruktur sind in folgender Formel zusamme
   {C_{BSS}} = P_{BSS} \cdot N_{BSS} \\
   %(\frac{30}{Lebensdauer})\\
   %{C_{Hubwagen}} = P_{Hubwagen} \cdot n_{Hubwagen}
-  \label{BA}
+  \label{BA_zusatz}
    \end{split}
   \end{equation}
 %
-$P_{Bat}$ stellt der Preis einer Batterie und $n_{Bat}$ die Anzahl der Batterien dar, die benötigt werden. 
+$P_{Bat}$ stellt der Preis einer Batterie und $N_{Bat}$ die Anzahl der Batterien dar, die benötigt werden. 
 Dazu werden noch 20 \% Reserve-Batterien einberechnet, um Einschränkungen im Betrieb zu umgehen \eqref{BatInfAnzahl}. 
 %$N_{menge}$ ist die Menge an Strom, der für das Laden einer Batterie nötig ist.
 $P_{BSS}$ ist der Preis des Ladegeräts der Batteriewechselstation und $N_{BSS}$ ist der Anzahl an Ladegeräten. 
@@ -236,7 +229,7 @@ von Batterien zusätzliche Anlagen, z.B. Lagergebäude, nötig sind.
     \end{center}
 \end{table}
 Die Anzahl der Batterien ist von der Gesamtanzahl der Abfertigungen $N_{Abfertigung}$ 
-und Ladezyklen $c_{Batterie}$ einer Batterie abhängig. 
+und Ladezyklen $c_{Bat}$ einer Batterie abhängig. 
 Zeitgleich ist die Anzahl der Zyklen, die eine Batterie an einem Tag geladen werden kann, 
 von Betriebsstunden des Flughafens und Ladedauer der Batterie abhängig. 
 In der Zukunft ist die Lebensdauer einer Batterie bis zu 5000 und mehr Zyklen zu erwarten \cite{reimers2018introduction}, 
@@ -257,7 +250,7 @@ Die Einbeziehung der Abschreibungswerte unterstützt die dritte Hypothese.
    \begin{split}
   {N_{Bat}} = {1,2} \cdot \frac{N_{Abfertigung}}{c_{Bat}}\\
    {N_{BSS}} = \frac{N_{Bat}}{c_{Bat}}\\
-   \label{BatInfAnzahl}
+   \label{BatInfrAnzahl}
     \end{split}
    \end{equation}
 %
@@ -283,7 +276,7 @@ als auch Wirkungsgrad der Technologien, wird dabei nicht betrachtet.
    \begin{split}
    {N_{BW}} = {1,2} \cdot {N_{Abfertigung,h}}\\
    {N_{kP}} = N_{BW} + 1 \\
-   \label{WAAnzahl}
+   \label{WAInfrAnzahl}
    \end{split}
    \end{equation}
 
