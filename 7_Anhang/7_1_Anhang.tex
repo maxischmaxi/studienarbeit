@@ -2,8 +2,9 @@
 \subsubsection{A1.1 genutzte Inflationsfaktoren}
 Für die Ausrechnung der Inflationsfaktoren wurden die Daten des Statistischen Bundesamts \cite{destatis2025} verwendet. 
 \begin{table}[h]
+	{\small \textit{Tabelle: Abgeleitete Inflationsfaktoren}}
 	\begin{center}
-    \caption{Abgeleitete Inflationsfaktoren}
+ %   \caption{Abgeleitete Inflationsfaktoren}
 	\label{Inflationsfaktoren}
 	\begin{tabular}{|l|c|}
 		\hline
@@ -20,64 +21,8 @@ Für die Ausrechnung der Inflationsfaktoren wurden die Daten des Statistischen B
 $VPI$ bezeichnet Verbraucherpreisindex. Beispiel die Ausrechnung eines Inflationsfaktors $k_{Infl}$:
 \begin{equation}
 	{k_{Infl}} = \frac{VPI_{2024}}{VPI_{2018}} \\
-	\label{inflation}
+%	\label{inflation}
  \end{equation}
 
-\subsubsection{A1.2 Kapitalbezogene Formeln}
-Die Formeln für kapitalbezogenen Kosten von AEA stammen aus \cite{minwoo2019analysis}.
-Die Abschreibung $DEP$ ist anhand der Gesamtinvestitionen für das Flugzeug $TI$, der Auslastung des Flugzeugs $U$
-und mit einen Verzinsprozentanteil von 5 \% \cite{scholz_design_evaluation_doc} berechnet.
-Versicherungskosten $INS$ sind normalerweise anhand des Herstellerpreises berechnet. 
-Es wird angenommen, dass der Herstellerpreis nicht stark
-vom dem Kaufpreis abweicht und somit werden sich die Versicherungskosten auf die Gesamtinvestitionen $TI$
-für das Flugzeug beziehen. Ein Versicherungsprozentanteil von 6 \% wird angenommen.
-
-Die Formeln für die kapitalbezogenen Kosten von AEA stammen aus dieser Quelle.
-Die Abschreibung wird auf Grundlage der Gesamtinvestitionen $TI$ für das Flugzeug sowie dessen Auslastung $U$
-berechnet und mit einem Zinssatz von 5 \% verzinst \cite{scholz_design_evaluation_doc}.
-Die Versicherungskosten werden in der Regel anhand des Herstellerpreises berechnet
-und haben eine große Spanne.
-Es wird angenommen, dass sich der Herstellerpreis nicht wesentlich vom Kaufpreis unterscheidet, 
-sodass sich die Versicherungskosten auf die Gesamtinvestitionen für das Flugzeug beziehen. 
-Nach AEA ist ein Versicherungsprozentanteil von 0,5 \% einberechnet \cite{scholz_design_evaluation_doc}.
-
-\begin{equation}
-	\begin{split}
-	{DEP} = \frac{TI}{14 \cdot U} \\
-	{INT} = {0,05} \cdot \frac{TI}{U} \\
-	{INS} = {0,005} \cdot \frac{TI}{U} \\
-	\label{kapitalkosten}
- \end{split}
-\end{equation}
-
-\subsubsection{A1.3 Entgelte und Gebühren}
-
-In der Arbeit wurden folgende Flughafen-Entgelte mitberechnet: Entgelte für Abfertigung, 
-Passagierentgelte, Entgelt Landung und Start
-und zusätzliche passagierbezogene Entgelte. Die Passagierentgelte wurden im Fall Kurzstrecken angenommen,
-dass die Passagiere innerhalb EU reisen, für Mittel- und Langstrecken wurde angenommen, 
-Passagiere außer EU-Rahmen reisen.
-Es muss beachtet werden, dass es eine Reihe anderen Entgelte an Flughäfen vorhanden, 
-wie die sicherheits- oder emissionsabhängige Entgelte. Zur Reduktion der Komplexität in der Berechnung werden die jedoch nicht betrachtet.
-Die Berechnung der Kosten erfolgte unter der Annahme, dass nur Passagiere berücksichtigt wurden, 
-während die Fracht bei der Berechnung von Entgelten und Gebühren vernachlässigt wurde.
-
-Die Formel der Flugsicherungsgebühr $(C_{FS})$ für jeweils An- und Abfluggebühr stammt aus \cite{dfs_flugsicherungsgebuehren} und ist in der Gleichung \eqref{Flugsicherung}
-dargestellt. Im Jahr 2025 liegt der Wert $P_{FS}$ bei 380,71 Euro. 
-Der $MTOW$ bezeichnet das Höchstabfluggewicht (Maximum Take-Off Weight) eines Flugzeugs. 
-\begin{equation}
-	{C_{FS} ~[\text{EUR}]} = (\frac{MTOW}{50})^{0,7} \cdot P_{FS} \\
-	\label{Flugsicherung}
- \end{equation}
-Die zugrunde liegenden Werte den Flughafenentgelten wurden aus den Daten von \cite{fraport2025entgelte} entnommen.
-Außerdem bestehen bei alternativen Antrieben betriebliche Kosten, die durch Infrastrukturbedienung bedingt sind.
-So werden bei BA-Flugzeugen die Kosten für Batteriewechsel zu Flughafenentgelten einkalkuliert. Aufgrund hoher Kosten für Batterien
-und ausgewählten Batteriewechselsystems am Flughafen können die Fluggesellschaften die Anschaffungskosten nicht leisten. 
-Zudem wird es schwer die Ladegeräte für unterschiedliche 
-Batterien bereitzustellen. Aus diesem Grund wird ein Konzept vorgeschlagen, dass
-Fluggesellschaften die Batterie bei Flughafengesellschaft leihen. Pro 1,5 Stundenflug wird ein Wert von 250 EUR dazugerechnet, da es durch
-die Häufigkeit der Ladezyklen und Abschreibungsjahren (siehe Tab. \ref{BA_Infrastrukturtab}) plausibel erscheint.
-Dieser Wert ermöglicht für den Flughafen Anschaffungskosten zu decken und unerwartete dazukommende Kosten zu bewältigen.
-Pro Flugzeug wird von einem Wert in Höhe von 285 EUR ausgegangen \cite{guo2023infrastructure}.
 
  
