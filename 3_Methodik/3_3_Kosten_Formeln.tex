@@ -106,9 +106,9 @@ Passagierentgelte, Entgelt Landung und Start
 und zusätzliche passagierbezogene Entgelte. Die Passagierentgelte wurden im Fall Kurzstrecken angenommen,
 dass die Passagiere innerhalb EU reisen, für Mittel- und Langstrecken wurde angenommen, 
 Passagiere außer EU-Rahmen reisen.
-Es muss beachtet werden, dass es eine Reihe anderen Entgelte an Flughäfen vorhanden, 
-wie die sicherheits- oder emissionsabhängige Entgelte. Zur Reduktion der Komplexität in der Berechnung 
-werden die jedoch nicht betrachtet.
+Es muss beachtet werden, dass eine Reihe andere Entgelte an Flughäfen vorhanden sind, 
+wie sicherheits- oder emissionsabhängige Entgelte. Zur Reduktion der Komplexität in der Berechnung 
+werden diese jedoch nicht betrachtet.
 Die Berechnung der Kosten erfolgte unter der Annahme, dass nur Passagiere berücksichtigt wurden, 
 während die Fracht bei der Berechnung von Entgelten und Gebühren vernachlässigt wurde.
 
@@ -119,15 +119,18 @@ Der $MTOW$ bezeichnet das Höchstabfluggewicht (Maximum Take-Off Weight) eines F
 	{C_{FS} ~[\text{EUR}]} = (\frac{MTOW}{50})^{0,7} \cdot P_{FS} \\
 	\label{Flugsicherung}
  \end{equation}
-Die zugrunde liegenden Werte den Flughafenentgelten wurden aus den Daten von \cite{fraport2025entgelte} entnommen.
-Außerdem bestehen bei alternativen Antrieben betriebliche Kosten, die durch Infrastrukturbedienung bedingt sind.
-So werden bei BA-Flugzeugen die Kosten für Batteriewechsel zu Flughafenentgelten einkalkuliert. Aufgrund hoher Kosten für Batterien
-und ausgewählten Batteriewechselsystems am Flughafen können die Fluggesellschaften die Anschaffungskosten nicht leisten. 
+Die zugrunde liegenden Werte der Flughafenentgelten wurden aus den Daten von \cite{fraport2025entgelte} entnommen.
+Außerdem bestehen bei alternativen Antrieben betriebliche Kosten, die von Infrastrukturbedienung abhängig sind.
+So werden bei BA-Flugzeugen die Kosten für Batteriewechsel zu Flughafenentgelte einkalkuliert. Aufgrund hoher Kosten für Batterien
+und ausgewählten Batteriewechselsystemen am Flughafen können die Fluggesellschaften die Anschaffungskosten nicht finanzieren. 
 Zudem wird es schwer die Ladegeräte für unterschiedliche 
 Batterien bereitzustellen. Aus diesem Grund wird ein Konzept vorgeschlagen, dass
-Fluggesellschaften die Batterie bei Flughafengesellschaft leihen. Pro 1,5 Stundenflug wird ein Wert von 250 EUR dazugerechnet, da es durch
-die Häufigkeit der Ladezyklen und Abschreibungsjahren (siehe Tab. \ref{BA_Infrastrukturtab}) plausibel erscheint.
-Dieser Wert ermöglicht für den Flughafen Anschaffungskosten zu decken und unerwartete dazukommende Kosten zu bewältigen.
+Fluggesellschaften die Batterie bei der Flughafengesellschaft leihen. 
+Pro 1,5 Stundenflug wird ein Wert von 250 EUR dazugerechnet, 
+da es durch die Häufigkeit der Ladezyklen und Abschreibungsjahre 
+(siehe Tab. \ref{BA_Infrastrukturtab}) plausibel erscheint.
+Dieser Wert ermöglicht es dem Flughafen Anschaffungskosten zu decken 
+und unerwartete hinzukommende Kosten zu bewältigen.
 Pro Flugzeug wird von einem Wert in Höhe von 285 EUR ausgegangen \cite{guo2023infrastructure}.
 
 \textbf{Crewkosten} setzen sich aus Lohnkosten für Piloten $L_{Pilot}$ und Besatzung $L_{crew}$ zusammen. 
@@ -289,7 +292,7 @@ Die Anzahl der Ladegeräte $N_{BSS}$ ist von der Gesamtzahl der Batterien und La
 
 Mit einer angenommenen Batteriekapazität von 900 kWh und Ladegeräten 
 mit der Leistung von 250 kW, entspricht das 3,6 Stunden Ladedauer.
-Bei einem 18 Stunden-Betrieb resultiert das insgesamt 5 Ladezyklen pro Tag für jede Batterie. %Geli: resultiert insgesamt in 5 ..? was denkst du
+Bei einem 18 Stunden-Betrieb resultiert das in insgesamt 5 Ladezyklen pro Tag für jede Batterie. %Geli: resultiert insgesamt in 5 ..? was denkst du
 Daraus kann abgeleitet werden, dass jede Batterie 1000 Tage genutzt werden kann,
 bis ihre Leistung auf 80 \% sinkt.
 Die Einbeziehung der Abschreibungswerte unterstützt die dritte Hypothese.\\
